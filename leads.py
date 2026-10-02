@@ -30,11 +30,11 @@ GROUPS = {
             "shopify", "marketing", "DigitalMarketing", "agency",
         ],
         "queries": [
-            "looking for video editor",
-            "video editor for my business",
-            "hire video editor ongoing",
-            "need editor for marketing videos",
-            "where to find reliable video editor",
+            "looking for a video editor",
+            "need a video editor for my business",
+            "hire a video editor retainer",
+            "how do you find reliable video editors",
+            "video editor for my agency",
         ],
     },
     "Creators": {
@@ -43,21 +43,21 @@ GROUPS = {
             "content_creators", "PartneredYoutube", "podcasting",
         ],
         "queries": [
-            "looking for video editor",
-            "need video editor for youtube channel",
-            "hire editor for my channel",
-            "where to find video editor",
-            "recommend video editor",
+            "looking for a video editor youtube",
+            "need an editor for my channel",
+            "hire a video editor for my podcast",
+            "where do you find video editors",
+            "paying video editor",
         ],
     },
     "Hiring boards": {
         "communities": ["forhire", "hiring"],
         "queries": [
             "[hiring] video editor",
-            "hiring video editor",
-            "looking for video editor",
-            "need video editor long term",
-            "video editor needed",
+            "hiring a video editor",
+            "looking for a video editor",
+            "video editor needed paid",
+            "long term video editor",
         ],
     },
 }
@@ -75,20 +75,26 @@ ATOM = "{http://www.w3.org/2005/Atom}"
 DATA_FILE = Path("leads.json")
 STATE = {"slowdowns": 0}
 
-# Someone asking for an editor
+# The TITLE must show someone wanting to hire or find an editor
 WANT = re.compile(
-    r"(looking for|need|needs|hiring|hire|want|seeking|where (can|do|to)|recommend|find)"
-    r"[^.\n]{0,60}(editors?\b|video editing)",
+    r"(looking for|looking to hire|need|needs|needed|hiring|hire|seeking|wanted|"
+    r"where (can|do|to|should)|how (do|can|to|should)[^?.]{0,40}(find|hire)|recommend\w*)"
+    r"[^.\n?]{0,60}\b(editors?|video editing|editing services)\b",
     re.I,
 )
-# Hiring for other roles (sales, developers...) is not a lead
+# Titles that are about something else: other roles, software, tutorials, feedback...
 OTHER_ROLE = re.compile(
-    r"\b(sales|closer|setter|lead gen|appointment|sdr|developer|programmer|partner|acquisition)\b",
+    r"\b(sales|closer|setter|lead gen|appointment|sdr|developer|programmer|partner|acquisition|"
+    r"software|apps?|plugins?|premiere|davinci|capcut|final cut|after effects|tutorial|course|"
+    r"learn|laptop|pc|computer|gpu|monitor|cpm|rpm|feedback|critique|review my|rate my|"
+    r"help me edit|how to edit|tips)\b",
     re.I,
 )
-# Someone offering their own editing services (not a lead)
+# Someone offering their own editing services or seeking work (not a lead)
 OFFER = re.compile(
-    r"\[\s*for ?hire\s*\]|\bfor hire\b|\bi('m| am) a (freelance |professional )?video editor",
+    r"\[\s*for ?hire\s*\]|\bfor hire\b|\bi('m| am) a (freelance |professional )?video editor|"
+    r"looking for (work|clients|projects|gigs|opportunities)|seeking (work|clients)|"
+    r"available for (hire|work|projects)|\bportfolio\b|\bdm (me )?for rates\b",
     re.I,
 )
 
@@ -134,9 +140,10 @@ def parse_feed(raw):
 
 
 def is_lead(post):
-    if OFFER.search(post["title"]) or OTHER_ROLE.search(post["title"]):
+    title = post["title"]
+    if OFFER.search(title) or OTHER_ROLE.search(title):
         return False
-    return bool(WANT.search(post["title"] + " " + post["body"][:500]))
+    return bool(WANT.search(title))
 
 
 def build_queue():
@@ -166,7 +173,7 @@ def main():
     data = load_data()
     existing = {l["link"]: l for l in data.get("leads", [])}
     # Drop earlier matches that the stricter filter would now reject
-    existing = {k: v for k, v in existing.items() if not OTHER_ROLE.search(v["title"])}
+    existing = {k: v for k, v in existing.items() if is_lead({"title": v["title"]})}
     now = datetime.now(timezone.utc).isoformat(timespec="seconds")
 
     queue = build_queue()
