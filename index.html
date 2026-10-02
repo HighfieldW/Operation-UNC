@@ -3,27 +3,37 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Lead Hub</title>
+  <meta name="theme-color" content="#010603">
+  <title>Operation-UNC</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header class="top">
-    <div>
-      <h1>Lead Hub</h1>
-      <p class="muted" id="updated">Loading...</p>
+  <canvas id="bg" aria-hidden="true"></canvas>
+  <div class="scan" aria-hidden="true"></div>
+
+  <div class="wrap">
+    <header class="hero">
+      <canvas id="hero" role="img" aria-label="Operation-UNC"></canvas>
+      <h1 class="sr-only">Operation-UNC</h1>
+    </header>
+
+    <div class="bar">
+      <p class="status" id="updated">booting</p>
+      <p class="stats" id="stats"></p>
     </div>
-    <div class="stats" id="stats"></div>
-  </header>
 
-  <section class="controls">
-    <input id="search" type="search" placeholder="Search leads...">
-    <div class="chips" id="groups"></div>
-    <label class="toggle"><input type="checkbox" id="hideDone"> Hide contacted</label>
-  </section>
+    <section class="controls">
+      <label class="prompt"><span>&gt;</span><input id="search" type="search" placeholder="search leads" autocomplete="off"></label>
+      <div class="chips" id="groups"></div>
+      <label class="toggle"><input type="checkbox" id="hideDone"> hide contacted</label>
+    </section>
 
-  <main id="list" class="grid"></main>
-  <p class="empty" id="empty" hidden></p>
+    <main id="list" class="grid"></main>
+    <p class="empty" id="empty" hidden></p>
+  </div>
 
+  <noscript><p class="empty">Operation-UNC needs JavaScript switched on to show leads.</p></noscript>
+  <script src="rain.js"></script>
   <script>
     var contacted = {};
     try { contacted = JSON.parse(localStorage.getItem("contacted") || "{}"); } catch (e) {}
@@ -34,6 +44,7 @@
     var leads = [];
     var activeGroup = "All";
     var $ = function (id) { return document.getElementById(id); };
+    var NEW_HOURS = 12;
 
     function ago(iso) {
       var t = Date.parse(iso);
@@ -53,6 +64,8 @@
       } catch (e) {}
       return null;
     }
+
+    function isNew(l) { return Date.now() - Date.parse(l.found) < NEW_HOURS * 3600000; }
 
     function el(tag, cls, text) {
       var e = document.createElement(tag);
@@ -86,16 +99,17 @@
         return true;
       });
 
-      var fresh = leads.filter(function (l) { return Date.now() - Date.parse(l.found) < 12 * 3600000; }).length;
-      $("stats").textContent = leads.length + " leads / " + fresh + " new / " + Object.keys(contacted).length + " contacted";
+      $("stats").textContent = leads.length + " leads | " + leads.filter(isNew).length + " new | " +
+        Object.keys(contacted).length + " contacted";
 
-      shown.forEach(function (l) {
+      shown.forEach(function (l, i) {
         var card = el("article", "card" + (contacted[l.link] ? " done" : ""));
+        card.style.animationDelay = Math.min(i * 40, 400) + "ms";
 
         var meta = el("div", "meta");
         meta.appendChild(el("span", "badge", l.community));
         meta.appendChild(el("span", "muted", ago(l.posted)));
-        if (Date.now() - Date.parse(l.found) < 12 * 3600000) meta.appendChild(el("span", "badge new", "New"));
+        if (isNew(l)) meta.appendChild(el("span", "badge new", "new"));
         card.appendChild(meta);
 
         card.appendChild(el("h2", "", l.title));
@@ -104,7 +118,7 @@
         var foot = el("div", "foot");
         var url = safeUrl(l.link);
         if (url) {
-          var a = el("a", "btn", "Open on " + (l.platform || "Reddit") + " ↗");
+          var a = el("a", "btn", "open on " + (l.platform || "Reddit").toLowerCase() + " ↗");
           a.href = url;
           a.target = "_blank";
           a.rel = "noopener noreferrer";
@@ -120,7 +134,7 @@
           render();
         };
         label.appendChild(cb);
-        label.appendChild(document.createTextNode(" Contacted"));
+        label.appendChild(document.createTextNode(" contacted"));
         foot.appendChild(label);
         card.appendChild(foot);
 
@@ -130,8 +144,8 @@
       var empty = $("empty");
       empty.hidden = shown.length > 0;
       empty.textContent = leads.length === 0
-        ? "No leads yet. Run the workflow from the Actions tab and check back in a few minutes."
-        : "Nothing matches those filters.";
+        ? "> no leads yet. run the workflow from the Actions tab and check back in a few minutes."
+        : "> nothing matches those filters.";
     }
 
     $("search").oninput = render;
@@ -142,21 +156,21 @@
       .then(function (data) {
         leads = data.leads || [];
         var d = new Date(data.updated);
-        $("updated").textContent = isNaN(d) ? "" : "Last checked " + ago(data.updated) + " (" + d.toLocaleString() + ")";
+        $("updated").textContent = isNaN(d) ? "" : "last check " + ago(data.updated) + " (" + d.toLocaleString() + ")";
         if (data.stats) {
           var s = data.stats;
           var note = s.searches_ok + " searches this run";
-          if (s.rate_limited) note += ", Reddit asked us to slow down so it will pick up again next hour";
-          else if (s.searches_failed) note += ", " + s.searches_failed + " failed";
-          $("updated").textContent += " · " + note;
+          if (s.rate_limited) note += " | reddit asked us to slow down, resuming next hour";
+          else if (s.searches_failed) note += " | " + s.searches_failed + " failed";
+          $("updated").textContent += " | " + note;
         }
         renderChips();
         render();
       })
       .catch(function () {
-        $("updated").textContent = "";
+        $("updated").textContent = "no data yet";
         $("empty").hidden = false;
-        $("empty").textContent = "No data yet. Run the workflow once from the Actions tab, then refresh.";
+        $("empty").textContent = "> no data yet. run the workflow once from the Actions tab, then refresh.";
       });
   </script>
 </body>
