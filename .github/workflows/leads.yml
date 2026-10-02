@@ -15,7 +15,7 @@ concurrency:
 jobs:
   find-leads:
     runs-on: ubuntu-latest
-    timeout-minutes: 45
+    timeout-minutes: 40
     steps:
       - uses: actions/checkout@v4
 
@@ -24,9 +24,11 @@ jobs:
           python-version: "3.12"
 
       - name: Search Reddit
+        timeout-minutes: 30
         run: python leads.py
 
       - name: Save leads for the dashboard
+        if: always()
         run: |
           git config user.name "lead-bot"
           git config user.email "lead-bot@users.noreply.github.com"

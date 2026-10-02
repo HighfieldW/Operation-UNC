@@ -7,7 +7,8 @@ which the dashboard page (index.html) reads.
 Reddit throttles automated visitors, so this works gently: it does a
 small batch of searches per run, pauses between them, waits and retries
 when Reddit says "slow down", and remembers where it stopped so the next
-run carries on from there.
+run carries on from there. Each run also has a time budget, so it always
+finishes and saves its progress.
 """
 import html
 import json
@@ -60,15 +61,19 @@ GROUPS = {
         ],
     },
 }
-BATCH_SIZE = 30        # searches per run (the workflow runs every hour)
-PAUSE_SECONDS = 20     # wait between searches
-MAX_RETRIES = 3        # tries per search when Reddit says "slow down"
+BATCH_SIZE = 30          # most searches per run (the workflow runs every hour)
+PAUSE_SECONDS = 20       # wait between searches
+MAX_RETRIES = 2          # tries per search when Reddit says "slow down"
+MAX_WAIT = 120           # longest single wait, in seconds
+MAX_SLOWDOWNS = 4        # after this many "slow down" replies, rest until the next run
+TIME_BUDGET = 20 * 60    # stop starting new searches after this many seconds
 MAX_LEADS_KEPT = 500
 # ----------------------------------------------------------------------------
 
 UA = "Mozilla/5.0 (compatible; VPPLeadFinder/1.0; personal lead monitoring)"
 ATOM = "{http://www.w3.org/2005/Atom}"
 DATA_FILE = Path("leads.json")
+STATE = {"slowdowns": 0}
 
 # Someone asking for an editor
 WANT = re.compile(
@@ -101,9 +106,12 @@ def fetch(url):
         except urllib.error.HTTPError as exc:
             if exc.code != 429:
                 raise
+            STATE["slowdowns"] += 1
+            if attempt == MAX_RETRIES:
+                break
             header = exc.headers.get("Retry-After") if exc.headers else None
-            wait = int(header) if header and header.isdigit() else 90 * attempt
-            wait = min(wait, 300)
+            wait = int(header) if header and header.isdigit() else 60 * attempt
+            wait = min(wait, MAX_WAIT)
             print(f"Reddit said slow down (429). Waiting {wait}s (try {attempt}/{MAX_RETRIES})...")
             time.sleep(wait)
     raise RateLimited()
@@ -153,6 +161,8 @@ def load_data():
 
 
 def main():
+    started = time.monotonic()
+    STATE["slowdowns"] = 0
     data = load_data()
     existing = {l["link"]: l for l in data.get("leads", [])}
     # Drop earlier matches that the stricter filter would now reject
@@ -166,10 +176,13 @@ def main():
 
     found = {}
     ok = failed = steps = 0
-    rate_limited = False
+    refused = cooldown = out_of_time = False
     errors = {}
 
     while steps < BATCH_SIZE:
+        if time.monotonic() - started > TIME_BUDGET:
+            out_of_time = True
+            break
         group, sub, q = queue[(cursor + steps) % total]
         url = (
             f"https://www.reddit.com/r/{sub}/search.rss?"
@@ -182,7 +195,7 @@ def main():
                     found[post["link"]] = post
             ok += 1
         except RateLimited:
-            rate_limited = True
+            refused = True
             break  # stop here; the next run resumes from this search
         except Exception as exc:  # any other problem: note it and move on
             failed += 1
@@ -190,10 +203,13 @@ def main():
             errors[key] = errors.get(key, 0) + 1
             print(f"Skipped r/{sub} '{q}': {exc}")
         steps += 1
+        if STATE["slowdowns"] >= MAX_SLOWDOWNS:
+            cooldown = True  # Reddit keeps pushing back; rest until the next run
+            break
         if steps < BATCH_SIZE:
             time.sleep(PAUSE_SECONDS)
 
-    if rate_limited:
+    if refused:
         stuck += 1
         if stuck >= 3:  # a search refused three runs in a row gets skipped
             steps += 1
@@ -221,7 +237,8 @@ def main():
     stats = {
         "searches_ok": ok,
         "searches_failed": failed,
-        "rate_limited": rate_limited,
+        "rate_limited": refused or cooldown,
+        "out_of_time": out_of_time,
         "queue_size": total,
         "errors": errors,
     }
@@ -233,8 +250,9 @@ def main():
         encoding="utf-8",
     )
     print(
-        f"{ok} searches worked, {failed} failed, rate limited: {rate_limited}, "
-        f"{len(found)} matching posts, {added} new, {len(leads)} saved. Next start: {cursor}/{total}."
+        f"{ok} searches worked, {failed} failed, rate limited: {refused or cooldown}, "
+        f"out of time: {out_of_time}, {len(found)} matching posts, {added} new, "
+        f"{len(leads)} saved. Next start: {cursor}/{total}."
     )
 
 
