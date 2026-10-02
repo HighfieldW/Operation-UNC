@@ -1,35 +1,27 @@
 {
- "updated": "2026-10-02T19:06:26+00:00",
+ "updated": "2026-10-02T19:21:16+00:00",
  "stats": {
-  "searches_ok": 7,
-  "searches_failed": 0,
+  "searches_ok": 5,
+  "searches_failed": 1,
   "rate_limited": true,
   "out_of_time": false,
   "queue_size": 85,
-  "errors": {}
+  "errors": {
+   "HTTP Error 404: Not Found": 1
+  }
  },
- "cursor": 7,
+ "cursor": 13,
  "stuck": 0,
  "leads": [
   {
-   "link": "https://www.reddit.com/r/VideoEditing/comments/1wv79zm/october_what_editing_software_should_i_use/",
+   "link": "https://www.reddit.com/r/VideoEditing/comments/1wpif3z/hiring_video_editor_for_cosplay_reels_and_youtube/",
    "platform": "Reddit",
-   "title": "October What Editing Software should I use?",
+   "title": "Hiring video editor for cosplay Reels and YouTube Shorts \u2014 $20/hr",
    "community": "r/VideoEditing",
    "group": "Creators",
-   "posted": "2026-10-01T18:30:05+00:00",
-   "snippet": "Looking for Video Editing Software? THIS is your thread! This post covers the vast majority of \"What software should I use?\" questions. It\u2019s designed as a self-serve guide to help people find the right tools fast. TL;DR? DaVinci Resolve for full-featured editing, Olive / Kdenlive for open-source, Cl...",
-   "found": "2026-10-02T18:20:13+00:00"
-  },
-  {
-   "link": "https://www.reddit.com/r/PartneredYoutube/comments/1wpsckk/research_on_youtube_cpm_2026/",
-   "platform": "Reddit",
-   "title": "Research on Youtube CPM 2026",
-   "community": "r/PartneredYoutube",
-   "group": "Creators",
-   "posted": "2026-09-25T10:03:23+00:00",
-   "snippet": "ONGOING: How much does your Youtube career pays? Some numbers I got from a deep research session: Depending on niche, you need 20k - 200k per video to afford an editor in 2026 You will almost always want a sponsor until you can consistently get 100k-500k views. Alternatively, as a sponsor your best ...",
-   "found": "2026-10-02T18:20:13+00:00"
+   "posted": "2026-09-25T00:38:41+00:00",
+   "snippet": "Hi! I\u2019m a cosplay content creator looking for an editor to turn my B-roll from conventions, shoots, and events into Instagram Reels and YouTube Shorts. I\u2019d like to start with one video and potentially work together on more. What the work looks like: Choosing the best moments from the footage I provi...",
+   "found": "2026-10-02T19:21:16+00:00"
   }
  ]
 }
