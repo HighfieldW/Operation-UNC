@@ -143,6 +143,10 @@
         leads = data.leads || [];
         var d = new Date(data.updated);
         $("updated").textContent = isNaN(d) ? "" : "Last checked " + ago(data.updated) + " (" + d.toLocaleString() + ")";
+        if (data.stats) {
+          $("updated").textContent += " · " + data.stats.searches_ok + " of " +
+            (data.stats.searches_ok + data.stats.searches_failed) + " searches worked";
+        }
         renderChips();
         render();
       })

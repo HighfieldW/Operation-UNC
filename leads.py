@@ -32,6 +32,8 @@ QUERIES = [
     "need a video editor",
     "hiring video editor",
     "where to find video editor",
+    "recommend video editor",
+    "hire editor",
 ]
 MAX_LEADS_KEPT = 500
 # ----------------------------------------------------------------------------
@@ -43,7 +45,12 @@ DATA_FILE = Path("leads.json")
 # Someone asking for an editor
 WANT = re.compile(
     r"(looking for|need|needs|hiring|hire|want|seeking|where (can|do|to)|recommend|find)"
-    r"[^.\n]{0,60}edit(or|ors|ing)",
+    r"[^.\n]{0,60}(editors?\b|video editing)",
+    re.I,
+)
+# Hiring for other roles (sales, developers...) is not a lead
+OTHER_ROLE = re.compile(
+    r"\b(sales|closer|setter|lead gen|appointment|sdr|developer|programmer|partner|acquisition)\b",
     re.I,
 )
 # Someone offering their own editing services (not a lead)
@@ -76,7 +83,7 @@ def parse_feed(raw):
 
 
 def is_lead(post):
-    if OFFER.search(post["title"]):
+    if OFFER.search(post["title"]) or OTHER_ROLE.search(post["title"]):
         return False
     return bool(WANT.search(post["title"] + " " + post["body"][:500]))
 
@@ -92,9 +99,13 @@ def load_existing():
 
 def main():
     existing = load_existing()
+    # Drop earlier matches that the stricter filter would now reject
+    existing = {k: v for k, v in existing.items() if not OTHER_ROLE.search(v["title"])}
     now = datetime.now(timezone.utc).isoformat(timespec="seconds")
     found = {}
     ok = 0
+    failed = 0
+    errors = {}
 
     for group, subs in COMMUNITIES.items():
         for sub in subs:
@@ -110,6 +121,8 @@ def main():
                             found[post["link"]] = post
                     ok += 1
                 except Exception as exc:  # keep going if one feed fails
+                    failed += 1
+                    errors[str(exc)[:80]] = errors.get(str(exc)[:80], 0) + 1
                     print(f"Skipped r/{sub} '{q}': {exc}")
                 time.sleep(2)  # be polite to Reddit
 
@@ -133,8 +146,11 @@ def main():
             added += 1
 
     leads = sorted(existing.values(), key=lambda l: l["posted"], reverse=True)[:MAX_LEADS_KEPT]
-    DATA_FILE.write_text(json.dumps({"updated": now, "leads": leads}, indent=1), encoding="utf-8")
-    print(f"{ok} searches worked, {len(found)} matching posts, {added} new, {len(leads)} saved.")
+    stats = {"searches_ok": ok, "searches_failed": failed, "errors": errors}
+    DATA_FILE.write_text(
+        json.dumps({"updated": now, "stats": stats, "leads": leads}, indent=1), encoding="utf-8"
+    )
+    print(f"{ok} searches worked, {failed} failed, {len(found)} matching posts, {added} new, {len(leads)} saved.")
 
 
 if __name__ == "__main__":
