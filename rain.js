@@ -1,8 +1,9 @@
 /* Operation-UNC title.
    Real words fall down the columns of the banner, one letter at a time. Only the cells
    inside the shape of OPERATION-UNC are shown, so the falling words pour into the
-   letters. The title forms, holds, fades out and forms again. Hovering over it
-   puts a swirling, zooming lens under the cursor. */
+   letters. The title builds up when the page loads, then stays clearly lit while the
+   words keep falling through it. (Set fadeCycle to true below for a fade-out loop.)
+   Hovering over it puts a small swirling, zooming lens under the cursor. */
 (function () {
   "use strict";
 
@@ -19,17 +20,20 @@
   var O = {
     cw: 5, ch: 7, cwSmall: 3, chSmall: 4,        // cell size in px (desktop / phone)
     stretch: 1.9, stretchSmall: 1.6,             // how tall the letters are drawn
-    floor: 0.95,                                  // brightness of the lit title
+    floor: 0.55,                                  // resting brightness of the title (falling words glow brighter)
+    trail: 0.98,                                  // how long falling words glow (closer to 1 = longer)
     fps: 45,
     minSpeed: 8, maxSpeed: 18,                    // fall speed, cells per second
-    formTime: 3.0, fadeInTime: 1.0,               // seconds
-    holdTime: 6.0,                                // seconds the title stays clear
-    fadeTime: 1.6,                                // seconds to fade out
-    lensRadius: 100, lensRadiusSmall: 60,         // hover lens size in px
+    restartSpread: 0.6,                           // gap before a column starts again (lower = busier)
+    formTime: 3.0, fadeInTime: 1.0,               // seconds for the first build-up
+    fadeCycle: false,                             // true = title also fades out and rebuilds on a loop
+    holdTime: 6.0,                                // (fade loop only) seconds the title stays clear
+    fadeTime: 1.6,                                // (fade loop only) seconds to fade out
+    lensRadius: 50, lensRadiusSmall: 30,          // hover lens size in px
     zoom: 0.8,                                    // how much the lens spreads things out
     glyphZoom: 1.0,                               // how much letters grow under the lens
     swirl: 1.5,                                   // twist in radians at the centre
-    orbit: 14,                                    // px the lens circles around the cursor
+    orbit: 7,                                     // px the lens circles around the cursor
     spinSpeed: 2.6                                // radians per second of that circling
   };
   // ----------------------------------------------------------------------------
@@ -51,7 +55,7 @@
   function newDrop(col, initial) {
     return {
       col: col,
-      y: -((Math.random() * rows * (initial ? 0.35 : 1.0)) | 0),
+      y: -((Math.random() * rows * (initial ? 0.35 : O.restartSpread)) | 0),
       speed: O.minSpeed + Math.random() * (O.maxSpeed - O.minSpeed),
       acc: 0,
       word: pickWord(),
@@ -135,7 +139,7 @@
   }
 
   function step(dt, cycle) {
-    var decay = Math.pow(0.96, dt * 60);
+    var decay = Math.pow(O.trail, dt * 60);
     var k, c;
     for (k = 0; k < n; k++) {
       var b = bright[k] * decay;
@@ -174,7 +178,7 @@
       if (phaseT > O.formTime) { phase = "hold"; phaseT = 0; }
     } else if (phase === "hold") {
       alpha = 1;
-      if (phaseT > O.holdTime) { phase = "fade"; phaseT = 0; }
+      if (O.fadeCycle && phaseT > O.holdTime) { phase = "fade"; phaseT = 0; }
     } else {
       alpha = Math.max(0, 1 - phaseT / O.fadeTime);
       if (phaseT > O.fadeTime) resetTitle();
