@@ -1,14 +1,14 @@
 {
- "updated": "2026-10-02T20:15:17+00:00",
+ "updated": "2026-10-02T22:50:43+00:00",
  "stats": {
-  "searches_ok": 6,
+  "searches_ok": 7,
   "searches_failed": 0,
   "rate_limited": true,
   "out_of_time": false,
   "queue_size": 85,
   "errors": {}
  },
- "cursor": 19,
+ "cursor": 26,
  "stuck": 0,
  "leads": [
   {
