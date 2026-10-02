@@ -1,12 +1,15 @@
 {
- "updated": "2026-10-02T18:20:13+00:00",
+ "updated": "2026-10-02T19:06:26+00:00",
  "stats": {
-  "searches_ok": 4,
-  "searches_failed": 98,
-  "errors": {
-   "HTTP Error 429: Too Many Requests": 98
-  }
+  "searches_ok": 7,
+  "searches_failed": 0,
+  "rate_limited": true,
+  "out_of_time": false,
+  "queue_size": 85,
+  "errors": {}
  },
+ "cursor": 7,
+ "stuck": 0,
  "leads": [
   {
    "link": "https://www.reddit.com/r/VideoEditing/comments/1wv79zm/october_what_editing_software_should_i_use/",
