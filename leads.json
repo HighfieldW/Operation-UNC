@@ -1,15 +1,32 @@
 {
- "updated": "2026-10-02T18:00:38+00:00",
+ "updated": "2026-10-02T18:20:13+00:00",
+ "stats": {
+  "searches_ok": 4,
+  "searches_failed": 98,
+  "errors": {
+   "HTTP Error 429: Too Many Requests": 98
+  }
+ },
  "leads": [
   {
-   "link": "https://www.reddit.com/r/hiring/comments/1wvp84q/hiring_client_acquisition_sales_partner_for_video/",
+   "link": "https://www.reddit.com/r/VideoEditing/comments/1wv79zm/october_what_editing_software_should_i_use/",
    "platform": "Reddit",
-   "title": "[HIRING] Client Acquisition / Sales Partner for Video Editing Agency \u2014 Remote",
-   "community": "r/hiring",
-   "group": "Hiring boards",
-   "posted": "2026-10-02T09:21:43+00:00",
-   "snippet": "Hey everyone! I run Studeex, an international video editing agency working with content creators, brands, coaches, and businesses. I'm looking for someone who can help us acquire new paying clients and build a long-term partnership. I'm open to different profiles, including freelancers experienced i...",
-   "found": "2026-10-02T18:00:38+00:00"
+   "title": "October What Editing Software should I use?",
+   "community": "r/VideoEditing",
+   "group": "Creators",
+   "posted": "2026-10-01T18:30:05+00:00",
+   "snippet": "Looking for Video Editing Software? THIS is your thread! This post covers the vast majority of \"What software should I use?\" questions. It\u2019s designed as a self-serve guide to help people find the right tools fast. TL;DR? DaVinci Resolve for full-featured editing, Olive / Kdenlive for open-source, Cl...",
+   "found": "2026-10-02T18:20:13+00:00"
+  },
+  {
+   "link": "https://www.reddit.com/r/PartneredYoutube/comments/1wpsckk/research_on_youtube_cpm_2026/",
+   "platform": "Reddit",
+   "title": "Research on Youtube CPM 2026",
+   "community": "r/PartneredYoutube",
+   "group": "Creators",
+   "posted": "2026-09-25T10:03:23+00:00",
+   "snippet": "ONGOING: How much does your Youtube career pays? Some numbers I got from a deep research session: Depending on niche, you need 20k - 200k per video to afford an editor in 2026 You will almost always want a sponsor until you can consistently get 100k-500k views. Alternatively, as a sponsor your best ...",
+   "found": "2026-10-02T18:20:13+00:00"
   }
  ]
 }
