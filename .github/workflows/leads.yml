@@ -1,0 +1,37 @@
+name: Find video editor leads
+
+on:
+  schedule:
+    - cron: "0 */3 * * *"   # every 3 hours
+  workflow_dispatch:         # adds a manual "Run workflow" button
+
+permissions:
+  contents: write
+
+concurrency:
+  group: lead-finder
+  cancel-in-progress: false
+
+jobs:
+  find-leads:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Search Reddit
+        run: python leads.py
+
+      - name: Save leads for the dashboard
+        run: |
+          git config user.name "lead-bot"
+          git config user.email "lead-bot@users.noreply.github.com"
+          git add leads.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Update leads"
+            git pull --rebase
+            git push
+          fi

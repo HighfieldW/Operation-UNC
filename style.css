@@ -1,0 +1,98 @@
+/* All the look and feel lives here. Change the colours in :root to restyle everything. */
+:root {
+  --bg: #f6f7f9;
+  --card: #ffffff;
+  --text: #1a1d24;
+  --muted: #6b7280;
+  --line: #e4e7ec;
+  --accent: #4f46e5;
+  --accent-text: #ffffff;
+  --new: #16a34a;
+  --radius: 12px;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #0f1115;
+    --card: #181b21;
+    --text: #eceef2;
+    --muted: #9097a3;
+    --line: #272b33;
+    --accent: #818cf8;
+    --accent-text: #0f1115;
+    --new: #4ade80;
+  }
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  padding: 24px 16px 64px;
+  background: var(--bg);
+  color: var(--text);
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  line-height: 1.5;
+}
+
+.top, .controls, .grid, .empty { max-width: 1000px; margin-left: auto; margin-right: auto; }
+
+.top { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: flex-end; gap: 8px; margin-bottom: 20px; }
+h1 { margin: 0; font-size: 28px; }
+.muted { color: var(--muted); font-size: 14px; margin: 2px 0 0; }
+.stats { color: var(--muted); font-size: 14px; }
+
+.controls { display: flex; flex-wrap: wrap; align-items: center; gap: 12px; margin-bottom: 20px; }
+input[type="search"] {
+  flex: 1 1 220px;
+  padding: 10px 14px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: var(--card);
+  color: var(--text);
+  font-size: 15px;
+}
+.chips { display: flex; flex-wrap: wrap; gap: 8px; }
+.chip {
+  padding: 6px 14px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: var(--card);
+  color: var(--text);
+  font-size: 14px;
+  cursor: pointer;
+}
+.chip.on { background: var(--accent); color: var(--accent-text); border-color: var(--accent); }
+.toggle { font-size: 14px; color: var(--muted); cursor: pointer; }
+
+.grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 16px; }
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 16px;
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+}
+.card.done { opacity: 0.5; }
+.card h2 { margin: 0; font-size: 17px; line-height: 1.35; }
+.snippet { margin: 0; color: var(--muted); font-size: 14px; }
+.meta { display: flex; align-items: center; gap: 8px; font-size: 13px; }
+.meta .muted { margin: 0; }
+.badge { padding: 2px 8px; border-radius: 6px; background: var(--line); font-size: 12px; font-weight: 600; }
+.badge.new { background: var(--new); color: var(--bg); }
+
+.foot { display: flex; justify-content: space-between; align-items: center; margin-top: auto; padding-top: 8px; }
+.btn {
+  padding: 8px 14px;
+  border-radius: 8px;
+  background: var(--accent);
+  color: var(--accent-text);
+  font-size: 14px;
+  font-weight: 600;
+  text-decoration: none;
+}
+.btn:hover { filter: brightness(1.1); }
+
+.empty { padding: 40px 0; text-align: center; color: var(--muted); }

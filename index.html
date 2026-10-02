@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Lead Hub</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="top">
+    <div>
+      <h1>Lead Hub</h1>
+      <p class="muted" id="updated">Loading...</p>
+    </div>
+    <div class="stats" id="stats"></div>
+  </header>
+
+  <section class="controls">
+    <input id="search" type="search" placeholder="Search leads...">
+    <div class="chips" id="groups"></div>
+    <label class="toggle"><input type="checkbox" id="hideDone"> Hide contacted</label>
+  </section>
+
+  <main id="list" class="grid"></main>
+  <p class="empty" id="empty" hidden></p>
+
+  <script>
+    var contacted = {};
+    try { contacted = JSON.parse(localStorage.getItem("contacted") || "{}"); } catch (e) {}
+    function saveContacted() {
+      try { localStorage.setItem("contacted", JSON.stringify(contacted)); } catch (e) {}
+    }
+
+    var leads = [];
+    var activeGroup = "All";
+    var $ = function (id) { return document.getElementById(id); };
+
+    function ago(iso) {
+      var t = Date.parse(iso);
+      if (isNaN(t)) return "";
+      var mins = Math.max(0, Math.round((Date.now() - t) / 60000));
+      if (mins < 60) return mins + "m ago";
+      var hrs = Math.round(mins / 60);
+      if (hrs < 24) return hrs + "h ago";
+      return Math.round(hrs / 24) + "d ago";
+    }
+
+    // Only allow links that really point at Reddit
+    function safeUrl(u) {
+      try {
+        var x = new URL(u);
+        if (x.protocol === "https:" && /(^|\.)reddit\.com$/.test(x.hostname)) return x.href;
+      } catch (e) {}
+      return null;
+    }
+
+    function el(tag, cls, text) {
+      var e = document.createElement(tag);
+      if (cls) e.className = cls;
+      if (text !== undefined) e.textContent = text;
+      return e;
+    }
+
+    function renderChips() {
+      var box = $("groups");
+      box.textContent = "";
+      var names = ["All"];
+      leads.forEach(function (l) { if (names.indexOf(l.group) < 0) names.push(l.group); });
+      names.forEach(function (n) {
+        var b = el("button", "chip" + (n === activeGroup ? " on" : ""), n);
+        b.onclick = function () { activeGroup = n; renderChips(); render(); };
+        box.appendChild(b);
+      });
+    }
+
+    function render() {
+      var q = $("search").value.toLowerCase();
+      var hide = $("hideDone").checked;
+      var list = $("list");
+      list.textContent = "";
+
+      var shown = leads.filter(function (l) {
+        if (activeGroup !== "All" && l.group !== activeGroup) return false;
+        if (hide && contacted[l.link]) return false;
+        if (q && (l.title + " " + l.snippet + " " + l.community).toLowerCase().indexOf(q) < 0) return false;
+        return true;
+      });
+
+      var fresh = leads.filter(function (l) { return Date.now() - Date.parse(l.found) < 12 * 3600000; }).length;
+      $("stats").textContent = leads.length + " leads / " + fresh + " new / " + Object.keys(contacted).length + " contacted";
+
+      shown.forEach(function (l) {
+        var card = el("article", "card" + (contacted[l.link] ? " done" : ""));
+
+        var meta = el("div", "meta");
+        meta.appendChild(el("span", "badge", l.community));
+        meta.appendChild(el("span", "muted", ago(l.posted)));
+        if (Date.now() - Date.parse(l.found) < 12 * 3600000) meta.appendChild(el("span", "badge new", "New"));
+        card.appendChild(meta);
+
+        card.appendChild(el("h2", "", l.title));
+        if (l.snippet) card.appendChild(el("p", "snippet", l.snippet));
+
+        var foot = el("div", "foot");
+        var url = safeUrl(l.link);
+        if (url) {
+          var a = el("a", "btn", "Open on " + (l.platform || "Reddit") + " ↗");
+          a.href = url;
+          a.target = "_blank";
+          a.rel = "noopener noreferrer";
+          foot.appendChild(a);
+        }
+        var label = el("label", "toggle");
+        var cb = document.createElement("input");
+        cb.type = "checkbox";
+        cb.checked = !!contacted[l.link];
+        cb.onchange = function () {
+          if (cb.checked) contacted[l.link] = 1; else delete contacted[l.link];
+          saveContacted();
+          render();
+        };
+        label.appendChild(cb);
+        label.appendChild(document.createTextNode(" Contacted"));
+        foot.appendChild(label);
+        card.appendChild(foot);
+
+        list.appendChild(card);
+      });
+
+      var empty = $("empty");
+      empty.hidden = shown.length > 0;
+      empty.textContent = leads.length === 0
+        ? "No leads yet. Run the workflow from the Actions tab and check back in a few minutes."
+        : "Nothing matches those filters.";
+    }
+
+    $("search").oninput = render;
+    $("hideDone").onchange = render;
+
+    fetch("leads.json?t=" + Date.now())
+      .then(function (r) { return r.json(); })
+      .then(function (data) {
+        leads = data.leads || [];
+        var d = new Date(data.updated);
+        $("updated").textContent = isNaN(d) ? "" : "Last checked " + ago(data.updated) + " (" + d.toLocaleString() + ")";
+        renderChips();
+        render();
+      })
+      .catch(function () {
+        $("updated").textContent = "";
+        $("empty").hidden = false;
+        $("empty").textContent = "No data yet. Run the workflow once from the Actions tab, then refresh.";
+      });
+  </script>
+</body>
+</html>
