@@ -2,7 +2,7 @@ name: Find video editor leads
 
 on:
   schedule:
-    - cron: "0 */3 * * *"   # every 3 hours
+    - cron: "0 * * * *"   # every hour, in small batches
   workflow_dispatch:         # adds a manual "Run workflow" button
 
 permissions:
@@ -15,6 +15,7 @@ concurrency:
 jobs:
   find-leads:
     runs-on: ubuntu-latest
+    timeout-minutes: 45
     steps:
       - uses: actions/checkout@v4
 

@@ -144,8 +144,11 @@
         var d = new Date(data.updated);
         $("updated").textContent = isNaN(d) ? "" : "Last checked " + ago(data.updated) + " (" + d.toLocaleString() + ")";
         if (data.stats) {
-          $("updated").textContent += " · " + data.stats.searches_ok + " of " +
-            (data.stats.searches_ok + data.stats.searches_failed) + " searches worked";
+          var s = data.stats;
+          var note = s.searches_ok + " searches this run";
+          if (s.rate_limited) note += ", Reddit asked us to slow down so it will pick up again next hour";
+          else if (s.searches_failed) note += ", " + s.searches_failed + " failed";
+          $("updated").textContent += " · " + note;
         }
         renderChips();
         render();

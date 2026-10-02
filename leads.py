@@ -3,12 +3,17 @@
 Searches chosen subreddits for people asking for a video editor, skips
 editors advertising themselves, and saves everything to leads.json,
 which the dashboard page (index.html) reads.
+
+Reddit throttles automated visitors, so this works gently: it does a
+small batch of searches per run, pauses between them, waits and retries
+when Reddit says "slow down", and remembers where it stopped so the next
+run carries on from there.
 """
 import html
 import json
 import re
-import sys
 import time
+import urllib.error
 import urllib.parse
 import urllib.request
 import xml.etree.ElementTree as ET
@@ -16,25 +21,48 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 # ---- Edit these to tune what gets found ------------------------------------
-COMMUNITIES = {
-    "Business": [
-        "Entrepreneur", "smallbusiness", "startups", "ecommerce",
-        "shopify", "marketing", "DigitalMarketing", "agency",
-    ],
-    "Creators": [
-        "VideoEditing", "NewTubers", "SmallYoutubers", "youtubers",
-        "content_creators", "PartneredYoutube", "podcasting",
-    ],
-    "Hiring boards": ["forhire", "hiring"],
+# Each group has its own communities and its own, more specific phrases.
+GROUPS = {
+    "Business": {
+        "communities": [
+            "Entrepreneur", "smallbusiness", "startups", "ecommerce",
+            "shopify", "marketing", "DigitalMarketing", "agency",
+        ],
+        "queries": [
+            "looking for video editor",
+            "video editor for my business",
+            "hire video editor ongoing",
+            "need editor for marketing videos",
+            "where to find reliable video editor",
+        ],
+    },
+    "Creators": {
+        "communities": [
+            "VideoEditing", "NewTubers", "SmallYoutubers", "youtubers",
+            "content_creators", "PartneredYoutube", "podcasting",
+        ],
+        "queries": [
+            "looking for video editor",
+            "need video editor for youtube channel",
+            "hire editor for my channel",
+            "where to find video editor",
+            "recommend video editor",
+        ],
+    },
+    "Hiring boards": {
+        "communities": ["forhire", "hiring"],
+        "queries": [
+            "[hiring] video editor",
+            "hiring video editor",
+            "looking for video editor",
+            "need video editor long term",
+            "video editor needed",
+        ],
+    },
 }
-QUERIES = [
-    "looking for video editor",
-    "need a video editor",
-    "hiring video editor",
-    "where to find video editor",
-    "recommend video editor",
-    "hire editor",
-]
+BATCH_SIZE = 30        # searches per run (the workflow runs every hour)
+PAUSE_SECONDS = 20     # wait between searches
+MAX_RETRIES = 3        # tries per search when Reddit says "slow down"
 MAX_LEADS_KEPT = 500
 # ----------------------------------------------------------------------------
 
@@ -60,10 +88,25 @@ OFFER = re.compile(
 )
 
 
+class RateLimited(Exception):
+    """Reddit kept saying 'slow down' even after waiting."""
+
+
 def fetch(url):
-    req = urllib.request.Request(url, headers={"User-Agent": UA})
-    with urllib.request.urlopen(req, timeout=20) as resp:
-        return resp.read()
+    for attempt in range(1, MAX_RETRIES + 1):
+        req = urllib.request.Request(url, headers={"User-Agent": UA})
+        try:
+            with urllib.request.urlopen(req, timeout=20) as resp:
+                return resp.read()
+        except urllib.error.HTTPError as exc:
+            if exc.code != 429:
+                raise
+            header = exc.headers.get("Retry-After") if exc.headers else None
+            wait = int(header) if header and header.isdigit() else 90 * attempt
+            wait = min(wait, 300)
+            print(f"Reddit said slow down (429). Waiting {wait}s (try {attempt}/{MAX_RETRIES})...")
+            time.sleep(wait)
+    raise RateLimited()
 
 
 def clean(text):
@@ -88,47 +131,76 @@ def is_lead(post):
     return bool(WANT.search(post["title"] + " " + post["body"][:500]))
 
 
-def load_existing():
+def build_queue():
+    """Every (group, subreddit, phrase) to search, mixed so each batch spreads across communities."""
+    queue = []
+    rounds = max(len(g["queries"]) for g in GROUPS.values())
+    for i in range(rounds):
+        for name, g in GROUPS.items():
+            if i < len(g["queries"]):
+                for sub in g["communities"]:
+                    queue.append((name, sub, g["queries"][i]))
+    return queue
+
+
+def load_data():
     if DATA_FILE.exists():
         try:
-            return {l["link"]: l for l in json.loads(DATA_FILE.read_text()).get("leads", [])}
+            return json.loads(DATA_FILE.read_text())
         except Exception:
             pass
     return {}
 
 
 def main():
-    existing = load_existing()
+    data = load_data()
+    existing = {l["link"]: l for l in data.get("leads", [])}
     # Drop earlier matches that the stricter filter would now reject
     existing = {k: v for k, v in existing.items() if not OTHER_ROLE.search(v["title"])}
     now = datetime.now(timezone.utc).isoformat(timespec="seconds")
+
+    queue = build_queue()
+    total = len(queue)
+    cursor = data.get("cursor", 0) % total
+    stuck = data.get("stuck", 0)
+
     found = {}
-    ok = 0
-    failed = 0
+    ok = failed = steps = 0
+    rate_limited = False
     errors = {}
 
-    for group, subs in COMMUNITIES.items():
-        for sub in subs:
-            for q in QUERIES:
-                url = (
-                    f"https://www.reddit.com/r/{sub}/search.rss?"
-                    f"q={urllib.parse.quote(q)}&restrict_sr=on&sort=new&t=week"
-                )
-                try:
-                    for post in parse_feed(fetch(url)):
-                        if post["link"] and is_lead(post):
-                            post.update(sub=sub, group=group)
-                            found[post["link"]] = post
-                    ok += 1
-                except Exception as exc:  # keep going if one feed fails
-                    failed += 1
-                    errors[str(exc)[:80]] = errors.get(str(exc)[:80], 0) + 1
-                    print(f"Skipped r/{sub} '{q}': {exc}")
-                time.sleep(2)  # be polite to Reddit
+    while steps < BATCH_SIZE:
+        group, sub, q = queue[(cursor + steps) % total]
+        url = (
+            f"https://www.reddit.com/r/{sub}/search.rss?"
+            f"q={urllib.parse.quote(q)}&restrict_sr=on&sort=new&t=week"
+        )
+        try:
+            for post in parse_feed(fetch(url)):
+                if post["link"] and is_lead(post):
+                    post.update(sub=sub, group=group)
+                    found[post["link"]] = post
+            ok += 1
+        except RateLimited:
+            rate_limited = True
+            break  # stop here; the next run resumes from this search
+        except Exception as exc:  # any other problem: note it and move on
+            failed += 1
+            key = str(exc)[:80]
+            errors[key] = errors.get(key, 0) + 1
+            print(f"Skipped r/{sub} '{q}': {exc}")
+        steps += 1
+        if steps < BATCH_SIZE:
+            time.sleep(PAUSE_SECONDS)
 
-    if ok == 0:
-        print("Every request failed. Reddit may be blocking this server.")
-        sys.exit(1)
+    if rate_limited:
+        stuck += 1
+        if stuck >= 3:  # a search refused three runs in a row gets skipped
+            steps += 1
+            stuck = 0
+    else:
+        stuck = 0
+    cursor = (cursor + steps) % total
 
     added = 0
     for link, p in found.items():
@@ -146,11 +218,24 @@ def main():
             added += 1
 
     leads = sorted(existing.values(), key=lambda l: l["posted"], reverse=True)[:MAX_LEADS_KEPT]
-    stats = {"searches_ok": ok, "searches_failed": failed, "errors": errors}
+    stats = {
+        "searches_ok": ok,
+        "searches_failed": failed,
+        "rate_limited": rate_limited,
+        "queue_size": total,
+        "errors": errors,
+    }
     DATA_FILE.write_text(
-        json.dumps({"updated": now, "stats": stats, "leads": leads}, indent=1), encoding="utf-8"
+        json.dumps(
+            {"updated": now, "stats": stats, "cursor": cursor, "stuck": stuck, "leads": leads},
+            indent=1,
+        ),
+        encoding="utf-8",
     )
-    print(f"{ok} searches worked, {failed} failed, {len(found)} matching posts, {added} new, {len(leads)} saved.")
+    print(
+        f"{ok} searches worked, {failed} failed, rate limited: {rate_limited}, "
+        f"{len(found)} matching posts, {added} new, {len(leads)} saved. Next start: {cursor}/{total}."
+    )
 
 
 if __name__ == "__main__":
