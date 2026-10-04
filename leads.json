@@ -1,16 +1,26 @@
 {
- "updated": "2026-10-04T19:56:17+00:00",
+ "updated": "2026-10-04T22:56:39+00:00",
  "stats": {
-  "searches_ok": 6,
+  "searches_ok": 7,
   "searches_failed": 0,
   "rate_limited": true,
   "out_of_time": false,
   "queue_size": 85,
   "errors": {}
  },
- "cursor": 4,
+ "cursor": 11,
  "stuck": 0,
  "leads": [
+  {
+   "link": "https://www.reddit.com/r/SmallYoutubers/comments/1wxrayj/where_to_find_a_good_but_not_expensive_editor/",
+   "platform": "Reddit",
+   "title": "Where to find a good, but not expensive editor?",
+   "community": "r/SmallYoutubers",
+   "group": "Creators",
+   "posted": "2026-10-04T21:36:11+00:00",
+   "snippet": "Its for bushcraft, camping, surviving outdoors. For both, long and shortform. I dont talk pretty much at all on my videos. I do almost no music. No fancy stuff. Kinda simplistic content but I need someone thats good for storytelling. I can edit but not good. Looking for experiences where have you fo...",
+   "found": "2026-10-04T22:56:39+00:00"
+  },
   {
    "link": "https://www.reddit.com/r/NewTubers/comments/1wufftr/how_do_you_hirecoordinate_with_editors/",
    "platform": "Reddit",
