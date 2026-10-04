@@ -1,16 +1,28 @@
 {
- "updated": "2026-10-04T11:04:16+00:00",
+ "updated": "2026-10-04T16:38:47+00:00",
  "stats": {
   "searches_ok": 6,
-  "searches_failed": 0,
+  "searches_failed": 1,
   "rate_limited": true,
   "out_of_time": false,
   "queue_size": 85,
-  "errors": {}
+  "errors": {
+   "HTTP Error 404: Not Found": 1
+  }
  },
- "cursor": 76,
+ "cursor": 83,
  "stuck": 0,
  "leads": [
+  {
+   "link": "https://www.reddit.com/r/NewTubers/comments/1wufftr/how_do_you_hirecoordinate_with_editors/",
+   "platform": "Reddit",
+   "title": "How do you hire/coordinate with editors?",
+   "community": "r/NewTubers",
+   "group": "Creators",
+   "posted": "2026-09-30T20:10:57+00:00",
+   "snippet": "Anyone who has editors, how do you coordinate how the video will go? Do you just give them the voiceover and the rest is up to the editor? Do you look at their style before hiring them to edit, or do they just adapt to what you\u2019re asking them to do? I\u2019m looking to hire one to make my videos more str...",
+   "found": "2026-10-04T16:38:47+00:00"
+  },
   {
    "link": "https://www.reddit.com/r/VideoEditing/comments/1wpif3z/hiring_video_editor_for_cosplay_reels_and_youtube/",
    "platform": "Reddit",
