@@ -1,16 +1,28 @@
 {
- "updated": "2026-10-05T08:38:20+00:00",
+ "updated": "2026-10-05T18:07:26+00:00",
  "stats": {
-  "searches_ok": 7,
-  "searches_failed": 0,
+  "searches_ok": 6,
+  "searches_failed": 1,
   "rate_limited": true,
   "out_of_time": false,
   "queue_size": 85,
-  "errors": {}
+  "errors": {
+   "HTTP Error 404: Not Found": 1
+  }
  },
- "cursor": 25,
+ "cursor": 32,
  "stuck": 0,
  "leads": [
+  {
+   "link": "https://www.reddit.com/r/SmallYoutubers/comments/1wxtdai/does_anyone_need_an_editor/",
+   "platform": "Reddit",
+   "title": "Does anyone need an Editor?",
+   "community": "r/SmallYoutubers",
+   "group": "Creators",
+   "posted": "2026-10-04T23:12:02+00:00",
+   "snippet": "Hello im new to this sub and just starting out with my own youtube channel, but I also do editing as a side gig and am trying to build a portfolio, I don't mean to self promote but I want to get my \"name\" out there and gain some experience while also helping out other smaller creators. I have 3 year...",
+   "found": "2026-10-05T18:07:26+00:00"
+  },
   {
    "link": "https://www.reddit.com/r/SmallYoutubers/comments/1wxrayj/where_to_find_a_good_but_not_expensive_editor/",
    "platform": "Reddit",
