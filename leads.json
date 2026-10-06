@@ -1,16 +1,28 @@
 {
- "updated": "2026-10-06T07:20:21+00:00",
+ "updated": "2026-10-06T14:53:11+00:00",
  "stats": {
-  "searches_ok": 7,
-  "searches_failed": 0,
+  "searches_ok": 5,
+  "searches_failed": 1,
   "rate_limited": true,
   "out_of_time": false,
   "queue_size": 85,
-  "errors": {}
+  "errors": {
+   "HTTP Error 404: Not Found": 1
+  }
  },
- "cursor": 46,
+ "cursor": 52,
  "stuck": 0,
  "leads": [
+  {
+   "link": "https://www.reddit.com/r/PartneredYoutube/comments/1wz2lua/what_kind_of_contract_do_i_need_to_make_when/",
+   "platform": "Reddit",
+   "title": "What kind of contract do I need to make when hiring an editor?",
+   "community": "r/PartneredYoutube",
+   "group": "Creators",
+   "posted": "2026-10-06T13:28:02+00:00",
+   "snippet": "Basically title, but also did you seek any legal advice when creating a contract for hiring an editor? Or are there resources for this available somewhere? For context, I am looking into hiring an editor to help cut down my livestreams to make editing easier. Eventually I would love to hire them mor...",
+   "found": "2026-10-06T14:53:11+00:00"
+  },
   {
    "link": "https://www.reddit.com/r/SmallYoutubers/comments/1wxtdai/does_anyone_need_an_editor/",
    "platform": "Reddit",
