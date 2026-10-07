@@ -1,14 +1,14 @@
 {
- "updated": "2026-10-07T06:59:12+00:00",
+ "updated": "2026-10-07T14:25:39+00:00",
  "stats": {
-  "searches_ok": 6,
+  "searches_ok": 7,
   "searches_failed": 0,
   "rate_limited": true,
   "out_of_time": false,
   "queue_size": 85,
   "errors": {}
  },
- "cursor": 72,
+ "cursor": 79,
  "stuck": 0,
  "leads": [
   {
@@ -30,6 +30,16 @@
    "posted": "2026-10-04T23:12:02+00:00",
    "snippet": "Hello im new to this sub and just starting out with my own youtube channel, but I also do editing as a side gig and am trying to build a portfolio, I don't mean to self promote but I want to get my \"name\" out there and gain some experience while also helping out other smaller creators. I have 3 year...",
    "found": "2026-10-05T18:07:26+00:00"
+  },
+  {
+   "link": "https://www.reddit.com/r/VideoEditing/comments/1wxsfzt/hiring_a_onlyfans_video_editor_15hr_of_footage/",
+   "platform": "Reddit",
+   "title": "Hiring a onlyfans video editor. $15/hr of footage.",
+   "community": "r/VideoEditing",
+   "group": "Creators",
+   "posted": "2026-10-04T22:27:15+00:00",
+   "snippet": "Hi! I have several unedited clips for only fans I need done. Most have already been cut or are just short burst clips from stream. I just don\u2019t have time to finish them for the week. I\u2019m not sure if $15/hr is fair, but I am a newer creator so I can\u2019t offer much. I\u2019m absolutely willing to negotiate t...",
+   "found": "2026-10-07T14:25:39+00:00"
   },
   {
    "link": "https://www.reddit.com/r/SmallYoutubers/comments/1wxrayj/where_to_find_a_good_but_not_expensive_editor/",
