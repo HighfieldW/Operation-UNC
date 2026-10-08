@@ -1,16 +1,28 @@
 {
- "updated": "2026-10-08T00:48:49+00:00",
+ "updated": "2026-10-08T07:07:06+00:00",
  "stats": {
-  "searches_ok": 7,
-  "searches_failed": 0,
+  "searches_ok": 5,
+  "searches_failed": 1,
   "rate_limited": true,
   "out_of_time": false,
   "queue_size": 85,
-  "errors": {}
+  "errors": {
+   "HTTP Error 404: Not Found": 1
+  }
  },
- "cursor": 8,
+ "cursor": 14,
  "stuck": 0,
  "leads": [
+  {
+   "link": "https://www.reddit.com/r/VideoEditing/comments/1wzzca3/rate_per_hour_1520hr_hiring_minecraft_youtube/",
+   "platform": "Reddit",
+   "title": "Rate per hour: 15-$20/hr [HIRING] Minecraft YouTube Rough-Cut Editor",
+   "community": "r/VideoEditing",
+   "group": "Creators",
+   "posted": "2026-10-07T15:21:33+00:00",
+   "snippet": "Rate per hour: range of 15-$20/hour (part time). Hey! I'm looking for an editor to work with on a video-by-video basis for my Minecraft YouTube channel. My videos are primarily story-driven Minecraft horror/cinematic content, combining genuine gameplay and reactions with scripted story elements, hor...",
+   "found": "2026-10-08T07:07:06+00:00"
+  },
   {
    "link": "https://www.reddit.com/r/PartneredYoutube/comments/1wz2lua/what_kind_of_contract_do_i_need_to_make_when/",
    "platform": "Reddit",
