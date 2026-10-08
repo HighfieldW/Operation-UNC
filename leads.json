@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-08T15:22:32+00:00",
+ "updated": "2026-10-08T21:08:55+00:00",
  "stats": {
   "searches_ok": 7,
   "searches_failed": 0,
@@ -8,7 +8,7 @@
   "queue_size": 85,
   "errors": {}
  },
- "cursor": 21,
+ "cursor": 28,
  "stuck": 0,
  "leads": [
   {
