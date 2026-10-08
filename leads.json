@@ -1,16 +1,14 @@
 {
- "updated": "2026-10-07T20:29:25+00:00",
+ "updated": "2026-10-08T00:48:49+00:00",
  "stats": {
-  "searches_ok": 6,
-  "searches_failed": 1,
+  "searches_ok": 7,
+  "searches_failed": 0,
   "rate_limited": true,
   "out_of_time": false,
   "queue_size": 85,
-  "errors": {
-   "HTTP Error 404: Not Found": 1
-  }
+  "errors": {}
  },
- "cursor": 1,
+ "cursor": 8,
  "stuck": 0,
  "leads": [
   {
