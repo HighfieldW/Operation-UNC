@@ -1,16 +1,224 @@
 {
- "updated": "2026-10-10T13:23:49+00:00",
+ "updated": "2026-10-10T15:08:09+00:00",
  "stats": {
-  "searches_ok": 7,
-  "searches_failed": 0,
+  "searches_ok": 6,
+  "searches_failed": 1,
   "rate_limited": true,
   "out_of_time": false,
   "queue_size": 85,
-  "errors": {}
+  "errors": {
+   "HTTP Error 404: Not Found": 1
+  },
+  "f5bot": {
+   "configured": true,
+   "emails": 36,
+   "posts": 70,
+   "error": ""
+  }
  },
- "cursor": 76,
+ "cursor": 83,
  "stuck": 0,
  "leads": [
+  {
+   "link": "https://www.reddit.com/r/CreatorServices/comments/1x22kz2/",
+   "platform": "Reddit",
+   "title": "'Need a Video Editor? Let's Work Together!'",
+   "community": "r/CreatorServices",
+   "group": "F5Bot",
+   "posted": "2026-10-10T03:25:11+00:00",
+   "snippet": "",
+   "found": "2026-10-10T15:08:09+00:00"
+  },
+  {
+   "link": "https://www.reddit.com/r/editing/comments/1x22lmt/",
+   "platform": "Reddit",
+   "title": "'Need a Video Editor? Let's Work Together!'",
+   "community": "r/editing",
+   "group": "F5Bot",
+   "posted": "2026-10-10T03:25:11+00:00",
+   "snippet": "",
+   "found": "2026-10-10T15:08:09+00:00"
+  },
+  {
+   "link": "https://www.reddit.com/r/AmdavadClassifieds/comments/1x1jkcx/",
+   "platform": "Reddit",
+   "title": "'Looking for Video Editor for Youtube Videos for kids'",
+   "community": "r/AmdavadClassifieds",
+   "group": "F5Bot",
+   "posted": "2026-10-09T14:05:19+00:00",
+   "snippet": "",
+   "found": "2026-10-10T15:08:09+00:00"
+  },
+  {
+   "link": "https://www.reddit.com/r/FindVideoEditors/comments/1x1ka1g/",
+   "platform": "Reddit",
+   "title": "'Looking for a Minecraft Animation Video Editor'",
+   "community": "r/FindVideoEditors",
+   "group": "F5Bot",
+   "posted": "2026-10-09T14:05:19+00:00",
+   "snippet": "",
+   "found": "2026-10-10T15:08:09+00:00"
+  },
+  {
+   "link": "https://www.reddit.com/r/videoeditingindia/comments/1x1gwtc/",
+   "platform": "Reddit",
+   "title": "'[HIRING] Video Editor for Gym/Fitness Reels'",
+   "community": "r/videoeditingindia",
+   "group": "F5Bot",
+   "posted": "2026-10-09T11:35:13+00:00",
+   "snippet": "",
+   "found": "2026-10-10T15:08:09+00:00"
+  },
+  {
+   "link": "https://www.reddit.com/r/FindVideoEditors/comments/1x1i0b9/",
+   "platform": "Reddit",
+   "title": "'Looking for a Video Editor for an Immediate Project'",
+   "community": "r/FindVideoEditors",
+   "group": "F5Bot",
+   "posted": "2026-10-09T11:35:13+00:00",
+   "snippet": "",
+   "found": "2026-10-10T15:08:09+00:00"
+  },
+  {
+   "link": "https://www.reddit.com/r/generativeAI/comments/1x1ivj3/",
+   "platform": "Reddit",
+   "title": "'Looking for a video editor / VFX artist for a video Face-Swap transformation'",
+   "community": "r/generativeAI",
+   "group": "F5Bot",
+   "posted": "2026-10-09T11:35:13+00:00",
+   "snippet": "",
+   "found": "2026-10-10T15:08:09+00:00"
+  },
+  {
+   "link": "https://www.reddit.com/r/VideoEditors/comments/1x1gx2v/",
+   "platform": "Reddit",
+   "title": "'Hiring a Video editor'",
+   "community": "r/VideoEditors",
+   "group": "F5Bot",
+   "posted": "2026-10-09T11:35:13+00:00",
+   "snippet": "",
+   "found": "2026-10-10T15:08:09+00:00"
+  },
+  {
+   "link": "https://www.reddit.com/r/hiringpakistan/comments/1x1ezw0/",
+   "platform": "Reddit",
+   "title": "'\ud83c\udfac Looking for a Video Editor \u2014 Easy Paid Work \ud83d\udcb0 | Beginners Can Apply!'",
+   "community": "r/hiringpakistan",
+   "group": "F5Bot",
+   "posted": "2026-10-09T09:31:11+00:00",
+   "snippet": "",
+   "found": "2026-10-10T15:08:09+00:00"
+  },
+  {
+   "link": "https://www.reddit.com/r/videoeditingindia/comments/1x1gj6g/",
+   "platform": "Reddit",
+   "title": "'[HIRING] Video Editor for Gaming Montages'",
+   "community": "r/videoeditingindia",
+   "group": "F5Bot",
+   "posted": "2026-10-09T09:31:11+00:00",
+   "snippet": "",
+   "found": "2026-10-10T15:08:09+00:00"
+  },
+  {
+   "link": "https://www.reddit.com/r/FindVideoEditors/comments/1x1gksx/",
+   "platform": "Reddit",
+   "title": "'[HIRING] Video Editor for Gym/Fitness Reels | \u20b9150 per Video'",
+   "community": "r/FindVideoEditors",
+   "group": "F5Bot",
+   "posted": "2026-10-09T09:31:11+00:00",
+   "snippet": "",
+   "found": "2026-10-10T15:08:09+00:00"
+  },
+  {
+   "link": "https://www.reddit.com/r/VideoEditors_forhire/comments/1x1addx/",
+   "platform": "Reddit",
+   "title": "'\ud83c\udfac Looking for a Video Editor?'",
+   "community": "r/VideoEditors_forhire",
+   "group": "F5Bot",
+   "posted": "2026-10-09T05:03:10+00:00",
+   "snippet": "",
+   "found": "2026-10-10T15:08:09+00:00"
+  },
+  {
+   "link": "https://www.reddit.com/r/YouTubeEditorsForHire/comments/1x11kmi/",
+   "platform": "Reddit",
+   "title": "'[India] Need a video editor for long term on a fixed monthly retainer.'",
+   "community": "r/YouTubeEditorsForHire",
+   "group": "F5Bot",
+   "posted": "2026-10-08T22:20:16+00:00",
+   "snippet": "",
+   "found": "2026-10-10T15:08:09+00:00"
+  },
+  {
+   "link": "https://www.reddit.com/r/videoeditingindia/comments/1x11lqh/",
+   "platform": "Reddit",
+   "title": "'[India] Need a video editor for long term on a fixed monthly retainer.'",
+   "community": "r/videoeditingindia",
+   "group": "F5Bot",
+   "posted": "2026-10-08T22:20:16+00:00",
+   "snippet": "",
+   "found": "2026-10-10T15:08:09+00:00"
+  },
+  {
+   "link": "https://www.reddit.com/r/HireAnEditor/comments/1x11ndu/",
+   "platform": "Reddit",
+   "title": "'[India] Need a video editor for long term on a fixed monthly retainer.'",
+   "community": "r/HireAnEditor",
+   "group": "F5Bot",
+   "posted": "2026-10-08T22:20:16+00:00",
+   "snippet": "",
+   "found": "2026-10-10T15:08:09+00:00"
+  },
+  {
+   "link": "https://www.reddit.com/r/VideoEditor_forhire/comments/1x11v4s/",
+   "platform": "Reddit",
+   "title": "'Need a video editor?'",
+   "community": "r/VideoEditor_forhire",
+   "group": "F5Bot",
+   "posted": "2026-10-08T22:20:16+00:00",
+   "snippet": "",
+   "found": "2026-10-10T15:08:09+00:00"
+  },
+  {
+   "link": "https://www.reddit.com/r/CreatorServices/comments/1x11y5o/",
+   "platform": "Reddit",
+   "title": "'Need a video editor?'",
+   "community": "r/CreatorServices",
+   "group": "F5Bot",
+   "posted": "2026-10-08T22:20:16+00:00",
+   "snippet": "",
+   "found": "2026-10-10T15:08:09+00:00"
+  },
+  {
+   "link": "https://www.reddit.com/r/HireAnEditor/comments/1x0xbvm/",
+   "platform": "Reddit",
+   "title": "'Looking for multiple clients who need a video editor or an account manager.'",
+   "community": "r/HireAnEditor",
+   "group": "F5Bot",
+   "posted": "2026-10-08T19:40:13+00:00",
+   "snippet": "",
+   "found": "2026-10-10T15:08:09+00:00"
+  },
+  {
+   "link": "https://www.reddit.com/r/FindVideoEditors/comments/1x10cqc/",
+   "platform": "Reddit",
+   "title": "'[HIRING] Gaming Video Editor (\u20b9250 INR / video)'",
+   "community": "r/FindVideoEditors",
+   "group": "F5Bot",
+   "posted": "2026-10-08T19:40:13+00:00",
+   "snippet": "",
+   "found": "2026-10-10T15:08:09+00:00"
+  },
+  {
+   "link": "https://www.reddit.com/r/videoeditingindia/comments/1x10d7n/",
+   "platform": "Reddit",
+   "title": "'[HIRING] Gaming Video Editor (\u20b9250 INR / video)'",
+   "community": "r/videoeditingindia",
+   "group": "F5Bot",
+   "posted": "2026-10-08T19:40:13+00:00",
+   "snippet": "",
+   "found": "2026-10-10T15:08:09+00:00"
+  },
   {
    "link": "https://www.reddit.com/r/forhire/comments/1x0xjdv/hiring_shortform_video_editor_for_mens_fashion/",
    "platform": "Reddit",
@@ -20,6 +228,66 @@
    "posted": "2026-10-08T17:45:21+00:00",
    "snippet": "US-based, please. I run Rent with Thred, a men's clothing rental company. Think Rent the Runway or Nuuly, but for premium menswear. We also offer a personal styling service. I'm looking for a video editor to help us produce daily Instagram Reels focused on menswear, style, brands, and clothing renta...",
    "found": "2026-10-09T01:49:42+00:00"
+  },
+  {
+   "link": "https://www.reddit.com/r/VideoEditors_forhire/comments/1x0qqie/",
+   "platform": "Reddit",
+   "title": "'Need a video editor gor short form video'",
+   "community": "r/VideoEditors_forhire",
+   "group": "F5Bot",
+   "posted": "2026-10-08T15:23:14+00:00",
+   "snippet": "",
+   "found": "2026-10-10T15:08:09+00:00"
+  },
+  {
+   "link": "https://www.reddit.com/r/VideoEditors/comments/1x0o52n/",
+   "platform": "Reddit",
+   "title": "'hiring a video editor'",
+   "community": "r/VideoEditors",
+   "group": "F5Bot",
+   "posted": "2026-10-08T13:12:34+00:00",
+   "snippet": "",
+   "found": "2026-10-10T15:08:09+00:00"
+  },
+  {
+   "link": "https://www.reddit.com/r/HyderabadMeet/comments/1x0lbk0/",
+   "platform": "Reddit",
+   "title": "'Hyderabad folks\u2014anyone need a video editor for their projects/reels?'",
+   "community": "r/HyderabadMeet",
+   "group": "F5Bot",
+   "posted": "2026-10-08T10:16:12+00:00",
+   "snippet": "",
+   "found": "2026-10-10T15:08:09+00:00"
+  },
+  {
+   "link": "https://www.reddit.com/r/videoeditingindia/comments/1x0lbtp/",
+   "platform": "Reddit",
+   "title": "'Hyderabad folks\u2014anyone need a video editor for their projects/reels?'",
+   "community": "r/videoeditingindia",
+   "group": "F5Bot",
+   "posted": "2026-10-08T10:16:12+00:00",
+   "snippet": "",
+   "found": "2026-10-10T15:08:09+00:00"
+  },
+  {
+   "link": "https://www.reddit.com/r/hyderabad/comments/1x0ld4k/",
+   "platform": "Reddit",
+   "title": "'Hyderabad folks\u2014anyone need a video editor for their projects/reels?'",
+   "community": "r/hyderabad",
+   "group": "F5Bot",
+   "posted": "2026-10-08T10:16:12+00:00",
+   "snippet": "",
+   "found": "2026-10-10T15:08:09+00:00"
+  },
+  {
+   "link": "https://www.reddit.com/r/CreatorServices/comments/1x0d6zn/",
+   "platform": "Reddit",
+   "title": "'**[HIRING] Short-Form Editor & Creative Collaborator for Reels/Vlogs'",
+   "community": "r/CreatorServices",
+   "group": "F5Bot",
+   "posted": "2026-10-08T02:42:12+00:00",
+   "snippet": "",
+   "found": "2026-10-10T15:08:09+00:00"
   },
   {
    "link": "https://www.reddit.com/r/forhire/comments/1x0dpfj/hiring_ai_video_creator_editor_minimax_h3_mature/",
@@ -32,6 +300,86 @@
    "found": "2026-10-08T15:22:32+00:00"
   },
   {
+   "link": "https://www.reddit.com/r/u_QuantumstepperTTV/comments/1x0a0m9/",
+   "platform": "Reddit",
+   "title": "'[HIRING] Looking for a Video Editor + Stream Graphics Designer'",
+   "community": "u/QuantumstepperTTV",
+   "group": "F5Bot",
+   "posted": "2026-10-08T00:16:10+00:00",
+   "snippet": "",
+   "found": "2026-10-10T15:08:09+00:00"
+  },
+  {
+   "link": "https://www.reddit.com/r/u_QuantumstepperTTV/comments/1x0a2uk/",
+   "platform": "Reddit",
+   "title": "'[HIRING] Looking for a Video Editor + Stream Graphics Designer'",
+   "community": "u/QuantumstepperTTV",
+   "group": "F5Bot",
+   "posted": "2026-10-08T00:16:10+00:00",
+   "snippet": "",
+   "found": "2026-10-10T15:08:09+00:00"
+  },
+  {
+   "link": "https://www.reddit.com/r/videoeditingindia/comments/1x05wst/",
+   "platform": "Reddit",
+   "title": "'Need a video editor for long form content'",
+   "community": "r/videoeditingindia",
+   "group": "F5Bot",
+   "posted": "2026-10-07T21:36:11+00:00",
+   "snippet": "",
+   "found": "2026-10-10T15:08:09+00:00"
+  },
+  {
+   "link": "https://www.reddit.com/r/VideoEditingRequests/comments/1x02gss/",
+   "platform": "Reddit",
+   "title": "'Hiring a video editor'",
+   "community": "r/VideoEditingRequests",
+   "group": "F5Bot",
+   "posted": "2026-10-07T19:22:12+00:00",
+   "snippet": "",
+   "found": "2026-10-10T15:08:09+00:00"
+  },
+  {
+   "link": "https://www.reddit.com/r/VideoEditor_forhire/comments/1x044i9/",
+   "platform": "Reddit",
+   "title": "'Hiring a Video Editor \u2014 Ongoing Work'",
+   "community": "r/VideoEditor_forhire",
+   "group": "F5Bot",
+   "posted": "2026-10-07T19:22:12+00:00",
+   "snippet": "",
+   "found": "2026-10-10T15:08:09+00:00"
+  },
+  {
+   "link": "https://www.reddit.com/r/videoeditors_hiring/comments/1x045g6/",
+   "platform": "Reddit",
+   "title": "'Hiring a Video Editor \u2014 Ongoing Work'",
+   "community": "r/videoeditors_hiring",
+   "group": "F5Bot",
+   "posted": "2026-10-07T19:22:12+00:00",
+   "snippet": "",
+   "found": "2026-10-10T15:08:09+00:00"
+  },
+  {
+   "link": "https://www.reddit.com/r/HireAnEditor/comments/1wzy7sa/",
+   "platform": "Reddit",
+   "title": "'[Hiring] Looking for a Video Editor for Gaming Content'",
+   "community": "r/HireAnEditor",
+   "group": "F5Bot",
+   "posted": "2026-10-07T16:40:19+00:00",
+   "snippet": "",
+   "found": "2026-10-10T15:08:09+00:00"
+  },
+  {
+   "link": "https://www.reddit.com/r/FindVideoEditors/comments/1wzy8zx/",
+   "platform": "Reddit",
+   "title": "'[Hiring] Looking for a Video Editor for Gaming Content'",
+   "community": "r/FindVideoEditors",
+   "group": "F5Bot",
+   "posted": "2026-10-07T16:40:19+00:00",
+   "snippet": "",
+   "found": "2026-10-10T15:08:09+00:00"
+  },
+  {
    "link": "https://www.reddit.com/r/VideoEditing/comments/1wzzca3/rate_per_hour_1520hr_hiring_minecraft_youtube/",
    "platform": "Reddit",
    "title": "Rate per hour: 15-$20/hr [HIRING] Minecraft YouTube Rough-Cut Editor",
@@ -42,6 +390,86 @@
    "found": "2026-10-08T07:07:06+00:00"
   },
   {
+   "link": "https://www.reddit.com/r/FreelanceIndia/comments/1wzuvbx/",
+   "platform": "Reddit",
+   "title": "'Hiring video editor'",
+   "community": "r/FreelanceIndia",
+   "group": "F5Bot",
+   "posted": "2026-10-07T14:13:33+00:00",
+   "snippet": "",
+   "found": "2026-10-10T15:08:09+00:00"
+  },
+  {
+   "link": "https://www.reddit.com/r/ForHireFreelance/comments/1wzvhge/",
+   "platform": "Reddit",
+   "title": "'Looking for a video editor for long-term collaboration.'",
+   "community": "r/ForHireFreelance",
+   "group": "F5Bot",
+   "posted": "2026-10-07T14:13:33+00:00",
+   "snippet": "",
+   "found": "2026-10-10T15:08:09+00:00"
+  },
+  {
+   "link": "https://www.reddit.com/r/HireAnEditor/comments/1wzwtxe/",
+   "platform": "Reddit",
+   "title": "'Looking for a Spanish-speaking Short-Form Video Editor \u2014 $6/Short'",
+   "community": "r/HireAnEditor",
+   "group": "F5Bot",
+   "posted": "2026-10-07T14:13:33+00:00",
+   "snippet": "",
+   "found": "2026-10-10T15:08:09+00:00"
+  },
+  {
+   "link": "https://www.reddit.com/r/YouTubeEditorsForHire/comments/1wzpr4j/",
+   "platform": "Reddit",
+   "title": "'Looking for a video editor \u2014 talking-head content, ongoing work'",
+   "community": "r/YouTubeEditorsForHire",
+   "group": "F5Bot",
+   "posted": "2026-10-07T08:56:21+00:00",
+   "snippet": "",
+   "found": "2026-10-10T15:08:09+00:00"
+  },
+  {
+   "link": "https://www.reddit.com/r/YouTubeEditorsForHire/comments/1wz0psr/",
+   "platform": "Reddit",
+   "title": "'Hiring Football Video Editor'",
+   "community": "r/YouTubeEditorsForHire",
+   "group": "F5Bot",
+   "posted": "2026-10-06T14:01:13+00:00",
+   "snippet": "",
+   "found": "2026-10-10T15:08:09+00:00"
+  },
+  {
+   "link": "https://www.reddit.com/r/videoeditors_hiring/comments/1wz17fx/",
+   "platform": "Reddit",
+   "title": "'\ud83d\ude00 Need a Video Editor?'",
+   "community": "r/videoeditors_hiring",
+   "group": "F5Bot",
+   "posted": "2026-10-06T14:01:13+00:00",
+   "snippet": "",
+   "found": "2026-10-10T15:08:09+00:00"
+  },
+  {
+   "link": "https://www.reddit.com/r/phclassifieds/comments/1wz1vvy/",
+   "platform": "Reddit",
+   "title": "'need a video editor? i need to pay my debts and sustain my family'",
+   "community": "r/phclassifieds",
+   "group": "F5Bot",
+   "posted": "2026-10-06T14:01:13+00:00",
+   "snippet": "",
+   "found": "2026-10-10T15:08:09+00:00"
+  },
+  {
+   "link": "https://www.reddit.com/r/onlineservicesPH/comments/1wz1xbr/",
+   "platform": "Reddit",
+   "title": "'need a video editor? i need to pay my debts and sustain my family'",
+   "community": "r/onlineservicesPH",
+   "group": "F5Bot",
+   "posted": "2026-10-06T14:01:13+00:00",
+   "snippet": "",
+   "found": "2026-10-10T15:08:09+00:00"
+  },
+  {
    "link": "https://www.reddit.com/r/PartneredYoutube/comments/1wz2lua/what_kind_of_contract_do_i_need_to_make_when/",
    "platform": "Reddit",
    "title": "What kind of contract do I need to make when hiring an editor?",
@@ -50,6 +478,166 @@
    "posted": "2026-10-06T13:28:02+00:00",
    "snippet": "Basically title, but also did you seek any legal advice when creating a contract for hiring an editor? Or are there resources for this available somewhere? For context, I am looking into hiring an editor to help cut down my livestreams to make editing easier. Eventually I would love to hire them mor...",
    "found": "2026-10-06T14:53:11+00:00"
+  },
+  {
+   "link": "https://www.reddit.com/r/CreatorServices/comments/1wyxdxp/",
+   "platform": "Reddit",
+   "title": "'Need a video editor or social media content for your channel and social media? Che...'",
+   "community": "r/CreatorServices",
+   "group": "F5Bot",
+   "posted": "2026-10-06T10:38:11+00:00",
+   "snippet": "",
+   "found": "2026-10-10T15:08:09+00:00"
+  },
+  {
+   "link": "https://www.reddit.com/r/HireAnEditor/comments/1wyu9k3/",
+   "platform": "Reddit",
+   "title": "'ANYONE HIRING A VIDEO EDITOR FOR SHORT-FORM ? ( EDITS CAN'T BE EXPENSIVE )'",
+   "community": "r/HireAnEditor",
+   "group": "F5Bot",
+   "posted": "2026-10-06T07:16:22+00:00",
+   "snippet": "",
+   "found": "2026-10-10T15:08:09+00:00"
+  },
+  {
+   "link": "https://www.reddit.com/r/videoeditors_hiring/comments/1wyuhb6/",
+   "platform": "Reddit",
+   "title": "'ANYONE HIRING A VIDEO EDITOR FOR SHORT-FORM ? ( EDITS CAN'T BE EXPENSIVE ) 6$ for ...'",
+   "community": "r/videoeditors_hiring",
+   "group": "F5Bot",
+   "posted": "2026-10-06T07:16:22+00:00",
+   "snippet": "",
+   "found": "2026-10-10T15:08:09+00:00"
+  },
+  {
+   "link": "https://www.reddit.com/r/u_sincosenta/comments/1wyucud/",
+   "platform": "Reddit",
+   "title": "'Are you looking for a video editor?'",
+   "community": "u/sincosenta",
+   "group": "F5Bot",
+   "posted": "2026-10-06T07:16:22+00:00",
+   "snippet": "",
+   "found": "2026-10-10T15:08:09+00:00"
+  },
+  {
+   "link": "https://www.reddit.com/r/IndianCofounders/comments/1wyuvri/",
+   "platform": "Reddit",
+   "title": "'Looking for a video editor to make faceless youtube videos. I already have USA bas...'",
+   "community": "r/IndianCofounders",
+   "group": "F5Bot",
+   "posted": "2026-10-06T07:16:22+00:00",
+   "snippet": "",
+   "found": "2026-10-10T15:08:09+00:00"
+  },
+  {
+   "link": "https://www.reddit.com/r/PakFreelancers/comments/1wyuk9x/",
+   "platform": "Reddit",
+   "title": "'Need a video editor on project basis'",
+   "community": "r/PakFreelancers",
+   "group": "F5Bot",
+   "posted": "2026-10-06T07:16:22+00:00",
+   "snippet": "",
+   "found": "2026-10-10T15:08:09+00:00"
+  },
+  {
+   "link": "https://www.reddit.com/r/Dhaka/comments/1wyv051/",
+   "platform": "Reddit",
+   "title": "'I put up a post to hire a video editor, and someone's dad offered to pay me 2 lakh...'",
+   "community": "r/Dhaka",
+   "group": "F5Bot",
+   "posted": "2026-10-06T07:16:22+00:00",
+   "snippet": "",
+   "found": "2026-10-10T15:08:09+00:00"
+  },
+  {
+   "link": "https://www.reddit.com/r/VideoEditors/comments/1wyrs2x/",
+   "platform": "Reddit",
+   "title": "'Hiring a video editor for long term !!!'",
+   "community": "r/VideoEditors",
+   "group": "F5Bot",
+   "posted": "2026-10-06T04:58:26+00:00",
+   "snippet": "",
+   "found": "2026-10-10T15:08:09+00:00"
+  },
+  {
+   "link": "https://www.reddit.com/r/VideoEditors_forhire/comments/1wys8gb/",
+   "platform": "Reddit",
+   "title": "'Looking for a Video Editor for a New Tech Content Page \u2014 Long-Term Collaboration'",
+   "community": "r/VideoEditors_forhire",
+   "group": "F5Bot",
+   "posted": "2026-10-06T04:58:26+00:00",
+   "snippet": "",
+   "found": "2026-10-10T15:08:09+00:00"
+  },
+  {
+   "link": "https://www.reddit.com/r/hiringpakistan/comments/1wysvw4/",
+   "platform": "Reddit",
+   "title": "'HIRING |\ud83c\udfac LOOKING FOR A VIDEO EDITOR \u2014 EASY PAID WORK \ud83d\udcb0 | BEGINNERS CAN APPLY!'",
+   "community": "r/hiringpakistan",
+   "group": "F5Bot",
+   "posted": "2026-10-06T04:58:26+00:00",
+   "snippet": "",
+   "found": "2026-10-10T15:08:09+00:00"
+  },
+  {
+   "link": "https://www.reddit.com/r/VideoEditingJobs/comments/1wyorf6/",
+   "platform": "Reddit",
+   "title": "'Need a Video editor'",
+   "community": "r/VideoEditingJobs",
+   "group": "F5Bot",
+   "posted": "2026-10-06T02:18:15+00:00",
+   "snippet": "",
+   "found": "2026-10-10T15:08:09+00:00"
+  },
+  {
+   "link": "https://www.reddit.com/r/videoeditingindia/comments/1wyl8qw/",
+   "platform": "Reddit",
+   "title": "'Looking for a video editor'",
+   "community": "r/videoeditingindia",
+   "group": "F5Bot",
+   "posted": "2026-10-05T23:48:13+00:00",
+   "snippet": "",
+   "found": "2026-10-10T15:08:09+00:00"
+  },
+  {
+   "link": "https://www.reddit.com/r/u_NotWenghel/comments/1wymjxa/",
+   "platform": "Reddit",
+   "title": "'Need a Video Editor? \ud83c\udfac'",
+   "community": "u/NotWenghel",
+   "group": "F5Bot",
+   "posted": "2026-10-05T23:48:13+00:00",
+   "snippet": "",
+   "found": "2026-10-10T15:08:09+00:00"
+  },
+  {
+   "link": "https://www.reddit.com/r/CreatorServices/comments/1wyi8hf/",
+   "platform": "Reddit",
+   "title": "'[FREE] Looking for a video editor for a <2 min cinematic indie FPS trailer'",
+   "community": "r/CreatorServices",
+   "group": "F5Bot",
+   "posted": "2026-10-05T21:43:12+00:00",
+   "snippet": "",
+   "found": "2026-10-10T15:08:09+00:00"
+  },
+  {
+   "link": "https://www.reddit.com/r/HireAnEditor/comments/1wyf93k/",
+   "platform": "Reddit",
+   "title": "'Hiring a video editor for reels'",
+   "community": "r/HireAnEditor",
+   "group": "F5Bot",
+   "posted": "2026-10-05T18:32:13+00:00",
+   "snippet": "",
+   "found": "2026-10-10T15:08:09+00:00"
+  },
+  {
+   "link": "https://www.reddit.com/r/FindVideoEditors/comments/1wyfijl/",
+   "platform": "Reddit",
+   "title": "'[Hiring] Video Editor for Clothing Brand \u2013 YouTube + TikTok'",
+   "community": "r/FindVideoEditors",
+   "group": "F5Bot",
+   "posted": "2026-10-05T18:32:13+00:00",
+   "snippet": "",
+   "found": "2026-10-10T15:08:09+00:00"
   },
   {
    "link": "https://www.reddit.com/r/forhire/comments/1wya5kx/hiring_content_writer_editor_budget_22_70hr/",
