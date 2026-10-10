@@ -1,7 +1,7 @@
 {
- "updated": "2026-10-10T18:18:14+00:00",
+ "updated": "2026-10-10T22:18:38+00:00",
  "stats": {
-  "searches_ok": 6,
+  "searches_ok": 7,
   "searches_failed": 0,
   "rate_limited": true,
   "out_of_time": false,
@@ -10,13 +10,113 @@
   "f5bot": {
    "configured": true,
    "emails": 1,
-   "posts": 3,
+   "posts": 10,
    "error": ""
   }
  },
- "cursor": 4,
+ "cursor": 11,
  "stuck": 0,
  "leads": [
+  {
+   "link": "https://www.reddit.com/r/VideoEditors_forhire/comments/1x2mx6j/",
+   "platform": "Reddit",
+   "title": "'Looking for a Reel Editor for Upcoming Fitness Creator. Budget:- 150-200 rs per reel'",
+   "community": "r/VideoEditors_forhire",
+   "group": "F5Bot",
+   "posted": "2026-10-10T20:53:14+00:00",
+   "snippet": "",
+   "found": "2026-10-10T22:18:38+00:00"
+  },
+  {
+   "link": "https://www.reddit.com/r/VideoEditingJobs/comments/1x2n0ql/",
+   "platform": "Reddit",
+   "title": "'Looking for a Reel Editor for Upcoming Fitness Creator.'",
+   "community": "r/VideoEditingJobs",
+   "group": "F5Bot",
+   "posted": "2026-10-10T20:53:14+00:00",
+   "snippet": "",
+   "found": "2026-10-10T22:18:38+00:00"
+  },
+  {
+   "link": "https://www.reddit.com/r/videoeditingindia/comments/1x2np4w/",
+   "platform": "Reddit",
+   "title": "'Looking for a video editor for automotive related short form content'",
+   "community": "r/videoeditingindia",
+   "group": "F5Bot",
+   "posted": "2026-10-10T20:53:14+00:00",
+   "snippet": "",
+   "found": "2026-10-10T22:18:38+00:00"
+  },
+  {
+   "link": "https://www.reddit.com/r/PartneredYoutube/comments/1x2np9x/",
+   "platform": "Reddit",
+   "title": "'Where to find YouTuber's who need a Video Editor?'",
+   "community": "r/PartneredYoutube",
+   "group": "F5Bot",
+   "posted": "2026-10-10T20:53:14+00:00",
+   "snippet": "",
+   "found": "2026-10-10T22:18:38+00:00"
+  },
+  {
+   "link": "https://www.reddit.com/r/editing/comments/1x2nrc1/",
+   "platform": "Reddit",
+   "title": "'need a video editor 1200$'",
+   "community": "r/editing",
+   "group": "F5Bot",
+   "posted": "2026-10-10T20:53:14+00:00",
+   "snippet": "",
+   "found": "2026-10-10T22:18:38+00:00"
+  },
+  {
+   "link": "https://www.reddit.com/r/VideoEditors/comments/1x2ntg8/",
+   "platform": "Reddit",
+   "title": "'need a video editor 1200$'",
+   "community": "r/VideoEditors",
+   "group": "F5Bot",
+   "posted": "2026-10-10T20:53:14+00:00",
+   "snippet": "",
+   "found": "2026-10-10T22:18:38+00:00"
+  },
+  {
+   "link": "https://www.reddit.com/r/VideoEditingRequests/comments/1x2ntxg/",
+   "platform": "Reddit",
+   "title": "'need a video editor 1200$ in us or canada'",
+   "community": "r/VideoEditingRequests",
+   "group": "F5Bot",
+   "posted": "2026-10-10T20:53:14+00:00",
+   "snippet": "",
+   "found": "2026-10-10T22:18:38+00:00"
+  },
+  {
+   "link": "https://www.reddit.com/r/VideoEditor_forhire/comments/1x2o3ha/",
+   "platform": "Reddit",
+   "title": "'need a video editor from Canada or usa for 2500$'",
+   "community": "r/VideoEditor_forhire",
+   "group": "F5Bot",
+   "posted": "2026-10-10T20:53:14+00:00",
+   "snippet": "",
+   "found": "2026-10-10T22:18:38+00:00"
+  },
+  {
+   "link": "https://www.reddit.com/r/VideoEditingRequests/comments/1x2o3vf/",
+   "platform": "Reddit",
+   "title": "'need a video editor from Canada or usa for 2500$'",
+   "community": "r/VideoEditingRequests",
+   "group": "F5Bot",
+   "posted": "2026-10-10T20:53:14+00:00",
+   "snippet": "",
+   "found": "2026-10-10T22:18:38+00:00"
+  },
+  {
+   "link": "https://www.reddit.com/r/VideoEditors/comments/1x2o50s/",
+   "platform": "Reddit",
+   "title": "'need a video editor from Canada or usa for 2500$'",
+   "community": "r/VideoEditors",
+   "group": "F5Bot",
+   "posted": "2026-10-10T20:53:14+00:00",
+   "snippet": "",
+   "found": "2026-10-10T22:18:38+00:00"
+  },
   {
    "link": "https://www.reddit.com/r/nagpur/comments/1x2h7md/",
    "platform": "Reddit",
