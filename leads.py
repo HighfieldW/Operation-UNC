@@ -10,8 +10,11 @@ when Reddit says "slow down", and remembers where it stopped so the next
 run carries on from there. Each run also has a time budget, so it always
 finishes and saves its progress.
 """
+import email
 import html
+import imaplib
 import json
+import os
 import re
 import time
 import urllib.error
@@ -19,6 +22,8 @@ import urllib.parse
 import urllib.request
 import xml.etree.ElementTree as ET
 from datetime import datetime, timezone
+from email.utils import parsedate_to_datetime
+from html.parser import HTMLParser
 from pathlib import Path
 
 # ---- Edit these to tune what gets found ------------------------------------
@@ -167,6 +172,112 @@ def load_data():
     return {}
 
 
+POST_URL = re.compile(
+    r"https?://(?:www\.|old\.|new\.)?reddit\.com/((?:r|u|user)/[^/\s\"'<>?#]+)/comments/([a-z0-9]+)(?:/[^\s\"'<>?#]*)?",
+    re.I,
+)
+F5_ITEM = re.compile(r"Reddit Posts \(/(?:r|u|user)/([^/)]+)/?\):\s*(.+?)\s+by\s+(\S+)")
+
+
+def post_id(link):
+    m = POST_URL.search(urllib.parse.unquote(link or ""))
+    return m.group(2).lower() if m else None
+
+
+def clean_link(link):
+    """One tidy address per post, so the same post is never counted twice."""
+    m = POST_URL.search(urllib.parse.unquote(link))
+    return f"https://www.reddit.com/{m.group(1)}/comments/{m.group(2)}/" if m else None
+
+
+class _Anchors(HTMLParser):
+    def __init__(self):
+        super().__init__()
+        self.items, self._href, self._text = [], None, []
+
+    def handle_starttag(self, tag, attrs):
+        if tag == "a":
+            self._href, self._text = dict(attrs).get("href"), []
+
+    def handle_data(self, data):
+        if self._href is not None:
+            self._text.append(data)
+
+    def handle_endtag(self, tag):
+        if tag == "a" and self._href is not None:
+            self.items.append((self._href, clean(" ".join(self._text))))
+            self._href = None
+
+
+def email_parts(msg):
+    text, markup = "", ""
+    for part in msg.walk():
+        kind = part.get_content_type()
+        if kind in ("text/plain", "text/html"):
+            body = part.get_payload(decode=True) or b""
+            body = body.decode(part.get_content_charset() or "utf-8", "replace")
+            if kind == "text/plain":
+                text += body
+            else:
+                markup += body
+    return text, markup
+
+
+def read_f5bot():
+    """Read unread F5Bot alert emails from the Gmail inbox and return Reddit posts."""
+    address = os.environ.get("GMAIL_ADDRESS", "").strip()
+    password = os.environ.get("GMAIL_APP_PASSWORD", "").replace(" ", "").strip()
+    info = {"configured": bool(address and password), "emails": 0, "posts": 0, "error": ""}
+    posts = {}
+    if not info["configured"]:
+        return posts, info
+    try:
+        box = imaplib.IMAP4_SSL("imap.gmail.com", timeout=30)
+        box.login(address, password)
+        box.select("INBOX")
+        _, found = box.search(None, "UNSEEN", "FROM", '"f5bot"')
+        for num in (found[0] or b"").split()[-100:]:
+            _, fetched = box.fetch(num, "(BODY.PEEK[])")
+            msg = email.message_from_bytes(fetched[0][1])
+            text, markup = email_parts(msg)
+            plain = clean(text) if text else ""
+            anchors = _Anchors()
+            anchors.feed(markup)
+            html_text = clean(markup)
+            titles = F5_ITEM.findall(text or "") or F5_ITEM.findall(html_text)
+            links = [clean_link(h) for h, _ in anchors.items if clean_link(h)]
+            if not links:
+                links = [clean_link(u.group(0)) for u in POST_URL.finditer(text + " " + markup)]
+            links = list(dict.fromkeys(l for l in links if l))
+            try:
+                posted = parsedate_to_datetime(msg["Date"]).astimezone(timezone.utc).isoformat(timespec="seconds")
+            except Exception:
+                posted = datetime.now(timezone.utc).isoformat(timespec="seconds")
+            for i, (sub, title, author) in enumerate(titles):
+                link = None
+                for href, label in anchors.items:  # prefer the link whose text is the title
+                    if title[:40].lower() in label.lower() and clean_link(href):
+                        link = clean_link(href)
+                        break
+                if not link and len(links) == len(titles):
+                    link = links[i]
+                if not link:
+                    continue
+                posts[link] = {
+                    "title": clean(title), "link": link, "posted": posted, "body": "",
+                    "sub": sub, "group": "F5Bot",
+                    "community": f"u/{sub[2:]}" if sub.startswith("u_") else f"r/{sub}",
+                }
+            box.store(num, "+FLAGS", "\\Seen")
+            info["emails"] += 1
+        box.logout()
+    except Exception as exc:
+        info["error"] = str(exc)[:120]
+        print(f"F5Bot inbox problem: {exc}")
+    info["posts"] = len(posts)
+    return posts, info
+
+
 def main():
     started = time.monotonic()
     STATE["slowdowns"] = 0
@@ -181,7 +292,12 @@ def main():
     cursor = data.get("cursor", 0) % total
     stuck = data.get("stuck", 0)
 
-    found = {}
+    # F5Bot alert emails first: they need no Reddit searches, so they always get through
+    found, f5_info = {}, {}
+    f5_posts, f5_info = read_f5bot()
+    for link, p in f5_posts.items():
+        if is_lead(p):
+            found[link] = p
     ok = failed = steps = 0
     refused = cooldown = out_of_time = False
     errors = {}
@@ -226,13 +342,19 @@ def main():
     cursor = (cursor + steps) % total
 
     added = 0
+    seen_ids = {post_id(k) for k in existing if post_id(k)}
     for link, p in found.items():
-        if link not in existing:
+        pid = post_id(link)
+        if link in existing or (pid and pid in seen_ids):
+            continue  # already have this post (any source, any link spelling)
+        if pid:
+            seen_ids.add(pid)
+        if True:
             existing[link] = {
                 "link": link,
                 "platform": "Reddit",
                 "title": p["title"],
-                "community": f"r/{p['sub']}",
+                "community": p.get("community") or f"r/{p['sub']}",
                 "group": p["group"],
                 "posted": p["posted"],
                 "snippet": p["body"][:300] + ("..." if len(p["body"]) > 300 else ""),
@@ -248,6 +370,7 @@ def main():
         "out_of_time": out_of_time,
         "queue_size": total,
         "errors": errors,
+        "f5bot": f5_info,
     }
     DATA_FILE.write_text(
         json.dumps(

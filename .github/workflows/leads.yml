@@ -25,6 +25,9 @@ jobs:
 
       - name: Search Reddit
         timeout-minutes: 30
+        env:
+          GMAIL_ADDRESS: ${{ secrets.GMAIL_ADDRESS }}
+          GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
         run: python leads.py
 
       - name: Save leads for the dashboard

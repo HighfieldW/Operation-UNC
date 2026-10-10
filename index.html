@@ -161,6 +161,11 @@
           var note = s.searches_ok + " searches this run";
           if (s.rate_limited) note += " | reddit asked us to slow down, resuming next hour";
           else if (s.searches_failed) note += " | " + s.searches_failed + " failed";
+          if (s.f5bot) {
+            if (!s.f5bot.configured) note += " | f5bot inbox not connected";
+            else if (s.f5bot.error) note += " | f5bot inbox problem: " + s.f5bot.error;
+            else note += " | f5bot: " + s.f5bot.emails + " emails read";
+          }
           $("updated").textContent += " | " + note;
         }
         renderChips();
