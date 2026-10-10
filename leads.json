@@ -1,24 +1,42 @@
 {
- "updated": "2026-10-10T15:08:09+00:00",
+ "updated": "2026-10-10T18:18:14+00:00",
  "stats": {
   "searches_ok": 6,
-  "searches_failed": 1,
+  "searches_failed": 0,
   "rate_limited": true,
   "out_of_time": false,
   "queue_size": 85,
-  "errors": {
-   "HTTP Error 404: Not Found": 1
-  },
+  "errors": {},
   "f5bot": {
    "configured": true,
-   "emails": 36,
-   "posts": 70,
+   "emails": 1,
+   "posts": 3,
    "error": ""
   }
  },
- "cursor": 83,
+ "cursor": 4,
  "stuck": 0,
  "leads": [
+  {
+   "link": "https://www.reddit.com/r/nagpur/comments/1x2h7md/",
+   "platform": "Reddit",
+   "title": "'Paid Work \u2013 Looking for a Video Editor for marketing.'",
+   "community": "r/nagpur",
+   "group": "F5Bot",
+   "posted": "2026-10-10T16:32:10+00:00",
+   "snippet": "",
+   "found": "2026-10-10T18:18:14+00:00"
+  },
+  {
+   "link": "https://www.reddit.com/r/CreatorServices/comments/1x2hwh2/",
+   "platform": "Reddit",
+   "title": "'Looking for a video editor that needs expirence'",
+   "community": "r/CreatorServices",
+   "group": "F5Bot",
+   "posted": "2026-10-10T16:32:10+00:00",
+   "snippet": "",
+   "found": "2026-10-10T18:18:14+00:00"
+  },
   {
    "link": "https://www.reddit.com/r/CreatorServices/comments/1x22kz2/",
    "platform": "Reddit",
