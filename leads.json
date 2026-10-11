@@ -1,22 +1,104 @@
 {
- "updated": "2026-10-11T08:28:45+00:00",
+ "updated": "2026-10-11T15:25:58+00:00",
  "stats": {
-  "searches_ok": 7,
-  "searches_failed": 0,
+  "searches_ok": 5,
+  "searches_failed": 1,
   "rate_limited": true,
   "out_of_time": false,
   "queue_size": 85,
-  "errors": {},
+  "errors": {
+   "HTTP Error 404: Not Found": 1
+  },
   "f5bot": {
    "configured": true,
-   "emails": 1,
-   "posts": 0,
+   "emails": 5,
+   "posts": 11,
    "error": ""
   }
  },
- "cursor": 25,
+ "cursor": 31,
  "stuck": 0,
  "leads": [
+  {
+   "link": "https://www.reddit.com/r/VideoEditing/comments/1x37l8a/",
+   "platform": "Reddit",
+   "title": "'Need a video editor'",
+   "community": "r/VideoEditing",
+   "group": "F5Bot",
+   "posted": "2026-10-11T15:01:13+00:00",
+   "snippet": "",
+   "found": "2026-10-11T15:25:58+00:00"
+  },
+  {
+   "link": "https://www.reddit.com/r/editors/comments/1x382mb/",
+   "platform": "Reddit",
+   "title": "'Need a video editor and script writer'",
+   "community": "r/editors",
+   "group": "F5Bot",
+   "posted": "2026-10-11T15:01:13+00:00",
+   "snippet": "",
+   "found": "2026-10-11T15:25:58+00:00"
+  },
+  {
+   "link": "https://www.reddit.com/r/warangal/comments/1x3a874/",
+   "platform": "Reddit",
+   "title": "'Need a video editor in warangal (salary : 18-20k)'",
+   "community": "r/warangal",
+   "group": "F5Bot",
+   "posted": "2026-10-11T15:01:13+00:00",
+   "snippet": "",
+   "found": "2026-10-11T15:25:58+00:00"
+  },
+  {
+   "link": "https://www.reddit.com/r/HireAnEditor/comments/1x3356r/",
+   "platform": "Reddit",
+   "title": "'Hiring a Video Editor for Instagram Reels'",
+   "community": "r/HireAnEditor",
+   "group": "F5Bot",
+   "posted": "2026-10-11T10:48:11+00:00",
+   "snippet": "",
+   "found": "2026-10-11T15:25:58+00:00"
+  },
+  {
+   "link": "https://www.reddit.com/r/videoeditingindia/comments/1x335qx/",
+   "platform": "Reddit",
+   "title": "'Hiring a Video Editor for Instagram Reels'",
+   "community": "r/videoeditingindia",
+   "group": "F5Bot",
+   "posted": "2026-10-11T10:48:11+00:00",
+   "snippet": "",
+   "found": "2026-10-11T15:25:58+00:00"
+  },
+  {
+   "link": "https://www.reddit.com/r/VideoEditors_forhire/comments/1x3364d/",
+   "platform": "Reddit",
+   "title": "'Hiring a Video Editor for Instagram Reels'",
+   "community": "r/VideoEditors_forhire",
+   "group": "F5Bot",
+   "posted": "2026-10-11T10:48:11+00:00",
+   "snippet": "",
+   "found": "2026-10-11T15:25:58+00:00"
+  },
+  {
+   "link": "https://www.reddit.com/r/VideoEditors/comments/1x336vx/",
+   "platform": "Reddit",
+   "title": "'Hiring a Video Editor for Instagram Reels'",
+   "community": "r/VideoEditors",
+   "group": "F5Bot",
+   "posted": "2026-10-11T10:48:11+00:00",
+   "snippet": "",
+   "found": "2026-10-11T15:25:58+00:00"
+  },
+  {
+   "link": "https://www.reddit.com/r/VideoEditingRequests/comments/1x30yjz/",
+   "platform": "Reddit",
+   "title": "'Need a video editor'",
+   "community": "r/VideoEditingRequests",
+   "group": "F5Bot",
+   "posted": "2026-10-11T08:34:09+00:00",
+   "snippet": "",
+   "found": "2026-10-11T15:25:58+00:00"
+  },
   {
    "link": "https://www.reddit.com/r/FindVideoEditors/comments/1x2qtjo/",
    "platform": "Reddit",
