@@ -1,22 +1,84 @@
 {
- "updated": "2026-10-10T22:18:38+00:00",
+ "updated": "2026-10-11T01:39:38+00:00",
  "stats": {
-  "searches_ok": 7,
-  "searches_failed": 0,
+  "searches_ok": 6,
+  "searches_failed": 1,
   "rate_limited": true,
   "out_of_time": false,
   "queue_size": 85,
-  "errors": {},
+  "errors": {
+   "HTTP Error 404: Not Found": 1
+  },
   "f5bot": {
    "configured": true,
-   "emails": 1,
-   "posts": 10,
+   "emails": 2,
+   "posts": 6,
    "error": ""
   }
  },
- "cursor": 11,
+ "cursor": 18,
  "stuck": 0,
  "leads": [
+  {
+   "link": "https://www.reddit.com/r/FindVideoEditors/comments/1x2qtjo/",
+   "platform": "Reddit",
+   "title": "'Looking for a Video Editor \u2014 Paid Opportunity'",
+   "community": "r/FindVideoEditors",
+   "group": "F5Bot",
+   "posted": "2026-10-10T23:42:11+00:00",
+   "snippet": "",
+   "found": "2026-10-11T01:39:38+00:00"
+  },
+  {
+   "link": "https://www.reddit.com/r/videoeditors_hiring/comments/1x2qyru/",
+   "platform": "Reddit",
+   "title": "'Are you looking for a Video Editor?'",
+   "community": "r/videoeditors_hiring",
+   "group": "F5Bot",
+   "posted": "2026-10-10T23:42:11+00:00",
+   "snippet": "",
+   "found": "2026-10-11T01:39:38+00:00"
+  },
+  {
+   "link": "https://www.reddit.com/r/VideoEditors_forhire/comments/1x2qz9b/",
+   "platform": "Reddit",
+   "title": "'Are you looking for a video editor?'",
+   "community": "r/VideoEditors_forhire",
+   "group": "F5Bot",
+   "posted": "2026-10-10T23:42:11+00:00",
+   "snippet": "",
+   "found": "2026-10-11T01:39:38+00:00"
+  },
+  {
+   "link": "https://www.reddit.com/r/FindVideoEditors/comments/1x2r0ea/",
+   "platform": "Reddit",
+   "title": "'Are You Looking For A Video Editor?'",
+   "community": "r/FindVideoEditors",
+   "group": "F5Bot",
+   "posted": "2026-10-10T23:42:11+00:00",
+   "snippet": "",
+   "found": "2026-10-11T01:39:38+00:00"
+  },
+  {
+   "link": "https://www.reddit.com/r/CreatorServices/comments/1x2r10s/",
+   "platform": "Reddit",
+   "title": "'Are you looking for a video editor?'",
+   "community": "r/CreatorServices",
+   "group": "F5Bot",
+   "posted": "2026-10-10T23:42:11+00:00",
+   "snippet": "",
+   "found": "2026-10-11T01:39:38+00:00"
+  },
+  {
+   "link": "https://www.reddit.com/r/VideoEditingJobs/comments/1x2r1em/",
+   "platform": "Reddit",
+   "title": "'Are you looking for a video editor?'",
+   "community": "r/VideoEditingJobs",
+   "group": "F5Bot",
+   "posted": "2026-10-10T23:42:11+00:00",
+   "snippet": "",
+   "found": "2026-10-11T01:39:38+00:00"
+  },
   {
    "link": "https://www.reddit.com/r/VideoEditors_forhire/comments/1x2mx6j/",
    "platform": "Reddit",
