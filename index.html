@@ -215,6 +215,19 @@
         .sort(function (a, b) { return b[1] - a[1]; });
     }
 
+    // Flag labels that are cut off so hovering shows the full text
+    function markCut() {
+      var names = document.querySelectorAll("#trends .bname");
+      for (var i = 0; i < names.length; i++) {
+        var row = names[i].parentNode;
+        row.setAttribute("data-full", names[i].textContent);
+        names[i].title = names[i].textContent;
+        row.classList.toggle("cut", names[i].scrollWidth > names[i].clientWidth + 1);
+      }
+    }
+    window.addEventListener("resize", markCut);
+    $("trends").addEventListener("toggle", markCut);
+
     function renderTrends() {
       var n = leads.length;
       $("trNote").textContent = n ? "from " + n + " leads" : "";
@@ -280,6 +293,7 @@
       var kws = leads.filter(function (l) { return l.matched; });
       barList($("trKeywords"), tally(kws.map(function (l) { return l.matched.toLowerCase(); })).slice(0, 8),
         "recording from now on: this fills in as new leads arrive");
+      markCut();
     }
 
     $("search").oninput = render;
