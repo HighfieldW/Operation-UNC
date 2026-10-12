@@ -1,22 +1,44 @@
 {
- "updated": "2026-10-12T00:18:17+00:00",
+ "updated": "2026-10-12T07:04:21+00:00",
  "stats": {
   "searches_ok": 6,
-  "searches_failed": 0,
+  "searches_failed": 1,
   "rate_limited": true,
   "out_of_time": false,
   "queue_size": 85,
-  "errors": {},
+  "errors": {
+   "HTTP Error 404: Not Found": 1
+  },
   "f5bot": {
    "configured": true,
-   "emails": 0,
-   "posts": 0,
+   "emails": 3,
+   "posts": 2,
    "error": ""
   }
  },
- "cursor": 44,
+ "cursor": 51,
  "stuck": 0,
  "leads": [
+  {
+   "link": "https://www.reddit.com/r/SoloDevelopment/comments/1x3sx6a/",
+   "platform": "Reddit",
+   "title": "'Hiring a video editor for your trailer. Experience?'",
+   "community": "r/SoloDevelopment",
+   "group": "F5Bot",
+   "posted": "2026-10-12T06:56:11+00:00",
+   "snippet": "",
+   "found": "2026-10-12T07:04:21+00:00"
+  },
+  {
+   "link": "https://www.reddit.com/r/VideoEditingRequests/comments/1x3q6im/",
+   "platform": "Reddit",
+   "title": "'Hiring a Video Editor I'm looking for a video editor who can edit videos similar t...'",
+   "community": "r/VideoEditingRequests",
+   "group": "F5Bot",
+   "posted": "2026-10-12T04:29:09+00:00",
+   "snippet": "",
+   "found": "2026-10-12T07:04:21+00:00"
+  },
   {
    "link": "https://www.reddit.com/r/VideoEditing/comments/1x37l8a/",
    "platform": "Reddit",
