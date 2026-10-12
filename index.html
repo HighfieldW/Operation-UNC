@@ -215,18 +215,37 @@
         .sort(function (a, b) { return b[1] - a[1]; });
     }
 
-    // Flag labels that are cut off so hovering shows the full text
-    function markCut() {
-      var names = document.querySelectorAll("#trends .bname");
-      for (var i = 0; i < names.length; i++) {
-        var row = names[i].parentNode;
-        row.setAttribute("data-full", names[i].textContent);
-        names[i].title = names[i].textContent;
-        row.classList.toggle("cut", names[i].scrollWidth > names[i].clientWidth + 1);
-      }
+    // Hovering a cut-off label shows its full text in a bubble just below the cursor
+    var tip = document.createElement("div");
+    tip.className = "tip";
+    tip.hidden = true;
+    document.body.appendChild(tip);
+
+    function moveTip(e) {
+      var pad = 14;
+      var x = Math.min(e.clientX + pad, window.innerWidth - tip.offsetWidth - 8);
+      var y = e.clientY + 22;
+      if (y + tip.offsetHeight > window.innerHeight - 8) y = e.clientY - tip.offsetHeight - 12;
+      tip.style.left = Math.max(8, x) + "px";
+      tip.style.top = Math.max(8, y) + "px";
     }
-    window.addEventListener("resize", markCut);
-    $("trends").addEventListener("toggle", markCut);
+    function cutLabel(target) {
+      var row = target.closest ? target.closest("#trends .brow") : null;
+      if (!row) return null;
+      var name = row.querySelector(".bname");
+      if (!name) return null;
+      name.title = name.textContent;               // long-press fallback on phones
+      return name.scrollWidth > name.clientWidth + 1 ? name.textContent : null;
+    }
+    document.addEventListener("mouseover", function (e) {
+      var full = cutLabel(e.target);
+      if (!full) { tip.hidden = true; return; }
+      tip.textContent = full;
+      tip.hidden = false;
+      moveTip(e);
+    });
+    document.addEventListener("mousemove", function (e) { if (!tip.hidden) moveTip(e); });
+    document.addEventListener("mouseout", function (e) { if (!e.relatedTarget) tip.hidden = true; });
 
     function renderTrends() {
       var n = leads.length;
@@ -293,7 +312,6 @@
       var kws = leads.filter(function (l) { return l.matched; });
       barList($("trKeywords"), tally(kws.map(function (l) { return l.matched.toLowerCase(); })).slice(0, 8),
         "recording from now on: this fills in as new leads arrive");
-      markCut();
     }
 
     $("search").oninput = render;

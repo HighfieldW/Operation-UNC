@@ -144,13 +144,10 @@ body {
 
 .brow { display: grid; grid-template-columns: minmax(80px, 38%) 1fr 34px; align-items: center; gap: 10px; margin-bottom: 8px; font-size: 12.5px; }
 .brow { position: relative; }
-.brow.cut:hover::after {
-  content: attr(data-full);
-  position: absolute;
-  left: 0;
-  bottom: calc(100% + 4px);
-  z-index: 10;
-  max-width: 260px;
+.tip {
+  position: fixed;
+  z-index: 50;
+  max-width: 280px;
   padding: 6px 10px;
   border: 1px solid var(--line-strong);
   border-radius: 10px;
@@ -158,10 +155,10 @@ body {
   color: var(--heading);
   font-size: 12px;
   line-height: 1.35;
-  white-space: normal;
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.5);
   pointer-events: none;
 }
+.tip[hidden] { display: none; }
 .bname { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; color: var(--text); }
 .btrack { height: 8px; border-radius: 999px; background: rgba(190, 130, 255, 0.1); overflow: hidden; }
 .bfill { display: block; height: 100%; border-radius: 999px; background: linear-gradient(to right, #7a35c4, var(--accent)); }
