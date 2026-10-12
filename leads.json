@@ -1,24 +1,88 @@
 {
- "updated": "2026-10-12T14:37:05+00:00",
+ "updated": "2026-10-12T17:12:20+00:00",
  "stats": {
-  "searches_ok": 5,
-  "searches_failed": 1,
+  "searches_ok": 7,
+  "searches_failed": 0,
   "rate_limited": true,
   "out_of_time": false,
-  "queue_size": 85,
-  "errors": {
-   "HTTP Error 404: Not Found": 1
-  },
+  "queue_size": 93,
+  "errors": {},
   "f5bot": {
    "configured": true,
-   "emails": 0,
-   "posts": 0,
+   "emails": 3,
+   "posts": 8,
    "error": ""
   }
  },
- "cursor": 64,
+ "cursor": 71,
  "stuck": 0,
  "leads": [
+  {
+   "link": "https://www.reddit.com/r/IndiaContentCreators/comments/1x43amq/",
+   "platform": "Reddit",
+   "title": "Anyone looking for a video editor?",
+   "community": "r/IndiaContentCreators",
+   "group": "F5Bot",
+   "posted": "2026-10-12T16:30:16+00:00",
+   "snippet": "",
+   "found": "2026-10-12T17:12:20+00:00",
+   "matched": "looking for a video editor"
+  },
+  {
+   "link": "https://www.reddit.com/r/FreelanceIndia/comments/1x43az3/",
+   "platform": "Reddit",
+   "title": "Anyone looking for a video editor?",
+   "community": "r/FreelanceIndia",
+   "group": "F5Bot",
+   "posted": "2026-10-12T16:30:16+00:00",
+   "snippet": "",
+   "found": "2026-10-12T17:12:20+00:00",
+   "matched": "looking for a video editor"
+  },
+  {
+   "link": "https://www.reddit.com/r/MarketingJobs/comments/1x45l2u/",
+   "platform": "Reddit",
+   "title": "Hiring a video editor on a monthly retainer",
+   "community": "r/MarketingJobs",
+   "group": "F5Bot",
+   "posted": "2026-10-12T16:30:16+00:00",
+   "snippet": "",
+   "found": "2026-10-12T17:12:20+00:00",
+   "matched": "looking for a video editor"
+  },
+  {
+   "link": "https://www.reddit.com/r/FindVideoEditors/comments/1x45n90/",
+   "platform": "Reddit",
+   "title": "Hiring a video editor on a monthly retainer",
+   "community": "r/FindVideoEditors",
+   "group": "F5Bot",
+   "posted": "2026-10-12T16:30:16+00:00",
+   "snippet": "",
+   "found": "2026-10-12T17:12:20+00:00",
+   "matched": "looking for a video editor"
+  },
+  {
+   "link": "https://www.reddit.com/r/VideoEditingJobs/comments/1x45nm6/",
+   "platform": "Reddit",
+   "title": "Hiring a video editor on a monthly retainer",
+   "community": "r/VideoEditingJobs",
+   "group": "F5Bot",
+   "posted": "2026-10-12T16:30:16+00:00",
+   "snippet": "",
+   "found": "2026-10-12T17:12:20+00:00",
+   "matched": "looking for a video editor"
+  },
+  {
+   "link": "https://www.reddit.com/r/HireAnEditor/comments/1x45oq8/",
+   "platform": "Reddit",
+   "title": "Hiring a video editor on a monthly retainer",
+   "community": "r/HireAnEditor",
+   "group": "F5Bot",
+   "posted": "2026-10-12T16:30:16+00:00",
+   "snippet": "",
+   "found": "2026-10-12T17:12:20+00:00",
+   "matched": "looking for a video editor"
+  },
   {
    "link": "https://www.reddit.com/r/videoeditingindia/comments/1x3zlva/",
    "platform": "Reddit",
