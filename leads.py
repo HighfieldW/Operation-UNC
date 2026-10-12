@@ -55,6 +55,10 @@ GROUPS = {
             "paying video editor",
         ],
     },
+    "Hire communities": {
+        "communities": ["HireAnEditor", "FindVideoEditors", "CreatorServices", "VideoEditingRequests"],
+        "queries": ["looking for a video editor", "need a video editor"],
+    },
     "Hiring boards": {
         "communities": ["forhire", "hiring"],
         "queries": [
@@ -253,6 +257,8 @@ def read_f5bot():
                 posted = parsedate_to_datetime(msg["Date"]).astimezone(timezone.utc).isoformat(timespec="seconds")
             except Exception:
                 posted = datetime.now(timezone.utc).isoformat(timespec="seconds")
+            kw = re.search(r'Keyword:\s*"?([^"\n]+?)"?\s*(?:\n|$)', text or "")
+            kw = clean(kw.group(1)) if kw else ""
             for i, (sub, title, author) in enumerate(titles):
                 link = None
                 for href, label in anchors.items:  # prefer the link whose text is the title
@@ -264,8 +270,8 @@ def read_f5bot():
                 if not link:
                     continue
                 posts[link] = {
-                    "title": clean(title), "link": link, "posted": posted, "body": "",
-                    "sub": sub, "group": "F5Bot",
+                    "title": clean(title).strip(" '\"*"), "link": link, "posted": posted, "body": "",
+                    "sub": sub, "group": "F5Bot", "matched": kw,
                     "community": f"u/{sub[2:]}" if sub.startswith("u_") else f"r/{sub}",
                 }
             box.store(num, "+FLAGS", "\\Seen")
@@ -314,7 +320,7 @@ def main():
         try:
             for post in parse_feed(fetch(url)):
                 if post["link"] and is_lead(post):
-                    post.update(sub=sub, group=group)
+                    post.update(sub=sub, group=group, matched=q)
                     found[post["link"]] = post
             ok += 1
         except RateLimited:
@@ -359,6 +365,7 @@ def main():
                 "posted": p["posted"],
                 "snippet": p["body"][:300] + ("..." if len(p["body"]) > 300 else ""),
                 "found": now,
+                "matched": p.get("matched", ""),
             }
             added += 1
 

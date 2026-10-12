@@ -26,6 +26,19 @@
       <p class="status" id="updated">booting</p>
     </div>
 
+    <details class="panel trends" id="trends" open>
+      <summary>Trends <span class="muted" id="trNote"></span></summary>
+      <div class="trend-grid">
+        <div class="tr-box wide"><h3>New posts per day</h3><div class="days" id="trDays"></div></div>
+        <div class="tr-box"><h3>Busiest communities</h3><div id="trCommunities"></div></div>
+        <div class="tr-box"><h3>Where leads come from</h3><div id="trSources"></div></div>
+        <div class="tr-box"><h3>What people ask for</h3><div class="words" id="trFormats"></div></div>
+        <div class="tr-box"><h3>Signals in the posts</h3><div id="trSignals"></div></div>
+        <div class="tr-box"><h3>Common words in titles</h3><div class="words" id="trWords"></div></div>
+        <div class="tr-box"><h3>Search terms that found leads</h3><div id="trKeywords"></div></div>
+      </div>
+    </details>
+
     <section class="controls">
       <label class="prompt"><span>&gt;</span><input id="search" type="search" placeholder="search leads" autocomplete="off"></label>
       <div class="chips" id="groups"></div>
@@ -120,7 +133,7 @@
         if (isNew(l)) meta.appendChild(el("span", "badge new", "new"));
         card.appendChild(meta);
 
-        card.appendChild(el("h2", "", l.title));
+        card.appendChild(el("h2", "", l.title.replace(/^[\s'"*]+|[\s'"*]+$/g, "")));
         if (l.snippet) card.appendChild(el("p", "snippet", l.snippet));
 
         var foot = el("div", "foot");
@@ -156,6 +169,119 @@
         : "> nothing matches those filters.";
     }
 
+    // ---- Trends: worked out in the browser from the saved leads ----
+    var STOP = {};
+    ("a an the and or of to in on at for with from by is are was be been it its this that these those i im my me we our you your " +
+     "us he she they them as if but not no so do does did have has had can could would should will just any some more most also " +
+     "video videos editor editors editing edit looking look need needs needed hiring hire hired want wanted seeking who what where " +
+     "how when why anyone someone people please help new good great best like get got really very one two much many other " +
+     "per about into out up over than then there their ve ll re s t u ur etc").split(" ").forEach(function (w) { STOP[w] = 1; });
+
+    var FORMATS = [
+      ["YouTube", /youtub/i], ["Shorts / Reels / TikTok", /shorts?\b|reels?\b|tiktok|short[- ]form/i],
+      ["Long form", /long[- ]form/i], ["Podcast", /podcast/i], ["Instagram", /instagram/i],
+      ["Ads / UGC", /\bads?\b|\bugc\b|commercial/i], ["Course / coaching", /course|coach/i],
+      ["Gaming", /gaming|gameplay|twitch/i], ["Documentary / film", /documentar|film|trailer/i],
+      ["Ecommerce / product", /ecommerce|e-commerce|shopify|product/i]
+    ];
+    var SIGNALS = [
+      ["Mentions pay or rate", /[$£€₹]\s?\d|\d\s?(\/|per)\s?(hr|hour|video|min)|\bpaid\b|budget|\brate\b|salary|retainer/i],
+      ["Long-term or ongoing", /long[- ]term|ongoing|retainer|full[- ]time|part[- ]time|monthly|weekly/i],
+      ["UK", /\buk\b|united kingdom|£|london|manchester|england|scotland|wales/i],
+      ["India", /india|indian|₹|\binr\b|\blpa\b|\blakh|warangal|mumbai|delhi|bangalore|hyderabad|pune|chennai/i]
+    ];
+
+    function barList(box, entries, emptyText) {
+      box.textContent = "";
+      if (!entries.length) { box.appendChild(el("p", "muted", emptyText)); return; }
+      var max = entries[0][1];
+      entries.forEach(function (e) {
+        var row = el("div", "brow");
+        row.appendChild(el("span", "bname", e[0]));
+        var track = el("span", "btrack");
+        var fill = el("span", "bfill");
+        fill.style.width = Math.max(4, Math.round(e[1] / max * 100)) + "%";
+        track.appendChild(fill);
+        row.appendChild(track);
+        row.appendChild(el("span", "bnum", String(e[1])));
+        box.appendChild(row);
+      });
+    }
+
+    function tally(items) {
+      var m = {};
+      items.forEach(function (k) { if (k) m[k] = (m[k] || 0) + 1; });
+      return Object.keys(m).map(function (k) { return [k, m[k]]; })
+        .sort(function (a, b) { return b[1] - a[1]; });
+    }
+
+    function renderTrends() {
+      var n = leads.length;
+      $("trNote").textContent = n ? "from " + n + " leads" : "";
+      var text = function (l) { return (l.title + " " + (l.snippet || "")); };
+
+      // posts per day (by when the post was made), last 14 days
+      var days = {}, keys = [], i;
+      for (i = 13; i >= 0; i--) {
+        var d = new Date(Date.now() - i * 86400000), k = d.toISOString().slice(0, 10);
+        days[k] = 0; keys.push(k);
+      }
+      leads.forEach(function (l) { var k = (l.posted || "").slice(0, 10); if (k in days) days[k]++; });
+      var top = Math.max.apply(null, keys.map(function (k) { return days[k]; }).concat([1]));
+      var box = $("trDays"); box.textContent = "";
+      keys.forEach(function (k) {
+        var col = el("div", "dcol");
+        col.title = k + ": " + days[k];
+        col.appendChild(el("span", "dnum", days[k] ? String(days[k]) : ""));
+        var bar = el("span", "dbar");
+        bar.style.height = Math.round(days[k] / top * 100) + "%";
+        col.appendChild(bar);
+        col.appendChild(el("span", "dlab", k.slice(8) + "/" + k.slice(5, 7)));
+        box.appendChild(col);
+      });
+
+      barList($("trCommunities"), tally(leads.map(function (l) { return l.community; })).slice(0, 8), "no data yet");
+      barList($("trSources"), tally(leads.map(function (l) { return l.group; })), "no data yet");
+
+      // what people ask for
+      var f = FORMATS.map(function (x) { return [x[0], leads.filter(function (l) { return x[1].test(text(l)); }).length]; })
+        .filter(function (x) { return x[1] > 0; }).sort(function (a, b) { return b[1] - a[1]; });
+      var fb = $("trFormats"); fb.textContent = "";
+      if (!f.length) fb.appendChild(el("p", "muted", "no data yet"));
+      f.forEach(function (x) { var c = el("span", "word"); c.textContent = x[0] + " "; c.appendChild(el("b", "", String(x[1]))); fb.appendChild(c); });
+
+      // signals as a share of all leads
+      var sig = SIGNALS.map(function (x) { return [x[0], leads.filter(function (l) { return x[1].test(text(l)); }).length]; });
+      var sb = $("trSignals"); sb.textContent = "";
+      sig.forEach(function (x) {
+        var row = el("div", "brow");
+        row.appendChild(el("span", "bname", x[0]));
+        var track = el("span", "btrack"), fill = el("span", "bfill");
+        fill.style.width = (n ? Math.round(x[1] / n * 100) : 0) + "%";
+        track.appendChild(fill); row.appendChild(track);
+        row.appendChild(el("span", "bnum", n ? Math.round(x[1] / n * 100) + "%" : "0%"));
+        sb.appendChild(row);
+      });
+
+      // common words in titles
+      var words = [];
+      leads.forEach(function (l) {
+        var seen = {};
+        (l.title.toLowerCase().match(/[a-z]+(?:'[a-z]+)?/g) || []).forEach(function (w) {
+          if (w.length > 2 && !STOP[w] && !seen[w]) { seen[w] = 1; words.push(w); }
+        });
+      });
+      var wb = $("trWords"); wb.textContent = "";
+      var tw = tally(words).filter(function (x) { return x[1] > 1; }).slice(0, 16);
+      if (!tw.length) wb.appendChild(el("p", "muted", "no data yet"));
+      tw.forEach(function (x) { var c = el("span", "word"); c.textContent = x[0] + " "; c.appendChild(el("b", "", String(x[1]))); wb.appendChild(c); });
+
+      // which search term found each lead (only recorded for newer leads)
+      var kws = leads.filter(function (l) { return l.matched; });
+      barList($("trKeywords"), tally(kws.map(function (l) { return l.matched.toLowerCase(); })).slice(0, 8),
+        "recording from now on: this fills in as new leads arrive");
+    }
+
     $("search").oninput = render;
     $("hideDone").onchange = render;
 
@@ -179,6 +305,7 @@
         }
         renderChips();
         render();
+        renderTrends();
       })
       .catch(function () {
         $("updated").textContent = "no data yet";
