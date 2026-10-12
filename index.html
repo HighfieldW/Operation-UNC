@@ -3,22 +3,27 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#010603">
+  <meta name="theme-color" content="#0c0612">
   <title>Operation-UNC</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="scan" aria-hidden="true"></div>
-
   <div class="wrap">
-    <header class="hero">
-      <canvas id="hero" role="img" aria-label="Operation-UNC"></canvas>
-      <h1 class="sr-only">Operation-UNC</h1>
-    </header>
+    <section class="panel">
+      <header class="hero">
+        <canvas id="hero" role="img" aria-label="Operation-UNC"></canvas>
+        <h1 class="sr-only">Operation-UNC</h1>
+      </header>
+      <div class="tiles">
+        <div class="tile"><div class="label">Leads</div><div class="value" id="tLeads">0</div></div>
+        <div class="tile"><div class="label">New</div><div class="value accent" id="tNew">0</div><div class="sub">last 12 hours</div></div>
+        <div class="tile"><div class="label">Contacted</div><div class="value magenta" id="tContacted">0</div></div>
+        <div class="tile"><div class="label">Communities</div><div class="value" id="tSources">0</div></div>
+      </div>
+    </section>
 
     <div class="bar">
       <p class="status" id="updated">booting</p>
-      <p class="stats" id="stats"></p>
     </div>
 
     <section class="controls">
@@ -98,8 +103,12 @@
         return true;
       });
 
-      $("stats").textContent = leads.length + " leads | " + leads.filter(isNew).length + " new | " +
-        Object.keys(contacted).length + " contacted";
+      var places = {};
+      leads.forEach(function (l) { places[l.community] = 1; });
+      $("tLeads").textContent = leads.length;
+      $("tNew").textContent = leads.filter(isNew).length;
+      $("tContacted").textContent = Object.keys(contacted).length;
+      $("tSources").textContent = Object.keys(places).length;
 
       shown.forEach(function (l, i) {
         var card = el("article", "card" + (contacted[l.link] ? " done" : ""));

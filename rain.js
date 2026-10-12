@@ -194,7 +194,7 @@
     ctx.font = "bold " + Math.min(chh * 0.92, cw / 0.6) + 'px "Courier New", Courier, monospace';
     ctx.textAlign = "center";
     ctx.textBaseline = "middle";
-    ctx.shadowColor = "rgba(0,255,90,0.9)";
+    ctx.shadowColor = "rgba(178,102,255,0.95)";
     ctx.shadowBlur = 8;
 
     var L = lens.on;
@@ -222,7 +222,7 @@
         }
       }
 
-      ctx.fillStyle = b > 1 ? "#ffffff" : "rgba(110,255,160," + Math.min(1, b + 0.08).toFixed(2) + ")";
+      ctx.fillStyle = b > 1 ? "#f6ecff" : "rgba(196,140,255," + Math.min(1, b + 0.08).toFixed(2) + ")";
       if (sc > 1.01) {
         ctx.setTransform(dpr * sc, 0, 0, dpr * sc, x * dpr, y * dpr);
         ctx.fillText(ch, 0, 0);
