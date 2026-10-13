@@ -1,24 +1,55 @@
 {
- "updated": "2026-10-12T17:32:23+00:00",
+ "updated": "2026-10-13T00:19:45+00:00",
  "stats": {
-  "searches_ok": 6,
-  "searches_failed": 1,
+  "searches_ok": 7,
+  "searches_failed": 0,
   "rate_limited": true,
   "out_of_time": false,
   "queue_size": 93,
-  "errors": {
-   "HTTP Error 404: Not Found": 1
-  },
+  "errors": {},
   "f5bot": {
    "configured": true,
-   "emails": 0,
-   "posts": 0,
+   "emails": 2,
+   "posts": 3,
    "error": ""
   }
  },
- "cursor": 78,
+ "cursor": 85,
  "stuck": 0,
  "leads": [
+  {
+   "link": "https://www.reddit.com/r/videoeditingindia/comments/1x4a67r/",
+   "platform": "Reddit",
+   "title": "(Hiring) I need a video editor only Indians apply.",
+   "community": "r/videoeditingindia",
+   "group": "F5Bot",
+   "posted": "2026-10-12T20:45:15+00:00",
+   "snippet": "",
+   "found": "2026-10-13T00:19:45+00:00",
+   "matched": "need a video editor"
+  },
+  {
+   "link": "https://www.reddit.com/r/VideoEditor_forhire/comments/1x4ahpl/",
+   "platform": "Reddit",
+   "title": "(Hiring) I need a video editor for agency only Indian apply.",
+   "community": "r/VideoEditor_forhire",
+   "group": "F5Bot",
+   "posted": "2026-10-12T20:45:15+00:00",
+   "snippet": "",
+   "found": "2026-10-13T00:19:45+00:00",
+   "matched": "need a video editor"
+  },
+  {
+   "link": "https://www.reddit.com/r/editing/comments/1x4brsn/",
+   "platform": "Reddit",
+   "title": "Turning raw footage into engaging content is my thing \u2728 Need a video editor for yo...",
+   "community": "r/editing",
+   "group": "F5Bot",
+   "posted": "2026-10-12T20:45:15+00:00",
+   "snippet": "",
+   "found": "2026-10-13T00:19:45+00:00",
+   "matched": "need a video editor"
+  },
   {
    "link": "https://www.reddit.com/r/IndiaContentCreators/comments/1x43amq/",
    "platform": "Reddit",
