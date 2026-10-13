@@ -145,6 +145,7 @@ def parse_feed(raw):
             "link": link.get("href") if link is not None else "",
             "posted": entry.findtext(ATOM + "updated") or "",
             "body": clean(entry.findtext(ATOM + "content")),
+            "author": clean(entry.findtext(ATOM + "author/" + ATOM + "name")).replace("/u/", "").strip(),
         }
 
 
@@ -165,6 +166,67 @@ def build_queue():
                 for sub in g["communities"]:
                     queue.append((name, sub, g["queries"][i]))
     return queue
+
+
+CROSSPOST_GAP = 15000  # Reddit post numbers this close = posted within ~20 minutes of each other
+
+
+def norm_title(title):
+    return re.sub(r"[^a-z0-9 ]", "", (title or "").lower()).strip()
+
+
+def post_num(link):
+    pid = post_id(link)
+    return int(pid, 36) if pid else None
+
+
+def dedupe(leads):
+    """Merge repeats of the same post into one lead.
+
+    The same advert pasted into several communities gets a different Reddit link
+    in each, so the link alone can't catch it. Two leads are treated as one when
+    they have the same title AND were posted within minutes of each other (their
+    Reddit post numbers are almost consecutive) OR come from the same author.
+    The earliest copy is kept and the other places are listed under "also".
+    """
+    groups = {}
+    for lead in leads.values():
+        groups.setdefault(norm_title(lead["title"]), []).append(lead)
+    out, merged = {}, 0
+    for items in groups.values():
+        items.sort(key=lambda l: (post_num(l["link"]) is None, post_num(l["link"]) or 0, l.get("posted", "")))
+        clusters = []
+        for lead in items:
+            num = post_num(lead["link"])
+            who = (lead.get("author") or "").lower()
+            for cluster in clusters:
+                near = num is not None and any(
+                    post_num(m["link"]) is not None and abs(post_num(m["link"]) - num) <= CROSSPOST_GAP
+                    for m in cluster
+                )
+                same = bool(who) and any((m.get("author") or "").lower() == who for m in cluster)
+                if near or same:
+                    cluster.append(lead)
+                    break
+            else:
+                clusters.append([lead])
+        for cluster in clusters:
+            main_lead = dict(cluster[0])
+            also = {a["link"]: a for a in main_lead.get("also", [])}
+            for other in cluster[1:]:
+                also[other["link"]] = {"community": other["community"], "link": other["link"]}
+                for a in other.get("also", []):
+                    also[a["link"]] = a
+                if other.get("found") and other["found"] < main_lead.get("found", other["found"]):
+                    main_lead["found"] = other["found"]
+                if not main_lead.get("author") and other.get("author"):
+                    main_lead["author"] = other["author"]
+                merged += 1
+            also.pop(main_lead["link"], None)
+            if also:
+                main_lead["also"] = list(also.values())
+            out[main_lead["link"]] = main_lead
+    return out, merged
 
 
 def load_data():
@@ -271,7 +333,7 @@ def read_f5bot():
                     continue
                 posts[link] = {
                     "title": clean(title).strip(" '\"*"), "link": link, "posted": posted, "body": "",
-                    "sub": sub, "group": "F5Bot", "matched": kw,
+                    "sub": sub, "group": "F5Bot", "matched": kw, "author": author.replace("u/", "").strip(),
                     "community": f"u/{sub[2:]}" if sub.startswith("u_") else f"r/{sub}",
                 }
             box.store(num, "+FLAGS", "\\Seen")
@@ -349,6 +411,8 @@ def main():
 
     added = 0
     seen_ids = {post_id(k) for k in existing if post_id(k)}
+    for lead in existing.values():
+        seen_ids.update(post_id(a["link"]) for a in lead.get("also", []) if post_id(a["link"]))
     for link, p in found.items():
         pid = post_id(link)
         if link in existing or (pid and pid in seen_ids):
@@ -366,9 +430,11 @@ def main():
                 "snippet": p["body"][:300] + ("..." if len(p["body"]) > 300 else ""),
                 "found": now,
                 "matched": p.get("matched", ""),
+                "author": p.get("author", ""),
             }
             added += 1
 
+    existing, duplicates = dedupe(existing)
     leads = sorted(existing.values(), key=lambda l: l["posted"], reverse=True)[:MAX_LEADS_KEPT]
     stats = {
         "searches_ok": ok,
@@ -378,6 +444,7 @@ def main():
         "queue_size": total,
         "errors": errors,
         "f5bot": f5_info,
+        "duplicates_merged": duplicates,
     }
     DATA_FILE.write_text(
         json.dumps(

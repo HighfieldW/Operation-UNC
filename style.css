@@ -287,3 +287,7 @@ body {
   .dcol:nth-child(even) .dlab { visibility: hidden; }
   .tr-box { padding: 16px; }
 }
+
+.also { margin: 0; font-size: 12px; color: var(--muted); }
+.also a { color: var(--accent); text-decoration: none; }
+.also a:hover { text-decoration: underline; }

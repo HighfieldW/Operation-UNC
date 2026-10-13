@@ -136,6 +136,23 @@
         card.appendChild(el("h2", "", l.title.replace(/^[\s'"*]+|[\s'"*]+$/g, "")));
         if (l.snippet) card.appendChild(el("p", "snippet", l.snippet));
 
+        if (l.also && l.also.length) {
+          var also = el("p", "also");
+          also.appendChild(document.createTextNode("also posted in "));
+          l.also.forEach(function (x, i) {
+            var u = safeUrl(x.link);
+            if (i) also.appendChild(document.createTextNode(", "));
+            if (u) {
+              var ax = el("a", "", x.community);
+              ax.href = u; ax.target = "_blank"; ax.rel = "noopener noreferrer";
+              also.appendChild(ax);
+            } else {
+              also.appendChild(document.createTextNode(x.community));
+            }
+          });
+          card.appendChild(also);
+        }
+
         var foot = el("div", "foot");
         var url = safeUrl(l.link);
         if (url) {
