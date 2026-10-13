@@ -1,25 +1,35 @@
 {
- "updated": "2026-10-13T15:41:51+00:00",
+ "updated": "2026-10-13T21:03:01+00:00",
  "stats": {
-  "searches_ok": 7,
-  "searches_failed": 1,
+  "searches_ok": 6,
+  "searches_failed": 0,
   "rate_limited": true,
   "out_of_time": false,
   "queue_size": 93,
-  "errors": {
-   "HTTP Error 404: Not Found": 1
-  },
+  "errors": {},
   "f5bot": {
    "configured": true,
-   "emails": 1,
+   "emails": 3,
    "posts": 3,
    "error": ""
   },
-  "duplicates_merged": 9
+  "duplicates_merged": 0
  },
- "cursor": 20,
+ "cursor": 26,
  "stuck": 0,
  "leads": [
+  {
+   "link": "https://www.reddit.com/r/VideoEditingJobs/comments/1x51ps4/",
+   "platform": "Reddit",
+   "title": "[Hiring] Short-Form Video Editor | $5\u2013$10 USD per video",
+   "community": "r/VideoEditingJobs",
+   "group": "F5Bot",
+   "posted": "2026-10-13T18:45:41+00:00",
+   "snippet": "",
+   "found": "2026-10-13T21:03:01+00:00",
+   "matched": "looking for a video editor",
+   "author": "KinlinNasubi"
+  },
   {
    "link": "https://www.reddit.com/r/HireAnEditor/comments/1x4z5q3/urgent_looking_for_shortform_video_editors_for_a/",
    "platform": "Reddit",
