@@ -1,23 +1,49 @@
 {
- "updated": "2026-10-14T17:50:46+00:00",
+ "updated": "2026-10-14T21:23:29+00:00",
  "stats": {
-  "searches_ok": 7,
-  "searches_failed": 0,
+  "searches_ok": 6,
+  "searches_failed": 1,
   "rate_limited": true,
   "out_of_time": false,
   "queue_size": 93,
-  "errors": {},
+  "errors": {
+   "HTTP Error 404: Not Found": 1
+  },
   "f5bot": {
    "configured": true,
    "emails": 2,
-   "posts": 6,
+   "posts": 3,
    "error": ""
   },
-  "duplicates_merged": 0
+  "duplicates_merged": 1
  },
- "cursor": 54,
+ "cursor": 61,
  "stuck": 0,
  "leads": [
+  {
+   "link": "https://www.reddit.com/r/videoeditors_hiring/comments/1x5wito/",
+   "platform": "Reddit",
+   "title": "Need a video editor",
+   "community": "r/videoeditors_hiring",
+   "group": "F5Bot",
+   "posted": "2026-10-14T18:56:14+00:00",
+   "snippet": "",
+   "found": "2026-10-14T21:23:29+00:00",
+   "matched": "need a video editor",
+   "author": "Captain_saab47"
+  },
+  {
+   "link": "https://www.reddit.com/r/hiringpakistan/comments/1x5x4le/",
+   "platform": "Reddit",
+   "title": "URGENT - Looking for a video editor / motion designer for a short promo video",
+   "community": "r/hiringpakistan",
+   "group": "F5Bot",
+   "posted": "2026-10-14T18:56:14+00:00",
+   "snippet": "",
+   "found": "2026-10-14T21:23:29+00:00",
+   "matched": "need a video editor",
+   "author": "Nitro-Bomber"
+  },
   {
    "link": "https://www.reddit.com/r/VideoEditors/comments/1x5wfwf/",
    "platform": "Reddit",
@@ -65,6 +91,24 @@
    "found": "2026-10-14T17:50:46+00:00",
    "matched": "looking for a video editor",
    "author": "Possible_Vegetable86"
+  },
+  {
+   "link": "https://www.reddit.com/r/forhire/comments/1x5ryln/hiring_fulltime_ai_video_editor_static_ads/",
+   "platform": "Reddit",
+   "title": "[HIRING] Full-Time AI Video Editor & Static Ads Designer | Remote | Long-Term Collaboration",
+   "community": "r/forhire",
+   "group": "Hiring boards",
+   "posted": "2026-10-14T13:58:51+00:00",
+   "snippet": "I'm looking for a skilled english speaking AI Video Editor & Graphic Designer for a long-term collaboration focused on high-volume, direct-response advertising. We work with multiple e-commerce, affiliate marketing, and lead generation offers. What you'll be doing: Creating short-form video ads (20\u2013...",
+   "found": "2026-10-14T21:23:29+00:00",
+   "matched": "looking for a video editor",
+   "author": "BisonTop2254",
+   "also": [
+    {
+     "community": "r/forhire",
+     "link": "https://www.reddit.com/r/forhire/comments/1x5sj3c/hiring_fulltime_ai_video_editor_static_ads/"
+    }
+   ]
   },
   {
    "link": "https://www.reddit.com/r/VideoEditingJobs/comments/1x5m56d/",
