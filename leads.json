@@ -1,21 +1,23 @@
 {
- "updated": "2026-10-15T00:20:01+00:00",
+ "updated": "2026-10-15T05:40:04+00:00",
  "stats": {
-  "searches_ok": 6,
-  "searches_failed": 0,
+  "searches_ok": 5,
+  "searches_failed": 1,
   "rate_limited": true,
   "out_of_time": false,
   "queue_size": 93,
-  "errors": {},
+  "errors": {
+   "HTTP Error 404: Not Found": 1
+  },
   "f5bot": {
    "configured": true,
-   "emails": 1,
-   "posts": 1,
+   "emails": 0,
+   "posts": 0,
    "error": ""
   },
   "duplicates_merged": 0
  },
- "cursor": 67,
+ "cursor": 73,
  "stuck": 0,
  "leads": [
   {
@@ -670,6 +672,16 @@
    "found": "2026-10-12T14:27:38+00:00"
   },
   {
+   "link": "https://www.reddit.com/r/videoeditingindia/comments/1x3yu0v/",
+   "platform": "Reddit",
+   "title": "'Hiring a Video editor'",
+   "community": "r/videoeditingindia",
+   "group": "F5Bot",
+   "posted": "2026-10-12T11:31:13+00:00",
+   "snippet": "",
+   "found": "2026-10-12T14:27:38+00:00"
+  },
+  {
    "link": "https://www.reddit.com/r/videoeditingindia/comments/1x3yq0z/",
    "platform": "Reddit",
    "title": "'Looking for a video editor?'",
@@ -688,16 +700,6 @@
      "link": "https://www.reddit.com/r/FreelanceIndia/comments/1x3ytpy/"
     }
    ]
-  },
-  {
-   "link": "https://www.reddit.com/r/videoeditingindia/comments/1x3yu0v/",
-   "platform": "Reddit",
-   "title": "'Hiring a Video editor'",
-   "community": "r/videoeditingindia",
-   "group": "F5Bot",
-   "posted": "2026-10-12T11:31:13+00:00",
-   "snippet": "",
-   "found": "2026-10-12T14:27:38+00:00"
   },
   {
    "link": "https://www.reddit.com/r/VideoEditing/comments/1x3xchm/",
