@@ -1,25 +1,35 @@
 {
- "updated": "2026-10-15T05:40:04+00:00",
+ "updated": "2026-10-15T11:04:09+00:00",
  "stats": {
-  "searches_ok": 5,
-  "searches_failed": 1,
+  "searches_ok": 6,
+  "searches_failed": 0,
   "rate_limited": true,
   "out_of_time": false,
   "queue_size": 93,
-  "errors": {
-   "HTTP Error 404: Not Found": 1
-  },
+  "errors": {},
   "f5bot": {
    "configured": true,
-   "emails": 0,
-   "posts": 0,
+   "emails": 1,
+   "posts": 4,
    "error": ""
   },
   "duplicates_merged": 0
  },
- "cursor": 73,
+ "cursor": 79,
  "stuck": 0,
  "leads": [
+  {
+   "link": "https://www.reddit.com/r/forhire/comments/1x67gzm/hiring_music_editor_to_cut_a_long_orchestral/",
+   "platform": "Reddit",
+   "title": "[Hiring] Music Editor to cut a long orchestral track to 60s edit",
+   "community": "r/forhire",
+   "group": "Hiring boards",
+   "posted": "2026-10-15T00:19:03+00:00",
+   "snippet": "I have a 3:40 instrumental orchestral track and need it edited down to a ~60 second track that fits a promo video I\u2019m producing. What I need: someone to pick the best sections, cut and blend them so the transitions are seamless (no audible jumps), and hit providing timings. A few seconds of flexibil...",
+   "found": "2026-10-15T11:04:09+00:00",
+   "matched": "video editor needed paid",
+   "author": "mayhaps00"
+  },
   {
    "link": "https://www.reddit.com/r/youtube/comments/1x61i80/",
    "platform": "Reddit",
