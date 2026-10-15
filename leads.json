@@ -1,25 +1,65 @@
 {
- "updated": "2026-10-15T20:12:12+00:00",
+ "updated": "2026-10-15T23:35:03+00:00",
  "stats": {
-  "searches_ok": 5,
-  "searches_failed": 1,
+  "searches_ok": 6,
+  "searches_failed": 0,
   "rate_limited": true,
   "out_of_time": false,
   "queue_size": 93,
-  "errors": {
-   "HTTP Error 404: Not Found": 1
-  },
+  "errors": {},
   "f5bot": {
    "configured": true,
-   "emails": 2,
-   "posts": 1,
+   "emails": 1,
+   "posts": 5,
    "error": ""
   },
-  "duplicates_merged": 0
+  "duplicates_merged": 1
  },
- "cursor": 91,
+ "cursor": 4,
  "stuck": 0,
  "leads": [
+  {
+   "link": "https://www.reddit.com/r/VideoEditors/comments/1x6uac5/",
+   "platform": "Reddit",
+   "title": "Looking for a video editor to make 30 second videos for social media. No AI editors.",
+   "community": "r/VideoEditors",
+   "group": "F5Bot",
+   "posted": "2026-10-15T20:59:31+00:00",
+   "snippet": "",
+   "found": "2026-10-15T23:35:03+00:00",
+   "matched": "looking for a video editor",
+   "author": "PerilSilvers",
+   "also": [
+    {
+     "community": "r/VideoEditingJobs",
+     "link": "https://www.reddit.com/r/VideoEditingJobs/comments/1x6uakh/"
+    }
+   ]
+  },
+  {
+   "link": "https://www.reddit.com/r/HireAnEditor/comments/1x6uc95/",
+   "platform": "Reddit",
+   "title": "Looking for an Editor",
+   "community": "r/HireAnEditor",
+   "group": "F5Bot",
+   "posted": "2026-10-15T20:59:31+00:00",
+   "snippet": "",
+   "found": "2026-10-15T23:35:03+00:00",
+   "matched": "looking for a video editor",
+   "author": "ronstradamus"
+  },
+  {
+   "link": "https://www.reddit.com/r/forhire/comments/1x6obz9/hiring_video_editor_motion_graphics_designer_ai/",
+   "platform": "Reddit",
+   "title": "[Hiring] Video Editor & Motion Graphics Designer (AI Video Experience) - based in EU",
+   "community": "r/forhire",
+   "group": "Hiring boards",
+   "posted": "2026-10-15T15:13:36+00:00",
+   "snippet": "Hey everyone! We're looking for a video editor / motion graphics designer based in EU to collaborate with our creative team on branding, app campaigns, and social-first video content. We're especially interested in someone with experience using AI video generation tools like Seedance, Kling, and sim...",
+   "found": "2026-10-15T23:35:03+00:00",
+   "matched": "long term video editor",
+   "author": "lavlavinia"
+  },
   {
    "link": "https://www.reddit.com/r/forhire/comments/1x67gzm/hiring_music_editor_to_cut_a_long_orchestral/",
    "platform": "Reddit",
