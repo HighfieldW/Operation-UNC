@@ -1,25 +1,35 @@
 {
- "updated": "2026-10-14T21:23:29+00:00",
+ "updated": "2026-10-15T00:20:01+00:00",
  "stats": {
   "searches_ok": 6,
-  "searches_failed": 1,
+  "searches_failed": 0,
   "rate_limited": true,
   "out_of_time": false,
   "queue_size": 93,
-  "errors": {
-   "HTTP Error 404: Not Found": 1
-  },
+  "errors": {},
   "f5bot": {
    "configured": true,
-   "emails": 2,
-   "posts": 3,
+   "emails": 1,
+   "posts": 1,
    "error": ""
   },
-  "duplicates_merged": 1
+  "duplicates_merged": 0
  },
- "cursor": 61,
+ "cursor": 67,
  "stuck": 0,
  "leads": [
+  {
+   "link": "https://www.reddit.com/r/youtube/comments/1x61i80/",
+   "platform": "Reddit",
+   "title": "Hiring a video editor",
+   "community": "r/youtube",
+   "group": "F5Bot",
+   "posted": "2026-10-14T22:05:11+00:00",
+   "snippet": "",
+   "found": "2026-10-15T00:20:01+00:00",
+   "matched": "hiring a video editor",
+   "author": "ConsiderationSad7091"
+  },
   {
    "link": "https://www.reddit.com/r/videoeditors_hiring/comments/1x5wito/",
    "platform": "Reddit",
@@ -1825,20 +1835,20 @@
    "found": "2026-10-10T15:08:09+00:00"
   },
   {
-   "link": "https://www.reddit.com/r/videoeditingindia/comments/1wyl8qw/",
+   "link": "https://www.reddit.com/r/u_NotWenghel/comments/1wymjxa/",
    "platform": "Reddit",
-   "title": "'Looking for a video editor'",
-   "community": "r/videoeditingindia",
+   "title": "'Need a Video Editor? \ud83c\udfac'",
+   "community": "u/NotWenghel",
    "group": "F5Bot",
    "posted": "2026-10-05T23:48:13+00:00",
    "snippet": "",
    "found": "2026-10-10T15:08:09+00:00"
   },
   {
-   "link": "https://www.reddit.com/r/u_NotWenghel/comments/1wymjxa/",
+   "link": "https://www.reddit.com/r/videoeditingindia/comments/1wyl8qw/",
    "platform": "Reddit",
-   "title": "'Need a Video Editor? \ud83c\udfac'",
-   "community": "u/NotWenghel",
+   "title": "'Looking for a video editor'",
+   "community": "r/videoeditingindia",
    "group": "F5Bot",
    "posted": "2026-10-05T23:48:13+00:00",
    "snippet": "",
