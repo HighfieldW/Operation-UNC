@@ -1,23 +1,37 @@
 {
- "updated": "2026-10-16T03:46:28+00:00",
+ "updated": "2026-10-16T08:50:59+00:00",
  "stats": {
-  "searches_ok": 7,
-  "searches_failed": 0,
+  "searches_ok": 5,
+  "searches_failed": 1,
   "rate_limited": true,
   "out_of_time": false,
   "queue_size": 93,
-  "errors": {},
+  "errors": {
+   "HTTP Error 404: Not Found": 1
+  },
   "f5bot": {
    "configured": true,
    "emails": 1,
    "posts": 1,
    "error": ""
   },
-  "duplicates_merged": 0
+  "duplicates_merged": 1
  },
- "cursor": 11,
+ "cursor": 17,
  "stuck": 0,
  "leads": [
+  {
+   "link": "https://www.reddit.com/r/Freelancers/comments/1x76rp0/",
+   "platform": "Reddit",
+   "title": "Looking for a video editor who understands your vision? \ud83c\udfac",
+   "community": "r/Freelancers",
+   "group": "F5Bot",
+   "posted": "2026-10-16T06:30:12+00:00",
+   "snippet": "",
+   "found": "2026-10-16T08:50:59+00:00",
+   "matched": "looking for a video editor",
+   "author": "UpinderSingh_0713"
+  },
   {
    "link": "https://www.reddit.com/r/FindVideoEditors/comments/1x6ych4/",
    "platform": "Reddit",
@@ -29,6 +43,30 @@
    "found": "2026-10-16T03:46:28+00:00",
    "matched": "looking for a video editor",
    "author": "Mobile-Web-2261"
+  },
+  {
+   "link": "https://www.reddit.com/r/FindVideoEditors/comments/1x6zuj6/hiring_looking_for_a_hindispeaking_video_editor/",
+   "platform": "Reddit",
+   "title": "[HIRING] Looking for a Hindi-Speaking Video Editor for Our Indian Gaming YouTube Channel (Long-Form + Shorts)",
+   "community": "r/FindVideoEditors",
+   "group": "Hire communities",
+   "posted": "2026-10-15T22:42:10+00:00",
+   "snippet": "submitted by /u/2RupeesClan [link] [comments]",
+   "found": "2026-10-16T08:50:59+00:00",
+   "matched": "looking for a video editor",
+   "author": "2RupeesClan"
+  },
+  {
+   "link": "https://www.reddit.com/r/FindVideoEditors/comments/1x6xvb7/hiring_longterm_youtube_editor_madden_sports/",
+   "platform": "Reddit",
+   "title": "HIRING: Long-Term YouTube Editor \u2014 Madden / Sports Gaming",
+   "community": "r/FindVideoEditors",
+   "group": "Hire communities",
+   "posted": "2026-10-15T21:16:32+00:00",
+   "snippet": "Hi everyone! I'm a YouTuber with a little more than 70K subscribers looking for an experienced editor to join my team long-term. I create personality-driven Madden and sports gaming content, so I'm looking for someone who understands American football, storytelling, pacing, and comedic timing , not ...",
+   "found": "2026-10-16T08:50:59+00:00",
+   "matched": "looking for a video editor",
+   "author": "FantasticShift8640"
   },
   {
    "link": "https://www.reddit.com/r/VideoEditors/comments/1x6uac5/",
@@ -61,6 +99,18 @@
    "author": "ronstradamus"
   },
   {
+   "link": "https://www.reddit.com/r/FindVideoEditors/comments/1x6r1yi/hiring_video_editors_for_agency_roster/",
+   "platform": "Reddit",
+   "title": "[Hiring] Video Editors for Agency Roster (Performance-Based, Transitioning to Fixed Salary, Remote & Flexible",
+   "community": "r/FindVideoEditors",
+   "group": "Hire communities",
+   "posted": "2026-10-15T16:55:47+00:00",
+   "snippet": "[Hiring] Video Editors for Agency Roster (Performance-Based, Transitioning to Fixed Salary, Remote & Flexible Hey everyone, We are Nexus Media, a growing digital marketing and video production agency. We are building a roster of talented video editors to handle upcoming client projects, specifically...",
+   "found": "2026-10-16T08:50:59+00:00",
+   "matched": "looking for a video editor",
+   "author": "sohamsinhchauhan2003"
+  },
+  {
    "link": "https://www.reddit.com/r/forhire/comments/1x6obz9/hiring_video_editor_motion_graphics_designer_ai/",
    "platform": "Reddit",
    "title": "[Hiring] Video Editor & Motion Graphics Designer (AI Video Experience) - based in EU",
@@ -71,6 +121,120 @@
    "found": "2026-10-15T23:35:03+00:00",
    "matched": "long term video editor",
    "author": "lavlavinia"
+  },
+  {
+   "link": "https://www.reddit.com/r/HireAnEditor/comments/1x6njpm/looking_for_a_long_term_editor_to_work_with/",
+   "platform": "Reddit",
+   "title": "Looking for a Long Term Editor To Work With.",
+   "community": "r/HireAnEditor",
+   "group": "Hire communities",
+   "posted": "2026-10-15T14:44:28+00:00",
+   "snippet": "submitted by /u/Shoddy_Broccoli9894 [link] [comments]",
+   "found": "2026-10-16T08:50:59+00:00",
+   "matched": "looking for a video editor",
+   "author": "Shoddy_Broccoli9894"
+  },
+  {
+   "link": "https://www.reddit.com/r/FindVideoEditors/comments/1x6miy2/looking_for_a_shortform_video_editor_reels_shorts/",
+   "platform": "Reddit",
+   "title": "Looking for a Short-Form Video Editor (Reels / Shorts / TikTok)",
+   "community": "r/FindVideoEditors",
+   "group": "Hire communities",
+   "posted": "2026-10-15T14:04:02+00:00",
+   "snippet": "submitted by /u/Sad-Flatworm-8124 [link] [comments]",
+   "found": "2026-10-16T08:50:59+00:00",
+   "matched": "looking for a video editor",
+   "author": "Sad-Flatworm-8124"
+  },
+  {
+   "link": "https://www.reddit.com/r/FindVideoEditors/comments/1x6lyl6/paid_hiring_editor_for_fast_paced_roblox/",
+   "platform": "Reddit",
+   "title": "[PAID] hiring editor for fast paced roblox exploiting content",
+   "community": "r/FindVideoEditors",
+   "group": "Hire communities",
+   "posted": "2026-10-15T13:41:19+00:00",
+   "snippet": "this role is completely unserious and you'll have full creative freedom to add your own jokes, and just be as creative as you want. most of the videos i post are showcase videos. i currently have two uploads up as an example of what i'm looking for: https://www.youtube.com/@yawrix this is a long ter...",
+   "found": "2026-10-16T08:50:59+00:00",
+   "matched": "looking for a video editor",
+   "author": "AffectionateSeat8596"
+  },
+  {
+   "link": "https://www.reddit.com/r/FindVideoEditors/comments/1x6l8wx/looking_for_a_shortform_video_editor_reels_shorts/",
+   "platform": "Reddit",
+   "title": "Looking for a Short-Form Video Editor (Reels / Shorts / TikTok)",
+   "community": "r/FindVideoEditors",
+   "group": "Hire communities",
+   "posted": "2026-10-15T13:11:16+00:00",
+   "snippet": "Hey everyone! I\u2019m looking for a talented video editor to help produce engaging, high-retention short-form content (Instagram Reels & YouTube Shorts). What I need: - Fast-paced editing with strong pacing and narrative flow - Clean dynamic captions/subtitles, sound design (SFX), and - Fast turnaround ...",
+   "found": "2026-10-16T08:50:59+00:00",
+   "matched": "looking for a video editor",
+   "author": "kepler834",
+   "also": [
+    {
+     "community": "r/HireAnEditor",
+     "link": "https://www.reddit.com/r/HireAnEditor/comments/1x6l9ag/looking_for_a_shortform_video_editor_reels_shorts/"
+    }
+   ]
+  },
+  {
+   "link": "https://www.reddit.com/r/FindVideoEditors/comments/1x6jbeq/looking_for_a_gaming_editor_for_an_outlast_project/",
+   "platform": "Reddit",
+   "title": "Looking for a Gaming Editor for an Outlast Project \ud83c\udfac",
+   "community": "r/FindVideoEditors",
+   "group": "Hire communities",
+   "posted": "2026-10-15T11:37:50+00:00",
+   "snippet": "I'm a gaming creator looking to connect with editors for an upcoming YouTube project. I recently completed Outlast in one sitting and have around 4 hours of recorded gameplay. I'm looking to turn the footage into three types of content: \ud83c\udfac Condensed YouTube Video: A 20\u201345 minute edit with cinematic s...",
+   "found": "2026-10-16T08:50:59+00:00",
+   "matched": "looking for a video editor",
+   "author": "Supreme_exe"
+  },
+  {
+   "link": "https://www.reddit.com/r/HireAnEditor/comments/1x6inqc/anyone_looking_for_a_video_editor/",
+   "platform": "Reddit",
+   "title": "Anyone looking for a video editor?",
+   "community": "r/HireAnEditor",
+   "group": "Hire communities",
+   "posted": "2026-10-15T11:01:18+00:00",
+   "snippet": "Hi! \ud83c\udf37 I'm a freelance video editor & social media manager and I'm currently looking to take up a few new projects/clients! \u2728 I can help with: Reels & short-form videos Vlogs / lifestyle content Talking-head & personal brand videos Trendy, aesthetic edits Subtitles, text animations & transitions Musi...",
+   "found": "2026-10-16T08:50:59+00:00",
+   "matched": "looking for a video editor",
+   "author": "anonymous0053"
+  },
+  {
+   "link": "https://www.reddit.com/r/HireAnEditor/comments/1x6id79/looking_for_video_editing_clients/",
+   "platform": "Reddit",
+   "title": "Looking for Video Editing Clients",
+   "community": "r/HireAnEditor",
+   "group": "Hire communities",
+   "posted": "2026-10-15T10:44:25+00:00",
+   "snippet": "Hey everyone! I'm a freelance video editor with 1 year of experience and I'm currently looking for clients. If you need a reliable editor for your videos,shorts feel free to DM me. I'm open to discussing your requirements and pricing. Looking forward to working with you! submitted by /u/Visible_Door...",
+   "found": "2026-10-16T08:50:59+00:00",
+   "matched": "looking for a video editor",
+   "author": "Visible_Door6101"
+  },
+  {
+   "link": "https://www.reddit.com/r/HireAnEditor/comments/1x6gbr3/hiring_clipper_sf_editors_20_per_video_3_videos/",
+   "platform": "Reddit",
+   "title": "Hiring Clipper/ SF Editors ($20 per video, 3 videos per day)",
+   "community": "r/HireAnEditor",
+   "group": "Hire communities",
+   "posted": "2026-10-15T08:39:31+00:00",
+   "snippet": "Here's one of the videos we have done: One of the high production shoots we have done We\u2019re looking for clippers and short-form editors to join the team at HX Media . We work with some of the biggest names in the online money space and we need people who can move fast and deliver consistently. Here\u2019...",
+   "found": "2026-10-16T08:50:59+00:00",
+   "matched": "looking for a video editor",
+   "author": "nekoarcheno"
+  },
+  {
+   "link": "https://www.reddit.com/r/FindVideoEditors/comments/1x68n2f/heyim_a_content_creator_looking_for_a/",
+   "platform": "Reddit",
+   "title": "Hey,I\u2019m a content creator looking for a clipper/editor for short and long content.",
+   "community": "r/FindVideoEditors",
+   "group": "Hire communities",
+   "posted": "2026-10-15T01:16:58+00:00",
+   "snippet": "Dm me if you\u2019re interested !!! submitted by /u/PsychologicalIce7349 [link] [comments]",
+   "found": "2026-10-16T08:50:59+00:00",
+   "matched": "looking for a video editor",
+   "author": "PsychologicalIce7349"
   },
   {
    "link": "https://www.reddit.com/r/forhire/comments/1x67gzm/hiring_music_editor_to_cut_a_long_orchestral/",
@@ -85,6 +249,18 @@
    "author": "mayhaps00"
   },
   {
+   "link": "https://www.reddit.com/r/FindVideoEditors/comments/1x66iwy/hiring_longterm_video_editor_for_cinematic_telugu/",
+   "platform": "Reddit",
+   "title": "[Hiring] Long-Term Video Editor for Cinematic Telugu Documentaries",
+   "community": "r/FindVideoEditors",
+   "group": "Hire communities",
+   "posted": "2026-10-14T23:34:50+00:00",
+   "snippet": "\u200bLooking for an experienced Video Editor for a long-term role on a cinematic Telugu documentary YouTube channel. I am looking for someone who can start immediately and deliver high-quality videos quickly. \u200bI provide: \u200bVoiceover recordings \u200bStock footage \u200bBackground music (BGM) & sound effects (SFX) ...",
+   "found": "2026-10-16T08:50:59+00:00",
+   "matched": "looking for a video editor",
+   "author": "sguntupalli"
+  },
+  {
    "link": "https://www.reddit.com/r/youtube/comments/1x61i80/",
    "platform": "Reddit",
    "title": "Hiring a video editor",
@@ -95,6 +271,30 @@
    "found": "2026-10-15T00:20:01+00:00",
    "matched": "hiring a video editor",
    "author": "ConsiderationSad7091"
+  },
+  {
+   "link": "https://www.reddit.com/r/FindVideoEditors/comments/1x6309p/reekera_is_looking_for_a_longterm_video_editor/",
+   "platform": "Reddit",
+   "title": "\ud83c\udfac **REEKERA IS LOOKING FOR A LONG-TERM VIDEO EDITOR**",
+   "community": "r/FindVideoEditors",
+   "group": "Hire communities",
+   "posted": "2026-10-14T21:02:02+00:00",
+   "snippet": "\ud83c\udfac **REEKERA IS LOOKING FOR A LONG-TERM VIDEO EDITOR** I'm building ReekEra from the ground up and looking for a dedicated video editor who wants to grow with the brand long-term. The goal is to create entertaining YouTube gaming videos inspired by CoryxKenshin and Berleezy, combining comedy, persona...",
+   "found": "2026-10-16T08:50:59+00:00",
+   "matched": "looking for a video editor",
+   "author": "ResponseNormal5486"
+  },
+  {
+   "link": "https://www.reddit.com/r/FindVideoEditors/comments/1x5zsyp/hiring_editor_thumbnail_artist_for_long_form/",
+   "platform": "Reddit",
+   "title": "[Hiring] Editor & Thumbnail Artist for Long Form Gaming Channel",
+   "community": "r/FindVideoEditors",
+   "group": "Hire communities",
+   "posted": "2026-10-14T18:57:01+00:00",
+   "snippet": "Hey everyone! I'm looking to hire a reliable video editor and thumbnail designer for my gaming channel. About the Channel: We focus on clean, high-quality, gameplay, cinematic walkthroughs, and boss-fight highlights. What I Need: Long-Form Editing: Trimming and pacing raw gameplay footage down to po...",
+   "found": "2026-10-16T08:50:59+00:00",
+   "matched": "looking for a video editor",
+   "author": "4tune_1"
   },
   {
    "link": "https://www.reddit.com/r/videoeditors_hiring/comments/1x5wito/",
@@ -133,6 +333,18 @@
    "author": "Captain_saab47"
   },
   {
+   "link": "https://www.reddit.com/r/FindVideoEditors/comments/1x5uhov/looking_for_short_form_3045_sec_video_editor_for/",
+   "platform": "Reddit",
+   "title": "Looking for short form (30-45 sec ) video editor for my instagram page with 50k followers",
+   "community": "r/FindVideoEditors",
+   "group": "Hire communities",
+   "posted": "2026-10-14T15:37:42+00:00",
+   "snippet": "I am looking for video editor preferably a video editor, i will guide you through the whole process. Work will revolve around ai video generation/ugc style content Budget 300 rs per video. 4 videos per week. Dm if interested submitted by /u/Due-Top130 [link] [comments]",
+   "found": "2026-10-16T08:50:59+00:00",
+   "matched": "looking for a video editor",
+   "author": "Due-Top130"
+  },
+  {
    "link": "https://www.reddit.com/r/HireAnEditor/comments/1x5pwwf/",
    "platform": "Reddit",
    "title": "looking for a video editor",
@@ -169,6 +381,18 @@
    "author": "Possible_Vegetable86"
   },
   {
+   "link": "https://www.reddit.com/r/FindVideoEditors/comments/1x5s68i/hiring_video_editor_for_vlogirl_channel_long_and/",
+   "platform": "Reddit",
+   "title": "Hiring: Video Editor for Vlog/IRL Channel (Long and Short Form) [PAID]",
+   "community": "r/FindVideoEditors",
+   "group": "Hire communities",
+   "posted": "2026-10-14T14:07:01+00:00",
+   "snippet": "EDIT: Thank you to everyone that applied! I have now found someone to help me with the edits so I have removed the application link. Hello, I'm looking for a talented editor to help me grow my IRL YouTube channel, which focuses on food, travel and Costco! I'm looking for someone who can edit in a st...",
+   "found": "2026-10-16T08:50:59+00:00",
+   "matched": "looking for a video editor",
+   "author": "hello_zeus"
+  },
+  {
    "link": "https://www.reddit.com/r/forhire/comments/1x5ryln/hiring_fulltime_ai_video_editor_static_ads/",
    "platform": "Reddit",
    "title": "[HIRING] Full-Time AI Video Editor & Static Ads Designer | Remote | Long-Term Collaboration",
@@ -185,6 +409,18 @@
      "link": "https://www.reddit.com/r/forhire/comments/1x5sj3c/hiring_fulltime_ai_video_editor_static_ads/"
     }
    ]
+  },
+  {
+   "link": "https://www.reddit.com/r/FindVideoEditors/comments/1x5noyq/looking_for_video_editors/",
+   "platform": "Reddit",
+   "title": "Looking for Video Editors",
+   "community": "r/FindVideoEditors",
+   "group": "Hire communities",
+   "posted": "2026-10-14T10:28:23+00:00",
+   "snippet": "submitted by /u/NP1112 [link] [comments]",
+   "found": "2026-10-16T08:50:59+00:00",
+   "matched": "looking for a video editor",
+   "author": "NP1112"
   },
   {
    "link": "https://www.reddit.com/r/VideoEditingJobs/comments/1x5m56d/",
@@ -227,6 +463,18 @@
      "link": "https://www.reddit.com/r/VideoEditingRequests/comments/1x5h8vs/"
     }
    ]
+  },
+  {
+   "link": "https://www.reddit.com/r/FindVideoEditors/comments/1x5gmam/looking_for_youtube_video_editor/",
+   "platform": "Reddit",
+   "title": "Looking for YOUTUBE! Video editor",
+   "community": "r/FindVideoEditors",
+   "group": "Hire communities",
+   "posted": "2026-10-14T03:12:51+00:00",
+   "snippet": "Hi! I\u2019m looking to pay someone to edit my videos for YouTube. I plan on taking my raw footage myself, a talking video style of my face talking to the camera, and putting it in the sequence I want. However I\u2019m looking for someone that knows YouTube\u2019s algorithm/engagement tricks and just edit the vide...",
+   "found": "2026-10-16T08:50:59+00:00",
+   "matched": "looking for a video editor",
+   "author": "Significant-Bee-8329"
   },
   {
    "link": "https://www.reddit.com/r/CreatorServices/comments/1x5dkrk/hiring_gaming_editor_for_story_energydriven_lets/",
