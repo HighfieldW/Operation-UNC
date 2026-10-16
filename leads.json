@@ -1,7 +1,7 @@
 {
- "updated": "2026-10-15T23:35:03+00:00",
+ "updated": "2026-10-16T03:46:28+00:00",
  "stats": {
-  "searches_ok": 6,
+  "searches_ok": 7,
   "searches_failed": 0,
   "rate_limited": true,
   "out_of_time": false,
@@ -10,14 +10,26 @@
   "f5bot": {
    "configured": true,
    "emails": 1,
-   "posts": 5,
+   "posts": 1,
    "error": ""
   },
-  "duplicates_merged": 1
+  "duplicates_merged": 0
  },
- "cursor": 4,
+ "cursor": 11,
  "stuck": 0,
  "leads": [
+  {
+   "link": "https://www.reddit.com/r/FindVideoEditors/comments/1x6ych4/",
+   "platform": "Reddit",
+   "title": "LOOKING FOR EDITORS ASAP",
+   "community": "r/FindVideoEditors",
+   "group": "F5Bot",
+   "posted": "2026-10-15T23:39:13+00:00",
+   "snippet": "",
+   "found": "2026-10-16T03:46:28+00:00",
+   "matched": "looking for a video editor",
+   "author": "Mobile-Web-2261"
+  },
   {
    "link": "https://www.reddit.com/r/VideoEditors/comments/1x6uac5/",
    "platform": "Reddit",
