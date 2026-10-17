@@ -1,23 +1,43 @@
 {
- "updated": "2026-10-17T03:36:24+00:00",
+ "updated": "2026-10-17T08:21:42+00:00",
  "stats": {
-  "searches_ok": 7,
-  "searches_failed": 0,
+  "searches_ok": 6,
+  "searches_failed": 1,
   "rate_limited": true,
   "out_of_time": false,
   "queue_size": 93,
-  "errors": {},
+  "errors": {
+   "HTTP Error 404: Not Found": 1
+  },
   "f5bot": {
    "configured": true,
    "emails": 1,
-   "posts": 1,
+   "posts": 2,
    "error": ""
   },
-  "duplicates_merged": 0
+  "duplicates_merged": 1
  },
- "cursor": 50,
+ "cursor": 57,
  "stuck": 0,
  "leads": [
+  {
+   "link": "https://www.reddit.com/r/VideoEditingRequests/comments/1x7y4yg/",
+   "platform": "Reddit",
+   "title": "Need a video editor for my love story series in jaipur....",
+   "community": "r/VideoEditingRequests",
+   "group": "F5Bot",
+   "posted": "2026-10-17T03:54:13+00:00",
+   "snippet": "",
+   "found": "2026-10-17T08:21:42+00:00",
+   "matched": "need a video editor",
+   "author": "Timely-Bee-9719",
+   "also": [
+    {
+     "community": "r/videoeditingindia",
+     "link": "https://www.reddit.com/r/videoeditingindia/comments/1x7y556/"
+    }
+   ]
+  },
   {
    "link": "https://www.reddit.com/r/CreatorServices/comments/1x7ttzv/looking_for_roblox_editor/",
    "platform": "Reddit",
