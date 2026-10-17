@@ -1,25 +1,47 @@
 {
- "updated": "2026-10-17T08:21:42+00:00",
+ "updated": "2026-10-17T12:46:38+00:00",
  "stats": {
-  "searches_ok": 6,
-  "searches_failed": 1,
+  "searches_ok": 7,
+  "searches_failed": 0,
   "rate_limited": true,
   "out_of_time": false,
   "queue_size": 93,
-  "errors": {
-   "HTTP Error 404: Not Found": 1
-  },
+  "errors": {},
   "f5bot": {
    "configured": true,
-   "emails": 1,
+   "emails": 2,
    "posts": 2,
    "error": ""
   },
-  "duplicates_merged": 1
+  "duplicates_merged": 0
  },
- "cursor": 57,
+ "cursor": 64,
  "stuck": 0,
  "leads": [
+  {
+   "link": "https://www.reddit.com/r/YouTubeEditorsForHire/comments/1x8347d/",
+   "platform": "Reddit",
+   "title": "ANYONE NEED A VIDEO EDITOR",
+   "community": "r/YouTubeEditorsForHire",
+   "group": "F5Bot",
+   "posted": "2026-10-17T08:35:10+00:00",
+   "snippet": "",
+   "found": "2026-10-17T12:46:38+00:00",
+   "matched": "need a video editor",
+   "author": "kristeheditor15"
+  },
+  {
+   "link": "https://www.reddit.com/r/SaasDevelopers/comments/1x83rsi/",
+   "platform": "Reddit",
+   "title": "founders: you don\u2019t need a video editor for your launch anymore",
+   "community": "r/SaasDevelopers",
+   "group": "F5Bot",
+   "posted": "2026-10-17T08:35:10+00:00",
+   "snippet": "",
+   "found": "2026-10-17T12:46:38+00:00",
+   "matched": "need a video editor",
+   "author": "Used-Side5200"
+  },
   {
    "link": "https://www.reddit.com/r/VideoEditingRequests/comments/1x7y4yg/",
    "platform": "Reddit",
