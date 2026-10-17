@@ -1,25 +1,35 @@
 {
- "updated": "2026-10-17T19:05:28+00:00",
+ "updated": "2026-10-17T22:02:15+00:00",
  "stats": {
   "searches_ok": 6,
-  "searches_failed": 1,
+  "searches_failed": 0,
   "rate_limited": true,
   "out_of_time": false,
   "queue_size": 93,
-  "errors": {
-   "HTTP Error 404: Not Found": 1
-  },
+  "errors": {},
   "f5bot": {
    "configured": true,
-   "emails": 0,
-   "posts": 0,
+   "emails": 2,
+   "posts": 1,
    "error": ""
   },
   "duplicates_merged": 0
  },
- "cursor": 78,
+ "cursor": 84,
  "stuck": 0,
  "leads": [
+  {
+   "link": "https://www.reddit.com/r/u_sarmadvisuals/comments/1x8fi64/",
+   "platform": "Reddit",
+   "title": "Recent sample made in the real estate niche Looking for a video editor? Dm me\ud83d\udce5",
+   "community": "u/sarmadvisuals",
+   "group": "F5Bot",
+   "posted": "2026-10-17T19:10:14+00:00",
+   "snippet": "",
+   "found": "2026-10-17T22:02:15+00:00",
+   "matched": "looking for a video editor",
+   "author": "sarmadvisuals"
+  },
   {
    "link": "https://www.reddit.com/r/u_ThalytaAmorim/comments/1x8b204/",
    "platform": "Reddit",
