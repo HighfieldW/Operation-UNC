@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-17T12:46:38+00:00",
+ "updated": "2026-10-17T16:11:36+00:00",
  "stats": {
   "searches_ok": 7,
   "searches_failed": 0,
@@ -10,14 +10,72 @@
   "f5bot": {
    "configured": true,
    "emails": 2,
-   "posts": 2,
+   "posts": 12,
    "error": ""
   },
-  "duplicates_merged": 0
+  "duplicates_merged": 5
  },
- "cursor": 64,
+ "cursor": 71,
  "stuck": 0,
  "leads": [
+  {
+   "link": "https://www.reddit.com/r/u_ThalytaAmorim/comments/1x8b204/",
+   "platform": "Reddit",
+   "title": "Anyone looking for a video editor?",
+   "community": "u/ThalytaAmorim",
+   "group": "F5Bot",
+   "posted": "2026-10-17T16:06:10+00:00",
+   "snippet": "",
+   "found": "2026-10-17T16:11:36+00:00",
+   "matched": "looking for a video editor",
+   "author": "ThalytaAmorim"
+  },
+  {
+   "link": "https://www.reddit.com/r/TwitchStreamers/comments/1x88x4u/",
+   "platform": "Reddit",
+   "title": "Anyone need a Video Editor",
+   "community": "r/TwitchStreamers",
+   "group": "F5Bot",
+   "posted": "2026-10-17T13:50:13+00:00",
+   "snippet": "",
+   "found": "2026-10-17T16:11:36+00:00",
+   "matched": "looking for a video editor",
+   "author": "Numerous_Ad4127"
+  },
+  {
+   "link": "https://www.reddit.com/r/IndiaContentCreators/comments/1x889lo/",
+   "platform": "Reddit",
+   "title": "Looking for video editor",
+   "community": "r/IndiaContentCreators",
+   "group": "F5Bot",
+   "posted": "2026-10-17T13:50:13+00:00",
+   "snippet": "",
+   "found": "2026-10-17T16:11:36+00:00",
+   "matched": "looking for a video editor",
+   "author": "SportChemical6123",
+   "also": [
+    {
+     "community": "r/VideoEditingJobs",
+     "link": "https://www.reddit.com/r/VideoEditingJobs/comments/1x889v8/"
+    },
+    {
+     "community": "r/videoeditors_hiring",
+     "link": "https://www.reddit.com/r/videoeditors_hiring/comments/1x88a4i/"
+    },
+    {
+     "community": "r/HireAnEditor",
+     "link": "https://www.reddit.com/r/HireAnEditor/comments/1x88aal/"
+    },
+    {
+     "community": "r/DatinginTricity",
+     "link": "https://www.reddit.com/r/DatinginTricity/comments/1x88apb/"
+    },
+    {
+     "community": "r/videoeditingindia",
+     "link": "https://www.reddit.com/r/videoeditingindia/comments/1x88av1/"
+    }
+   ]
+  },
   {
    "link": "https://www.reddit.com/r/YouTubeEditorsForHire/comments/1x8347d/",
    "platform": "Reddit",
