@@ -1,7 +1,7 @@
 {
- "updated": "2026-10-18T05:32:14+00:00",
+ "updated": "2026-10-18T10:37:34+00:00",
  "stats": {
-  "searches_ok": 6,
+  "searches_ok": 7,
   "searches_failed": 0,
   "rate_limited": true,
   "out_of_time": false,
@@ -9,15 +9,37 @@
   "errors": {},
   "f5bot": {
    "configured": true,
-   "emails": 0,
-   "posts": 0,
+   "emails": 1,
+   "posts": 4,
    "error": ""
   },
-  "duplicates_merged": 0
+  "duplicates_merged": 2
  },
- "cursor": 3,
+ "cursor": 10,
  "stuck": 0,
  "leads": [
+  {
+   "link": "https://www.reddit.com/r/VideoEditing/comments/1x8wf7c/",
+   "platform": "Reddit",
+   "title": "NEED A VIDEO EDITOR",
+   "community": "r/VideoEditing",
+   "group": "F5Bot",
+   "posted": "2026-10-18T08:54:10+00:00",
+   "snippet": "",
+   "found": "2026-10-18T10:37:34+00:00",
+   "matched": "need a video editor",
+   "author": "satarugojo69",
+   "also": [
+    {
+     "community": "r/HireAnEditor",
+     "link": "https://www.reddit.com/r/HireAnEditor/comments/1x8wfyn/"
+    },
+    {
+     "community": "r/VideoEditingJobs",
+     "link": "https://www.reddit.com/r/VideoEditingJobs/comments/1x8wg5s/"
+    }
+   ]
+  },
   {
    "link": "https://www.reddit.com/r/u_sarmadvisuals/comments/1x8fi64/",
    "platform": "Reddit",
