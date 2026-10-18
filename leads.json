@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-18T17:53:27+00:00",
+ "updated": "2026-10-18T20:18:34+00:00",
  "stats": {
   "searches_ok": 7,
   "searches_failed": 0,
@@ -9,13 +9,13 @@
   "errors": {},
   "f5bot": {
    "configured": true,
-   "emails": 3,
-   "posts": 4,
+   "emails": 0,
+   "posts": 0,
    "error": ""
   },
-  "duplicates_merged": 4
+  "duplicates_merged": 0
  },
- "cursor": 24,
+ "cursor": 31,
  "stuck": 0,
  "leads": [
   {
