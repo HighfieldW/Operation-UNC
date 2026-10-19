@@ -1,23 +1,67 @@
 {
- "updated": "2026-10-19T05:55:50+00:00",
+ "updated": "2026-10-19T12:43:03+00:00",
  "stats": {
-  "searches_ok": 6,
-  "searches_failed": 0,
+  "searches_ok": 5,
+  "searches_failed": 1,
   "rate_limited": true,
   "out_of_time": false,
   "queue_size": 93,
-  "errors": {},
+  "errors": {
+   "HTTP Error 404: Not Found": 1
+  },
   "f5bot": {
    "configured": true,
-   "emails": 1,
-   "posts": 0,
+   "emails": 3,
+   "posts": 5,
    "error": ""
   },
-  "duplicates_merged": 0
+  "duplicates_merged": 1
  },
- "cursor": 50,
+ "cursor": 56,
  "stuck": 0,
  "leads": [
+  {
+   "link": "https://www.reddit.com/r/indiafreshers/comments/1x9sfli/",
+   "platform": "Reddit",
+   "title": "Hiring a Video Editor Skilled in AI Tools and Video Editing Platforms",
+   "community": "r/indiafreshers",
+   "group": "F5Bot",
+   "posted": "2026-10-19T11:41:12+00:00",
+   "snippet": "",
+   "found": "2026-10-19T12:43:03+00:00",
+   "matched": "hiring a video editor",
+   "author": "PatiencePlastic2264"
+  },
+  {
+   "link": "https://www.reddit.com/r/videoeditingindia/comments/1x9sglk/",
+   "platform": "Reddit",
+   "title": "Hiring a Video Editor with AI Video Generation Skills",
+   "community": "r/videoeditingindia",
+   "group": "F5Bot",
+   "posted": "2026-10-19T11:41:12+00:00",
+   "snippet": "",
+   "found": "2026-10-19T12:43:03+00:00",
+   "matched": "hiring a video editor",
+   "author": "PatiencePlastic2264",
+   "also": [
+    {
+     "community": "r/Indiajobs",
+     "link": "https://www.reddit.com/r/Indiajobs/comments/1x9shwx/"
+    }
+   ]
+  },
+  {
+   "link": "https://www.reddit.com/r/CreatorServices/comments/1x9p070/",
+   "platform": "Reddit",
+   "title": "Looking for video editor",
+   "community": "r/CreatorServices",
+   "group": "F5Bot",
+   "posted": "2026-10-19T08:04:12+00:00",
+   "snippet": "",
+   "found": "2026-10-19T12:43:03+00:00",
+   "matched": "looking for a video editor",
+   "author": "Longjumping_Rub_9756"
+  },
   {
    "link": "https://www.reddit.com/r/CreatorServices/comments/1x9i2rz/im_looking_for_a_editor/",
    "platform": "Reddit",
