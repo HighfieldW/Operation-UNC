@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-19T19:08:25+00:00",
+ "updated": "2026-10-19T23:26:54+00:00",
  "stats": {
   "searches_ok": 7,
   "searches_failed": 0,
@@ -9,15 +9,37 @@
   "errors": {},
   "f5bot": {
    "configured": true,
-   "emails": 3,
+   "emails": 1,
    "posts": 3,
    "error": ""
   },
-  "duplicates_merged": 0
+  "duplicates_merged": 2
  },
- "cursor": 63,
+ "cursor": 70,
  "stuck": 0,
  "leads": [
+  {
+   "link": "https://www.reddit.com/r/HireAnEditor/comments/1xa8obz/",
+   "platform": "Reddit",
+   "title": "Hire a Video Editor",
+   "community": "r/HireAnEditor",
+   "group": "F5Bot",
+   "posted": "2026-10-19T22:53:12+00:00",
+   "snippet": "",
+   "found": "2026-10-19T23:26:54+00:00",
+   "matched": "hire a video editor",
+   "author": "Savings-Papaya-4321",
+   "also": [
+    {
+     "community": "r/YouTubeEditorsForHire",
+     "link": "https://www.reddit.com/r/YouTubeEditorsForHire/comments/1xa8otd/"
+    },
+    {
+     "community": "r/videoeditors_hiring",
+     "link": "https://www.reddit.com/r/videoeditors_hiring/comments/1xa8pzl/"
+    }
+   ]
+  },
   {
    "link": "https://www.reddit.com/r/videoeditors_hiring/comments/1xa2cdg/",
    "platform": "Reddit",
