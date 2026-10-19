@@ -1,25 +1,71 @@
 {
- "updated": "2026-10-19T12:43:03+00:00",
+ "updated": "2026-10-19T19:08:25+00:00",
  "stats": {
-  "searches_ok": 5,
-  "searches_failed": 1,
+  "searches_ok": 7,
+  "searches_failed": 0,
   "rate_limited": true,
   "out_of_time": false,
   "queue_size": 93,
-  "errors": {
-   "HTTP Error 404: Not Found": 1
-  },
+  "errors": {},
   "f5bot": {
    "configured": true,
    "emails": 3,
-   "posts": 5,
+   "posts": 3,
    "error": ""
   },
-  "duplicates_merged": 1
+  "duplicates_merged": 0
  },
- "cursor": 56,
+ "cursor": 63,
  "stuck": 0,
  "leads": [
+  {
+   "link": "https://www.reddit.com/r/videoeditors_hiring/comments/1xa2cdg/",
+   "platform": "Reddit",
+   "title": "Need a Video Editor for my startup",
+   "community": "r/videoeditors_hiring",
+   "group": "F5Bot",
+   "posted": "2026-10-19T19:00:20+00:00",
+   "snippet": "",
+   "found": "2026-10-19T19:08:25+00:00",
+   "matched": "need a video editor",
+   "author": "xyelic"
+  },
+  {
+   "link": "https://www.reddit.com/r/forhire/comments/1xa1pjy/hiring_senior_video_editor_for_fashion_brand_and/",
+   "platform": "Reddit",
+   "title": "[Hiring] Senior Video Editor for Fashion Brand and Personal Use\u2014 Social Media, YouTube, Podcasts & Docu-Series",
+   "community": "r/forhire",
+   "group": "Hiring boards",
+   "posted": "2026-10-19T16:34:05+00:00",
+   "snippet": "We are a growing fashion/clothing brand looking for an exceptionally skilled Senior Video Editor to support our social media, YouTube, podcast, and documentary-style content. This is not simply a video editing role. We are looking for someone who understands how to turn raw footage into compelling, ...",
+   "found": "2026-10-19T19:08:25+00:00",
+   "matched": "looking for a video editor",
+   "author": "junebug16328"
+  },
+  {
+   "link": "https://www.reddit.com/r/VideoEditors/comments/1x9uojm/",
+   "platform": "Reddit",
+   "title": "Ask these 4 questions before you hire a video editor",
+   "community": "r/VideoEditors",
+   "group": "F5Bot",
+   "posted": "2026-10-19T13:48:13+00:00",
+   "snippet": "",
+   "found": "2026-10-19T19:08:25+00:00",
+   "matched": "hire a video editor",
+   "author": "imran_the_editor"
+  },
+  {
+   "link": "https://www.reddit.com/r/forhire/comments/1x9ve1q/hiring_sports_video_editor/",
+   "platform": "Reddit",
+   "title": "[HIRING] Sports Video Editor",
+   "community": "r/forhire",
+   "group": "Hiring boards",
+   "posted": "2026-10-19T12:20:03+00:00",
+   "snippet": "\ud83c\udfac WE'RE HIRING: Sports Video Editors \ud83c\udff8\u26f3\ud83c\udfbe\ud83c\udfd3 Aylex Academies is looking for talented video editors who don't just know editing, but know the game. We run four YouTube channels dedicated to coaching and sports content: \u26f3 Golf: https://www.youtube.com/@AylexGolf \ud83c\udfbe Tennis: https://www.youtube.com/@AylexTe...",
+   "found": "2026-10-19T19:08:25+00:00",
+   "matched": "looking for a video editor",
+   "author": "No-Butterscotch-1535"
+  },
   {
    "link": "https://www.reddit.com/r/indiafreshers/comments/1x9sfli/",
    "platform": "Reddit",
@@ -581,18 +627,6 @@
    "author": "TheDisconnect_EUW"
   },
   {
-   "link": "https://www.reddit.com/r/TwitchStreamers/comments/1x88x4u/",
-   "platform": "Reddit",
-   "title": "Anyone need a Video Editor",
-   "community": "r/TwitchStreamers",
-   "group": "F5Bot",
-   "posted": "2026-10-17T13:50:13+00:00",
-   "snippet": "",
-   "found": "2026-10-17T16:11:36+00:00",
-   "matched": "looking for a video editor",
-   "author": "Numerous_Ad4127"
-  },
-  {
    "link": "https://www.reddit.com/r/IndiaContentCreators/comments/1x889lo/",
    "platform": "Reddit",
    "title": "Looking for video editor",
@@ -625,6 +659,18 @@
      "link": "https://www.reddit.com/r/videoeditingindia/comments/1x88av1/"
     }
    ]
+  },
+  {
+   "link": "https://www.reddit.com/r/TwitchStreamers/comments/1x88x4u/",
+   "platform": "Reddit",
+   "title": "Anyone need a Video Editor",
+   "community": "r/TwitchStreamers",
+   "group": "F5Bot",
+   "posted": "2026-10-17T13:50:13+00:00",
+   "snippet": "",
+   "found": "2026-10-17T16:11:36+00:00",
+   "matched": "looking for a video editor",
+   "author": "Numerous_Ad4127"
   },
   {
    "link": "https://www.reddit.com/r/FindVideoEditors/comments/1x88ony/hiring_videoreel_editor_filipino_only/",
