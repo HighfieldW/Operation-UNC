@@ -1,23 +1,71 @@
 {
- "updated": "2026-10-20T09:51:54+00:00",
+ "updated": "2026-10-20T14:49:02+00:00",
  "stats": {
-  "searches_ok": 6,
-  "searches_failed": 0,
+  "searches_ok": 5,
+  "searches_failed": 1,
   "rate_limited": true,
   "out_of_time": false,
   "queue_size": 93,
-  "errors": {},
+  "errors": {
+   "HTTP Error 404: Not Found": 1
+  },
   "f5bot": {
    "configured": true,
-   "emails": 2,
-   "posts": 2,
+   "emails": 1,
+   "posts": 5,
    "error": ""
   },
-  "duplicates_merged": 0
+  "duplicates_merged": 2
  },
- "cursor": 83,
+ "cursor": 89,
  "stuck": 0,
  "leads": [
+  {
+   "link": "https://www.reddit.com/r/CreatorEconomy/comments/1xan1td/",
+   "platform": "Reddit",
+   "title": "Looking for a video editor",
+   "community": "r/CreatorEconomy",
+   "group": "F5Bot",
+   "posted": "2026-10-20T11:02:12+00:00",
+   "snippet": "",
+   "found": "2026-10-20T14:49:02+00:00",
+   "matched": "looking for a video editor",
+   "author": "loopvid0"
+  },
+  {
+   "link": "https://www.reddit.com/r/videoeditors_hiring/comments/1xanesx/",
+   "platform": "Reddit",
+   "title": "Hiring a Reel Video Editor!",
+   "community": "r/videoeditors_hiring",
+   "group": "F5Bot",
+   "posted": "2026-10-20T11:02:12+00:00",
+   "snippet": "",
+   "found": "2026-10-20T14:49:02+00:00",
+   "matched": "looking for a video editor",
+   "author": "Deepesh_Rawal3539",
+   "also": [
+    {
+     "community": "r/videoeditingindia",
+     "link": "https://www.reddit.com/r/videoeditingindia/comments/1xanfno/"
+    },
+    {
+     "community": "r/HireAnEditor",
+     "link": "https://www.reddit.com/r/HireAnEditor/comments/1xangxk/"
+    }
+   ]
+  },
+  {
+   "link": "https://www.reddit.com/r/VideoEditingRequests/comments/1xaoeob/",
+   "platform": "Reddit",
+   "title": "[HIRING] Free Film Editor Needed for Short Film \u2014 Credit Given (Mirror VFX / Refle...",
+   "community": "r/VideoEditingRequests",
+   "group": "F5Bot",
+   "posted": "2026-10-20T11:02:12+00:00",
+   "snippet": "",
+   "found": "2026-10-20T14:49:02+00:00",
+   "matched": "looking for a video editor",
+   "author": "HroFCBayern"
+  },
   {
    "link": "https://www.reddit.com/r/HireAnEditor/comments/1xalvhf/",
    "platform": "Reddit",
