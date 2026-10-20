@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-20T19:02:20+00:00",
+ "updated": "2026-10-20T23:01:18+00:00",
  "stats": {
   "searches_ok": 7,
   "searches_failed": 0,
@@ -9,13 +9,13 @@
   "errors": {},
   "f5bot": {
    "configured": true,
-   "emails": 3,
-   "posts": 11,
+   "emails": 0,
+   "posts": 0,
    "error": ""
   },
-  "duplicates_merged": 3
+  "duplicates_merged": 0
  },
- "cursor": 3,
+ "cursor": 10,
  "stuck": 0,
  "leads": [
   {
@@ -3427,20 +3427,20 @@
    "found": "2026-10-10T15:08:09+00:00"
   },
   {
-   "link": "https://www.reddit.com/r/videoeditingindia/comments/1wyl8qw/",
+   "link": "https://www.reddit.com/r/u_NotWenghel/comments/1wymjxa/",
    "platform": "Reddit",
-   "title": "'Looking for a video editor'",
-   "community": "r/videoeditingindia",
+   "title": "'Need a Video Editor? \ud83c\udfac'",
+   "community": "u/NotWenghel",
    "group": "F5Bot",
    "posted": "2026-10-05T23:48:13+00:00",
    "snippet": "",
    "found": "2026-10-10T15:08:09+00:00"
   },
   {
-   "link": "https://www.reddit.com/r/u_NotWenghel/comments/1wymjxa/",
+   "link": "https://www.reddit.com/r/videoeditingindia/comments/1wyl8qw/",
    "platform": "Reddit",
-   "title": "'Need a Video Editor? \ud83c\udfac'",
-   "community": "u/NotWenghel",
+   "title": "'Looking for a video editor'",
+   "community": "r/videoeditingindia",
    "group": "F5Bot",
    "posted": "2026-10-05T23:48:13+00:00",
    "snippet": "",
