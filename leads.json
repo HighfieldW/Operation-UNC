@@ -1,25 +1,35 @@
 {
- "updated": "2026-10-20T04:04:41+00:00",
+ "updated": "2026-10-20T09:51:54+00:00",
  "stats": {
   "searches_ok": 6,
-  "searches_failed": 1,
+  "searches_failed": 0,
   "rate_limited": true,
   "out_of_time": false,
   "queue_size": 93,
-  "errors": {
-   "HTTP Error 404: Not Found": 1
-  },
+  "errors": {},
   "f5bot": {
    "configured": true,
-   "emails": 0,
-   "posts": 0,
+   "emails": 2,
+   "posts": 2,
    "error": ""
   },
   "duplicates_merged": 0
  },
- "cursor": 77,
+ "cursor": 83,
  "stuck": 0,
  "leads": [
+  {
+   "link": "https://www.reddit.com/r/HireAnEditor/comments/1xalvhf/",
+   "platform": "Reddit",
+   "title": "Are you looking for a video editor in your budget?",
+   "community": "r/HireAnEditor",
+   "group": "F5Bot",
+   "posted": "2026-10-20T08:01:11+00:00",
+   "snippet": "",
+   "found": "2026-10-20T09:51:54+00:00",
+   "matched": "need a video editor",
+   "author": "Risheditor"
+  },
   {
    "link": "https://www.reddit.com/r/HireAnEditor/comments/1xa8obz/",
    "platform": "Reddit",
