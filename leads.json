@@ -1,23 +1,61 @@
 {
- "updated": "2026-10-22T14:56:30+00:00",
+ "updated": "2026-10-22T19:07:18+00:00",
  "stats": {
-  "searches_ok": 7,
-  "searches_failed": 0,
+  "searches_ok": 6,
+  "searches_failed": 1,
   "rate_limited": true,
   "out_of_time": false,
   "queue_size": 93,
-  "errors": {},
+  "errors": {
+   "HTTP Error 404: Not Found": 1
+  },
   "f5bot": {
    "configured": true,
-   "emails": 1,
-   "posts": 3,
+   "emails": 3,
+   "posts": 5,
    "error": ""
   },
   "duplicates_merged": 0
  },
- "cursor": 65,
+ "cursor": 72,
  "stuck": 0,
  "leads": [
+  {
+   "link": "https://www.reddit.com/r/FindVideoEditors/comments/1xcoasn/",
+   "platform": "Reddit",
+   "title": "Hiring: Video Editor for The Movie List | $200\u2013$300/week + performance bonuses",
+   "community": "r/FindVideoEditors",
+   "group": "F5Bot",
+   "posted": "2026-10-22T19:05:12+00:00",
+   "snippet": "",
+   "found": "2026-10-22T19:07:18+00:00",
+   "matched": "looking for a video editor",
+   "author": "Greenwaygoblin"
+  },
+  {
+   "link": "https://www.reddit.com/r/HireAnEditor/comments/1xcplcn/",
+   "platform": "Reddit",
+   "title": "HIRING short video editor",
+   "community": "r/HireAnEditor",
+   "group": "F5Bot",
+   "posted": "2026-10-22T19:05:12+00:00",
+   "snippet": "",
+   "found": "2026-10-22T19:07:18+00:00",
+   "matched": "looking for a video editor",
+   "author": "DippySticks29"
+  },
+  {
+   "link": "https://www.reddit.com/r/YouTubeEditorForHire/comments/1xcqk97/",
+   "platform": "Reddit",
+   "title": "[HIRING] Looking for a Video Editor for Personality-Driven Fortnite Content (1.26K...",
+   "community": "r/YouTubeEditorForHire",
+   "group": "F5Bot",
+   "posted": "2026-10-22T19:05:12+00:00",
+   "snippet": "",
+   "found": "2026-10-22T19:07:18+00:00",
+   "matched": "looking for a video editor",
+   "author": "Banditoislive"
+  },
   {
    "link": "https://www.reddit.com/r/editors/comments/1xccpcf/",
    "platform": "Reddit",
