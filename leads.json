@@ -1,23 +1,97 @@
 {
- "updated": "2026-10-22T03:53:32+00:00",
+ "updated": "2026-10-22T09:15:47+00:00",
  "stats": {
-  "searches_ok": 7,
-  "searches_failed": 0,
+  "searches_ok": 5,
+  "searches_failed": 1,
   "rate_limited": true,
   "out_of_time": false,
   "queue_size": 93,
-  "errors": {},
+  "errors": {
+   "HTTP Error 404: Not Found": 1
+  },
   "f5bot": {
    "configured": true,
-   "emails": 1,
-   "posts": 1,
+   "emails": 3,
+   "posts": 8,
    "error": ""
   },
-  "duplicates_merged": 0
+  "duplicates_merged": 2
  },
- "cursor": 52,
+ "cursor": 58,
  "stuck": 0,
  "leads": [
+  {
+   "link": "https://www.reddit.com/r/videoeditingindia/comments/1xcbs3o/",
+   "platform": "Reddit",
+   "title": "HIRING] Short-Form Video Editor \u2014 Paid Trial \u20b9600/reel (Instagram \u2192 LinkedIn)",
+   "community": "r/videoeditingindia",
+   "group": "F5Bot",
+   "posted": "2026-10-22T08:14:09+00:00",
+   "snippet": "",
+   "found": "2026-10-22T09:15:47+00:00",
+   "matched": "need a video editor",
+   "author": "Physical_Fly_6299",
+   "also": [
+    {
+     "community": "r/HireAnEditor",
+     "link": "https://www.reddit.com/r/HireAnEditor/comments/1xcbswz/"
+    }
+   ]
+  },
+  {
+   "link": "https://www.reddit.com/r/editors/comments/1xcco9j/",
+   "platform": "Reddit",
+   "title": "Looking for a Video Editor for a 1-Minute Film | $200 Budget",
+   "community": "r/editors",
+   "group": "F5Bot",
+   "posted": "2026-10-22T08:14:09+00:00",
+   "snippet": "",
+   "found": "2026-10-22T09:15:47+00:00",
+   "matched": "need a video editor",
+   "author": "kartarkasturi"
+  },
+  {
+   "link": "https://www.reddit.com/r/sidehustleIndia/comments/1xc8174/",
+   "platform": "Reddit",
+   "title": "Need a video editor (2 short videos per day) 100 per video. 1200 to 1400 weekly.",
+   "community": "r/sidehustleIndia",
+   "group": "F5Bot",
+   "posted": "2026-10-22T05:42:10+00:00",
+   "snippet": "",
+   "found": "2026-10-22T09:15:47+00:00",
+   "matched": "need a video editor",
+   "author": "AffectionateEdge6816"
+  },
+  {
+   "link": "https://www.reddit.com/r/aivideos/comments/1xca37y/",
+   "platform": "Reddit",
+   "title": "Need a video editor for Real Estate Land Dev Project",
+   "community": "r/aivideos",
+   "group": "F5Bot",
+   "posted": "2026-10-22T05:42:10+00:00",
+   "snippet": "",
+   "found": "2026-10-22T09:15:47+00:00",
+   "matched": "need a video editor",
+   "author": "Traditional_Pipe580",
+   "also": [
+    {
+     "community": "r/EditingVideo",
+     "link": "https://www.reddit.com/r/EditingVideo/comments/1xca3mg/"
+    }
+   ]
+  },
+  {
+   "link": "https://www.reddit.com/r/editors/comments/1xca4fi/",
+   "platform": "Reddit",
+   "title": "Need a video editor for Real Estate Land Dev Project ($50 budget)",
+   "community": "r/editors",
+   "group": "F5Bot",
+   "posted": "2026-10-22T05:42:10+00:00",
+   "snippet": "",
+   "found": "2026-10-22T09:15:47+00:00",
+   "matched": "need a video editor",
+   "author": "Traditional_Pipe580"
+  },
   {
    "link": "https://www.reddit.com/r/HireAnEditor/comments/1xbyn2e/",
    "platform": "Reddit",
