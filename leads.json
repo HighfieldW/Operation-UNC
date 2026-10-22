@@ -1,25 +1,59 @@
 {
- "updated": "2026-10-22T09:15:47+00:00",
+ "updated": "2026-10-22T14:56:30+00:00",
  "stats": {
-  "searches_ok": 5,
-  "searches_failed": 1,
+  "searches_ok": 7,
+  "searches_failed": 0,
   "rate_limited": true,
   "out_of_time": false,
   "queue_size": 93,
-  "errors": {
-   "HTTP Error 404: Not Found": 1
-  },
+  "errors": {},
   "f5bot": {
    "configured": true,
-   "emails": 3,
-   "posts": 8,
+   "emails": 1,
+   "posts": 3,
    "error": ""
   },
-  "duplicates_merged": 2
+  "duplicates_merged": 0
  },
- "cursor": 58,
+ "cursor": 65,
  "stuck": 0,
  "leads": [
+  {
+   "link": "https://www.reddit.com/r/editors/comments/1xccpcf/",
+   "platform": "Reddit",
+   "title": "Looking for a Video Editor for a 1-Minute Film",
+   "community": "r/editors",
+   "group": "F5Bot",
+   "posted": "2026-10-22T10:16:11+00:00",
+   "snippet": "",
+   "found": "2026-10-22T14:56:30+00:00",
+   "matched": "looking for a video editor",
+   "author": "kartarkasturi"
+  },
+  {
+   "link": "https://www.reddit.com/r/nairobi/comments/1xce978/",
+   "platform": "Reddit",
+   "title": "Looking for a video editor for a YT video (swahili needed)",
+   "community": "r/nairobi",
+   "group": "F5Bot",
+   "posted": "2026-10-22T10:16:11+00:00",
+   "snippet": "",
+   "found": "2026-10-22T14:56:30+00:00",
+   "matched": "looking for a video editor",
+   "author": "Worldly_Two8192"
+  },
+  {
+   "link": "https://www.reddit.com/r/nairobi/comments/1xceb96/",
+   "platform": "Reddit",
+   "title": "Looking for a video editor for a Youtube video",
+   "community": "r/nairobi",
+   "group": "F5Bot",
+   "posted": "2026-10-22T10:16:11+00:00",
+   "snippet": "",
+   "found": "2026-10-22T14:56:30+00:00",
+   "matched": "looking for a video editor",
+   "author": "Worldly_Two8192"
+  },
   {
    "link": "https://www.reddit.com/r/videoeditingindia/comments/1xcbs3o/",
    "platform": "Reddit",
