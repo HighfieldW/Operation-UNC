@@ -1,7 +1,7 @@
 {
- "updated": "2026-10-21T23:04:42+00:00",
+ "updated": "2026-10-22T03:53:32+00:00",
  "stats": {
-  "searches_ok": 8,
+  "searches_ok": 7,
   "searches_failed": 0,
   "rate_limited": true,
   "out_of_time": false,
@@ -13,9 +13,9 @@
    "posts": 1,
    "error": ""
   },
-  "duplicates_merged": 4
+  "duplicates_merged": 0
  },
- "cursor": 45,
+ "cursor": 52,
  "stuck": 0,
  "leads": [
   {
@@ -473,6 +473,18 @@
    "found": "2026-10-21T03:53:30+00:00",
    "matched": "looking for a video editor",
    "author": "B3JA"
+  },
+  {
+   "link": "https://www.reddit.com/r/VideoEditing/comments/1xauijf/hiring_editors_for_podcast_talking_head_videos/",
+   "platform": "Reddit",
+   "title": "Hiring Editors for Podcast / Talking Head Videos $25/hr +",
+   "community": "r/VideoEditing",
+   "group": "Creators",
+   "posted": "2026-10-20T15:03:15+00:00",
+   "snippet": "US Based strongly preferred. Reference to the work we do - https://youtu.be/59ISaaZNgeU - please review this before sending a message to confirm you're able to edit similar work. Some of our other work - www.instagram.com/bigfable.co Excellent English is a must. Rate per hour is between $25-$45 /hr ...",
+   "found": "2026-10-22T03:53:32+00:00",
+   "matched": "hire a video editor for my podcast",
+   "author": "PracticalAssist2600"
   },
   {
    "link": "https://www.reddit.com/r/VideoEditingJobs/comments/1xarvbv/",
@@ -4177,20 +4189,20 @@
    "found": "2026-10-10T15:08:09+00:00"
   },
   {
-   "link": "https://www.reddit.com/r/u_NotWenghel/comments/1wymjxa/",
+   "link": "https://www.reddit.com/r/videoeditingindia/comments/1wyl8qw/",
    "platform": "Reddit",
-   "title": "'Need a Video Editor? \ud83c\udfac'",
-   "community": "u/NotWenghel",
+   "title": "'Looking for a video editor'",
+   "community": "r/videoeditingindia",
    "group": "F5Bot",
    "posted": "2026-10-05T23:48:13+00:00",
    "snippet": "",
    "found": "2026-10-10T15:08:09+00:00"
   },
   {
-   "link": "https://www.reddit.com/r/videoeditingindia/comments/1wyl8qw/",
+   "link": "https://www.reddit.com/r/u_NotWenghel/comments/1wymjxa/",
    "platform": "Reddit",
-   "title": "'Looking for a video editor'",
-   "community": "r/videoeditingindia",
+   "title": "'Need a Video Editor? \ud83c\udfac'",
+   "community": "u/NotWenghel",
    "group": "F5Bot",
    "posted": "2026-10-05T23:48:13+00:00",
    "snippet": "",
