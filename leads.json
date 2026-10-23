@@ -1,25 +1,59 @@
 {
- "updated": "2026-10-23T09:15:18+00:00",
+ "updated": "2026-10-23T14:44:39+00:00",
  "stats": {
-  "searches_ok": 6,
-  "searches_failed": 1,
+  "searches_ok": 7,
+  "searches_failed": 0,
   "rate_limited": true,
   "out_of_time": false,
   "queue_size": 93,
-  "errors": {
-   "HTTP Error 404: Not Found": 1
-  },
+  "errors": {},
   "f5bot": {
    "configured": true,
-   "emails": 1,
+   "emails": 2,
    "posts": 3,
    "error": ""
   },
   "duplicates_merged": 0
  },
- "cursor": 0,
+ "cursor": 7,
  "stuck": 0,
  "leads": [
+  {
+   "link": "https://www.reddit.com/r/HireAnEditor/comments/1xdbj3p/",
+   "platform": "Reddit",
+   "title": "Need a Video Editor for Your Content? \ud83c\udfac",
+   "community": "r/HireAnEditor",
+   "group": "F5Bot",
+   "posted": "2026-10-23T13:37:10+00:00",
+   "snippet": "",
+   "found": "2026-10-23T14:44:39+00:00",
+   "matched": "need a video editor",
+   "author": "[deleted]"
+  },
+  {
+   "link": "https://www.reddit.com/r/videoeditingindia/comments/1xd75f0/",
+   "platform": "Reddit",
+   "title": "Hiring a video editor who uses claude and higgsfield or heygen for full time",
+   "community": "r/videoeditingindia",
+   "group": "F5Bot",
+   "posted": "2026-10-23T09:16:39+00:00",
+   "snippet": "",
+   "found": "2026-10-23T14:44:39+00:00",
+   "matched": "hiring a video editor",
+   "author": "PatiencePlastic2264"
+  },
+  {
+   "link": "https://www.reddit.com/r/HireAnEditor/comments/1xd7vgp/",
+   "platform": "Reddit",
+   "title": "Need a Video Editor? I Can Help You Find the Right Fit \ud83c\udfac",
+   "community": "r/HireAnEditor",
+   "group": "F5Bot",
+   "posted": "2026-10-23T09:16:39+00:00",
+   "snippet": "",
+   "found": "2026-10-23T14:44:39+00:00",
+   "matched": "hiring a video editor",
+   "author": "Altruistic-Wealth358"
+  },
   {
    "link": "https://www.reddit.com/r/VideoEditors/comments/1xd2k5y/",
    "platform": "Reddit",
