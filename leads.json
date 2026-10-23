@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-22T23:03:19+00:00",
+ "updated": "2026-10-23T03:57:30+00:00",
  "stats": {
   "searches_ok": 7,
   "searches_failed": 0,
@@ -9,15 +9,27 @@
   "errors": {},
   "f5bot": {
    "configured": true,
-   "emails": 0,
-   "posts": 0,
+   "emails": 1,
+   "posts": 1,
    "error": ""
   },
   "duplicates_merged": 0
  },
- "cursor": 79,
+ "cursor": 86,
  "stuck": 0,
  "leads": [
+  {
+   "link": "https://www.reddit.com/r/VideoEditingJobs/comments/1xcx1uq/",
+   "platform": "Reddit",
+   "title": "Need a video editor who actually improves your content?",
+   "community": "r/VideoEditingJobs",
+   "group": "F5Bot",
+   "posted": "2026-10-23T00:42:09+00:00",
+   "snippet": "",
+   "found": "2026-10-23T03:57:30+00:00",
+   "matched": "need a video editor",
+   "author": "Street-Honeydew-9983"
+  },
   {
    "link": "https://www.reddit.com/r/FindVideoEditors/comments/1xcoasn/",
    "platform": "Reddit",
@@ -53,6 +65,18 @@
    "found": "2026-10-22T19:07:18+00:00",
    "matched": "looking for a video editor",
    "author": "Banditoislive"
+  },
+  {
+   "link": "https://www.reddit.com/r/NewTubers/comments/1xcl0m2/need_a_free_video_editor_for_youtube_and_tiktok/",
+   "platform": "Reddit",
+   "title": "Need a free video editor for YouTube and tiktok",
+   "community": "r/NewTubers",
+   "group": "Creators",
+   "posted": "2026-10-22T15:02:59+00:00",
+   "snippet": "Hey! I'm looking for an experienced video editor to help grow my YouTube and TikTok gaming content. You must edit well, have some previous editing experience, speak English, and have Discord. Being from Europe is preferred, but not required! I can't offer upfront payment, but if the content starts m...",
+   "found": "2026-10-23T03:57:30+00:00",
+   "matched": "paying video editor",
+   "author": "SoulFragss"
   },
   {
    "link": "https://www.reddit.com/r/editors/comments/1xccpcf/",
