@@ -1,23 +1,49 @@
 {
- "updated": "2026-10-23T03:57:30+00:00",
+ "updated": "2026-10-23T09:15:18+00:00",
  "stats": {
-  "searches_ok": 7,
-  "searches_failed": 0,
+  "searches_ok": 6,
+  "searches_failed": 1,
   "rate_limited": true,
   "out_of_time": false,
   "queue_size": 93,
-  "errors": {},
+  "errors": {
+   "HTTP Error 404: Not Found": 1
+  },
   "f5bot": {
    "configured": true,
    "emails": 1,
-   "posts": 1,
+   "posts": 3,
    "error": ""
   },
   "duplicates_merged": 0
  },
- "cursor": 86,
+ "cursor": 0,
  "stuck": 0,
  "leads": [
+  {
+   "link": "https://www.reddit.com/r/VideoEditors/comments/1xd2k5y/",
+   "platform": "Reddit",
+   "title": "does anybody need a video editor?",
+   "community": "r/VideoEditors",
+   "group": "F5Bot",
+   "posted": "2026-10-23T04:58:13+00:00",
+   "snippet": "",
+   "found": "2026-10-23T09:15:18+00:00",
+   "matched": "need a video editor",
+   "author": "Educational_Put5573"
+  },
+  {
+   "link": "https://www.reddit.com/r/VideoEditors/comments/1xd2lsa/",
+   "platform": "Reddit",
+   "title": "does anybod need a video editor?",
+   "community": "r/VideoEditors",
+   "group": "F5Bot",
+   "posted": "2026-10-23T04:58:13+00:00",
+   "snippet": "",
+   "found": "2026-10-23T09:15:18+00:00",
+   "matched": "need a video editor",
+   "author": "Educational_Put5573"
+  },
   {
    "link": "https://www.reddit.com/r/VideoEditingJobs/comments/1xcx1uq/",
    "platform": "Reddit",
