@@ -1,23 +1,37 @@
 {
- "updated": "2026-10-23T14:44:39+00:00",
+ "updated": "2026-10-23T18:55:42+00:00",
  "stats": {
-  "searches_ok": 7,
-  "searches_failed": 0,
+  "searches_ok": 6,
+  "searches_failed": 1,
   "rate_limited": true,
   "out_of_time": false,
   "queue_size": 93,
-  "errors": {},
+  "errors": {
+   "HTTP Error 404: Not Found": 1
+  },
   "f5bot": {
    "configured": true,
-   "emails": 2,
-   "posts": 3,
+   "emails": 1,
+   "posts": 1,
    "error": ""
   },
   "duplicates_merged": 0
  },
- "cursor": 7,
+ "cursor": 14,
  "stuck": 0,
  "leads": [
+  {
+   "link": "https://www.reddit.com/r/HireAnEditor/comments/1xdi2kh/",
+   "platform": "Reddit",
+   "title": "Need a Video Editor for Your YouTube Channel or Business? \ud83c\udfac",
+   "community": "r/HireAnEditor",
+   "group": "F5Bot",
+   "posted": "2026-10-23T18:03:12+00:00",
+   "snippet": "",
+   "found": "2026-10-23T18:55:42+00:00",
+   "matched": "need a video editor",
+   "author": "spanlife12"
+  },
   {
    "link": "https://www.reddit.com/r/HireAnEditor/comments/1xdbj3p/",
    "platform": "Reddit",
