@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-24T20:36:57+00:00",
+ "updated": "2026-10-24T22:59:19+00:00",
  "stats": {
   "searches_ok": 7,
   "searches_failed": 0,
@@ -9,15 +9,49 @@
   "errors": {},
   "f5bot": {
    "configured": true,
-   "emails": 0,
-   "posts": 0,
+   "emails": 2,
+   "posts": 4,
    "error": ""
   },
-  "duplicates_merged": 0
+  "duplicates_merged": 2
  },
- "cursor": 62,
+ "cursor": 69,
  "stuck": 0,
  "leads": [
+  {
+   "link": "https://www.reddit.com/r/u_Samar__Mo/comments/1xeh4p9/",
+   "platform": "Reddit",
+   "title": "Every cut, caption, and sound effect has a purpose.\ud83d\udce9 Need a video editor? DM me, a...",
+   "community": "u/Samar__Mo",
+   "group": "F5Bot",
+   "posted": "2026-10-24T21:14:09+00:00",
+   "snippet": "",
+   "found": "2026-10-24T22:59:19+00:00",
+   "matched": "need a video editor",
+   "author": "Samar__Mo"
+  },
+  {
+   "link": "https://www.reddit.com/r/HireAnEditor/comments/1xeiv90/",
+   "platform": "Reddit",
+   "title": "Hiring a Video Editor \u2013 Long-Term Work",
+   "community": "r/HireAnEditor",
+   "group": "F5Bot",
+   "posted": "2026-10-24T21:14:09+00:00",
+   "snippet": "",
+   "found": "2026-10-24T22:59:19+00:00",
+   "matched": "need a video editor",
+   "author": "OkPreparation3866",
+   "also": [
+    {
+     "community": "r/FindVideoEditors",
+     "link": "https://www.reddit.com/r/FindVideoEditors/comments/1xeivoe/"
+    },
+    {
+     "community": "r/videoeditingindia",
+     "link": "https://www.reddit.com/r/videoeditingindia/comments/1xeivwr/"
+    }
+   ]
+  },
   {
    "link": "https://www.reddit.com/r/VideoEditing/comments/1xeem8s/",
    "platform": "Reddit",
