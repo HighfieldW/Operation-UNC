@@ -1,23 +1,73 @@
 {
- "updated": "2026-10-24T14:20:40+00:00",
+ "updated": "2026-10-24T17:57:16+00:00",
  "stats": {
-  "searches_ok": 7,
-  "searches_failed": 0,
+  "searches_ok": 6,
+  "searches_failed": 1,
   "rate_limited": true,
   "out_of_time": false,
   "queue_size": 93,
-  "errors": {},
+  "errors": {
+   "HTTP Error 404: Not Found": 1
+  },
   "f5bot": {
    "configured": true,
-   "emails": 1,
-   "posts": 3,
+   "emails": 3,
+   "posts": 7,
    "error": ""
   },
-  "duplicates_merged": 1
+  "duplicates_merged": 3
  },
- "cursor": 48,
+ "cursor": 55,
  "stuck": 0,
  "leads": [
+  {
+   "link": "https://www.reddit.com/r/VideoEditing/comments/1xeem8s/",
+   "platform": "Reddit",
+   "title": "I need a video editor",
+   "community": "r/VideoEditing",
+   "group": "F5Bot",
+   "posted": "2026-10-24T17:47:13+00:00",
+   "snippet": "",
+   "found": "2026-10-24T17:57:16+00:00",
+   "matched": "looking for a video editor",
+   "author": "Mad_Detective"
+  },
+  {
+   "link": "https://www.reddit.com/r/HireAnEditor/comments/1xebyvy/",
+   "platform": "Reddit",
+   "title": "[Hiring] Wedding Video Editor for Haldi, Sangeet & Wedding (Multi-Cam Footage)",
+   "community": "r/HireAnEditor",
+   "group": "F5Bot",
+   "posted": "2026-10-24T17:47:13+00:00",
+   "snippet": "",
+   "found": "2026-10-24T17:57:16+00:00",
+   "matched": "looking for a video editor",
+   "author": "liahs1"
+  },
+  {
+   "link": "https://www.reddit.com/r/u_sarmadvisuals/comments/1xedv5i/",
+   "platform": "Reddit",
+   "title": "Recent intro for a potential client, Looking for a video editor? Dm me\ud83d\udce5",
+   "community": "u/sarmadvisuals",
+   "group": "F5Bot",
+   "posted": "2026-10-24T17:47:13+00:00",
+   "snippet": "",
+   "found": "2026-10-24T17:57:16+00:00",
+   "matched": "looking for a video editor",
+   "author": "sarmadvisuals"
+  },
+  {
+   "link": "https://www.reddit.com/r/VideoEditors_forhire/comments/1xedwvm/",
+   "platform": "Reddit",
+   "title": "Recent intro for a potential client, looking for a video editor?Dm me\ud83d\udce5",
+   "community": "r/VideoEditors_forhire",
+   "group": "F5Bot",
+   "posted": "2026-10-24T17:47:13+00:00",
+   "snippet": "",
+   "found": "2026-10-24T17:57:16+00:00",
+   "matched": "looking for a video editor",
+   "author": "sarmadvisuals"
+  },
   {
    "link": "https://www.reddit.com/r/VideoEditingJobs/comments/1xe4ogx/",
    "platform": "Reddit",
@@ -393,6 +443,10 @@
     {
      "community": "r/HireAnEditor",
      "link": "https://www.reddit.com/r/HireAnEditor/comments/1xdgx10/hiring_remote_ai_video_editor_for_tech_youtube/"
+    },
+    {
+     "community": "r/SmallYoutubers",
+     "link": "https://www.reddit.com/r/SmallYoutubers/comments/1xdi9rr/hiring_remote_ai_video_editor_for_tech_youtube/"
     }
    ]
   },
@@ -2976,7 +3030,17 @@
    "snippet": "Hi! \ud83c\udf37 I'm a freelance video editor & social media manager and I'm currently looking to take up a few new projects/clients! \u2728 I can help with: Reels & short-form videos Vlogs / lifestyle content Talking-head & personal brand videos Trendy, aesthetic edits Subtitles, text animations & transitions Musi...",
    "found": "2026-10-16T08:50:59+00:00",
    "matched": "looking for a video editor",
-   "author": "anonymous0053"
+   "author": "anonymous0053",
+   "also": [
+    {
+     "community": "r/videoeditors_hiring",
+     "link": "https://www.reddit.com/r/videoeditors_hiring/comments/1xe7nya/"
+    },
+    {
+     "community": "r/videoeditors_hiring",
+     "link": "https://www.reddit.com/r/videoeditors_hiring/comments/1xe7qsy/"
+    }
+   ]
   },
   {
    "link": "https://www.reddit.com/r/HireAnEditor/comments/1x6id79/looking_for_video_editing_clients/",
