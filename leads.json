@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-23T21:56:29+00:00",
+ "updated": "2026-10-24T00:26:03+00:00",
  "stats": {
   "searches_ok": 7,
   "searches_failed": 0,
@@ -9,13 +9,13 @@
   "errors": {},
   "f5bot": {
    "configured": true,
-   "emails": 2,
-   "posts": 4,
-   "error": ""
+   "emails": 0,
+   "posts": 0,
+   "error": "The read operation timed out"
   },
-  "duplicates_merged": 1
+  "duplicates_merged": 0
  },
- "cursor": 21,
+ "cursor": 28,
  "stuck": 0,
  "leads": [
   {
