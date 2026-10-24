@@ -1,7 +1,7 @@
 {
- "updated": "2026-10-24T10:33:12+00:00",
+ "updated": "2026-10-24T14:20:40+00:00",
  "stats": {
-  "searches_ok": 6,
+  "searches_ok": 7,
   "searches_failed": 0,
   "rate_limited": true,
   "out_of_time": false,
@@ -10,14 +10,32 @@
   "f5bot": {
    "configured": true,
    "emails": 1,
-   "posts": 4,
+   "posts": 3,
    "error": ""
   },
-  "duplicates_merged": 12
+  "duplicates_merged": 1
  },
- "cursor": 41,
+ "cursor": 48,
  "stuck": 0,
  "leads": [
+  {
+   "link": "https://www.reddit.com/r/VideoEditingJobs/comments/1xe4ogx/",
+   "platform": "Reddit",
+   "title": "Looking for a Remote Video Editor (Motion Editing)",
+   "community": "r/VideoEditingJobs",
+   "group": "F5Bot",
+   "posted": "2026-10-24T11:38:12+00:00",
+   "snippet": "",
+   "found": "2026-10-24T14:20:40+00:00",
+   "matched": "looking for a video editor",
+   "author": "Independent_Rub_4677",
+   "also": [
+    {
+     "community": "r/videoeditingindia",
+     "link": "https://www.reddit.com/r/videoeditingindia/comments/1xe4rom/"
+    }
+   ]
+  },
   {
    "link": "https://www.reddit.com/r/FindVideoEditors/comments/1xe4dr7/looking_for_a_talented_video_editor/",
    "platform": "Reddit",
