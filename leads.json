@@ -1,23 +1,61 @@
 {
- "updated": "2026-10-24T00:26:03+00:00",
+ "updated": "2026-10-24T05:31:34+00:00",
  "stats": {
-  "searches_ok": 7,
-  "searches_failed": 0,
+  "searches_ok": 6,
+  "searches_failed": 1,
   "rate_limited": true,
   "out_of_time": false,
   "queue_size": 93,
-  "errors": {},
+  "errors": {
+   "HTTP Error 404: Not Found": 1
+  },
   "f5bot": {
    "configured": true,
-   "emails": 0,
-   "posts": 0,
-   "error": "The read operation timed out"
+   "emails": 1,
+   "posts": 3,
+   "error": ""
   },
   "duplicates_merged": 0
  },
- "cursor": 28,
+ "cursor": 35,
  "stuck": 0,
  "leads": [
+  {
+   "link": "https://www.reddit.com/r/NepalSocial/comments/1xdxxhd/",
+   "platform": "Reddit",
+   "title": "I need a video editor!",
+   "community": "r/NepalSocial",
+   "group": "F5Bot",
+   "posted": "2026-10-24T05:20:11+00:00",
+   "snippet": "",
+   "found": "2026-10-24T05:31:34+00:00",
+   "matched": "need a video editor",
+   "author": "No-Discipline7306"
+  },
+  {
+   "link": "https://www.reddit.com/r/videoeditingindia/comments/1xdzzrg/",
+   "platform": "Reddit",
+   "title": "Need a video editor ( Indian native- Hindi must)",
+   "community": "r/videoeditingindia",
+   "group": "F5Bot",
+   "posted": "2026-10-24T05:20:11+00:00",
+   "snippet": "",
+   "found": "2026-10-24T05:31:34+00:00",
+   "matched": "need a video editor",
+   "author": "Manish_again"
+  },
+  {
+   "link": "https://www.reddit.com/r/VideoEditingRequests/comments/1xe035c/",
+   "platform": "Reddit",
+   "title": "NEED A VIDEO EDITOR-HIRRING",
+   "community": "r/VideoEditingRequests",
+   "group": "F5Bot",
+   "posted": "2026-10-24T05:20:11+00:00",
+   "snippet": "",
+   "found": "2026-10-24T05:31:34+00:00",
+   "matched": "need a video editor",
+   "author": "kuniyal_Manish"
+  },
   {
    "link": "https://www.reddit.com/r/hiringpakistan/comments/1xdnnaf/",
    "platform": "Reddit",
