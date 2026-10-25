@@ -1,21 +1,23 @@
 {
- "updated": "2026-10-24T22:59:19+00:00",
+ "updated": "2026-10-25T01:01:06+00:00",
  "stats": {
-  "searches_ok": 7,
-  "searches_failed": 0,
+  "searches_ok": 5,
+  "searches_failed": 1,
   "rate_limited": true,
   "out_of_time": false,
   "queue_size": 93,
-  "errors": {},
+  "errors": {
+   "HTTP Error 404: Not Found": 1
+  },
   "f5bot": {
    "configured": true,
-   "emails": 2,
-   "posts": 4,
+   "emails": 0,
+   "posts": 0,
    "error": ""
   },
-  "duplicates_merged": 2
+  "duplicates_merged": 0
  },
- "cursor": 69,
+ "cursor": 75,
  "stuck": 0,
  "leads": [
   {
@@ -99,6 +101,18 @@
    "found": "2026-10-24T17:57:16+00:00",
    "matched": "looking for a video editor",
    "author": "sarmadvisuals"
+  },
+  {
+   "link": "https://www.reddit.com/r/forhire/comments/1xed2m8/hiring_lets_play_video_editor_30_full_rate/",
+   "platform": "Reddit",
+   "title": "[Hiring] Let's Play Video Editor - $30 (Full Rate)",
+   "community": "r/forhire",
+   "group": "Hiring boards",
+   "posted": "2026-10-24T16:29:35+00:00",
+   "snippet": "My friend and I recorded gameplay of Mafia 3 for our gaming channel, but unfortunately, the footage became corrupted. The good news is that the audio is still intact. I plan to re-record the gameplay, but it won\u2019t perfectly match the original audio. Is there anyone who can edit the video to align th...",
+   "found": "2026-10-25T01:01:06+00:00",
+   "matched": "video editor needed paid",
+   "author": "n4tiCaLs_"
   },
   {
    "link": "https://www.reddit.com/r/VideoEditingJobs/comments/1xe4ogx/",
