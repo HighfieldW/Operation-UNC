@@ -1,7 +1,7 @@
 {
- "updated": "2026-10-25T07:24:02+00:00",
+ "updated": "2026-10-25T13:02:20+00:00",
  "stats": {
-  "searches_ok": 6,
+  "searches_ok": 7,
   "searches_failed": 0,
   "rate_limited": true,
   "out_of_time": false,
@@ -9,15 +9,69 @@
   "errors": {},
   "f5bot": {
    "configured": true,
-   "emails": 1,
-   "posts": 0,
+   "emails": 2,
+   "posts": 5,
    "error": ""
   },
-  "duplicates_merged": 0
+  "duplicates_merged": 2
  },
- "cursor": 81,
+ "cursor": 88,
  "stuck": 0,
  "leads": [
+  {
+   "link": "https://www.reddit.com/r/sidehustleIndia/comments/1xewppd/",
+   "platform": "Reddit",
+   "title": "I need a video editor who knows how to make a reel get views",
+   "community": "r/sidehustleIndia",
+   "group": "F5Bot",
+   "posted": "2026-10-25T10:15:13+00:00",
+   "snippet": "",
+   "found": "2026-10-25T13:02:20+00:00",
+   "matched": "need a video editor",
+   "author": "Wooden-Wrongdoer1286",
+   "also": [
+    {
+     "community": "r/videoeditingindia",
+     "link": "https://www.reddit.com/r/videoeditingindia/comments/1xewpzl/"
+    }
+   ]
+  },
+  {
+   "link": "https://www.reddit.com/r/nairobitechies/comments/1xeujs8/",
+   "platform": "Reddit",
+   "title": "Hiring a video Editor",
+   "community": "r/nairobitechies",
+   "group": "F5Bot",
+   "posted": "2026-10-25T08:05:12+00:00",
+   "snippet": "",
+   "found": "2026-10-25T13:02:20+00:00",
+   "matched": "hiring a video editor",
+   "author": "Fit4LifeStore"
+  },
+  {
+   "link": "https://www.reddit.com/r/VideoEditors_forhire/comments/1xevbgy/",
+   "platform": "Reddit",
+   "title": "Need a video editor for your Reels? DM me \ud83c\udfac",
+   "community": "r/VideoEditors_forhire",
+   "group": "F5Bot",
+   "posted": "2026-10-25T08:05:12+00:00",
+   "snippet": "",
+   "found": "2026-10-25T13:02:20+00:00",
+   "matched": "hiring a video editor",
+   "author": "Fluid_Confection_101"
+  },
+  {
+   "link": "https://www.reddit.com/r/FindVideoEditors/comments/1xew8ct/",
+   "platform": "Reddit",
+   "title": "Need a video editor asap",
+   "community": "r/FindVideoEditors",
+   "group": "F5Bot",
+   "posted": "2026-10-25T08:05:12+00:00",
+   "snippet": "",
+   "found": "2026-10-25T13:02:20+00:00",
+   "matched": "hiring a video editor",
+   "author": "Smixle1"
+  },
   {
    "link": "https://www.reddit.com/r/u_Samar__Mo/comments/1xeh4p9/",
    "platform": "Reddit",
@@ -469,6 +523,10 @@
     {
      "community": "r/FindVideoEditors",
      "link": "https://www.reddit.com/r/FindVideoEditors/comments/1xdi1k6/looking_for_a_minecraft_youtube_video_editor/"
+    },
+    {
+     "community": "r/SmallYoutubers",
+     "link": "https://www.reddit.com/r/SmallYoutubers/comments/1xdi92j/looking_for_a_minecraft_youtube_video_editor/"
     }
    ]
   },
