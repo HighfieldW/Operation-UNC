@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-26T03:54:55+00:00",
+ "updated": "2026-10-26T09:54:46+00:00",
  "stats": {
   "searches_ok": 7,
   "searches_failed": 0,
@@ -9,15 +9,51 @@
   "errors": {},
   "f5bot": {
    "configured": true,
-   "emails": 1,
-   "posts": 3,
+   "emails": 2,
+   "posts": 4,
    "error": ""
   },
-  "duplicates_merged": 2
+  "duplicates_merged": 0
  },
- "cursor": 24,
+ "cursor": 31,
  "stuck": 0,
  "leads": [
+  {
+   "link": "https://www.reddit.com/r/YouTubeEditorsForHire/comments/1xfkyfb/",
+   "platform": "Reddit",
+   "title": "Hiring Video Editor for BeamNG Monster Truck Content",
+   "community": "r/YouTubeEditorsForHire",
+   "group": "F5Bot",
+   "posted": "2026-10-26T04:30:13+00:00",
+   "snippet": "",
+   "found": "2026-10-26T09:54:46+00:00",
+   "matched": "looking for a video editor",
+   "author": "AdmirablePepper898"
+  },
+  {
+   "link": "https://www.reddit.com/r/VideoEditingJobs/comments/1xfl7j5/",
+   "platform": "Reddit",
+   "title": "Hiring YT editor for BeamNG monster truck channel",
+   "community": "r/VideoEditingJobs",
+   "group": "F5Bot",
+   "posted": "2026-10-26T04:30:13+00:00",
+   "snippet": "",
+   "found": "2026-10-26T09:54:46+00:00",
+   "matched": "looking for a video editor",
+   "author": "AdmirablePepper898"
+  },
+  {
+   "link": "https://www.reddit.com/r/FindVideoEditors/comments/1xflak5/",
+   "platform": "Reddit",
+   "title": "Hiring YT Video Editor for BeamNG Monster Truck Channel",
+   "community": "r/FindVideoEditors",
+   "group": "F5Bot",
+   "posted": "2026-10-26T04:30:13+00:00",
+   "snippet": "",
+   "found": "2026-10-26T09:54:46+00:00",
+   "matched": "looking for a video editor",
+   "author": "AdmirablePepper898"
+  },
   {
    "link": "https://www.reddit.com/r/VideoEditingRequests/comments/1xfm6ls/directordp_gucci_balmain_nike_adidas_looking_for/",
    "platform": "Reddit",
