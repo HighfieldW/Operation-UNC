@@ -1,23 +1,21 @@
 {
- "updated": "2026-10-26T16:39:18+00:00",
+ "updated": "2026-10-26T21:28:53+00:00",
  "stats": {
-  "searches_ok": 6,
-  "searches_failed": 1,
+  "searches_ok": 7,
+  "searches_failed": 0,
   "rate_limited": true,
   "out_of_time": false,
   "queue_size": 93,
-  "errors": {
-   "HTTP Error 404: Not Found": 1
-  },
+  "errors": {},
   "f5bot": {
    "configured": true,
    "emails": 2,
-   "posts": 8,
+   "posts": 1,
    "error": ""
   },
-  "duplicates_merged": 5
+  "duplicates_merged": 1
  },
- "cursor": 38,
+ "cursor": 45,
  "stuck": 0,
  "leads": [
   {
@@ -72,7 +70,25 @@
    "snippet": "[HIRING] Remote Video Editors for geo layer map animations We\u2019re expanding our production team and looking for experienced, high-volume video editors who treat editing as a profession - not a casual hobby. We care about your speed, technical execution, and story pacing. We do not care about degrees,...",
    "found": "2026-10-26T16:39:18+00:00",
    "matched": "need a video editor",
-   "author": "Grouchy_Natural_2177"
+   "author": "Grouchy_Natural_2177",
+   "also": [
+    {
+     "community": "r/VideoEditingRequests",
+     "link": "https://www.reddit.com/r/VideoEditingRequests/comments/1xfxg3j/hiring_remote_video_editors_for_geo_layer_map/"
+    }
+   ]
+  },
+  {
+   "link": "https://www.reddit.com/r/CreatorServices/comments/1xfuq45/in_need_of_a_video_editor_ive_got_a_pitch_for_you/",
+   "platform": "Reddit",
+   "title": "In need of a VIDEO EDITOR? I've got a pitch for you!",
+   "community": "r/CreatorServices",
+   "group": "Hire communities",
+   "posted": "2026-10-26T11:55:52+00:00",
+   "snippet": "My Pitch, A Showcase of my Skills, and all the Details My up to date portfolio - Main Editing Portfolio \ud83d\udc9a Additional older portfolio - Additional Portfolio \u2b50 As shown, my Rates starts at $20 for a standard Shorts-style, and $90 for a standard highlight-style long-form video You can find my commissio...",
+   "found": "2026-10-26T21:28:53+00:00",
+   "matched": "need a video editor",
+   "author": "venusssx"
   },
   {
    "link": "https://www.reddit.com/r/FindVideoEditors/comments/1xfuiag/new_content_creator_looking_for_editors_simple/",
@@ -139,6 +155,18 @@
    "found": "2026-10-26T16:39:18+00:00",
    "matched": "need a video editor",
    "author": "hannahhussein"
+  },
+  {
+   "link": "https://www.reddit.com/r/VideoEditingRequests/comments/1xfq7m7/anyone_need_a_free_video_editor/",
+   "platform": "Reddit",
+   "title": "Anyone need a free video editor ?",
+   "community": "r/VideoEditingRequests",
+   "group": "Hire communities",
+   "posted": "2026-10-26T07:30:05+00:00",
+   "snippet": "I only know basic editing submitted by /u/Training-Bicycle-832 [link] [comments]",
+   "found": "2026-10-26T21:28:53+00:00",
+   "matched": "need a video editor",
+   "author": "Training-Bicycle-832"
   },
   {
    "link": "https://www.reddit.com/r/HireAnEditor/comments/1xfoj0f/looking_for_a_short_form_video_editor_for_ads/",
