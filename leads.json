@@ -1,23 +1,55 @@
 {
- "updated": "2026-10-27T01:16:54+00:00",
+ "updated": "2026-10-27T07:30:04+00:00",
  "stats": {
-  "searches_ok": 7,
-  "searches_failed": 0,
+  "searches_ok": 5,
+  "searches_failed": 1,
   "rate_limited": true,
   "out_of_time": false,
   "queue_size": 93,
-  "errors": {},
+  "errors": {
+   "HTTP Error 404: Not Found": 1
+  },
   "f5bot": {
    "configured": true,
-   "emails": 0,
-   "posts": 0,
+   "emails": 2,
+   "posts": 4,
    "error": ""
   },
-  "duplicates_merged": 0
+  "duplicates_merged": 1
  },
- "cursor": 52,
+ "cursor": 58,
  "stuck": 0,
  "leads": [
+  {
+   "link": "https://www.reddit.com/r/videoeditingindia/comments/1xgim7c/",
+   "platform": "Reddit",
+   "title": "Looking for a Video Editor for a New YouTube Channel",
+   "community": "r/videoeditingindia",
+   "group": "F5Bot",
+   "posted": "2026-10-27T06:05:10+00:00",
+   "snippet": "",
+   "found": "2026-10-27T07:30:04+00:00",
+   "matched": "looking for a video editor",
+   "author": "S-O-C-H",
+   "also": [
+    {
+     "community": "r/HireAnEditor",
+     "link": "https://www.reddit.com/r/HireAnEditor/comments/1xgimys/"
+    }
+   ]
+  },
+  {
+   "link": "https://www.reddit.com/r/VideoEditors/comments/1xgj3op/",
+   "platform": "Reddit",
+   "title": "Looking for a video editor to help with podcast / fireside chat intro. Or even edi...",
+   "community": "r/VideoEditors",
+   "group": "F5Bot",
+   "posted": "2026-10-27T06:05:10+00:00",
+   "snippet": "",
+   "found": "2026-10-27T07:30:04+00:00",
+   "matched": "looking for a video editor",
+   "author": "Da_Cidre"
+  },
   {
    "link": "https://www.reddit.com/r/VideoEditors_forhire/comments/1xfv3vg/",
    "platform": "Reddit",
