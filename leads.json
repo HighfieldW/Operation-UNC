@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-27T23:38:15+00:00",
+ "updated": "2026-10-28T04:45:53+00:00",
  "stats": {
   "searches_ok": 7,
   "searches_failed": 0,
@@ -9,15 +9,63 @@
   "errors": {},
   "f5bot": {
    "configured": true,
-   "emails": 0,
-   "posts": 0,
+   "emails": 2,
+   "posts": 4,
    "error": ""
   },
-  "duplicates_merged": 0
+  "duplicates_merged": 2
  },
- "cursor": 80,
+ "cursor": 87,
  "stuck": 0,
  "leads": [
+  {
+   "link": "https://www.reddit.com/r/VideoEditingRequests/comments/1xh77yb/",
+   "platform": "Reddit",
+   "title": "Need a video editor for UGC",
+   "community": "r/VideoEditingRequests",
+   "group": "F5Bot",
+   "posted": "2026-10-28T00:44:10+00:00",
+   "snippet": "",
+   "found": "2026-10-28T04:45:53+00:00",
+   "matched": "need a video editor",
+   "author": "harshchaube",
+   "also": [
+    {
+     "community": "r/FindVideoEditors",
+     "link": "https://www.reddit.com/r/FindVideoEditors/comments/1xh784c/"
+    }
+   ]
+  },
+  {
+   "link": "https://www.reddit.com/r/EditingVideo/comments/1xh9etk/",
+   "platform": "Reddit",
+   "title": "Looking for creators who need a video editor",
+   "community": "r/EditingVideo",
+   "group": "F5Bot",
+   "posted": "2026-10-28T00:44:10+00:00",
+   "snippet": "",
+   "found": "2026-10-28T04:45:53+00:00",
+   "matched": "need a video editor",
+   "author": "ramoneditor",
+   "also": [
+    {
+     "community": "r/YouTubeEditorsForHire",
+     "link": "https://www.reddit.com/r/YouTubeEditorsForHire/comments/1xhafw2/"
+    }
+   ]
+  },
+  {
+   "link": "https://www.reddit.com/r/SmallYoutubers/comments/1xh96mp/two_creators_looking_for_an_editor_to_join_our/",
+   "platform": "Reddit",
+   "title": "Two creators looking for an editor to join our team",
+   "community": "r/SmallYoutubers",
+   "group": "Creators",
+   "posted": "2026-10-28T00:05:07+00:00",
+   "snippet": "Hey everyone, My friend and I live in Switzerland and run a YouTube channel where we film vlogging/exploring videos, documentary videos, and outdoor \"podcast\" talks about everyday life around the country. Lately we've been filming way more than we have time to edit. We already have several full vide...",
+   "found": "2026-10-28T04:45:53+00:00",
+   "matched": "paying video editor",
+   "author": "BiscottiWRLD"
+  },
   {
    "link": "https://www.reddit.com/r/videoeditingindia/comments/1xglspr/",
    "platform": "Reddit",
