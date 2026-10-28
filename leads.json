@@ -1,23 +1,49 @@
 {
- "updated": "2026-10-28T04:45:53+00:00",
+ "updated": "2026-10-28T11:07:05+00:00",
  "stats": {
-  "searches_ok": 7,
-  "searches_failed": 0,
+  "searches_ok": 5,
+  "searches_failed": 1,
   "rate_limited": true,
   "out_of_time": false,
   "queue_size": 93,
-  "errors": {},
+  "errors": {
+   "HTTP Error 404: Not Found": 1
+  },
   "f5bot": {
    "configured": true,
    "emails": 2,
-   "posts": 4,
+   "posts": 3,
    "error": ""
   },
-  "duplicates_merged": 2
+  "duplicates_merged": 0
  },
- "cursor": 87,
+ "cursor": 0,
  "stuck": 0,
  "leads": [
+  {
+   "link": "https://www.reddit.com/r/VideoEditor_forhire/comments/1xhjjz1/",
+   "platform": "Reddit",
+   "title": "[Hiring] Video Editor (Full-time contract, Remote)",
+   "community": "r/VideoEditor_forhire",
+   "group": "F5Bot",
+   "posted": "2026-10-28T10:54:12+00:00",
+   "snippet": "",
+   "found": "2026-10-28T11:07:05+00:00",
+   "matched": "need a video editor",
+   "author": "StressDifficult1122"
+  },
+  {
+   "link": "https://www.reddit.com/r/VideoEditor_forhire/comments/1xhfym6/",
+   "platform": "Reddit",
+   "title": "We are hiring a video editor",
+   "community": "r/VideoEditor_forhire",
+   "group": "F5Bot",
+   "posted": "2026-10-28T07:51:11+00:00",
+   "snippet": "",
+   "found": "2026-10-28T11:07:05+00:00",
+   "matched": "hiring a video editor",
+   "author": "ComprehensiveTest842"
+  },
   {
    "link": "https://www.reddit.com/r/VideoEditingRequests/comments/1xh77yb/",
    "platform": "Reddit",
