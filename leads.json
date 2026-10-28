@@ -1,23 +1,51 @@
 {
- "updated": "2026-10-28T18:05:10+00:00",
+ "updated": "2026-10-28T22:59:27+00:00",
  "stats": {
-  "searches_ok": 7,
-  "searches_failed": 0,
+  "searches_ok": 6,
+  "searches_failed": 1,
   "rate_limited": true,
   "out_of_time": false,
   "queue_size": 93,
-  "errors": {},
+  "errors": {
+   "HTTP Error 404: Not Found": 1
+  },
   "f5bot": {
    "configured": true,
    "emails": 3,
-   "posts": 8,
+   "posts": 7,
    "error": ""
   },
-  "duplicates_merged": 1
+  "duplicates_merged": 3
  },
- "cursor": 7,
+ "cursor": 14,
  "stuck": 0,
  "leads": [
+  {
+   "link": "https://www.reddit.com/r/videoeditors_hiring/comments/1xhwhks/",
+   "platform": "Reddit",
+   "title": "Need a video editor?",
+   "community": "r/videoeditors_hiring",
+   "group": "F5Bot",
+   "posted": "2026-10-28T20:38:12+00:00",
+   "snippet": "",
+   "found": "2026-10-28T22:59:27+00:00",
+   "matched": "need a video editor",
+   "author": "Vancified",
+   "also": [
+    {
+     "community": "r/YouTubeEditorForHire",
+     "link": "https://www.reddit.com/r/YouTubeEditorForHire/comments/1xhwi5s/"
+    },
+    {
+     "community": "r/YouTubeEditorForHire",
+     "link": "https://www.reddit.com/r/YouTubeEditorForHire/comments/1xhwiz3/"
+    },
+    {
+     "community": "r/YouTubeEditorsForHire",
+     "link": "https://www.reddit.com/r/YouTubeEditorsForHire/comments/1xhwm01/"
+    }
+   ]
+  },
   {
    "link": "https://www.reddit.com/r/VideoEditor_forhire/comments/1xhuj4b/",
    "platform": "Reddit",
