@@ -1,25 +1,77 @@
 {
- "updated": "2026-10-28T11:07:05+00:00",
+ "updated": "2026-10-28T18:05:10+00:00",
  "stats": {
-  "searches_ok": 5,
-  "searches_failed": 1,
+  "searches_ok": 7,
+  "searches_failed": 0,
   "rate_limited": true,
   "out_of_time": false,
   "queue_size": 93,
-  "errors": {
-   "HTTP Error 404: Not Found": 1
-  },
+  "errors": {},
   "f5bot": {
    "configured": true,
-   "emails": 2,
-   "posts": 3,
+   "emails": 3,
+   "posts": 8,
    "error": ""
   },
-  "duplicates_merged": 0
+  "duplicates_merged": 1
  },
- "cursor": 0,
+ "cursor": 7,
  "stuck": 0,
  "leads": [
+  {
+   "link": "https://www.reddit.com/r/VideoEditor_forhire/comments/1xhuj4b/",
+   "platform": "Reddit",
+   "title": "[Hiting] - We are looking for a video editor",
+   "community": "r/VideoEditor_forhire",
+   "group": "F5Bot",
+   "posted": "2026-10-28T17:40:12+00:00",
+   "snippet": "",
+   "found": "2026-10-28T18:05:10+00:00",
+   "matched": "looking for a video editor",
+   "author": "darrenshan7"
+  },
+  {
+   "link": "https://www.reddit.com/r/HireAnEditor/comments/1xhlwl1/",
+   "platform": "Reddit",
+   "title": "Looking for a Fitness Video Editor \ud83d\udcaa\ud83c\udfac",
+   "community": "r/HireAnEditor",
+   "group": "F5Bot",
+   "posted": "2026-10-28T13:52:13+00:00",
+   "snippet": "",
+   "found": "2026-10-28T18:05:10+00:00",
+   "matched": "looking for a video editor",
+   "author": "Intrepid_Cow_847",
+   "also": [
+    {
+     "community": "r/VideoEditors",
+     "link": "https://www.reddit.com/r/VideoEditors/comments/1xhlx63/"
+    }
+   ]
+  },
+  {
+   "link": "https://www.reddit.com/r/northernireland/comments/1xhm1hi/",
+   "platform": "Reddit",
+   "title": "Looking for a video editor in NI for a small paid job",
+   "community": "r/northernireland",
+   "group": "F5Bot",
+   "posted": "2026-10-28T13:52:13+00:00",
+   "snippet": "",
+   "found": "2026-10-28T18:05:10+00:00",
+   "matched": "looking for a video editor",
+   "author": "jo_ranamo"
+  },
+  {
+   "link": "https://www.reddit.com/r/VideoEditingJobs/comments/1xhokvg/",
+   "platform": "Reddit",
+   "title": "Looking for a video editor intern to edit food recipe reels.",
+   "community": "r/VideoEditingJobs",
+   "group": "F5Bot",
+   "posted": "2026-10-28T13:52:13+00:00",
+   "snippet": "",
+   "found": "2026-10-28T18:05:10+00:00",
+   "matched": "looking for a video editor",
+   "author": "Select-Account1173"
+  },
   {
    "link": "https://www.reddit.com/r/VideoEditor_forhire/comments/1xhjjz1/",
    "platform": "Reddit",
