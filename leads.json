@@ -1,23 +1,71 @@
 {
- "updated": "2026-10-29T09:36:35+00:00",
+ "updated": "2026-10-29T16:44:49+00:00",
  "stats": {
-  "searches_ok": 7,
-  "searches_failed": 0,
+  "searches_ok": 6,
+  "searches_failed": 1,
   "rate_limited": true,
   "out_of_time": false,
   "queue_size": 93,
-  "errors": {},
+  "errors": {
+   "HTTP Error 404: Not Found": 1
+  },
   "f5bot": {
    "configured": true,
-   "emails": 0,
-   "posts": 0,
+   "emails": 2,
+   "posts": 5,
    "error": ""
   },
-  "duplicates_merged": 0
+  "duplicates_merged": 2
  },
- "cursor": 28,
+ "cursor": 35,
  "stuck": 0,
  "leads": [
+  {
+   "link": "https://www.reddit.com/r/VideoEditors_forhire/comments/1ximf43/",
+   "platform": "Reddit",
+   "title": "[Hiring] looking for a video editor",
+   "community": "r/VideoEditors_forhire",
+   "group": "F5Bot",
+   "posted": "2026-10-29T16:20:13+00:00",
+   "snippet": "",
+   "found": "2026-10-29T16:44:49+00:00",
+   "matched": "hire a video editor",
+   "author": "bamboozleddd3"
+  },
+  {
+   "link": "https://www.reddit.com/r/HireAnEditor/comments/1xifq15/",
+   "platform": "Reddit",
+   "title": "\ud83c\udfac NEED A VIDEO EDITOR? LET'S MAKE YOUR CONTENT STAND OUT! \ud83d\ude80",
+   "community": "r/HireAnEditor",
+   "group": "F5Bot",
+   "posted": "2026-10-29T12:02:11+00:00",
+   "snippet": "",
+   "found": "2026-10-29T16:44:49+00:00",
+   "matched": "need a video editor",
+   "author": "Realistic-Cry-1379"
+  },
+  {
+   "link": "https://www.reddit.com/r/VideoEditingTips/comments/1xiho18/",
+   "platform": "Reddit",
+   "title": "Anyone wants to hire a video editor/ motion graphic designer",
+   "community": "r/VideoEditingTips",
+   "group": "F5Bot",
+   "posted": "2026-10-29T12:02:11+00:00",
+   "snippet": "",
+   "found": "2026-10-29T16:44:49+00:00",
+   "matched": "need a video editor",
+   "author": "Muntanga_Arts",
+   "also": [
+    {
+     "community": "r/videoeditingindia",
+     "link": "https://www.reddit.com/r/videoeditingindia/comments/1xil9hi/"
+    },
+    {
+     "community": "r/VideoEditingJobs",
+     "link": "https://www.reddit.com/r/VideoEditingJobs/comments/1xil9z9/"
+    }
+   ]
+  },
   {
    "link": "https://www.reddit.com/r/HireAnEditor/comments/1xi5guz/need_shorts_editor_2040video_1220_videosmonth/",
    "platform": "Reddit",
