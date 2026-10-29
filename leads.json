@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-29T02:20:15+00:00",
+ "updated": "2026-10-29T09:36:35+00:00",
  "stats": {
   "searches_ok": 7,
   "searches_failed": 0,
@@ -13,9 +13,9 @@
    "posts": 0,
    "error": ""
   },
-  "duplicates_merged": 4
+  "duplicates_merged": 0
  },
- "cursor": 21,
+ "cursor": 28,
  "stuck": 0,
  "leads": [
   {
@@ -4117,6 +4117,18 @@
    "author": "FantasticShift8640"
   },
   {
+   "link": "https://www.reddit.com/r/HireAnEditor/comments/1x6uc95/",
+   "platform": "Reddit",
+   "title": "Looking for an Editor",
+   "community": "r/HireAnEditor",
+   "group": "F5Bot",
+   "posted": "2026-10-15T20:59:31+00:00",
+   "snippet": "",
+   "found": "2026-10-15T23:35:03+00:00",
+   "matched": "looking for a video editor",
+   "author": "ronstradamus"
+  },
+  {
    "link": "https://www.reddit.com/r/VideoEditors/comments/1x6uac5/",
    "platform": "Reddit",
    "title": "Looking for a video editor to make 30 second videos for social media. No AI editors.",
@@ -4133,18 +4145,6 @@
      "link": "https://www.reddit.com/r/VideoEditingJobs/comments/1x6uakh/"
     }
    ]
-  },
-  {
-   "link": "https://www.reddit.com/r/HireAnEditor/comments/1x6uc95/",
-   "platform": "Reddit",
-   "title": "Looking for an Editor",
-   "community": "r/HireAnEditor",
-   "group": "F5Bot",
-   "posted": "2026-10-15T20:59:31+00:00",
-   "snippet": "",
-   "found": "2026-10-15T23:35:03+00:00",
-   "matched": "looking for a video editor",
-   "author": "ronstradamus"
   },
   {
    "link": "https://www.reddit.com/r/CreatorServices/comments/1x6vmhp/looking_for_a_longterm_gaming_video_editor/",
