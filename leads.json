@@ -1,23 +1,67 @@
 {
- "updated": "2026-10-30T08:18:10+00:00",
+ "updated": "2026-10-30T15:41:51+00:00",
  "stats": {
-  "searches_ok": 7,
-  "searches_failed": 0,
+  "searches_ok": 6,
+  "searches_failed": 1,
   "rate_limited": true,
   "out_of_time": false,
   "queue_size": 93,
-  "errors": {},
+  "errors": {
+   "HTTP Error 404: Not Found": 1
+  },
   "f5bot": {
    "configured": true,
-   "emails": 2,
-   "posts": 2,
+   "emails": 3,
+   "posts": 7,
    "error": ""
   },
-  "duplicates_merged": 0
+  "duplicates_merged": 2
  },
- "cursor": 54,
+ "cursor": 61,
  "stuck": 0,
  "leads": [
+  {
+   "link": "https://www.reddit.com/r/VideoEditors_forhire/comments/1xjeae0/",
+   "platform": "Reddit",
+   "title": "Hiring a video editor for a 1 min. Cinematic yet fun reel based on Dominican Culture.",
+   "community": "r/VideoEditors_forhire",
+   "group": "F5Bot",
+   "posted": "2026-10-30T14:42:13+00:00",
+   "snippet": "",
+   "found": "2026-10-30T15:41:51+00:00",
+   "matched": "hiring a video editor",
+   "author": "antoniosnaps",
+   "also": [
+    {
+     "community": "r/VideoEditingRequests",
+     "link": "https://www.reddit.com/r/VideoEditingRequests/comments/1xjear1/"
+    }
+   ]
+  },
+  {
+   "link": "https://www.reddit.com/r/VideoEditors_forhire/comments/1xjecal/",
+   "platform": "Reddit",
+   "title": "\ud83c\udfac NEED A VIDEO EDITOR? LET'S MAKE YOUR VIDEOS STAND OUT!",
+   "community": "r/VideoEditors_forhire",
+   "group": "F5Bot",
+   "posted": "2026-10-30T14:42:13+00:00",
+   "snippet": "",
+   "found": "2026-10-30T15:41:51+00:00",
+   "matched": "hiring a video editor",
+   "author": "BreakfastWaste8269"
+  },
+  {
+   "link": "https://www.reddit.com/r/FreelanceIndia/comments/1xjfmpc/",
+   "platform": "Reddit",
+   "title": "\ud83c\udfac Looking for a video editor for a new career series!",
+   "community": "r/FreelanceIndia",
+   "group": "F5Bot",
+   "posted": "2026-10-30T14:42:13+00:00",
+   "snippet": "",
+   "found": "2026-10-30T15:41:51+00:00",
+   "matched": "hiring a video editor",
+   "author": "Neel_Show_5227"
+  },
   {
    "link": "https://www.reddit.com/r/HireAnEditor/comments/1xiwli2/hiring_looking_for_a_longterm_gaming_youtube/",
    "platform": "Reddit",
@@ -545,6 +589,10 @@
     {
      "community": "r/HireAnEditor",
      "link": "https://www.reddit.com/r/HireAnEditor/comments/1xhogio/hiring_require_editors_from_india/"
+    },
+    {
+     "community": "r/forhire",
+     "link": "https://www.reddit.com/r/forhire/comments/1xijj97/hiring_require_editors_from_india/"
     }
    ]
   },
@@ -6561,36 +6609,6 @@
    "community": "r/Dhaka",
    "group": "F5Bot",
    "posted": "2026-10-06T07:16:22+00:00",
-   "snippet": "",
-   "found": "2026-10-10T15:08:09+00:00"
-  },
-  {
-   "link": "https://www.reddit.com/r/VideoEditors/comments/1wyrs2x/",
-   "platform": "Reddit",
-   "title": "'Hiring a video editor for long term !!!'",
-   "community": "r/VideoEditors",
-   "group": "F5Bot",
-   "posted": "2026-10-06T04:58:26+00:00",
-   "snippet": "",
-   "found": "2026-10-10T15:08:09+00:00"
-  },
-  {
-   "link": "https://www.reddit.com/r/VideoEditors_forhire/comments/1wys8gb/",
-   "platform": "Reddit",
-   "title": "'Looking for a Video Editor for a New Tech Content Page \u2014 Long-Term Collaboration'",
-   "community": "r/VideoEditors_forhire",
-   "group": "F5Bot",
-   "posted": "2026-10-06T04:58:26+00:00",
-   "snippet": "",
-   "found": "2026-10-10T15:08:09+00:00"
-  },
-  {
-   "link": "https://www.reddit.com/r/hiringpakistan/comments/1wysvw4/",
-   "platform": "Reddit",
-   "title": "'HIRING |\ud83c\udfac LOOKING FOR A VIDEO EDITOR \u2014 EASY PAID WORK \ud83d\udcb0 | BEGINNERS CAN APPLY!'",
-   "community": "r/hiringpakistan",
-   "group": "F5Bot",
-   "posted": "2026-10-06T04:58:26+00:00",
    "snippet": "",
    "found": "2026-10-10T15:08:09+00:00"
   }
