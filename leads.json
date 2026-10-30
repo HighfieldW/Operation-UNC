@@ -1,25 +1,65 @@
 {
- "updated": "2026-10-30T15:41:51+00:00",
+ "updated": "2026-10-30T20:32:18+00:00",
  "stats": {
-  "searches_ok": 6,
-  "searches_failed": 1,
+  "searches_ok": 7,
+  "searches_failed": 0,
   "rate_limited": true,
   "out_of_time": false,
   "queue_size": 93,
-  "errors": {
-   "HTTP Error 404: Not Found": 1
-  },
+  "errors": {},
   "f5bot": {
    "configured": true,
-   "emails": 3,
-   "posts": 7,
+   "emails": 1,
+   "posts": 4,
    "error": ""
   },
-  "duplicates_merged": 2
+  "duplicates_merged": 1
  },
- "cursor": 61,
+ "cursor": 68,
  "stuck": 0,
  "leads": [
+  {
+   "link": "https://www.reddit.com/r/VideoEditing/comments/1xjn789/",
+   "platform": "Reddit",
+   "title": "Need a video editor",
+   "community": "r/VideoEditing",
+   "group": "F5Bot",
+   "posted": "2026-10-30T18:33:14+00:00",
+   "snippet": "",
+   "found": "2026-10-30T20:32:18+00:00",
+   "matched": "need a video editor",
+   "author": "Soft_Squirrel_6466",
+   "also": [
+    {
+     "community": "r/VideoEditingJobs",
+     "link": "https://www.reddit.com/r/VideoEditingJobs/comments/1xjn89r/"
+    }
+   ]
+  },
+  {
+   "link": "https://www.reddit.com/r/HireAnEditor/comments/1xjk4u3/",
+   "platform": "Reddit",
+   "title": "Urgently Need a Video Editor & Content Writer \ud83d\udd25\u2728",
+   "community": "r/HireAnEditor",
+   "group": "F5Bot",
+   "posted": "2026-10-30T18:33:14+00:00",
+   "snippet": "",
+   "found": "2026-10-30T20:32:18+00:00",
+   "matched": "need a video editor",
+   "author": "creative_rabbit_"
+  },
+  {
+   "link": "https://www.reddit.com/r/YouTubeEditorsForHire/comments/1xjkh13/",
+   "platform": "Reddit",
+   "title": "Hiring a video editor who can edit in Anime/cartoon niche 80$",
+   "community": "r/YouTubeEditorsForHire",
+   "group": "F5Bot",
+   "posted": "2026-10-30T18:33:14+00:00",
+   "snippet": "",
+   "found": "2026-10-30T20:32:18+00:00",
+   "matched": "need a video editor",
+   "author": "Longjumping-Park-954"
+  },
   {
    "link": "https://www.reddit.com/r/VideoEditors_forhire/comments/1xjeae0/",
    "platform": "Reddit",
@@ -6577,36 +6617,6 @@
    "platform": "Reddit",
    "title": "'ANYONE HIRING A VIDEO EDITOR FOR SHORT-FORM ? ( EDITS CAN'T BE EXPENSIVE ) 6$ for ...'",
    "community": "r/videoeditors_hiring",
-   "group": "F5Bot",
-   "posted": "2026-10-06T07:16:22+00:00",
-   "snippet": "",
-   "found": "2026-10-10T15:08:09+00:00"
-  },
-  {
-   "link": "https://www.reddit.com/r/IndianCofounders/comments/1wyuvri/",
-   "platform": "Reddit",
-   "title": "'Looking for a video editor to make faceless youtube videos. I already have USA bas...'",
-   "community": "r/IndianCofounders",
-   "group": "F5Bot",
-   "posted": "2026-10-06T07:16:22+00:00",
-   "snippet": "",
-   "found": "2026-10-10T15:08:09+00:00"
-  },
-  {
-   "link": "https://www.reddit.com/r/PakFreelancers/comments/1wyuk9x/",
-   "platform": "Reddit",
-   "title": "'Need a video editor on project basis'",
-   "community": "r/PakFreelancers",
-   "group": "F5Bot",
-   "posted": "2026-10-06T07:16:22+00:00",
-   "snippet": "",
-   "found": "2026-10-10T15:08:09+00:00"
-  },
-  {
-   "link": "https://www.reddit.com/r/Dhaka/comments/1wyv051/",
-   "platform": "Reddit",
-   "title": "'I put up a post to hire a video editor, and someone's dad offered to pay me 2 lakh...'",
-   "community": "r/Dhaka",
    "group": "F5Bot",
    "posted": "2026-10-06T07:16:22+00:00",
    "snippet": "",
