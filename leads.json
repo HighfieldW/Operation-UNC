@@ -1,23 +1,37 @@
 {
- "updated": "2026-10-31T06:46:27+00:00",
+ "updated": "2026-10-31T13:26:32+00:00",
  "stats": {
-  "searches_ok": 7,
-  "searches_failed": 0,
+  "searches_ok": 6,
+  "searches_failed": 1,
   "rate_limited": true,
   "out_of_time": false,
   "queue_size": 93,
-  "errors": {},
+  "errors": {
+   "HTTP Error 404: Not Found": 1
+  },
   "f5bot": {
    "configured": true,
-   "emails": 2,
-   "posts": 2,
+   "emails": 0,
+   "posts": 0,
    "error": ""
   },
-  "duplicates_merged": 0
+  "duplicates_merged": 2
  },
- "cursor": 82,
+ "cursor": 89,
  "stuck": 0,
  "leads": [
+  {
+   "link": "https://www.reddit.com/r/NewTubers/comments/1xka5b3/looking_for_video_editors_for_my_youtube_channels/",
+   "platform": "Reddit",
+   "title": "Looking for video editors for my youtube channels",
+   "community": "r/NewTubers",
+   "group": "Creators",
+   "posted": "2026-10-31T13:24:09+00:00",
+   "snippet": "Hi! I\u2019m looking for video editors interested in collaborating on my faceless documentary-style YouTube channels. I\u2019m currently working with a limited budget, so I can\u2019t offer paid work. However, I can offer: -Full credit for your work. -Permission to use videos in your portfolio. -Creative freedom t...",
+   "found": "2026-10-31T13:26:32+00:00",
+   "matched": "paying video editor",
+   "author": "SouthernBag6148"
+  },
   {
    "link": "https://www.reddit.com/r/UGCconnect/comments/1xjtz73/",
    "platform": "Reddit",
@@ -209,6 +223,18 @@
    "author": "Pale-Sugar-1330"
   },
   {
+   "link": "https://www.reddit.com/r/NewTubers/comments/1xipte9/looking_for_an_editor_for_my_channel/",
+   "platform": "Reddit",
+   "title": "looking for an editor for my channel",
+   "community": "r/NewTubers",
+   "group": "Creators",
+   "posted": "2026-10-29T17:06:49+00:00",
+   "snippet": "so im looking for an editor for my channel, i cant really pay, so maybe if you want to expand your portfolio or get experience then DM me. submitted by /u/RequirementOnly7148 [link] [comments]",
+   "found": "2026-10-31T13:26:32+00:00",
+   "matched": "paying video editor",
+   "author": "RequirementOnly7148"
+  },
+  {
    "link": "https://www.reddit.com/r/VideoEditors_forhire/comments/1ximf43/",
    "platform": "Reddit",
    "title": "[Hiring] looking for a video editor",
@@ -318,7 +344,17 @@
    "snippet": "Hi everyone! I\u2019m a video editor looking to work with YouTubers who want help with their videos, whether you\u2019re just starting out or growing your channel. Thought I\u2019d post here to see if anyone\u2019s interested :) I\u2019m open to working with your budget! (No free work or \u201ccommission\u201d) Services: YouTube & St...",
    "found": "2026-10-29T21:39:03+00:00",
    "matched": "need a video editor",
-   "author": "No-Relationship-78"
+   "author": "No-Relationship-78",
+   "also": [
+    {
+     "community": "r/NewTubers",
+     "link": "https://www.reddit.com/r/NewTubers/comments/1xifrd2/any_youtubers_looking_for_a_video_editor/"
+    },
+    {
+     "community": "r/SmallYoutubers",
+     "link": "https://www.reddit.com/r/SmallYoutubers/comments/1xifs0b/any_youtubers_looking_for_a_video_editor/"
+    }
+   ]
   },
   {
    "link": "https://www.reddit.com/r/FindVideoEditors/comments/1xiflc4/hiring_looking_for_a_professional_gaming_video/",
@@ -6601,26 +6637,6 @@
    "community": "r/CreatorServices",
    "group": "F5Bot",
    "posted": "2026-10-06T10:38:11+00:00",
-   "snippet": "",
-   "found": "2026-10-10T15:08:09+00:00"
-  },
-  {
-   "link": "https://www.reddit.com/r/u_sincosenta/comments/1wyucud/",
-   "platform": "Reddit",
-   "title": "'Are you looking for a video editor?'",
-   "community": "u/sincosenta",
-   "group": "F5Bot",
-   "posted": "2026-10-06T07:16:22+00:00",
-   "snippet": "",
-   "found": "2026-10-10T15:08:09+00:00"
-  },
-  {
-   "link": "https://www.reddit.com/r/HireAnEditor/comments/1wyu9k3/",
-   "platform": "Reddit",
-   "title": "'ANYONE HIRING A VIDEO EDITOR FOR SHORT-FORM ? ( EDITS CAN'T BE EXPENSIVE )'",
-   "community": "r/HireAnEditor",
-   "group": "F5Bot",
-   "posted": "2026-10-06T07:16:22+00:00",
    "snippet": "",
    "found": "2026-10-10T15:08:09+00:00"
   }
