@@ -1,25 +1,35 @@
 {
- "updated": "2026-10-31T00:32:39+00:00",
+ "updated": "2026-10-31T06:46:27+00:00",
  "stats": {
-  "searches_ok": 6,
-  "searches_failed": 1,
+  "searches_ok": 7,
+  "searches_failed": 0,
   "rate_limited": true,
   "out_of_time": false,
   "queue_size": 93,
-  "errors": {
-   "HTTP Error 404: Not Found": 1
-  },
+  "errors": {},
   "f5bot": {
    "configured": true,
-   "emails": 0,
-   "posts": 0,
+   "emails": 2,
+   "posts": 2,
    "error": ""
   },
   "duplicates_merged": 0
  },
- "cursor": 75,
+ "cursor": 82,
  "stuck": 0,
  "leads": [
+  {
+   "link": "https://www.reddit.com/r/UGCconnect/comments/1xjtz73/",
+   "platform": "Reddit",
+   "title": "Are you a UGC CREATORS need a VIDEO EDITOR",
+   "community": "r/UGCconnect",
+   "group": "F5Bot",
+   "posted": "2026-10-31T00:57:08+00:00",
+   "snippet": "",
+   "found": "2026-10-31T06:46:27+00:00",
+   "matched": "need a video editor",
+   "author": "One_Yellow_269"
+  },
   {
    "link": "https://www.reddit.com/r/VideoEditing/comments/1xjn789/",
    "platform": "Reddit",
@@ -6609,16 +6619,6 @@
    "platform": "Reddit",
    "title": "'ANYONE HIRING A VIDEO EDITOR FOR SHORT-FORM ? ( EDITS CAN'T BE EXPENSIVE )'",
    "community": "r/HireAnEditor",
-   "group": "F5Bot",
-   "posted": "2026-10-06T07:16:22+00:00",
-   "snippet": "",
-   "found": "2026-10-10T15:08:09+00:00"
-  },
-  {
-   "link": "https://www.reddit.com/r/videoeditors_hiring/comments/1wyuhb6/",
-   "platform": "Reddit",
-   "title": "'ANYONE HIRING A VIDEO EDITOR FOR SHORT-FORM ? ( EDITS CAN'T BE EXPENSIVE ) 6$ for ...'",
-   "community": "r/videoeditors_hiring",
    "group": "F5Bot",
    "posted": "2026-10-06T07:16:22+00:00",
    "snippet": "",
