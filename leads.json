@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-01T09:04:10+00:00",
+ "updated": "2026-11-01T16:38:51+00:00",
  "stats": {
   "searches_ok": 7,
   "searches_failed": 0,
@@ -9,15 +9,37 @@
   "errors": {},
   "f5bot": {
    "configured": true,
-   "emails": 3,
-   "posts": 8,
+   "emails": 1,
+   "posts": 3,
    "error": ""
   },
-  "duplicates_merged": 1
+  "duplicates_merged": 2
  },
- "cursor": 25,
+ "cursor": 32,
  "stuck": 0,
  "leads": [
+  {
+   "link": "https://www.reddit.com/r/Nepal/comments/1xkzewy/",
+   "platform": "Reddit",
+   "title": "Hiring a video editor in Chandragiri",
+   "community": "r/Nepal",
+   "group": "F5Bot",
+   "posted": "2026-11-01T12:10:13+00:00",
+   "snippet": "",
+   "found": "2026-11-01T16:38:51+00:00",
+   "matched": "hiring a video editor",
+   "author": "Feeling-While-8297",
+   "also": [
+    {
+     "community": "r/VideoEditingJobs",
+     "link": "https://www.reddit.com/r/VideoEditingJobs/comments/1xkzf2w/"
+    },
+    {
+     "community": "r/technepal",
+     "link": "https://www.reddit.com/r/technepal/comments/1xkzfsm/"
+    }
+   ]
+  },
   {
    "link": "https://www.reddit.com/r/WorkOnline/comments/1xksmvf/",
    "platform": "Reddit",
@@ -6659,18 +6681,6 @@
    "found": "2026-10-13T15:41:51+00:00",
    "matched": "looking for a video editor",
    "author": "TimothyAung"
-  },
-  {
-   "link": "https://www.reddit.com/r/VideoEditingRequests/comments/1x2dsri/paid_looking_for_a_skilled_anime_editor_who_is_a/",
-   "platform": "Reddit",
-   "title": "[PAID] Looking for a skilled anime editor who is a hardcore Naruto/Shippuden fan for cinematic Pain Arc mini-film",
-   "community": "r/VideoEditingRequests",
-   "group": "Hire communities",
-   "posted": "2026-10-10T12:12:00+00:00",
-   "snippet": "PAID PROJECT. I\u2019m looking for an experienced anime/video editor who also knows Naruto/Shippuden extremely well. I do not want someone who only knows how to make flashy anime edits. I need someone who understands Naruto well enough to help choose scenes, dialogue, callbacks, symbolism, and structure....",
-   "found": "2026-10-13T15:41:51+00:00",
-   "matched": "looking for a video editor",
-   "author": "SpartuhnsAlt"
   }
  ]
 }
