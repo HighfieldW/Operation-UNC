@@ -1,25 +1,35 @@
 {
- "updated": "2026-11-01T20:59:55+00:00",
+ "updated": "2026-11-02T00:35:19+00:00",
  "stats": {
-  "searches_ok": 6,
-  "searches_failed": 1,
+  "searches_ok": 7,
+  "searches_failed": 0,
   "rate_limited": true,
   "out_of_time": false,
   "queue_size": 93,
-  "errors": {
-   "HTTP Error 404: Not Found": 1
-  },
+  "errors": {},
   "f5bot": {
    "configured": true,
-   "emails": 0,
-   "posts": 0,
+   "emails": 1,
+   "posts": 1,
    "error": ""
   },
-  "duplicates_merged": 2
+  "duplicates_merged": 1
  },
- "cursor": 39,
+ "cursor": 46,
  "stuck": 0,
  "leads": [
+  {
+   "link": "https://www.reddit.com/r/videoeditors_hiring/comments/1xldufo/",
+   "platform": "Reddit",
+   "title": "Need a VIDEO EDITOR?",
+   "community": "r/videoeditors_hiring",
+   "group": "F5Bot",
+   "posted": "2026-11-01T22:44:10+00:00",
+   "snippet": "",
+   "found": "2026-11-02T00:35:19+00:00",
+   "matched": "need a video editor",
+   "author": "Ok_Cash_2279"
+  },
   {
    "link": "https://www.reddit.com/r/FindVideoEditors/comments/1xldikw/hiring_experienced_youtube_video_editors_editing/",
    "platform": "Reddit",
@@ -54,7 +64,13 @@
    "snippet": "I create the animations using Blender and script the storylines with Claude, so the base content is already set up. However, I need an editor who can make the videos much more engaging and entertaining for a younger audience (small kids). What I\u2019m looking for: Upbeat background music Plenty of funny...",
    "found": "2026-11-01T20:59:55+00:00",
    "matched": "need a video editor",
-   "author": "Ok-Growth1584"
+   "author": "Ok-Growth1584",
+   "also": [
+    {
+     "community": "r/VideoEditingRequests",
+     "link": "https://www.reddit.com/r/VideoEditingRequests/comments/1xl56sy/looking_for_a_video_editor_for_my_longform_roblox/"
+    }
+   ]
   },
   {
    "link": "https://www.reddit.com/r/Nepal/comments/1xkzewy/",
@@ -6664,39 +6680,6 @@
    "found": "2026-10-13T15:41:51+00:00",
    "matched": "looking for a video editor",
    "author": "AffectionateIce5752"
-  },
-  {
-   "link": "https://www.reddit.com/r/videoeditors_hiring/comments/1x2qyru/",
-   "platform": "Reddit",
-   "title": "'Are you looking for a Video Editor?'",
-   "community": "r/videoeditors_hiring",
-   "group": "F5Bot",
-   "posted": "2026-10-10T23:42:11+00:00",
-   "snippet": "",
-   "found": "2026-10-11T01:39:38+00:00",
-   "also": [
-    {
-     "community": "r/VideoEditors_forhire",
-     "link": "https://www.reddit.com/r/VideoEditors_forhire/comments/1x2qz9b/"
-    },
-    {
-     "community": "r/FindVideoEditors",
-     "link": "https://www.reddit.com/r/FindVideoEditors/comments/1x2r0ea/"
-    },
-    {
-     "community": "r/CreatorServices",
-     "link": "https://www.reddit.com/r/CreatorServices/comments/1x2r10s/"
-    },
-    {
-     "community": "r/VideoEditingJobs",
-     "link": "https://www.reddit.com/r/VideoEditingJobs/comments/1x2r1em/"
-    },
-    {
-     "community": "r/VideoEditingRequests",
-     "link": "https://www.reddit.com/r/VideoEditingRequests/comments/1x2r2g4/are_you_looking_for_a_video_editor/"
-    }
-   ],
-   "author": "Salman_Tanzim"
   }
  ]
 }
