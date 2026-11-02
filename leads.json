@@ -1,23 +1,61 @@
 {
- "updated": "2026-11-02T07:28:19+00:00",
+ "updated": "2026-11-02T17:59:27+00:00",
  "stats": {
-  "searches_ok": 7,
-  "searches_failed": 0,
+  "searches_ok": 6,
+  "searches_failed": 1,
   "rate_limited": true,
   "out_of_time": false,
   "queue_size": 93,
-  "errors": {},
+  "errors": {
+   "HTTP Error 404: Not Found": 1
+  },
   "f5bot": {
    "configured": true,
-   "emails": 2,
-   "posts": 5,
+   "emails": 5,
+   "posts": 11,
    "error": ""
   },
-  "duplicates_merged": 1
+  "duplicates_merged": 0
  },
- "cursor": 53,
+ "cursor": 60,
  "stuck": 0,
  "leads": [
+  {
+   "link": "https://www.reddit.com/r/VideoEditor_forhire/comments/1xlzwo8/",
+   "platform": "Reddit",
+   "title": "Need a video editor",
+   "community": "r/VideoEditor_forhire",
+   "group": "F5Bot",
+   "posted": "2026-11-02T17:18:11+00:00",
+   "snippet": "",
+   "found": "2026-11-02T17:59:27+00:00",
+   "matched": "need a video editor",
+   "author": "prince_onfire"
+  },
+  {
+   "link": "https://www.reddit.com/r/videoeditingindia/comments/1xlrhsa/",
+   "platform": "Reddit",
+   "title": "looking for a meme reaction youtube video editor",
+   "community": "r/videoeditingindia",
+   "group": "F5Bot",
+   "posted": "2026-11-02T10:11:11+00:00",
+   "snippet": "",
+   "found": "2026-11-02T17:59:27+00:00",
+   "matched": "looking for a video editor",
+   "author": "SensuiNaman"
+  },
+  {
+   "link": "https://www.reddit.com/r/videoeditingindia/comments/1xlr9wx/",
+   "platform": "Reddit",
+   "title": "Looking for a Video Editor in Hyderabad for Long-Term Collaboration",
+   "community": "r/videoeditingindia",
+   "group": "F5Bot",
+   "posted": "2026-11-02T07:58:11+00:00",
+   "snippet": "",
+   "found": "2026-11-02T17:59:27+00:00",
+   "matched": "looking for a video editor",
+   "author": "Kindly-Cheesecake-21"
+  },
   {
    "link": "https://www.reddit.com/r/INAT/comments/1xlnpy8/",
    "platform": "Reddit",
@@ -6646,46 +6684,6 @@
    "found": "2026-10-13T15:41:51+00:00",
    "matched": "looking for a video editor",
    "author": "Particular_Diver_875"
-  },
-  {
-   "link": "https://www.reddit.com/r/VideoEditingRequests/comments/1x33kms/interested_in_looking_for_an_editor/",
-   "platform": "Reddit",
-   "title": "Interested in looking for an editor",
-   "community": "r/VideoEditingRequests",
-   "group": "Hire communities",
-   "posted": "2026-10-11T09:12:03+00:00",
-   "snippet": "I record mostly minecraft but also play other games. Ill record around 20 hours of content a week sometimes higher. Looking for someone that can edit long form videos and preduce some clips on the side. If you can do thumbnails even better but not required. You need to be open to chanes and alterati...",
-   "found": "2026-10-13T15:41:51+00:00",
-   "matched": "looking for a video editor",
-   "author": "jimeff134"
-  },
-  {
-   "link": "https://www.reddit.com/r/VideoEditingRequests/comments/1x30yjz/",
-   "platform": "Reddit",
-   "title": "'Need a video editor'",
-   "community": "r/VideoEditingRequests",
-   "group": "F5Bot",
-   "posted": "2026-10-11T08:34:09+00:00",
-   "snippet": "",
-   "found": "2026-10-11T15:25:58+00:00"
-  },
-  {
-   "link": "https://www.reddit.com/r/VideoEditingRequests/comments/1x31ynl/im_looking_for_reliable_freelance_video_editors/",
-   "platform": "Reddit",
-   "title": "I\u2019m looking for reliable freelance video editors for ongoing work.",
-   "community": "r/VideoEditingRequests",
-   "group": "Hire communities",
-   "posted": "2026-10-11T07:32:34+00:00",
-   "snippet": "Hey everyone! \ud83d\udc4b I\u2019m looking for reliable freelance video editors for ongoing work. Main tasks: YouTube Shorts, TikToks & Instagram Reels Captions, transitions, sound effects and engaging edits Potential for long-term collaboration Please DM me with: Your portfolio Your rates per short and long-form ...",
-   "found": "2026-10-13T15:41:51+00:00",
-   "matched": "looking for a video editor",
-   "author": "Ill_Tie_4776",
-   "also": [
-    {
-     "community": "r/FindVideoEditors",
-     "link": "https://www.reddit.com/r/FindVideoEditors/comments/1x3206p/im_looking_for_reliable_freelance_video_editors/"
-    }
-   ]
   }
  ]
 }
