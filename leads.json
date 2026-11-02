@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-02T00:35:19+00:00",
+ "updated": "2026-11-02T07:28:19+00:00",
  "stats": {
   "searches_ok": 7,
   "searches_failed": 0,
@@ -9,15 +9,45 @@
   "errors": {},
   "f5bot": {
    "configured": true,
-   "emails": 1,
-   "posts": 1,
+   "emails": 2,
+   "posts": 5,
    "error": ""
   },
   "duplicates_merged": 1
  },
- "cursor": 46,
+ "cursor": 53,
  "stuck": 0,
  "leads": [
+  {
+   "link": "https://www.reddit.com/r/INAT/comments/1xlnpy8/",
+   "platform": "Reddit",
+   "title": "[Hobby] Looking for Video Editor for Analog Horror Series",
+   "community": "r/INAT",
+   "group": "F5Bot",
+   "posted": "2026-11-02T04:26:37+00:00",
+   "snippet": "",
+   "found": "2026-11-02T07:28:19+00:00",
+   "matched": "looking for a video editor",
+   "author": "friedankles"
+  },
+  {
+   "link": "https://www.reddit.com/r/videoeditingindia/comments/1xlmlei/",
+   "platform": "Reddit",
+   "title": "Need a Video Editor Today \u2013 Budget \u20b9300",
+   "community": "r/videoeditingindia",
+   "group": "F5Bot",
+   "posted": "2026-11-02T04:26:37+00:00",
+   "snippet": "",
+   "found": "2026-11-02T07:28:19+00:00",
+   "matched": "looking for a video editor",
+   "author": "LessDevelopment4766",
+   "also": [
+    {
+     "community": "r/VideoEditingJobs",
+     "link": "https://www.reddit.com/r/VideoEditingJobs/comments/1xlmllw/"
+    }
+   ]
+  },
   {
    "link": "https://www.reddit.com/r/videoeditors_hiring/comments/1xldufo/",
    "platform": "Reddit",
@@ -6656,30 +6686,6 @@
      "link": "https://www.reddit.com/r/FindVideoEditors/comments/1x3206p/im_looking_for_reliable_freelance_video_editors/"
     }
    ]
-  },
-  {
-   "link": "https://www.reddit.com/r/FindVideoEditors/comments/1x2zzuf/hiring_fashion_aesthetic_short_form_video_editor/",
-   "platform": "Reddit",
-   "title": "[Hiring] Fashion / Aesthetic Short Form Video Editor",
-   "community": "r/FindVideoEditors",
-   "group": "Hire communities",
-   "posted": "2026-10-11T05:33:31+00:00",
-   "snippet": "Preferably 7 videos a week, rate of 10-20$ per video. Videos will be short with complexity agreed on beforehand. Looking for a dedicated creative video editor who specializes in fashion edits, outfit showcases, and trendy music-driven content for TikTok and Instagram Reels. For a fashion page of 160...",
-   "found": "2026-10-14T06:00:20+00:00",
-   "matched": "need a video editor",
-   "author": "fashion_creator"
-  },
-  {
-   "link": "https://www.reddit.com/r/VideoEditingRequests/comments/1x2vrhl/looking_for_a_music_video_editor_for_short_form/",
-   "platform": "Reddit",
-   "title": "Looking for a music video editor for short form specifically",
-   "community": "r/VideoEditingRequests",
-   "group": "Hire communities",
-   "posted": "2026-10-11T01:40:49+00:00",
-   "snippet": "submitted by /u/AffectionateIce5752 [link] [comments]",
-   "found": "2026-10-13T15:41:51+00:00",
-   "matched": "looking for a video editor",
-   "author": "AffectionateIce5752"
   }
  ]
 }
