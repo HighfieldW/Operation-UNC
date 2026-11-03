@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-03T15:58:14+00:00",
+ "updated": "2026-11-03T21:40:45+00:00",
  "stats": {
   "searches_ok": 7,
   "searches_failed": 0,
@@ -10,14 +10,60 @@
   "f5bot": {
    "configured": true,
    "emails": 2,
-   "posts": 4,
+   "posts": 9,
    "error": ""
   },
-  "duplicates_merged": 0
+  "duplicates_merged": 4
  },
- "cursor": 80,
+ "cursor": 87,
  "stuck": 0,
  "leads": [
+  {
+   "link": "https://www.reddit.com/r/SmallYTChannel/comments/1xmvyfd/",
+   "platform": "Reddit",
+   "title": "Any YouTubers looking for a video editor?",
+   "community": "r/SmallYTChannel",
+   "group": "F5Bot",
+   "posted": "2026-11-03T16:08:13+00:00",
+   "snippet": "",
+   "found": "2026-11-03T21:40:45+00:00",
+   "matched": "looking for a video editor",
+   "author": "ieditvideosyt",
+   "also": [
+    {
+     "community": "r/YouTubeEditorsForHire",
+     "link": "https://www.reddit.com/r/YouTubeEditorsForHire/comments/1xmvyq5/"
+    },
+    {
+     "community": "r/SmallYouTubersUnite",
+     "link": "https://www.reddit.com/r/SmallYouTubersUnite/comments/1xmvyzp/"
+    }
+   ]
+  },
+  {
+   "link": "https://www.reddit.com/r/creators/comments/1xmw1y8/",
+   "platform": "Reddit",
+   "title": "Any Creators need a Video Editor/Designer?",
+   "community": "r/creators",
+   "group": "F5Bot",
+   "posted": "2026-11-03T16:08:13+00:00",
+   "snippet": "",
+   "found": "2026-11-03T21:40:45+00:00",
+   "matched": "looking for a video editor",
+   "author": "ieditvideosyt"
+  },
+  {
+   "link": "https://www.reddit.com/r/BrandsCreators/comments/1xmw3mp/",
+   "platform": "Reddit",
+   "title": "Any Brands need a video editor?",
+   "community": "r/BrandsCreators",
+   "group": "F5Bot",
+   "posted": "2026-11-03T16:08:13+00:00",
+   "snippet": "",
+   "found": "2026-11-03T21:40:45+00:00",
+   "matched": "looking for a video editor",
+   "author": "ieditvideosyt"
+  },
   {
    "link": "https://www.reddit.com/r/forhire/comments/1xmw5bv/hiring_remote_client_outreach_assistant_for_a/",
    "platform": "Reddit",
@@ -1179,6 +1225,14 @@
     {
      "community": "r/CreatorServices",
      "link": "https://www.reddit.com/r/CreatorServices/comments/1xl354g/any_youtubers_looking_for_a_video_editor/"
+    },
+    {
+     "community": "r/SmallYoutubers",
+     "link": "https://www.reddit.com/r/SmallYoutubers/comments/1xl33kw/any_youtubers_looking_for_a_video_editor/"
+    },
+    {
+     "community": "r/NewTubers",
+     "link": "https://www.reddit.com/r/NewTubers/comments/1xl34s6/any_youtubers_looking_for_a_video_editor/"
     }
    ]
   },
@@ -6634,48 +6688,6 @@
    "posted": "2026-10-11T15:01:13+00:00",
    "snippet": "",
    "found": "2026-10-11T15:25:58+00:00"
-  },
-  {
-   "link": "https://www.reddit.com/r/VideoEditingRequests/comments/1x39sf6/hiring_youtube_shorts_video_editor_i_am_looking/",
-   "platform": "Reddit",
-   "title": "HIRING: YOUTUBE SHORTS VIDEO EDITOR \ud83d\udea8 \u200bI am looking for a highly skilled video editor for my YouTube channel to create engaging Shorts.",
-   "community": "r/VideoEditingRequests",
-   "group": "Hire communities",
-   "posted": "2026-10-11T14:36:12+00:00",
-   "snippet": "Requirements & Details: \u200b Software: Using CapCut is perfectly fine. I only care about the final output and quality. \u200b Editing Quality: The editing needs to be top-tier and highly engaging (dynamic captions, B-rolls, sound effects, text animations, and fast-paced cuts). \u200b Budget/Pay: I am offering \u20b95...",
-   "found": "2026-10-13T15:41:51+00:00",
-   "matched": "looking for a video editor",
-   "author": "PossibilityWise3202",
-   "also": [
-    {
-     "community": "r/FindVideoEditors",
-     "link": "https://www.reddit.com/r/FindVideoEditors/comments/1x39sk3/hiring_youtube_shorts_video_editor_i_am_looking/"
-    }
-   ]
-  },
-  {
-   "link": "https://www.reddit.com/r/FindVideoEditors/comments/1x39pbt/hiring_video_editors_for_b2b_consultant_content/",
-   "platform": "Reddit",
-   "title": "[Hiring] Video Editors for B2B consultant content.",
-   "community": "r/FindVideoEditors",
-   "group": "Hire communities",
-   "posted": "2026-10-11T14:32:36+00:00",
-   "snippet": "Tyric Studio is growing its editing team! We are a remote-first agency looking for skilled video editors to join us. \ud83d\udcac The Role Short and Long form Editor: Edit 12 short videos per client per month and long-form content including YouTube videos and podcasts. (Note: This is a separate role from short...",
-   "found": "2026-10-13T15:41:51+00:00",
-   "matched": "looking for a video editor",
-   "author": "Tyric-Studio"
-  },
-  {
-   "link": "https://www.reddit.com/r/FindVideoEditors/comments/1x37kr7/looking_for_editorsclippers_to_post_on/",
-   "platform": "Reddit",
-   "title": "Looking for editors/clippers to post on TikTok/Youtube",
-   "community": "r/FindVideoEditors",
-   "group": "Hire communities",
-   "posted": "2026-10-11T12:58:07+00:00",
-   "snippet": "Hey everyone! I\u2019m a small Kick streamer looking for 1\u20132 aspiring clippers who want to grow alongside me. I stream Just Chatting, reactions, IRL and gaming videos and I\u2019m looking for people who can turn my streams into engaging TikToks, Reels and YouTube. My only offer that I can hold right now is my...",
-   "found": "2026-10-13T15:41:51+00:00",
-   "matched": "looking for a video editor",
-   "author": "Aggravating-Past-679"
   }
  ]
 }
