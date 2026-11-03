@@ -1,21 +1,23 @@
 {
- "updated": "2026-11-03T00:53:34+00:00",
+ "updated": "2026-11-03T07:42:48+00:00",
  "stats": {
-  "searches_ok": 7,
-  "searches_failed": 0,
+  "searches_ok": 5,
+  "searches_failed": 1,
   "rate_limited": true,
   "out_of_time": false,
   "queue_size": 93,
-  "errors": {},
+  "errors": {
+   "HTTP Error 404: Not Found": 1
+  },
   "f5bot": {
    "configured": true,
    "emails": 1,
-   "posts": 3,
+   "posts": 1,
    "error": ""
   },
-  "duplicates_merged": 1
+  "duplicates_merged": 0
  },
- "cursor": 67,
+ "cursor": 73,
  "stuck": 0,
  "leads": [
   {
@@ -2351,6 +2353,18 @@
    "author": "Timely_Crab3072"
   },
   {
+   "link": "https://www.reddit.com/r/FindVideoEditors/comments/1xew8ct/",
+   "platform": "Reddit",
+   "title": "Need a video editor asap",
+   "community": "r/FindVideoEditors",
+   "group": "F5Bot",
+   "posted": "2026-10-25T08:05:12+00:00",
+   "snippet": "",
+   "found": "2026-10-25T13:02:20+00:00",
+   "matched": "hiring a video editor",
+   "author": "Smixle1"
+  },
+  {
    "link": "https://www.reddit.com/r/nairobitechies/comments/1xeujs8/",
    "platform": "Reddit",
    "title": "Hiring a video Editor",
@@ -2373,18 +2387,6 @@
    "found": "2026-10-25T13:02:20+00:00",
    "matched": "hiring a video editor",
    "author": "Fluid_Confection_101"
-  },
-  {
-   "link": "https://www.reddit.com/r/FindVideoEditors/comments/1xew8ct/",
-   "platform": "Reddit",
-   "title": "Need a video editor asap",
-   "community": "r/FindVideoEditors",
-   "group": "F5Bot",
-   "posted": "2026-10-25T08:05:12+00:00",
-   "snippet": "",
-   "found": "2026-10-25T13:02:20+00:00",
-   "matched": "hiring a video editor",
-   "author": "Smixle1"
   },
   {
    "link": "https://www.reddit.com/r/u_Samar__Mo/comments/1xeh4p9/",
