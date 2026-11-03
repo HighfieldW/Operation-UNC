@@ -1,25 +1,53 @@
 {
- "updated": "2026-11-02T17:59:27+00:00",
+ "updated": "2026-11-03T00:53:34+00:00",
  "stats": {
-  "searches_ok": 6,
-  "searches_failed": 1,
+  "searches_ok": 7,
+  "searches_failed": 0,
   "rate_limited": true,
   "out_of_time": false,
   "queue_size": 93,
-  "errors": {
-   "HTTP Error 404: Not Found": 1
-  },
+  "errors": {},
   "f5bot": {
    "configured": true,
-   "emails": 5,
-   "posts": 11,
+   "emails": 1,
+   "posts": 3,
    "error": ""
   },
-  "duplicates_merged": 0
+  "duplicates_merged": 1
  },
- "cursor": 60,
+ "cursor": 67,
  "stuck": 0,
  "leads": [
+  {
+   "link": "https://www.reddit.com/r/HireAnEditor/comments/1xmb8kh/",
+   "platform": "Reddit",
+   "title": "Need a video editor asap",
+   "community": "r/HireAnEditor",
+   "group": "F5Bot",
+   "posted": "2026-11-02T23:15:16+00:00",
+   "snippet": "",
+   "found": "2026-11-03T00:53:34+00:00",
+   "matched": "hiring a video editor",
+   "author": "Low_Signature6513",
+   "also": [
+    {
+     "community": "r/VideoEditingRequests",
+     "link": "https://www.reddit.com/r/VideoEditingRequests/comments/1xmb8wo/"
+    }
+   ]
+  },
+  {
+   "link": "https://www.reddit.com/r/VideoEditingJobs/comments/1xm9p1t/",
+   "platform": "Reddit",
+   "title": "Hiring a video editor and creator",
+   "community": "r/VideoEditingJobs",
+   "group": "F5Bot",
+   "posted": "2026-11-02T23:15:16+00:00",
+   "snippet": "",
+   "found": "2026-11-03T00:53:34+00:00",
+   "matched": "hiring a video editor",
+   "author": "Willina_Bertha"
+  },
   {
    "link": "https://www.reddit.com/r/VideoEditor_forhire/comments/1xlzwo8/",
    "platform": "Reddit",
@@ -6648,42 +6676,6 @@
    "found": "2026-10-13T15:41:51+00:00",
    "matched": "looking for a video editor",
    "author": "Luitenant6"
-  },
-  {
-   "link": "https://www.reddit.com/r/HireAnEditor/comments/1x3356r/",
-   "platform": "Reddit",
-   "title": "'Hiring a Video Editor for Instagram Reels'",
-   "community": "r/HireAnEditor",
-   "group": "F5Bot",
-   "posted": "2026-10-11T10:48:11+00:00",
-   "snippet": "",
-   "found": "2026-10-11T15:25:58+00:00",
-   "also": [
-    {
-     "community": "r/videoeditingindia",
-     "link": "https://www.reddit.com/r/videoeditingindia/comments/1x335qx/"
-    },
-    {
-     "community": "r/VideoEditors_forhire",
-     "link": "https://www.reddit.com/r/VideoEditors_forhire/comments/1x3364d/"
-    },
-    {
-     "community": "r/VideoEditors",
-     "link": "https://www.reddit.com/r/VideoEditors/comments/1x336vx/"
-    }
-   ]
-  },
-  {
-   "link": "https://www.reddit.com/r/FindVideoEditors/comments/1x33wgl/hiring_looking_for_a_longform_cod_editor/",
-   "platform": "Reddit",
-   "title": "[Hiring] Looking for a Long-Form CoD Editor (Retention-focused / Comedic Style) | $50/video + 10% REV share",
-   "community": "r/FindVideoEditors",
-   "group": "Hire communities",
-   "posted": "2026-10-11T09:33:10+00:00",
-   "snippet": "Hey everyone! I\u2019m looking for an editor to help me build out a long-form Call of Duty channel. The Vibe: Think high-energy, funny moments, meme edits, smart pacing, and keeping the audience hooked through 30-minute runtimes. Styled like BlaznBoy or similar community creators\u2014fast-paced comedy, sound...",
-   "found": "2026-10-13T15:41:51+00:00",
-   "matched": "looking for a video editor",
-   "author": "Particular_Diver_875"
   }
  ]
 }
