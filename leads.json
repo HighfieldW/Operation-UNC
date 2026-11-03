@@ -1,25 +1,47 @@
 {
- "updated": "2026-11-03T07:42:48+00:00",
+ "updated": "2026-11-03T15:58:14+00:00",
  "stats": {
-  "searches_ok": 5,
-  "searches_failed": 1,
+  "searches_ok": 7,
+  "searches_failed": 0,
   "rate_limited": true,
   "out_of_time": false,
   "queue_size": 93,
-  "errors": {
-   "HTTP Error 404: Not Found": 1
-  },
+  "errors": {},
   "f5bot": {
    "configured": true,
-   "emails": 1,
-   "posts": 1,
+   "emails": 2,
+   "posts": 4,
    "error": ""
   },
   "duplicates_merged": 0
  },
- "cursor": 73,
+ "cursor": 80,
  "stuck": 0,
  "leads": [
+  {
+   "link": "https://www.reddit.com/r/forhire/comments/1xmw5bv/hiring_remote_client_outreach_assistant_for_a/",
+   "platform": "Reddit",
+   "title": "[Hiring] Remote Client Outreach Assistant for a Video Editing Studio \u2013 % of every client you bring \u2013 Part-time, Online",
+   "community": "r/forhire",
+   "group": "Hiring boards",
+   "posted": "2026-11-03T15:35:19+00:00",
+   "snippet": "We're a small video editing studio (YouTube long-form, Shorts/Reels, gaming, educational content) looking for a part-time assistant to find and contact potential clients. What you'll do - Find creators, small brands and agencies that need video editing (YouTube, Instagram, TikTok, hiring posts) - Se...",
+   "found": "2026-11-03T15:58:14+00:00",
+   "matched": "video editor needed paid",
+   "author": "ras_malayi_49"
+  },
+  {
+   "link": "https://www.reddit.com/r/VideoEditors/comments/1xmqsp2/",
+   "platform": "Reddit",
+   "title": "Looking for Video Editor for a Medium-sized YouTube Channel!",
+   "community": "r/VideoEditors",
+   "group": "F5Bot",
+   "posted": "2026-11-03T13:47:12+00:00",
+   "snippet": "",
+   "found": "2026-11-03T15:58:14+00:00",
+   "matched": "looking for a video editor",
+   "author": "Traditional-Help-358"
+  },
   {
    "link": "https://www.reddit.com/r/HireAnEditor/comments/1xmb8kh/",
    "platform": "Reddit",
@@ -6654,30 +6676,6 @@
    "found": "2026-10-13T15:41:51+00:00",
    "matched": "looking for a video editor",
    "author": "Aggravating-Past-679"
-  },
-  {
-   "link": "https://www.reddit.com/r/FindVideoEditors/comments/1x36cgq/looking_for_beginner_video_editors_34_per_short/",
-   "platform": "Reddit",
-   "title": "Looking for Beginner Video Editors \u2013 $3\u2013$4 Per Short Clip (15\u201345 Seconds)",
-   "community": "r/FindVideoEditors",
-   "group": "Hire communities",
-   "posted": "2026-10-11T11:55:58+00:00",
-   "snippet": "Requirements: 15\u201345 second clips TikTok, YouTube Shorts, and Reels format Captions/subtitles Clean cuts and good pacing Basic zooms and effects when needed Gaming/streamer content I\u2019m looking to start with a few clips and hopefully build a long-term working relationship with the right editor. Beginn...",
-   "found": "2026-10-13T15:41:51+00:00",
-   "matched": "looking for a video editor",
-   "author": "PossibilityLarge4585"
-  },
-  {
-   "link": "https://www.reddit.com/r/FindVideoEditors/comments/1x35x4z/hiring_youtube_shorts_editor/",
-   "platform": "Reddit",
-   "title": "[HIRING] YouTube shorts editor",
-   "community": "r/FindVideoEditors",
-   "group": "Hire communities",
-   "posted": "2026-10-11T11:32:06+00:00",
-   "snippet": "I\u2019m looking for a reliable editor for consistent daily work. Job Details Pay: $10 per video Work: 1 Short p/ day Delivery: Maximum 1-day turnaround Requirements - Must edit in Premiere Pro - Good at storytelling - Must have a strong understanding of English, preferably fluent - Must have good and re...",
-   "found": "2026-10-13T15:41:51+00:00",
-   "matched": "looking for a video editor",
-   "author": "Luitenant6"
   }
  ]
 }
