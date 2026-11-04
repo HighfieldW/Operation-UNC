@@ -1,25 +1,47 @@
 {
- "updated": "2026-11-04T01:59:43+00:00",
+ "updated": "2026-11-04T08:59:39+00:00",
  "stats": {
-  "searches_ok": 6,
-  "searches_failed": 1,
+  "searches_ok": 7,
+  "searches_failed": 0,
   "rate_limited": true,
   "out_of_time": false,
   "queue_size": 93,
-  "errors": {
-   "HTTP Error 404: Not Found": 1
-  },
+  "errors": {},
   "f5bot": {
    "configured": true,
-   "emails": 3,
-   "posts": 4,
+   "emails": 1,
+   "posts": 2,
    "error": ""
   },
   "duplicates_merged": 0
  },
- "cursor": 1,
+ "cursor": 8,
  "stuck": 0,
  "leads": [
+  {
+   "link": "https://www.reddit.com/r/VideoEditingJobs/comments/1xnge1l/",
+   "platform": "Reddit",
+   "title": "Need a video editor",
+   "community": "r/VideoEditingJobs",
+   "group": "F5Bot",
+   "posted": "2026-11-04T06:30:13+00:00",
+   "snippet": "",
+   "found": "2026-11-04T08:59:39+00:00",
+   "matched": "need a video editor",
+   "author": "nsame0"
+  },
+  {
+   "link": "https://www.reddit.com/r/videoeditingindia/comments/1xnex3i/",
+   "platform": "Reddit",
+   "title": "Need a video editor for my travel series",
+   "community": "r/videoeditingindia",
+   "group": "F5Bot",
+   "posted": "2026-11-04T06:30:13+00:00",
+   "snippet": "",
+   "found": "2026-11-04T08:59:39+00:00",
+   "matched": "need a video editor",
+   "author": "Nitesh8902"
+  },
   {
    "link": "https://www.reddit.com/r/FindVideoEditors/comments/1xn7qka/",
    "platform": "Reddit",
@@ -6672,30 +6694,6 @@
    "found": "2026-10-13T15:41:51+00:00",
    "matched": "looking for a video editor",
    "author": "MacaronObjective7925"
-  },
-  {
-   "link": "https://www.reddit.com/r/CreatorServices/comments/1x3cw2h/looking_for_content_creators_who_need_free_video/",
-   "platform": "Reddit",
-   "title": "Looking for content creators who need free video editing.",
-   "community": "r/CreatorServices",
-   "group": "Hire communities",
-   "posted": "2026-10-11T16:42:12+00:00",
-   "snippet": "Hey everyone! \ud83d\udc4b I'm learning video editing and looking for a few content creators who would like some help editing their videos. I'd love to work with small YouTubers, podcasters, and creators who want to turn their longer videos into short-form content. What I can help with: Podcast and interview h...",
-   "found": "2026-10-13T15:41:51+00:00",
-   "matched": "looking for a video editor",
-   "author": "Starlight-07"
-  },
-  {
-   "link": "https://www.reddit.com/r/FindVideoEditors/comments/1x3b02c/hiring_looking_for_a_gaming_youtube_editor_short/",
-   "platform": "Reddit",
-   "title": "HIRING! Looking for a Gaming YouTube Editor \u2013 Short or Long-Term \ud83c\udfae",
-   "community": "r/FindVideoEditors",
-   "group": "Hire communities",
-   "posted": "2026-10-11T15:26:21+00:00",
-   "snippet": "submitted by /u/Hairy_Donkey_6844 [link] [comments]",
-   "found": "2026-10-13T15:41:51+00:00",
-   "matched": "looking for a video editor",
-   "author": "Hairy_Donkey_6844"
   }
  ]
 }
