@@ -1,23 +1,85 @@
 {
- "updated": "2026-11-03T21:40:45+00:00",
+ "updated": "2026-11-04T01:59:43+00:00",
  "stats": {
-  "searches_ok": 7,
-  "searches_failed": 0,
+  "searches_ok": 6,
+  "searches_failed": 1,
   "rate_limited": true,
   "out_of_time": false,
   "queue_size": 93,
-  "errors": {},
+  "errors": {
+   "HTTP Error 404: Not Found": 1
+  },
   "f5bot": {
    "configured": true,
-   "emails": 2,
-   "posts": 9,
+   "emails": 3,
+   "posts": 4,
    "error": ""
   },
-  "duplicates_merged": 4
+  "duplicates_merged": 0
  },
- "cursor": 87,
+ "cursor": 1,
  "stuck": 0,
  "leads": [
+  {
+   "link": "https://www.reddit.com/r/FindVideoEditors/comments/1xn7qka/",
+   "platform": "Reddit",
+   "title": "Need a video editor ( for real State)",
+   "community": "r/FindVideoEditors",
+   "group": "F5Bot",
+   "posted": "2026-11-04T00:50:18+00:00",
+   "snippet": "",
+   "found": "2026-11-04T01:59:43+00:00",
+   "matched": "need a video editor",
+   "author": "harshchaube"
+  },
+  {
+   "link": "https://www.reddit.com/r/YouTubeEditorsForHire/comments/1xn53lp/",
+   "platform": "Reddit",
+   "title": "Are You Looking For A Video Editor?",
+   "community": "r/YouTubeEditorsForHire",
+   "group": "F5Bot",
+   "posted": "2026-11-03T22:11:11+00:00",
+   "snippet": "",
+   "found": "2026-11-04T01:59:43+00:00",
+   "matched": "hire a video editor",
+   "author": "CommercialCurrent824"
+  },
+  {
+   "link": "https://www.reddit.com/r/VideoEditors_forhire/comments/1xn5228/",
+   "platform": "Reddit",
+   "title": "Hiring a video editor to edit with my existing style; 1 video",
+   "community": "r/VideoEditors_forhire",
+   "group": "F5Bot",
+   "posted": "2026-11-03T22:11:11+00:00",
+   "snippet": "",
+   "found": "2026-11-04T01:59:43+00:00",
+   "matched": "hire a video editor",
+   "author": "enjoytheshowX"
+  },
+  {
+   "link": "https://www.reddit.com/r/forhire/comments/1xn2svp/hiring_video_editor_for_construction_company/",
+   "platform": "Reddit",
+   "title": "[Hiring] Video editor for construction company short-form content (Reels/TikTok/X), $25\u201340 per video, Remote",
+   "community": "r/forhire",
+   "group": "Hiring boards",
+   "posted": "2026-11-03T19:37:07+00:00",
+   "snippet": "We're iFixit General Contractor, a family-owned remodeling and home repair company in Langhorne, PA. We film a lot on the job: before-and-afters, carpentry close-ups, and quick trade tips that explain the \"why\" behind a technique. Our best tip video got 13K+ views, and we want more like it, consiste...",
+   "found": "2026-11-04T01:59:43+00:00",
+   "matched": "long term video editor",
+   "author": "Turbulent_Bid7289"
+  },
+  {
+   "link": "https://www.reddit.com/r/forhire/comments/1xn2dmm/hiring_600_month_video_editor_health_info_based/",
+   "platform": "Reddit",
+   "title": "[Hiring] $600 / Month Video Editor (Health Info based channel",
+   "community": "r/forhire",
+   "group": "Hiring boards",
+   "posted": "2026-11-03T19:21:35+00:00",
+   "snippet": "I am hiring a long-form video editor to own our long-form and short form content. Remote and long-term. Niche is fitness / health based The responsibility: 8x Long Form Videos Per Month (10-15 minutes) 30x Short form videos per month (10x edits, 10x simple talking corner head with images, 10x board ...",
+   "found": "2026-11-04T01:59:43+00:00",
+   "matched": "long term video editor",
+   "author": "Purple-Ferret1152"
+  },
   {
    "link": "https://www.reddit.com/r/SmallYTChannel/comments/1xmvyfd/",
    "platform": "Reddit",
@@ -6634,60 +6696,6 @@
    "found": "2026-10-13T15:41:51+00:00",
    "matched": "looking for a video editor",
    "author": "Hairy_Donkey_6844"
-  },
-  {
-   "link": "https://www.reddit.com/r/FindVideoEditors/comments/1x3ag9z/hiring_video_editor_for_longform_explainer/",
-   "platform": "Reddit",
-   "title": "Hiring: Video Editor for Long-Form Explainer / Documentary Videos. \u20b92k-\u20b93k per video.",
-   "community": "r/FindVideoEditors",
-   "group": "Hire communities",
-   "posted": "2026-10-11T15:03:45+00:00",
-   "snippet": "I\u2019m looking for an experienced, high-caliber Video Editor to partner with on a scaling YouTube channel focused on deep-dive explainer videos (Geopolitics, History, Tech, and Behavioral Psychology). This is \\*\\*not\\*\\* an entry-level position or a \"learn on the job\" role. I need an established editor...",
-   "found": "2026-10-13T15:41:51+00:00",
-   "matched": "looking for a video editor",
-   "author": "jack_sparrow____"
-  },
-  {
-   "link": "https://www.reddit.com/r/VideoEditingRequests/comments/1x3aeer/looking_for_a_football_yt_shorts_editor/",
-   "platform": "Reddit",
-   "title": "Looking for a football yt shorts editor",
-   "community": "r/VideoEditingRequests",
-   "group": "Hire communities",
-   "posted": "2026-10-11T15:01:39+00:00",
-   "snippet": "submitted by /u/whistlefooty [link] [comments]",
-   "found": "2026-10-13T15:41:51+00:00",
-   "matched": "looking for a video editor",
-   "author": "whistlefooty"
-  },
-  {
-   "link": "https://www.reddit.com/r/VideoEditing/comments/1x37l8a/",
-   "platform": "Reddit",
-   "title": "'Need a video editor'",
-   "community": "r/VideoEditing",
-   "group": "F5Bot",
-   "posted": "2026-10-11T15:01:13+00:00",
-   "snippet": "",
-   "found": "2026-10-11T15:25:58+00:00"
-  },
-  {
-   "link": "https://www.reddit.com/r/editors/comments/1x382mb/",
-   "platform": "Reddit",
-   "title": "'Need a video editor and script writer'",
-   "community": "r/editors",
-   "group": "F5Bot",
-   "posted": "2026-10-11T15:01:13+00:00",
-   "snippet": "",
-   "found": "2026-10-11T15:25:58+00:00"
-  },
-  {
-   "link": "https://www.reddit.com/r/warangal/comments/1x3a874/",
-   "platform": "Reddit",
-   "title": "'Need a video editor in warangal (salary : 18-20k)'",
-   "community": "r/warangal",
-   "group": "F5Bot",
-   "posted": "2026-10-11T15:01:13+00:00",
-   "snippet": "",
-   "found": "2026-10-11T15:25:58+00:00"
   }
  ]
 }
