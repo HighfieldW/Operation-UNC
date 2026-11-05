@@ -1,23 +1,37 @@
 {
- "updated": "2026-11-05T05:47:51+00:00",
+ "updated": "2026-11-05T14:19:06+00:00",
  "stats": {
-  "searches_ok": 7,
-  "searches_failed": 0,
+  "searches_ok": 5,
+  "searches_failed": 1,
   "rate_limited": true,
   "out_of_time": false,
   "queue_size": 93,
-  "errors": {},
+  "errors": {
+   "HTTP Error 404: Not Found": 1
+  },
   "f5bot": {
    "configured": true,
-   "emails": 2,
-   "posts": 3,
+   "emails": 4,
+   "posts": 11,
    "error": ""
   },
-  "duplicates_merged": 0
+  "duplicates_merged": 1
  },
- "cursor": 29,
+ "cursor": 35,
  "stuck": 0,
  "leads": [
+  {
+   "link": "https://www.reddit.com/r/videoeditingindia/comments/1xoh00h/",
+   "platform": "Reddit",
+   "title": "We are looking for a video editor experienced in editing real estate videos",
+   "community": "r/videoeditingindia",
+   "group": "F5Bot",
+   "posted": "2026-11-05T13:05:16+00:00",
+   "snippet": "",
+   "found": "2026-11-05T14:19:06+00:00",
+   "matched": "looking for a video editor",
+   "author": "maariozee"
+  },
   {
    "link": "https://www.reddit.com/r/hirevideoeditors2/comments/1xo1ocm/",
    "platform": "Reddit",
@@ -514,7 +528,13 @@
    "snippet": "",
    "found": "2026-11-02T17:59:27+00:00",
    "matched": "need a video editor",
-   "author": "prince_onfire"
+   "author": "prince_onfire",
+   "also": [
+    {
+     "community": "r/VideoEditor_forhire",
+     "link": "https://www.reddit.com/r/VideoEditor_forhire/comments/1xodgri/"
+    }
+   ]
   },
   {
    "link": "https://www.reddit.com/r/FindVideoEditors/comments/1xly1ag/looking_for_a_cold_texter_client_outreach/",
@@ -6709,18 +6729,6 @@
      "link": "https://www.reddit.com/r/HireAnEditor/comments/1x4om2b/looking_for_a_killer_short_form_editor_for_a/"
     }
    ]
-  },
-  {
-   "link": "https://www.reddit.com/r/HireAnEditor/comments/1x4kc25/hiring_video_editor_for_longformat_educational/",
-   "platform": "Reddit",
-   "title": "Hiring video editor for long-format educational content",
-   "community": "r/HireAnEditor",
-   "group": "Hire communities",
-   "posted": "2026-10-13T01:56:26+00:00",
-   "snippet": "The rate is $50-75, depending on your expertise and the scope of work, with the potential for higher compensation once the channel is monetized. I\u2019m looking for a long-form video editor to work on 10\u201320-minute, talking-head educational videos (neuroscience, psychiatry, etc.) You should have experien...",
-   "found": "2026-10-13T15:41:51+00:00",
-   "matched": "looking for a video editor",
-   "author": "Zestyclose-Box7671"
   }
  ]
 }
