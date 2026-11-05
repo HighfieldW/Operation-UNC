@@ -1,7 +1,7 @@
 {
- "updated": "2026-11-04T23:23:58+00:00",
+ "updated": "2026-11-05T05:47:51+00:00",
  "stats": {
-  "searches_ok": 6,
+  "searches_ok": 7,
   "searches_failed": 0,
   "rate_limited": true,
   "out_of_time": false,
@@ -9,15 +9,39 @@
   "errors": {},
   "f5bot": {
    "configured": true,
-   "emails": 1,
-   "posts": 0,
+   "emails": 2,
+   "posts": 3,
    "error": ""
   },
-  "duplicates_merged": 7
+  "duplicates_merged": 0
  },
- "cursor": 22,
+ "cursor": 29,
  "stuck": 0,
  "leads": [
+  {
+   "link": "https://www.reddit.com/r/hirevideoeditors2/comments/1xo1ocm/",
+   "platform": "Reddit",
+   "title": "\ud83c\udfac Looking for a Video Editor? Let's Work Together!",
+   "community": "r/hirevideoeditors2",
+   "group": "F5Bot",
+   "posted": "2026-11-05T00:18:11+00:00",
+   "snippet": "",
+   "found": "2026-11-05T05:47:51+00:00",
+   "matched": "looking for a video editor",
+   "author": "itda_woowoo"
+  },
+  {
+   "link": "https://www.reddit.com/r/HireAnEditor/comments/1xo38q3/",
+   "platform": "Reddit",
+   "title": "Looking for a Video Editor? Let's Work Together!",
+   "community": "r/HireAnEditor",
+   "group": "F5Bot",
+   "posted": "2026-11-05T00:18:11+00:00",
+   "snippet": "",
+   "found": "2026-11-05T05:47:51+00:00",
+   "matched": "looking for a video editor",
+   "author": "Warm-Gold2140"
+  },
   {
    "link": "https://www.reddit.com/r/forhire/comments/1xo2hz9/hiring_600_month_video_editor_beauty_and_science/",
    "platform": "Reddit",
@@ -6697,36 +6721,6 @@
    "found": "2026-10-13T15:41:51+00:00",
    "matched": "looking for a video editor",
    "author": "Zestyclose-Box7671"
-  },
-  {
-   "link": "https://www.reddit.com/r/FindVideoEditors/comments/1x4ifgj/free_looking_for_podcast_video_editor_both_short/",
-   "platform": "Reddit",
-   "title": "(FREE) Looking for podcast video editor, both short and long form",
-   "community": "r/FindVideoEditors",
-   "group": "Hire communities",
-   "posted": "2026-10-13T00:23:22+00:00",
-   "snippet": "i am one of two people part of a podcast that talks about marvel, dc, and baseball content. we mainly post on youtube and tiktok and are in need of another hand in the editing process to help get content out quicker. i know it says free as i have a small budget currently, but that is open to changin...",
-   "found": "2026-10-13T15:41:51+00:00",
-   "matched": "looking for a video editor",
-   "author": "FragrantAd4902",
-   "also": [
-    {
-     "community": "r/VideoEditingRequests",
-     "link": "https://www.reddit.com/r/VideoEditingRequests/comments/1x4igxb/free_looking_for_podcast_video_editor_both_short/"
-    }
-   ]
-  },
-  {
-   "link": "https://www.reddit.com/r/CreatorServices/comments/1x4gx84/looking_for_a_video_editor_to_grow_with_us/",
-   "platform": "Reddit",
-   "title": "Looking for a video editor to grow with us",
-   "community": "r/CreatorServices",
-   "group": "Hire communities",
-   "posted": "2026-10-12T23:13:20+00:00",
-   "snippet": "Hey everyone! We run a youtube channel called Swiss Moments. We shoot travel videos around Switzerland but we really need an editor to help us with the videos, pacing, and sound design. This is currently unpaid since the channel isn't monetized yet, so it's perfect for someone who wants to build the...",
-   "found": "2026-10-13T15:41:51+00:00",
-   "matched": "looking for a video editor",
-   "author": "BiscottiWRLD"
   }
  ]
 }
