@@ -1,7 +1,7 @@
 {
- "updated": "2026-11-06T17:51:06+00:00",
+ "updated": "2026-11-06T22:51:42+00:00",
  "stats": {
-  "searches_ok": 6,
+  "searches_ok": 7,
   "searches_failed": 0,
   "rate_limited": true,
   "out_of_time": false,
@@ -10,14 +10,26 @@
   "f5bot": {
    "configured": true,
    "emails": 1,
-   "posts": 0,
+   "posts": 1,
    "error": ""
   },
   "duplicates_merged": 0
  },
- "cursor": 62,
+ "cursor": 69,
  "stuck": 0,
  "leads": [
+  {
+   "link": "https://www.reddit.com/r/VideoEditingJobs/comments/1xpldrv/",
+   "platform": "Reddit",
+   "title": "Hiring - Video Editor for german videos",
+   "community": "r/VideoEditingJobs",
+   "group": "F5Bot",
+   "posted": "2026-11-06T21:14:42+00:00",
+   "snippet": "",
+   "found": "2026-11-06T22:51:42+00:00",
+   "matched": "looking for a video editor",
+   "author": "AY2-Gang"
+  },
   {
    "link": "https://www.reddit.com/r/HireAnEditor/comments/1xou6l2/looking_for_a_reaction_video_editor_for_the_long/",
    "platform": "Reddit",
@@ -6717,18 +6729,6 @@
    "found": "2026-10-14T06:00:20+00:00",
    "matched": "need a video editor",
    "author": "Ok_Onion_7090"
-  },
-  {
-   "link": "https://www.reddit.com/r/CreatorServices/comments/1x591ez/looking_for_an_experienced_shortform_editor/",
-   "platform": "Reddit",
-   "title": "Looking for an Experienced Short-Form Editor - Starting at $15 Per Short, Daily Work",
-   "community": "r/CreatorServices",
-   "group": "Hire communities",
-   "posted": "2026-10-13T21:17:17+00:00",
-   "snippet": "Hi r/CreatorServices We\u2019re Rick and Rory, UK-based Twitch Partners and EA SPORTS FC content creators. We\u2019re looking for an experienced short-form editor to join our team. We\u2019ve worked with one of our best editors for over a year, and we wouldn\u2019t be where we are without him. He loves storytelling, kn...",
-   "found": "2026-10-14T06:00:20+00:00",
-   "matched": "need a video editor",
-   "author": "RickieAndRory"
   }
  ]
 }
