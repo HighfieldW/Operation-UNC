@@ -1,25 +1,59 @@
 {
- "updated": "2026-11-07T02:37:14+00:00",
+ "updated": "2026-11-07T09:45:19+00:00",
  "stats": {
-  "searches_ok": 5,
-  "searches_failed": 1,
+  "searches_ok": 7,
+  "searches_failed": 0,
   "rate_limited": true,
   "out_of_time": false,
   "queue_size": 93,
-  "errors": {
-   "HTTP Error 404: Not Found": 1
-  },
+  "errors": {},
   "f5bot": {
    "configured": true,
    "emails": 1,
-   "posts": 1,
+   "posts": 3,
    "error": ""
   },
   "duplicates_merged": 0
  },
- "cursor": 75,
+ "cursor": 82,
  "stuck": 0,
  "leads": [
+  {
+   "link": "https://www.reddit.com/r/HireAnEditor/comments/1xpyjk4/",
+   "platform": "Reddit",
+   "title": "Need a video editor",
+   "community": "r/HireAnEditor",
+   "group": "F5Bot",
+   "posted": "2026-11-07T06:26:43+00:00",
+   "snippet": "",
+   "found": "2026-11-07T09:45:19+00:00",
+   "matched": "looking for a video editor",
+   "author": "whatif0is0"
+  },
+  {
+   "link": "https://www.reddit.com/r/VideoEditor_forhire/comments/1xpxdtq/",
+   "platform": "Reddit",
+   "title": "Looking for a Video Editor",
+   "community": "r/VideoEditor_forhire",
+   "group": "F5Bot",
+   "posted": "2026-11-07T06:26:43+00:00",
+   "snippet": "",
+   "found": "2026-11-07T09:45:19+00:00",
+   "matched": "looking for a video editor",
+   "author": "9c4o51"
+  },
+  {
+   "link": "https://www.reddit.com/r/FreelanceIndia/comments/1xpxhi2/",
+   "platform": "Reddit",
+   "title": "Looking for a Video Editor for Talking Head Shorts",
+   "community": "r/FreelanceIndia",
+   "group": "F5Bot",
+   "posted": "2026-11-07T06:26:43+00:00",
+   "snippet": "",
+   "found": "2026-11-07T09:45:19+00:00",
+   "matched": "looking for a video editor",
+   "author": "9c4o51"
+  },
   {
    "link": "https://www.reddit.com/r/VideoEditingJobs/comments/1xpldrv/",
    "platform": "Reddit",
@@ -6695,42 +6729,6 @@
    "found": "2026-10-16T13:48:54+00:00",
    "matched": "looking for a video editor",
    "author": "Kanyezus"
-  },
-  {
-   "link": "https://www.reddit.com/r/CreatorServices/comments/1x5dkrk/hiring_gaming_editor_for_story_energydriven_lets/",
-   "platform": "Reddit",
-   "title": "[HIRING] Gaming Editor for Story & Energy-Driven Let's Plays (AfroSenju / CoryxKenshin Vibe) - PLEASE READ DES.",
-   "community": "r/CreatorServices",
-   "group": "Hire communities",
-   "posted": "2026-10-14T00:39:47+00:00",
-   "snippet": "First of all, if you have NEVER watched a Afrosenju video, here is one for reference - https://www.youtube.com/watch?v=3iWFhmKHONw&t=141s Reposting because last time I got flooded with AI portfolios and generic Fortnite/Roblox/COD editors which is not really what im looking for. I\u2019m looking for an e...",
-   "found": "2026-10-14T06:00:20+00:00",
-   "matched": "need a video editor",
-   "author": "DearAlfalfa3841"
-  },
-  {
-   "link": "https://www.reddit.com/r/FindVideoEditors/comments/1x5ann4/hiring_video_editor_for_tv_sitcom_video_essay/",
-   "platform": "Reddit",
-   "title": "[Hiring] Video Editor for TV / Sitcom Video Essay Channel",
-   "community": "r/FindVideoEditors",
-   "group": "Hire communities",
-   "posted": "2026-10-13T22:25:10+00:00",
-   "snippet": "Looking for a video editor for a long-form YouTube channel making video essays around sitcoms and TV characters, starting with Two and a Half Men . The editing style is fairly simple. Most of the work is finding the right scenes from the show, matching them to the narration, and keeping the video vi...",
-   "found": "2026-10-14T06:00:20+00:00",
-   "matched": "need a video editor",
-   "author": "Holiday_River2636"
-  },
-  {
-   "link": "https://www.reddit.com/r/HireAnEditor/comments/1x59vad/hiring_editor_for_short_form_ugc_videos_30s/",
-   "platform": "Reddit",
-   "title": "hiring editor for short form UGC videos 30s approx easy editing",
-   "community": "r/HireAnEditor",
-   "group": "Hire communities",
-   "posted": "2026-10-13T21:51:50+00:00",
-   "snippet": "I do ugc work where I post videos for companies subtly advertising them e.g. https://www.instagram.com/p/Ddz9c6nhq3Z/ - I will send u raw footage and u gotta edit it in the format that im doing, get rid of dead space add text captions and in some instances some b roll and music and add the text of t...",
-   "found": "2026-10-14T06:00:20+00:00",
-   "matched": "need a video editor",
-   "author": "Ok_Onion_7090"
   }
  ]
 }
