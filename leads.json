@@ -1,7 +1,7 @@
 {
- "updated": "2026-11-07T09:45:19+00:00",
+ "updated": "2026-11-07T16:10:54+00:00",
  "stats": {
-  "searches_ok": 7,
+  "searches_ok": 6,
   "searches_failed": 0,
   "rate_limited": true,
   "out_of_time": false,
@@ -9,15 +9,63 @@
   "errors": {},
   "f5bot": {
    "configured": true,
-   "emails": 1,
-   "posts": 3,
+   "emails": 3,
+   "posts": 9,
    "error": ""
   },
-  "duplicates_merged": 0
+  "duplicates_merged": 2
  },
- "cursor": 82,
+ "cursor": 88,
  "stuck": 0,
  "leads": [
+  {
+   "link": "https://www.reddit.com/r/HireAnEditor/comments/1xq3vrn/",
+   "platform": "Reddit",
+   "title": "Looking for short form video editor",
+   "community": "r/HireAnEditor",
+   "group": "F5Bot",
+   "posted": "2026-11-07T12:58:01+00:00",
+   "snippet": "",
+   "found": "2026-11-07T16:10:54+00:00",
+   "matched": "looking for a video editor",
+   "author": "AlaskaBlue4789",
+   "also": [
+    {
+     "community": "r/FindVideoEditors",
+     "link": "https://www.reddit.com/r/FindVideoEditors/comments/1xq3wr7/"
+    }
+   ]
+  },
+  {
+   "link": "https://www.reddit.com/r/VideoEditors/comments/1xq40u5/",
+   "platform": "Reddit",
+   "title": "Looking for a Video Editor for a Hindi Commentary YouTube Channel",
+   "community": "r/VideoEditors",
+   "group": "F5Bot",
+   "posted": "2026-11-07T12:58:01+00:00",
+   "snippet": "",
+   "found": "2026-11-07T16:10:54+00:00",
+   "matched": "looking for a video editor",
+   "author": "Acceptable_2020",
+   "also": [
+    {
+     "community": "r/VideoEditingRequests",
+     "link": "https://www.reddit.com/r/VideoEditingRequests/comments/1xq4121/"
+    }
+   ]
+  },
+  {
+   "link": "https://www.reddit.com/r/VideoEditing/comments/1xq5bos/hiring_clippers_shortform_video_editors_200day/",
+   "platform": "Reddit",
+   "title": "[Hiring] Clippers & Short-Form Video Editors | $200/day",
+   "community": "r/VideoEditing",
+   "group": "Creators",
+   "posted": "2026-11-07T12:34:09+00:00",
+   "snippet": "Hey everyone! I\u2019m Priyesh. We help clients turn their content into short clips and work with people who run pages where those clips can reach the right audience. We\u2019re building a roster for paid campaigns across different niches. What\u2019s clipping? Say you\u2019re watching a 40-minute interview and one ans...",
+   "found": "2026-11-07T16:10:54+00:00",
+   "matched": "paying video editor",
+   "author": "Important_Fall1383"
+  },
   {
    "link": "https://www.reddit.com/r/HireAnEditor/comments/1xpyjk4/",
    "platform": "Reddit",
@@ -6687,48 +6735,6 @@
    "found": "2026-10-14T06:00:20+00:00",
    "matched": "looking for a video editor",
    "author": "Ok-Young-4386"
-  },
-  {
-   "link": "https://www.reddit.com/r/VideoEditors/comments/1x5h6gg/",
-   "platform": "Reddit",
-   "title": "Looking for a video editor to make 30 second videos for social media",
-   "community": "r/VideoEditors",
-   "group": "F5Bot",
-   "posted": "2026-10-14T04:34:11+00:00",
-   "snippet": "",
-   "found": "2026-10-14T06:00:20+00:00",
-   "matched": "looking for a video editor",
-   "author": "PerilSilvers",
-   "also": [
-    {
-     "community": "r/VideoEditingRequests",
-     "link": "https://www.reddit.com/r/VideoEditingRequests/comments/1x5h8vs/"
-    }
-   ]
-  },
-  {
-   "link": "https://www.reddit.com/r/FindVideoEditors/comments/1x5gmam/looking_for_youtube_video_editor/",
-   "platform": "Reddit",
-   "title": "Looking for YOUTUBE! Video editor",
-   "community": "r/FindVideoEditors",
-   "group": "Hire communities",
-   "posted": "2026-10-14T03:12:51+00:00",
-   "snippet": "Hi! I\u2019m looking to pay someone to edit my videos for YouTube. I plan on taking my raw footage myself, a talking video style of my face talking to the camera, and putting it in the sequence I want. However I\u2019m looking for someone that knows YouTube\u2019s algorithm/engagement tricks and just edit the vide...",
-   "found": "2026-10-16T08:50:59+00:00",
-   "matched": "looking for a video editor",
-   "author": "Significant-Bee-8329"
-  },
-  {
-   "link": "https://www.reddit.com/r/VideoEditingRequests/comments/1x5fbv5/looking_for_an_editor_for_a_horror_short/",
-   "platform": "Reddit",
-   "title": "Looking for an editor for a horror short",
-   "community": "r/VideoEditingRequests",
-   "group": "Hire communities",
-   "posted": "2026-10-14T02:06:52+00:00",
-   "snippet": "submitted by /u/Kanyezus [link] [comments]",
-   "found": "2026-10-16T13:48:54+00:00",
-   "matched": "looking for a video editor",
-   "author": "Kanyezus"
   }
  ]
 }
