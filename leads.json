@@ -1,25 +1,47 @@
 {
- "updated": "2026-11-07T20:43:30+00:00",
+ "updated": "2026-11-08T00:17:22+00:00",
  "stats": {
-  "searches_ok": 6,
-  "searches_failed": 1,
+  "searches_ok": 7,
+  "searches_failed": 0,
   "rate_limited": true,
   "out_of_time": false,
   "queue_size": 93,
-  "errors": {
-   "HTTP Error 404: Not Found": 1
-  },
+  "errors": {},
   "f5bot": {
    "configured": true,
-   "emails": 0,
-   "posts": 0,
+   "emails": 1,
+   "posts": 2,
    "error": ""
   },
   "duplicates_merged": 0
  },
- "cursor": 2,
+ "cursor": 9,
  "stuck": 0,
  "leads": [
+  {
+   "link": "https://www.reddit.com/r/freelance/comments/1xqh7pt/",
+   "platform": "Reddit",
+   "title": "You need a Video Editor?",
+   "community": "r/freelance",
+   "group": "F5Bot",
+   "posted": "2026-11-07T23:19:44+00:00",
+   "snippet": "",
+   "found": "2026-11-08T00:17:22+00:00",
+   "matched": "need a video editor",
+   "author": "euminun"
+  },
+  {
+   "link": "https://www.reddit.com/r/u_souprivals/comments/1xqhb4u/",
+   "platform": "Reddit",
+   "title": "Need a video editor for Roblox videos (will pay once eligible for payment on YouTube)",
+   "community": "u/souprivals",
+   "group": "F5Bot",
+   "posted": "2026-11-07T23:19:44+00:00",
+   "snippet": "",
+   "found": "2026-11-08T00:17:22+00:00",
+   "matched": "need a video editor",
+   "author": "souprivals"
+  },
   {
    "link": "https://www.reddit.com/r/HireAnEditor/comments/1xq3vrn/",
    "platform": "Reddit",
@@ -6713,30 +6735,6 @@
    "found": "2026-10-16T08:50:59+00:00",
    "matched": "looking for a video editor",
    "author": "NP1112"
-  },
-  {
-   "link": "https://www.reddit.com/r/VideoEditingJobs/comments/1x5m56d/",
-   "platform": "Reddit",
-   "title": "Looking for a video editor",
-   "community": "r/VideoEditingJobs",
-   "group": "F5Bot",
-   "posted": "2026-10-14T09:35:15+00:00",
-   "snippet": "",
-   "found": "2026-10-14T12:43:12+00:00",
-   "matched": "looking for a video editor",
-   "author": "Expensive_Animal_644"
-  },
-  {
-   "link": "https://www.reddit.com/r/FindVideoEditors/comments/1x5ftcs/",
-   "platform": "Reddit",
-   "title": "Hiring a video editor",
-   "community": "r/FindVideoEditors",
-   "group": "F5Bot",
-   "posted": "2026-10-14T04:34:11+00:00",
-   "snippet": "",
-   "found": "2026-10-14T06:00:20+00:00",
-   "matched": "looking for a video editor",
-   "author": "Ok-Young-4386"
   }
  ]
 }
