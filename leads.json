@@ -1,23 +1,55 @@
 {
- "updated": "2026-11-08T19:25:07+00:00",
+ "updated": "2026-11-08T23:29:15+00:00",
  "stats": {
-  "searches_ok": 6,
-  "searches_failed": 0,
+  "searches_ok": 5,
+  "searches_failed": 1,
   "rate_limited": true,
   "out_of_time": false,
   "queue_size": 93,
-  "errors": {},
+  "errors": {
+   "HTTP Error 404: Not Found": 1
+  },
   "f5bot": {
    "configured": true,
    "emails": 2,
-   "posts": 10,
+   "posts": 3,
    "error": ""
   },
-  "duplicates_merged": 7
+  "duplicates_merged": 1
  },
- "cursor": 28,
+ "cursor": 34,
  "stuck": 0,
  "leads": [
+  {
+   "link": "https://www.reddit.com/r/CreatorServices/comments/1xr4s06/",
+   "platform": "Reddit",
+   "title": "Looking for a video editor",
+   "community": "r/CreatorServices",
+   "group": "F5Bot",
+   "posted": "2026-11-08T20:08:41+00:00",
+   "snippet": "",
+   "found": "2026-11-08T23:29:15+00:00",
+   "matched": "looking for a video editor",
+   "author": "Dignoranza"
+  },
+  {
+   "link": "https://www.reddit.com/r/VideoEditors_forhire/comments/1xr5310/",
+   "platform": "Reddit",
+   "title": "Need a Video Editor? From AI UGC Ads to YouTube Videos, Reels & Promotional Co...",
+   "community": "r/VideoEditors_forhire",
+   "group": "F5Bot",
+   "posted": "2026-11-08T20:08:41+00:00",
+   "snippet": "",
+   "found": "2026-11-08T23:29:15+00:00",
+   "matched": "looking for a video editor",
+   "author": "msohaib9796",
+   "also": [
+    {
+     "community": "r/HireAnEditor",
+     "link": "https://www.reddit.com/r/HireAnEditor/comments/1xr54jr/"
+    }
+   ]
+  },
   {
    "link": "https://www.reddit.com/r/Aurangabad/comments/1xqx8mk/",
    "platform": "Reddit",
@@ -6759,36 +6791,6 @@
    "found": "2026-10-15T23:35:03+00:00",
    "matched": "looking for a video editor",
    "author": "ronstradamus"
-  },
-  {
-   "link": "https://www.reddit.com/r/VideoEditors/comments/1x6uac5/",
-   "platform": "Reddit",
-   "title": "Looking for a video editor to make 30 second videos for social media. No AI editors.",
-   "community": "r/VideoEditors",
-   "group": "F5Bot",
-   "posted": "2026-10-15T20:59:31+00:00",
-   "snippet": "",
-   "found": "2026-10-15T23:35:03+00:00",
-   "matched": "looking for a video editor",
-   "author": "PerilSilvers",
-   "also": [
-    {
-     "community": "r/VideoEditingJobs",
-     "link": "https://www.reddit.com/r/VideoEditingJobs/comments/1x6uakh/"
-    }
-   ]
-  },
-  {
-   "link": "https://www.reddit.com/r/CreatorServices/comments/1x6vmhp/looking_for_a_longterm_gaming_video_editor/",
-   "platform": "Reddit",
-   "title": "\ud83c\udfac LOOKING FOR A LONG-TERM GAMING VIDEO EDITOR",
-   "community": "r/CreatorServices",
-   "group": "Hire communities",
-   "posted": "2026-10-15T19:48:29+00:00",
-   "snippet": "Hey everyone! \ud83d\udc4b I\u2019m looking for a creative and reliable video editor for my german gaming YouTube channel . I\u2019d love to find someone who wants to work with me long-term and help grow the channel together! \ud83c\udfae Content & Editing Games: Various games Raw footage: Approximately 1\u20132 hours per video Final v...",
-   "found": "2026-10-16T13:48:54+00:00",
-   "matched": "looking for a video editor",
-   "author": "Lurivx"
   }
  ]
 }
