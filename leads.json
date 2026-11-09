@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-09T05:22:43+00:00",
+ "updated": "2026-11-09T15:37:36+00:00",
  "stats": {
   "searches_ok": 7,
   "searches_failed": 0,
@@ -10,14 +10,38 @@
   "f5bot": {
    "configured": true,
    "emails": 1,
-   "posts": 1,
+   "posts": 2,
    "error": ""
   },
-  "duplicates_merged": 5
+  "duplicates_merged": 0
  },
- "cursor": 41,
+ "cursor": 48,
  "stuck": 0,
  "leads": [
+  {
+   "link": "https://www.reddit.com/r/Nigeria/comments/1xrl19n/",
+   "platform": "Reddit",
+   "title": "Hiring a video editor",
+   "community": "r/Nigeria",
+   "group": "F5Bot",
+   "posted": "2026-11-09T09:02:00+00:00",
+   "snippet": "",
+   "found": "2026-11-09T15:37:36+00:00",
+   "matched": "need a video editor",
+   "author": "PineappleFun5087"
+  },
+  {
+   "link": "https://www.reddit.com/r/HireAnEditor/comments/1xrkyf4/",
+   "platform": "Reddit",
+   "title": "Need a video editor (urgent)",
+   "community": "r/HireAnEditor",
+   "group": "F5Bot",
+   "posted": "2026-11-09T09:02:00+00:00",
+   "snippet": "",
+   "found": "2026-11-09T15:37:36+00:00",
+   "matched": "need a video editor",
+   "author": "Aspire_greatness"
+  },
   {
    "link": "https://www.reddit.com/r/FindVideoEditors/comments/1xrhd6f/hiring_shortform_video_editor_youtube_shorts/",
    "platform": "Reddit",
@@ -6795,30 +6819,6 @@
    "found": "2026-10-16T23:19:30+00:00",
    "matched": "need a video editor",
    "author": "Rough-Season-6095"
-  },
-  {
-   "link": "https://www.reddit.com/r/Freelancers/comments/1x76rp0/",
-   "platform": "Reddit",
-   "title": "Looking for a video editor who understands your vision? \ud83c\udfac",
-   "community": "r/Freelancers",
-   "group": "F5Bot",
-   "posted": "2026-10-16T06:30:12+00:00",
-   "snippet": "",
-   "found": "2026-10-16T08:50:59+00:00",
-   "matched": "looking for a video editor",
-   "author": "UpinderSingh_0713"
-  },
-  {
-   "link": "https://www.reddit.com/r/CreatorServices/comments/1x76whr/looking_for_an_editor_to_turn_modded_gaming/",
-   "platform": "Reddit",
-   "title": "Looking for an editor to turn modded gaming streams into simple Shorts/highlights (Zero deadlines, full creative freedom)",
-   "community": "r/CreatorServices",
-   "group": "Hire communities",
-   "posted": "2026-10-16T04:34:57+00:00",
-   "snippet": "Hey everyone, I stream modded RPG and sandbox games on YouTube (around 700 subs). I do purely improvised commentary and live gameplay rather than scripted videos, and I am looking for someone who wants to take that raw footage and turn it into simple highlights or Shorts. \u200bYou do not need an establi...",
-   "found": "2026-10-16T13:48:54+00:00",
-   "matched": "looking for a video editor",
-   "author": "Hamburgerstine"
   }
  ]
 }
