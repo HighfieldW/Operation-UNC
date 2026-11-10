@@ -1,23 +1,49 @@
 {
- "updated": "2026-11-10T00:00:12+00:00",
+ "updated": "2026-11-10T08:05:41+00:00",
  "stats": {
   "searches_ok": 6,
-  "searches_failed": 0,
+  "searches_failed": 1,
   "rate_limited": true,
   "out_of_time": false,
   "queue_size": 93,
-  "errors": {},
+  "errors": {
+   "HTTP Error 404: Not Found": 1
+  },
   "f5bot": {
    "configured": true,
-   "emails": 2,
-   "posts": 4,
+   "emails": 3,
+   "posts": 8,
    "error": ""
   },
-  "duplicates_merged": 1
+  "duplicates_merged": 3
  },
- "cursor": 54,
+ "cursor": 61,
  "stuck": 0,
  "leads": [
+  {
+   "link": "https://www.reddit.com/r/newtube/comments/1xscpnc/",
+   "platform": "Reddit",
+   "title": "Anyone looking for a Video Editor for their YT VIDS!",
+   "community": "r/newtube",
+   "group": "F5Bot",
+   "posted": "2026-11-10T05:42:45+00:00",
+   "snippet": "",
+   "found": "2026-11-10T08:05:41+00:00",
+   "matched": "looking for a video editor",
+   "author": "No-Relationship-78"
+  },
+  {
+   "link": "https://www.reddit.com/r/HireAnEditor/comments/1xsd7k8/",
+   "platform": "Reddit",
+   "title": "Content Creator here \u2026 i need reel video editor .",
+   "community": "r/HireAnEditor",
+   "group": "F5Bot",
+   "posted": "2026-11-10T05:42:45+00:00",
+   "snippet": "",
+   "found": "2026-11-10T08:05:41+00:00",
+   "matched": "looking for a video editor",
+   "author": "Chatter_Monkey"
+  },
   {
    "link": "https://www.reddit.com/r/FindVideoEditors/comments/1xs0sp7/",
    "platform": "Reddit",
@@ -2721,6 +2747,18 @@
     {
      "community": "r/NewTubers",
      "link": "https://www.reddit.com/r/NewTubers/comments/1xl34s6/any_youtubers_looking_for_a_video_editor/"
+    },
+    {
+     "community": "r/NewTubers",
+     "link": "https://www.reddit.com/r/NewTubers/comments/1xscuac/"
+    },
+    {
+     "community": "r/SmallYTChannel",
+     "link": "https://www.reddit.com/r/SmallYTChannel/comments/1xscv87/"
+    },
+    {
+     "community": "r/SmallYoutubers",
+     "link": "https://www.reddit.com/r/SmallYoutubers/comments/1xscwbg/"
     }
    ]
   },
@@ -6791,40 +6829,6 @@
    "found": "2026-10-16T23:19:30+00:00",
    "matched": "need a video editor",
    "author": "FabulousChair9566"
-  },
-  {
-   "link": "https://www.reddit.com/r/FindVideoEditors/comments/1x7cce4/were_hiring_youtube_video_editor_paid_test/",
-   "platform": "Reddit",
-   "title": "WE'RE HIRING: YOUTUBE VIDEO EDITOR (Paid Test)",
-   "community": "r/FindVideoEditors",
-   "group": "Hire communities",
-   "posted": "2026-10-16T10:11:28+00:00",
-   "snippet": "We're looking for a creative and reliable YouTube Video Editor to join our growing content team on an ongoing freelance/remote basis. Our editing style is generally simple and natural, but we're looking for someone who understands storytelling, pacing, and audience retention . WHAT YOU'LL BE EDITING...",
-   "found": "2026-10-16T23:19:30+00:00",
-   "matched": "need a video editor",
-   "author": "Impressive_Quail_671"
-  },
-  {
-   "link": "https://www.reddit.com/r/Dhaka/comments/1x7b7os/",
-   "platform": "Reddit",
-   "title": "\ud83d\udce2 Looking for a Video Editor! \ud83c\udde7\ud83c\udde9",
-   "community": "r/Dhaka",
-   "group": "F5Bot",
-   "posted": "2026-10-16T09:49:11+00:00",
-   "snippet": "",
-   "found": "2026-10-16T13:48:54+00:00",
-   "matched": "looking for a video editor",
-   "author": "MasudRana572",
-   "also": [
-    {
-     "community": "r/DigitalMarketing",
-     "link": "https://www.reddit.com/r/DigitalMarketing/comments/1x7b982/"
-    },
-    {
-     "community": "r/BDDevs",
-     "link": "https://www.reddit.com/r/BDDevs/comments/1x7bamd/"
-    }
-   ]
   }
  ]
 }
