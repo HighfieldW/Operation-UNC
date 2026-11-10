@@ -1,7 +1,7 @@
 {
- "updated": "2026-11-09T15:37:36+00:00",
+ "updated": "2026-11-10T00:00:12+00:00",
  "stats": {
-  "searches_ok": 7,
+  "searches_ok": 6,
   "searches_failed": 0,
   "rate_limited": true,
   "out_of_time": false,
@@ -9,15 +9,57 @@
   "errors": {},
   "f5bot": {
    "configured": true,
-   "emails": 1,
-   "posts": 2,
+   "emails": 2,
+   "posts": 4,
    "error": ""
   },
-  "duplicates_merged": 0
+  "duplicates_merged": 1
  },
- "cursor": 48,
+ "cursor": 54,
  "stuck": 0,
  "leads": [
+  {
+   "link": "https://www.reddit.com/r/FindVideoEditors/comments/1xs0sp7/",
+   "platform": "Reddit",
+   "title": "Looking for a video Editor",
+   "community": "r/FindVideoEditors",
+   "group": "F5Bot",
+   "posted": "2026-11-09T20:47:43+00:00",
+   "snippet": "",
+   "found": "2026-11-10T00:00:12+00:00",
+   "matched": "looking for a video editor",
+   "author": "MaleficentSinger2692"
+  },
+  {
+   "link": "https://www.reddit.com/r/HireAnEditor/comments/1xs1yeu/",
+   "platform": "Reddit",
+   "title": "Looking for a video editor",
+   "community": "r/HireAnEditor",
+   "group": "F5Bot",
+   "posted": "2026-11-09T20:47:43+00:00",
+   "snippet": "",
+   "found": "2026-11-10T00:00:12+00:00",
+   "matched": "looking for a video editor",
+   "author": "Brilliant_World_2792"
+  },
+  {
+   "link": "https://www.reddit.com/r/slavelabour/comments/1xrzyco/",
+   "platform": "Reddit",
+   "title": "[Task] Looking for a Video Editor / Content Creator \u2013 $10 for a 5 min video",
+   "community": "r/slavelabour",
+   "group": "F5Bot",
+   "posted": "2026-11-09T20:47:43+00:00",
+   "snippet": "",
+   "found": "2026-11-10T00:00:12+00:00",
+   "matched": "looking for a video editor",
+   "author": "KeyboardCowboy_",
+   "also": [
+    {
+     "community": "r/DoneDirtCheap",
+     "link": "https://www.reddit.com/r/DoneDirtCheap/comments/1xrzzzx/"
+    }
+   ]
+  },
   {
    "link": "https://www.reddit.com/r/Nigeria/comments/1xrl19n/",
    "platform": "Reddit",
@@ -3881,18 +3923,6 @@
    "author": "Timely_Crab3072"
   },
   {
-   "link": "https://www.reddit.com/r/FindVideoEditors/comments/1xew8ct/",
-   "platform": "Reddit",
-   "title": "Need a video editor asap",
-   "community": "r/FindVideoEditors",
-   "group": "F5Bot",
-   "posted": "2026-10-25T08:05:12+00:00",
-   "snippet": "",
-   "found": "2026-10-25T13:02:20+00:00",
-   "matched": "hiring a video editor",
-   "author": "Smixle1"
-  },
-  {
    "link": "https://www.reddit.com/r/nairobitechies/comments/1xeujs8/",
    "platform": "Reddit",
    "title": "Hiring a video Editor",
@@ -3903,6 +3933,18 @@
    "found": "2026-10-25T13:02:20+00:00",
    "matched": "hiring a video editor",
    "author": "Fit4LifeStore"
+  },
+  {
+   "link": "https://www.reddit.com/r/FindVideoEditors/comments/1xew8ct/",
+   "platform": "Reddit",
+   "title": "Need a video editor asap",
+   "community": "r/FindVideoEditors",
+   "group": "F5Bot",
+   "posted": "2026-10-25T08:05:12+00:00",
+   "snippet": "",
+   "found": "2026-10-25T13:02:20+00:00",
+   "matched": "hiring a video editor",
+   "author": "Smixle1"
   },
   {
    "link": "https://www.reddit.com/r/VideoEditors_forhire/comments/1xevbgy/",
@@ -6783,42 +6825,6 @@
      "link": "https://www.reddit.com/r/BDDevs/comments/1x7bamd/"
     }
    ]
-  },
-  {
-   "link": "https://www.reddit.com/r/INAT/comments/1x7a6kx/",
-   "platform": "Reddit",
-   "title": "[HOBBY] Looking for a video editor for a WWI RTS game",
-   "community": "r/INAT",
-   "group": "F5Bot",
-   "posted": "2026-10-16T09:49:11+00:00",
-   "snippet": "",
-   "found": "2026-10-16T13:48:54+00:00",
-   "matched": "looking for a video editor",
-   "author": "Low-Title5966"
-  },
-  {
-   "link": "https://www.reddit.com/r/VideoEditingJobs/comments/1x7b94s/",
-   "platform": "Reddit",
-   "title": "Looking for Video editors for youtube who can speak hindi",
-   "community": "r/VideoEditingJobs",
-   "group": "F5Bot",
-   "posted": "2026-10-16T09:49:11+00:00",
-   "snippet": "",
-   "found": "2026-10-16T13:48:54+00:00",
-   "matched": "looking for a video editor",
-   "author": "Low_Storage8581"
-  },
-  {
-   "link": "https://www.reddit.com/r/FindVideoEditors/comments/1x79yrt/needing_wedding_and_real_estate_video_editors/",
-   "platform": "Reddit",
-   "title": "Needing Wedding and Real Estate Video Editors!",
-   "community": "r/FindVideoEditors",
-   "group": "Hire communities",
-   "posted": "2026-10-16T07:41:01+00:00",
-   "snippet": "Hey guys! I am new here but my business has been busy with the wedding and real estate videos. Looking to see if I can outsource some of my work. Shoot me a DM and would love to see your work. Thanks! submitted by /u/Rough-Season-6095 [link] [comments]",
-   "found": "2026-10-16T23:19:30+00:00",
-   "matched": "need a video editor",
-   "author": "Rough-Season-6095"
   }
  ]
 }
