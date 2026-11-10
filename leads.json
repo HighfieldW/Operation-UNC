@@ -1,23 +1,48 @@
 {
- "updated": "2026-11-10T16:52:50+00:00",
+ "updated": "2026-11-10T22:12:21+00:00",
  "stats": {
-  "searches_ok": 7,
-  "searches_failed": 0,
+  "searches_ok": 0,
+  "searches_failed": 7,
   "rate_limited": true,
   "out_of_time": false,
   "queue_size": 93,
-  "errors": {},
+  "errors": {
+   "HTTP Error 403: Forbidden": 6,
+   "HTTP Error 404: Not Found": 1
+  },
   "f5bot": {
    "configured": true,
-   "emails": 3,
-   "posts": 2,
+   "emails": 2,
+   "posts": 4,
    "error": ""
   },
-  "duplicates_merged": 0
+  "duplicates_merged": 2
  },
- "cursor": 68,
+ "cursor": 75,
  "stuck": 0,
  "leads": [
+  {
+   "link": "https://www.reddit.com/r/KochiClassifieds/comments/1xsrdzm/",
+   "platform": "Reddit",
+   "title": "Need a video editor - work from home",
+   "community": "r/KochiClassifieds",
+   "group": "F5Bot",
+   "posted": "2026-11-10T18:30:36+00:00",
+   "snippet": "",
+   "found": "2026-11-10T22:12:21+00:00",
+   "matched": "need a video editor",
+   "author": "talesofzinbad",
+   "also": [
+    {
+     "community": "r/Kochi",
+     "link": "https://www.reddit.com/r/Kochi/comments/1xsrf3y/"
+    },
+    {
+     "community": "r/thrissur",
+     "link": "https://www.reddit.com/r/thrissur/comments/1xsrr04/"
+    }
+   ]
+  },
   {
    "link": "https://www.reddit.com/r/newtube/comments/1xscpnc/",
    "platform": "Reddit",
@@ -6815,18 +6840,6 @@
    "found": "2026-10-16T17:51:57+00:00",
    "matched": "hiring a video editor",
    "author": "Perfect_Loan_9923"
-  },
-  {
-   "link": "https://www.reddit.com/r/VideoEditingRequests/comments/1x7gzdt/hiring_freelance_video_editor_needed_for_5_resort/",
-   "platform": "Reddit",
-   "title": "[HIRING] Freelance Video Editor Needed for 5 Resort Reels \u2014 Paid Project",
-   "community": "r/VideoEditingRequests",
-   "group": "Hire communities",
-   "posted": "2026-10-16T13:59:30+00:00",
-   "snippet": "submitted by /u/FabulousChair9566 [link] [comments]",
-   "found": "2026-10-16T23:19:30+00:00",
-   "matched": "need a video editor",
-   "author": "FabulousChair9566"
   }
  ]
 }
