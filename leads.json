@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-11T02:37:18+00:00",
+ "updated": "2026-11-11T10:29:49+00:00",
  "stats": {
   "searches_ok": 0,
   "searches_failed": 7,
@@ -7,19 +7,44 @@
   "out_of_time": false,
   "queue_size": 93,
   "errors": {
-   "HTTP Error 403: Forbidden": 7
+   "HTTP Error 403: Forbidden": 6,
+   "HTTP Error 404: Not Found": 1
   },
   "f5bot": {
    "configured": true,
-   "emails": 0,
-   "posts": 0,
+   "emails": 3,
+   "posts": 4,
    "error": ""
   },
   "duplicates_merged": 0
  },
- "cursor": 82,
+ "cursor": 89,
  "stuck": 0,
  "leads": [
+  {
+   "link": "https://www.reddit.com/r/u_EditWithRocky/comments/1xtbpfw/",
+   "platform": "Reddit",
+   "title": "Hiring a video editor",
+   "community": "u/EditWithRocky",
+   "group": "F5Bot",
+   "posted": "2026-11-11T08:19:43+00:00",
+   "snippet": "",
+   "found": "2026-11-11T10:29:49+00:00",
+   "matched": "need a video editor",
+   "author": "EditWithRocky"
+  },
+  {
+   "link": "https://www.reddit.com/r/VideoEditingJobs/comments/1xtaeii/",
+   "platform": "Reddit",
+   "title": "Looking for Video Editing Work | Available for Freelance Projects",
+   "community": "r/VideoEditingJobs",
+   "group": "F5Bot",
+   "posted": "2026-11-11T08:19:43+00:00",
+   "snippet": "",
+   "found": "2026-11-11T10:29:49+00:00",
+   "matched": "need a video editor",
+   "author": "Rashidul4"
+  },
   {
    "link": "https://www.reddit.com/r/KochiClassifieds/comments/1xsrdzm/",
    "platform": "Reddit",
@@ -6815,30 +6840,6 @@
    "found": "2026-10-16T23:19:30+00:00",
    "matched": "need a video editor",
    "author": "EnvironmentOk3766"
-  },
-  {
-   "link": "https://www.reddit.com/r/HireAnEditor/comments/1x7f4mu/",
-   "platform": "Reddit",
-   "title": "Hiring a video editor",
-   "community": "r/HireAnEditor",
-   "group": "F5Bot",
-   "posted": "2026-10-16T14:41:14+00:00",
-   "snippet": "",
-   "found": "2026-10-16T17:51:57+00:00",
-   "matched": "hiring a video editor",
-   "author": "Ok_Ninja_4044"
-  },
-  {
-   "link": "https://www.reddit.com/r/hiringpakistan/comments/1x7ht40/",
-   "platform": "Reddit",
-   "title": "Anyone need a YouTube video editor?",
-   "community": "r/hiringpakistan",
-   "group": "F5Bot",
-   "posted": "2026-10-16T14:41:14+00:00",
-   "snippet": "",
-   "found": "2026-10-16T17:51:57+00:00",
-   "matched": "hiring a video editor",
-   "author": "Perfect_Loan_9923"
   }
  ]
 }
