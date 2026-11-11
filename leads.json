@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-10T22:12:21+00:00",
+ "updated": "2026-11-11T02:37:18+00:00",
  "stats": {
   "searches_ok": 0,
   "searches_failed": 7,
@@ -7,18 +7,17 @@
   "out_of_time": false,
   "queue_size": 93,
   "errors": {
-   "HTTP Error 403: Forbidden": 6,
-   "HTTP Error 404: Not Found": 1
+   "HTTP Error 403: Forbidden": 7
   },
   "f5bot": {
    "configured": true,
-   "emails": 2,
-   "posts": 4,
+   "emails": 0,
+   "posts": 0,
    "error": ""
   },
-  "duplicates_merged": 2
+  "duplicates_merged": 0
  },
- "cursor": 75,
+ "cursor": 82,
  "stuck": 0,
  "leads": [
   {
