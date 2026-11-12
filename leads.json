@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-12T17:58:49+00:00",
+ "updated": "2026-11-12T23:29:32+00:00",
  "stats": {
   "searches_ok": 0,
   "searches_failed": 7,
@@ -11,15 +11,37 @@
   },
   "f5bot": {
    "configured": true,
-   "emails": 1,
-   "posts": 1,
+   "emails": 3,
+   "posts": 4,
    "error": ""
   },
-  "duplicates_merged": 0
+  "duplicates_merged": 2
  },
- "cursor": 22,
+ "cursor": 29,
  "stuck": 0,
  "leads": [
+  {
+   "link": "https://www.reddit.com/r/VideoEditors/comments/1xukr9h/",
+   "platform": "Reddit",
+   "title": "Hiring a video editor",
+   "community": "r/VideoEditors",
+   "group": "F5Bot",
+   "posted": "2026-11-12T20:39:38+00:00",
+   "snippet": "",
+   "found": "2026-11-12T23:29:32+00:00",
+   "matched": "hiring a video editor",
+   "author": "Beginning_Public5152",
+   "also": [
+    {
+     "community": "r/VideoEditingJobs",
+     "link": "https://www.reddit.com/r/VideoEditingJobs/comments/1xuks8n/"
+    },
+    {
+     "community": "r/HireAnEditor",
+     "link": "https://www.reddit.com/r/HireAnEditor/comments/1xuktct/"
+    }
+   ]
+  },
   {
    "link": "https://www.reddit.com/r/forhire/comments/1xua8r6/",
    "platform": "Reddit",
@@ -6817,24 +6839,6 @@
    "found": "2026-10-17T12:46:38+00:00",
    "matched": "need a video editor",
    "author": "Used-Side5200"
-  },
-  {
-   "link": "https://www.reddit.com/r/CreatorServices/comments/1x84gii/looking_for_youtubers_instagram_creators_who_need/",
-   "platform": "Reddit",
-   "title": "Looking for YouTubers & Instagram Creators Who Need Affordable Video Editing \ud83c\udfac",
-   "community": "r/CreatorServices",
-   "group": "Hire communities",
-   "posted": "2026-10-17T07:54:12+00:00",
-   "snippet": "Looking for YouTubers & Instagram Creators Who Need Affordable Video Editing \ud83c\udfac Hey everyone! I'm building a video editing service with a dedicated team of two editors, and we're looking to work with creators who want quality editing at an affordable starting price. Who we're looking to work with: Yo...",
-   "found": "2026-10-18T14:21:17+00:00",
-   "matched": "looking for a video editor",
-   "author": "Superb-Yogurt-7173",
-   "also": [
-    {
-     "community": "r/HireAnEditor",
-     "link": "https://www.reddit.com/r/HireAnEditor/comments/1x84vjg/looking_for_youtubers_instagram_creators_who_need/"
-    }
-   ]
   }
  ]
 }
