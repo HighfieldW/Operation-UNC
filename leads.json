@@ -1,26 +1,37 @@
 {
- "updated": "2026-11-12T09:29:02+00:00",
+ "updated": "2026-11-12T17:58:49+00:00",
  "stats": {
   "searches_ok": 0,
-  "searches_failed": 6,
+  "searches_failed": 7,
   "rate_limited": true,
   "out_of_time": false,
   "queue_size": 93,
   "errors": {
-   "HTTP Error 403: Forbidden": 5,
-   "HTTP Error 404: Not Found": 1
+   "HTTP Error 403: Forbidden": 7
   },
   "f5bot": {
    "configured": true,
    "emails": 1,
-   "posts": 0,
+   "posts": 1,
    "error": ""
   },
   "duplicates_merged": 0
  },
- "cursor": 15,
+ "cursor": 22,
  "stuck": 0,
  "leads": [
+  {
+   "link": "https://www.reddit.com/r/forhire/comments/1xua8r6/",
+   "platform": "Reddit",
+   "title": "hire a video editor",
+   "community": "r/forhire",
+   "group": "F5Bot",
+   "posted": "2026-11-12T13:22:09+00:00",
+   "snippet": "",
+   "found": "2026-11-12T17:58:49+00:00",
+   "matched": "hire a video editor",
+   "author": "rudrays"
+  },
   {
    "link": "https://www.reddit.com/r/philippinesjobs/comments/1xtrau5/",
    "platform": "Reddit",
@@ -6824,18 +6835,6 @@
      "link": "https://www.reddit.com/r/HireAnEditor/comments/1x84vjg/looking_for_youtubers_instagram_creators_who_need/"
     }
    ]
-  },
-  {
-   "link": "https://www.reddit.com/r/FindVideoEditors/comments/1x848r7/looking_for_a_aspiring_video_editor_to_grow_a_new/",
-   "platform": "Reddit",
-   "title": "looking for a Aspiring Video Editor to grow a new YouTube/IG channel together",
-   "community": "r/FindVideoEditors",
-   "group": "Hire communities",
-   "posted": "2026-10-17T07:40:40+00:00",
-   "snippet": "I am launching a new content creation channel on YouTube and Instagram and am seeking an aspiring video editor to collaborate with me. While I will handle all scripting, voiceovers, and asset collection, I need a creative partner to assemble the raw materials into engaging long-form videos, Shorts, ...",
-   "found": "2026-10-18T14:21:17+00:00",
-   "matched": "looking for a video editor",
-   "author": "sxh4l"
   }
  ]
 }
