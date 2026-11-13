@@ -1,25 +1,38 @@
 {
- "updated": "2026-11-12T23:29:32+00:00",
+ "updated": "2026-11-13T05:45:00+00:00",
  "stats": {
   "searches_ok": 0,
-  "searches_failed": 7,
+  "searches_failed": 6,
   "rate_limited": true,
   "out_of_time": false,
   "queue_size": 93,
   "errors": {
-   "HTTP Error 403: Forbidden": 7
+   "HTTP Error 403: Forbidden": 5,
+   "HTTP Error 404: Not Found": 1
   },
   "f5bot": {
    "configured": true,
-   "emails": 3,
-   "posts": 4,
+   "emails": 2,
+   "posts": 2,
    "error": ""
   },
-  "duplicates_merged": 2
+  "duplicates_merged": 0
  },
- "cursor": 29,
+ "cursor": 35,
  "stuck": 0,
  "leads": [
+  {
+   "link": "https://www.reddit.com/r/VideoEditingRequests/comments/1xurgj3/",
+   "platform": "Reddit",
+   "title": "I NEED A VIDEO EDITOR",
+   "community": "r/VideoEditingRequests",
+   "group": "F5Bot",
+   "posted": "2026-11-13T00:59:34+00:00",
+   "snippet": "",
+   "found": "2026-11-13T05:45:00+00:00",
+   "matched": "need a video editor",
+   "author": "GrandCod5343"
+  },
   {
    "link": "https://www.reddit.com/r/VideoEditors/comments/1xukr9h/",
    "platform": "Reddit",
@@ -6827,18 +6840,6 @@
    "found": "2026-10-17T12:46:38+00:00",
    "matched": "need a video editor",
    "author": "kristeheditor15"
-  },
-  {
-   "link": "https://www.reddit.com/r/SaasDevelopers/comments/1x83rsi/",
-   "platform": "Reddit",
-   "title": "founders: you don\u2019t need a video editor for your launch anymore",
-   "community": "r/SaasDevelopers",
-   "group": "F5Bot",
-   "posted": "2026-10-17T08:35:10+00:00",
-   "snippet": "",
-   "found": "2026-10-17T12:46:38+00:00",
-   "matched": "need a video editor",
-   "author": "Used-Side5200"
   }
  ]
 }
