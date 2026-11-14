@@ -1,26 +1,55 @@
 {
- "updated": "2026-11-14T02:02:08+00:00",
+ "updated": "2026-11-14T09:55:19+00:00",
  "stats": {
   "searches_ok": 0,
-  "searches_failed": 6,
+  "searches_failed": 7,
   "rate_limited": true,
   "out_of_time": false,
   "queue_size": 93,
   "errors": {
-   "HTTP Error 403: Forbidden": 5,
-   "HTTP Error 404: Not Found": 1
+   "HTTP Error 403: Forbidden": 7
   },
   "f5bot": {
    "configured": true,
    "emails": 1,
-   "posts": 1,
+   "posts": 3,
    "error": ""
   },
-  "duplicates_merged": 0
+  "duplicates_merged": 1
  },
- "cursor": 55,
+ "cursor": 62,
  "stuck": 0,
  "leads": [
+  {
+   "link": "https://www.reddit.com/r/VideoEditingRequests/comments/1xvvb67/",
+   "platform": "Reddit",
+   "title": "We need a video editor!",
+   "community": "r/VideoEditingRequests",
+   "group": "F5Bot",
+   "posted": "2026-11-14T08:27:41+00:00",
+   "snippet": "",
+   "found": "2026-11-14T09:55:19+00:00",
+   "matched": "need a video editor",
+   "author": "Sorxw"
+  },
+  {
+   "link": "https://www.reddit.com/r/slaythespire/comments/1xvvvcx/",
+   "platform": "Reddit",
+   "title": "Any Slay the Spire content creators in here need a video editor?",
+   "community": "r/slaythespire",
+   "group": "F5Bot",
+   "posted": "2026-11-14T08:27:41+00:00",
+   "snippet": "",
+   "found": "2026-11-14T09:55:19+00:00",
+   "matched": "need a video editor",
+   "author": "BreakdownVisuals",
+   "also": [
+    {
+     "community": "r/sts2",
+     "link": "https://www.reddit.com/r/sts2/comments/1xvvw1b/"
+    }
+   ]
+  },
   {
    "link": "https://www.reddit.com/r/videoeditingindia/comments/1xvka0a/",
    "platform": "Reddit",
@@ -6794,42 +6823,6 @@
    "found": "2026-10-18T17:53:27+00:00",
    "matched": "looking for a video editor",
    "author": "Used-Armadillo-782"
-  },
-  {
-   "link": "https://www.reddit.com/r/FindVideoEditors/comments/1x8n5hi/need_editor_for_gaming_videos_intro/",
-   "platform": "Reddit",
-   "title": "Need Editor for Gaming Videos Intro",
-   "community": "r/FindVideoEditors",
-   "group": "Hire communities",
-   "posted": "2026-10-17T22:32:08+00:00",
-   "snippet": "Only for INDIANS , Age 20+ , No AI * Hello , - I am in need of an editor who can edit my intros for Gaming Videos adding subtitles , motion graphics and bgm as per the commentary . - I also use an avatar in my videos (giving it expressions as per commentary - not necessarily in the entire introducti...",
-   "found": "2026-10-18T22:52:33+00:00",
-   "matched": "need a video editor",
-   "author": "Background_Age6737",
-   "also": [
-    {
-     "community": "r/VideoEditingRequests",
-     "link": "https://www.reddit.com/r/VideoEditingRequests/comments/1x8n6vm/need_editor_for_gaming_videos_intro/"
-    }
-   ]
-  },
-  {
-   "link": "https://www.reddit.com/r/HireAnEditor/comments/1x8muc2/hiring_video_editor_needed_asap_footage_provided/",
-   "platform": "Reddit",
-   "title": "[HIRING] Video Editor Needed ASAP \u2013 Footage Provided",
-   "community": "r/HireAnEditor",
-   "group": "Hire communities",
-   "posted": "2026-10-17T22:17:44+00:00",
-   "snippet": "Hey everyone! We're urgently looking for a video editor who can create short-form content in this style: https://www.tiktok.com/@wyatteiden/video/7432771578754092331 What we're looking for: Someone who can replicate the editing style shown in the reference. Ability to create a 10\u201320 second sample to...",
-   "found": "2026-10-18T14:21:17+00:00",
-   "matched": "looking for a video editor",
-   "author": "Fast_Raspberry_9241",
-   "also": [
-    {
-     "community": "r/FindVideoEditors",
-     "link": "https://www.reddit.com/r/FindVideoEditors/comments/1x8muf2/hiring_video_editor_needed_asap_footage_provided/"
-    }
-   ]
   }
  ]
 }
