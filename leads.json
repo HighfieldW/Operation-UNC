@@ -1,25 +1,38 @@
 {
- "updated": "2026-11-13T21:15:52+00:00",
+ "updated": "2026-11-14T02:02:08+00:00",
  "stats": {
   "searches_ok": 0,
-  "searches_failed": 7,
+  "searches_failed": 6,
   "rate_limited": true,
   "out_of_time": false,
   "queue_size": 93,
   "errors": {
-   "HTTP Error 403: Forbidden": 7
+   "HTTP Error 403: Forbidden": 5,
+   "HTTP Error 404: Not Found": 1
   },
   "f5bot": {
    "configured": true,
-   "emails": 0,
-   "posts": 0,
+   "emails": 1,
+   "posts": 1,
    "error": ""
   },
   "duplicates_merged": 0
  },
- "cursor": 49,
+ "cursor": 55,
  "stuck": 0,
  "leads": [
+  {
+   "link": "https://www.reddit.com/r/videoeditingindia/comments/1xvka0a/",
+   "platform": "Reddit",
+   "title": "Hiring a video editor",
+   "community": "r/videoeditingindia",
+   "group": "F5Bot",
+   "posted": "2026-11-13T23:29:42+00:00",
+   "snippet": "",
+   "found": "2026-11-14T02:02:08+00:00",
+   "matched": "hiring a video editor",
+   "author": "Ok-Beyond-4106"
+  },
   {
    "link": "https://www.reddit.com/r/CreatorServices/comments/1xv411b/",
    "platform": "Reddit",
@@ -6817,18 +6830,6 @@
      "link": "https://www.reddit.com/r/FindVideoEditors/comments/1x8muf2/hiring_video_editor_needed_asap_footage_provided/"
     }
    ]
-  },
-  {
-   "link": "https://www.reddit.com/r/u_sarmadvisuals/comments/1x8fi64/",
-   "platform": "Reddit",
-   "title": "Recent sample made in the real estate niche Looking for a video editor? Dm me\ud83d\udce5",
-   "community": "u/sarmadvisuals",
-   "group": "F5Bot",
-   "posted": "2026-10-17T19:10:14+00:00",
-   "snippet": "",
-   "found": "2026-10-17T22:02:15+00:00",
-   "matched": "looking for a video editor",
-   "author": "sarmadvisuals"
   }
  ]
 }
