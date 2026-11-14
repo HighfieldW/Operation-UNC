@@ -1,25 +1,61 @@
 {
- "updated": "2026-11-14T09:55:19+00:00",
+ "updated": "2026-11-14T16:27:13+00:00",
  "stats": {
   "searches_ok": 0,
-  "searches_failed": 7,
+  "searches_failed": 6,
   "rate_limited": true,
   "out_of_time": false,
   "queue_size": 93,
   "errors": {
-   "HTTP Error 403: Forbidden": 7
+   "HTTP Error 403: Forbidden": 6
   },
   "f5bot": {
    "configured": true,
-   "emails": 1,
-   "posts": 3,
+   "emails": 3,
+   "posts": 5,
    "error": ""
   },
   "duplicates_merged": 1
  },
- "cursor": 62,
+ "cursor": 68,
  "stuck": 0,
  "leads": [
+  {
+   "link": "https://www.reddit.com/r/YouTubeGamers/comments/1xw2tci/",
+   "platform": "Reddit",
+   "title": "Looking for GTA 6 Creators Who Need a Video Editor",
+   "community": "r/YouTubeGamers",
+   "group": "F5Bot",
+   "posted": "2026-11-14T15:49:50+00:00",
+   "snippet": "",
+   "found": "2026-11-14T16:27:13+00:00",
+   "matched": "need a video editor",
+   "author": "FewThanks4082"
+  },
+  {
+   "link": "https://www.reddit.com/r/videoeditingindia/comments/1xw419e/",
+   "platform": "Reddit",
+   "title": "[Hiring] Video editor for a 40-second wedding save-the-date reel",
+   "community": "r/videoeditingindia",
+   "group": "F5Bot",
+   "posted": "2026-11-14T15:49:50+00:00",
+   "snippet": "",
+   "found": "2026-11-14T16:27:13+00:00",
+   "matched": "need a video editor",
+   "author": "Minimum_Narwhal7200"
+  },
+  {
+   "link": "https://www.reddit.com/r/ChristUniversity/comments/1xw4oh4/",
+   "platform": "Reddit",
+   "title": "Looking for Video editors from SBM in YPR Campus for Blossoms short film",
+   "community": "r/ChristUniversity",
+   "group": "F5Bot",
+   "posted": "2026-11-14T15:49:50+00:00",
+   "snippet": "",
+   "found": "2026-11-14T16:27:13+00:00",
+   "matched": "need a video editor",
+   "author": "Calm_Steak7051"
+  },
   {
    "link": "https://www.reddit.com/r/VideoEditingRequests/comments/1xvvb67/",
    "platform": "Reddit",
@@ -186,7 +222,13 @@
    "snippet": "",
    "found": "2026-11-13T14:12:51+00:00",
    "matched": "looking for a video editor",
-   "author": "Edits_manga"
+   "author": "Edits_manga",
+   "also": [
+    {
+     "community": "r/VideoEditors",
+     "link": "https://www.reddit.com/r/VideoEditors/comments/1xvypf4/"
+    }
+   ]
   },
   {
    "link": "https://www.reddit.com/r/FreelanceIndia/comments/1xv04v8/",
@@ -6787,42 +6829,6 @@
    "found": "2026-10-18T14:21:17+00:00",
    "matched": "looking for a video editor",
    "author": "Makesy01"
-  },
-  {
-   "link": "https://www.reddit.com/r/FindVideoEditors/comments/1x8t4p7/hiring_pokemon_gaming_video_editor_shortform_and/",
-   "platform": "Reddit",
-   "title": "[HIRING] Pokemon Gaming Video Editor (Short-form and Long-form)",
-   "community": "r/FindVideoEditors",
-   "group": "Hire communities",
-   "posted": "2026-10-18T03:37:52+00:00",
-   "snippet": "Hello! I'm looking to hire an editor, primarily for long-form (30-50 minute) Youtube videos. I currently do the script-writing and filming, and am hoping to push out content more consistently. The job will comprise of editing for one long-form video per month, along with the potential for short-form...",
-   "found": "2026-10-18T14:21:17+00:00",
-   "matched": "looking for a video editor",
-   "author": "scizor50"
-  },
-  {
-   "link": "https://www.reddit.com/r/FindVideoEditors/comments/1x8qh61/hiring_freelance_video_editor_for_business_reels/",
-   "platform": "Reddit",
-   "title": "[Hiring] Freelance video editor for business reels | Remote | USD $30 to $60 per reel",
-   "community": "r/FindVideoEditors",
-   "group": "Hire communities",
-   "posted": "2026-10-18T01:15:08+00:00",
-   "snippet": "Hey everyone, I\u2019m building OVERTAKE, an Ontario-based content agency, and I\u2019m looking for a creative, reliable video editor to work with regularly. I\u2019m looking for editors currently based in Canada, the United States, the United Kingdom, Ireland, Australia or New Zealand. We shoot content for local ...",
-   "found": "2026-10-18T14:21:17+00:00",
-   "matched": "looking for a video editor",
-   "author": "Temporary_Coast_7425"
-  },
-  {
-   "link": "https://www.reddit.com/r/VideoEditingRequests/comments/1x8ogpi/hiring_video_editor_for_15minute_pilot/",
-   "platform": "Reddit",
-   "title": "[HIRING] Video Editor for 15-Minute Pilot",
-   "community": "r/VideoEditingRequests",
-   "group": "Hire communities",
-   "posted": "2026-10-17T23:34:28+00:00",
-   "snippet": "Hey everyone! I'm looking for a talented docu-style/\"short form/Gen Z-oriented\" video editor to help bring a pilot episode to life. Think \"Taste the Nation\" meets the App Store. The series, Founders, explores the extraordinary stories of ordinary people building apps that change lives. Where we're a...",
-   "found": "2026-10-18T17:53:27+00:00",
-   "matched": "looking for a video editor",
-   "author": "Used-Armadillo-782"
   }
  ]
 }
