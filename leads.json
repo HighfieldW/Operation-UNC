@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-14T16:27:13+00:00",
+ "updated": "2026-11-14T21:11:10+00:00",
  "stats": {
   "searches_ok": 0,
   "searches_failed": 6,
@@ -7,19 +7,44 @@
   "out_of_time": false,
   "queue_size": 93,
   "errors": {
-   "HTTP Error 403: Forbidden": 6
+   "HTTP Error 403: Forbidden": 5,
+   "HTTP Error 404: Not Found": 1
   },
   "f5bot": {
    "configured": true,
-   "emails": 3,
+   "emails": 1,
    "posts": 5,
    "error": ""
   },
-  "duplicates_merged": 1
+  "duplicates_merged": 0
  },
- "cursor": 68,
+ "cursor": 74,
  "stuck": 0,
  "leads": [
+  {
+   "link": "https://www.reddit.com/r/FindVideoEditors/comments/1xw6dl3/",
+   "platform": "Reddit",
+   "title": "Hiring Freelance Video Editor with Motion Graphics Skills",
+   "community": "r/FindVideoEditors",
+   "group": "F5Bot",
+   "posted": "2026-11-14T18:01:45+00:00",
+   "snippet": "",
+   "found": "2026-11-14T21:11:10+00:00",
+   "matched": "looking for a video editor",
+   "author": "ZealousidealLoss7023"
+  },
+  {
+   "link": "https://www.reddit.com/r/Freelancers/comments/1xw7im1/",
+   "platform": "Reddit",
+   "title": "Hi! I'm looking for a video editor",
+   "community": "r/Freelancers",
+   "group": "F5Bot",
+   "posted": "2026-11-14T18:01:45+00:00",
+   "snippet": "",
+   "found": "2026-11-14T21:11:10+00:00",
+   "matched": "looking for a video editor",
+   "author": "Alive-Art-3832"
+  },
   {
    "link": "https://www.reddit.com/r/YouTubeGamers/comments/1xw2tci/",
    "platform": "Reddit",
@@ -6805,30 +6830,6 @@
    "found": "2026-10-18T14:21:17+00:00",
    "matched": "looking for a video editor",
    "author": "lowlight-media"
-  },
-  {
-   "link": "https://www.reddit.com/r/VideoEditingRequests/comments/1x8x7us/hobby_unpaid_looking_for_a_video_editor_wwi/",
-   "platform": "Reddit",
-   "title": "[HOBBY / UNPAID] Looking for a Video Editor \u2013 WWI Strategy Game Trailers",
-   "community": "r/VideoEditingRequests",
-   "group": "Hire communities",
-   "posted": "2026-10-18T07:38:32+00:00",
-   "snippet": "I'm developing Moment of Decision: WWI , a real-time strategy game built in Unity featuring player-built trenches, destructible terrain, artillery bombardments, and infantry combat. I'm looking for an aspiring video editor interested in collaborating on promotional trailers for the game. We have fou...",
-   "found": "2026-10-18T17:53:27+00:00",
-   "matched": "looking for a video editor",
-   "author": "Low-Title5966"
-  },
-  {
-   "link": "https://www.reddit.com/r/FindVideoEditors/comments/1x8x2pu/hiring_shortform_video_editors_clippers_5_per/",
-   "platform": "Reddit",
-   "title": "[HIRING] Short-Form Video Editors & Clippers \u2014 $5 per 1,000 Views",
-   "community": "r/FindVideoEditors",
-   "group": "Hire communities",
-   "posted": "2026-10-18T07:29:47+00:00",
-   "snippet": "We're looking for creative short-form video editors and clippers to help grow a content creator's presence across TikTok, YouTube Shorts, and Instagram Reels. Content Categories The creator's content focuses on three main areas: - Venting & Emotional Content: Personal livestreams, emotional moments,...",
-   "found": "2026-10-18T14:21:17+00:00",
-   "matched": "looking for a video editor",
-   "author": "Makesy01"
   }
  ]
 }
