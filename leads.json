@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-15T01:34:46+00:00",
+ "updated": "2026-11-15T08:56:51+00:00",
  "stats": {
   "searches_ok": 0,
   "searches_failed": 7,
@@ -11,15 +11,39 @@
   },
   "f5bot": {
    "configured": true,
-   "emails": 2,
-   "posts": 4,
+   "emails": 5,
+   "posts": 5,
    "error": ""
   },
   "duplicates_merged": 0
  },
- "cursor": 81,
+ "cursor": 88,
  "stuck": 0,
  "leads": [
+  {
+   "link": "https://www.reddit.com/r/hiringpakistan/comments/1xwnuc7/",
+   "platform": "Reddit",
+   "title": "NEED A VIDEO EDITOR?",
+   "community": "r/hiringpakistan",
+   "group": "F5Bot",
+   "posted": "2026-11-15T07:58:40+00:00",
+   "snippet": "",
+   "found": "2026-11-15T08:56:51+00:00",
+   "matched": "need a video editor",
+   "author": "Mundane_Craft_1139"
+  },
+  {
+   "link": "https://www.reddit.com/r/EditingVideo/comments/1xwjw9f/",
+   "platform": "Reddit",
+   "title": "Looking for creators who need a video editor",
+   "community": "r/EditingVideo",
+   "group": "F5Bot",
+   "posted": "2026-11-15T03:01:45+00:00",
+   "snippet": "",
+   "found": "2026-11-15T08:56:51+00:00",
+   "matched": "looking for a video editor",
+   "author": "WorldlyTap3942"
+  },
   {
    "link": "https://www.reddit.com/r/FindVideoEditors/comments/1xw6dl3/",
    "platform": "Reddit",
@@ -6795,40 +6819,6 @@
    "found": "2026-10-18T14:21:17+00:00",
    "matched": "looking for a video editor",
    "author": "Human_Elk_3733"
-  },
-  {
-   "link": "https://www.reddit.com/r/VideoEditing/comments/1x8wf7c/",
-   "platform": "Reddit",
-   "title": "NEED A VIDEO EDITOR",
-   "community": "r/VideoEditing",
-   "group": "F5Bot",
-   "posted": "2026-10-18T08:54:10+00:00",
-   "snippet": "",
-   "found": "2026-10-18T10:37:34+00:00",
-   "matched": "need a video editor",
-   "author": "satarugojo69",
-   "also": [
-    {
-     "community": "r/HireAnEditor",
-     "link": "https://www.reddit.com/r/HireAnEditor/comments/1x8wfyn/"
-    },
-    {
-     "community": "r/VideoEditingJobs",
-     "link": "https://www.reddit.com/r/VideoEditingJobs/comments/1x8wg5s/"
-    }
-   ]
-  },
-  {
-   "link": "https://www.reddit.com/r/FindVideoEditors/comments/1x8xbiu/hiring_video_editor_for_food_travel_series_long/",
-   "platform": "Reddit",
-   "title": "[HIRING] Video Editor for Food & Travel Series (Long and Short Form) [PAID] [Remote]",
-   "community": "r/FindVideoEditors",
-   "group": "Hire communities",
-   "posted": "2026-10-18T07:44:57+00:00",
-   "snippet": "Hello, I\u2019m looking for a talented editor to help me grow my food and travel series. It\u2019s all about eating and exploring: street food, local spots, hidden gems and the moments in between. Episodes are 5\u201310 minutes long, and each one is cut down into short-form vertical clips. I want strong storytelli...",
-   "found": "2026-10-18T14:21:17+00:00",
-   "matched": "looking for a video editor",
-   "author": "lowlight-media"
   }
  ]
 }
