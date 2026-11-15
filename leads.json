@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-15T16:13:40+00:00",
+ "updated": "2026-11-15T21:31:24+00:00",
  "stats": {
   "searches_ok": 0,
   "searches_failed": 7,
@@ -7,20 +7,31 @@
   "out_of_time": false,
   "queue_size": 93,
   "errors": {
-   "HTTP Error 404: Not Found": 1,
-   "HTTP Error 403: Forbidden": 6
+   "HTTP Error 403: Forbidden": 7
   },
   "f5bot": {
    "configured": true,
    "emails": 1,
-   "posts": 2,
+   "posts": 1,
    "error": ""
   },
-  "duplicates_merged": 1
+  "duplicates_merged": 0
  },
- "cursor": 2,
+ "cursor": 9,
  "stuck": 0,
  "leads": [
+  {
+   "link": "https://www.reddit.com/r/YouTubeEditorsForHire/comments/1xwz07n/",
+   "platform": "Reddit",
+   "title": "Hiring a video editor",
+   "community": "r/YouTubeEditorsForHire",
+   "group": "F5Bot",
+   "posted": "2026-11-15T18:01:46+00:00",
+   "snippet": "",
+   "found": "2026-11-15T21:31:24+00:00",
+   "matched": "hiring a video editor",
+   "author": "Ok-Departure4999"
+  },
   {
    "link": "https://www.reddit.com/r/hiringpakistan/comments/1xwnuc7/",
    "platform": "Reddit",
@@ -6812,18 +6823,6 @@
    "found": "2026-10-18T14:21:17+00:00",
    "matched": "looking for a video editor",
    "author": "Appropriate-Meat-964"
-  },
-  {
-   "link": "https://www.reddit.com/r/HireAnEditor/comments/1x8z40t/hiring_real_estate_reels_editor_5001000_per_reel/",
-   "platform": "Reddit",
-   "title": "[Hiring] Real Estate Reels Editor | \u20b9500\u2013\u20b91,000 per Reel",
-   "community": "r/HireAnEditor",
-   "group": "Hire communities",
-   "posted": "2026-10-18T09:39:02+00:00",
-   "snippet": "Hey everyone! I'm building a short-form video editing service focused on US real estate agents and looking for an editor for a potential long-term collaboration. Work required: Luxury property tour Reels Real estate talking-head videos Clean cuts, engaging hooks, captions and music Budget: \u20b9500\u2013\u20b91,0...",
-   "found": "2026-10-18T14:21:17+00:00",
-   "matched": "looking for a video editor",
-   "author": "Human_Elk_3733"
   }
  ]
 }
