@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-16T09:11:15+00:00",
+ "updated": "2026-11-16T20:05:14+00:00",
  "stats": {
   "searches_ok": 0,
   "searches_failed": 6,
@@ -11,15 +11,73 @@
   },
   "f5bot": {
    "configured": true,
-   "emails": 2,
-   "posts": 1,
+   "emails": 5,
+   "posts": 17,
    "error": ""
   },
-  "duplicates_merged": 0
+  "duplicates_merged": 4
  },
- "cursor": 22,
+ "cursor": 28,
  "stuck": 0,
  "leads": [
+  {
+   "link": "https://www.reddit.com/r/YouTubeEditorsForHire/comments/1xxvugk/",
+   "platform": "Reddit",
+   "title": "Need a video editor? My DMs are open!\ud83d\udd25",
+   "community": "r/YouTubeEditorsForHire",
+   "group": "F5Bot",
+   "posted": "2026-11-16T18:33:16+00:00",
+   "snippet": "",
+   "found": "2026-11-16T20:05:14+00:00",
+   "matched": "need a video editor",
+   "author": "ArtBig7508",
+   "also": [
+    {
+     "community": "r/YouTubeEditorsForHire",
+     "link": "https://www.reddit.com/r/YouTubeEditorsForHire/comments/1xxvzxa/"
+    },
+    {
+     "community": "r/VideoEditors_forhire",
+     "link": "https://www.reddit.com/r/VideoEditors_forhire/comments/1xxw20v/"
+    }
+   ]
+  },
+  {
+   "link": "https://www.reddit.com/r/sidehustleIndia/comments/1xxwlkh/",
+   "platform": "Reddit",
+   "title": "Need a Video Editor ASAPPP (per vid = INR 800)",
+   "community": "r/sidehustleIndia",
+   "group": "F5Bot",
+   "posted": "2026-11-16T18:33:16+00:00",
+   "snippet": "",
+   "found": "2026-11-16T20:05:14+00:00",
+   "matched": "need a video editor",
+   "author": "a-bad-omen-"
+  },
+  {
+   "link": "https://www.reddit.com/r/YouTubeEditorsForHire/comments/1xxseh5/",
+   "platform": "Reddit",
+   "title": "[HIRING] GTA Gaming Video Editor \u2014 \u00a340\u2013\u00a360 Per Video",
+   "community": "r/YouTubeEditorsForHire",
+   "group": "F5Bot",
+   "posted": "2026-11-16T15:50:12+00:00",
+   "snippet": "",
+   "found": "2026-11-16T20:05:14+00:00",
+   "matched": "looking for a video editor",
+   "author": "DarkPetr12"
+  },
+  {
+   "link": "https://www.reddit.com/r/videoeditingindia/comments/1xxnbq2/",
+   "platform": "Reddit",
+   "title": "[Hiring] Video Editor for ads at TrueHunt, a cat food brand (full-time, on-site in...",
+   "community": "r/videoeditingindia",
+   "group": "F5Bot",
+   "posted": "2026-11-16T13:47:05+00:00",
+   "snippet": "",
+   "found": "2026-11-16T20:05:14+00:00",
+   "matched": "hiring a video editor",
+   "author": "Lone_Lunatic"
+  },
   {
    "link": "https://www.reddit.com/r/YouTubeEditorsForHire/comments/1xwz07n/",
    "platform": "Reddit",
@@ -30,7 +88,17 @@
    "snippet": "",
    "found": "2026-11-15T21:31:24+00:00",
    "matched": "hiring a video editor",
-   "author": "Ok-Departure4999"
+   "author": "Ok-Departure4999",
+   "also": [
+    {
+     "community": "r/FindVideoEditors",
+     "link": "https://www.reddit.com/r/FindVideoEditors/comments/1xxjfbf/"
+    },
+    {
+     "community": "r/VideoEditingJobs",
+     "link": "https://www.reddit.com/r/VideoEditingJobs/comments/1xxkgl4/"
+    }
+   ]
   },
   {
    "link": "https://www.reddit.com/r/hiringpakistan/comments/1xwnuc7/",
@@ -6775,54 +6843,6 @@
    "found": "2026-10-18T22:52:33+00:00",
    "matched": "need a video editor",
    "author": "unusual_activity234"
-  },
-  {
-   "link": "https://www.reddit.com/r/HireAnEditor/comments/1x93kfb/looking_for_editor_looking_for_quotoes/",
-   "platform": "Reddit",
-   "title": "Looking For Editor - Looking for quotoes",
-   "community": "r/HireAnEditor",
-   "group": "Hire communities",
-   "posted": "2026-10-18T13:43:37+00:00",
-   "snippet": "I'm looking for someone who can edit like the videos in the links below. I would prefer someone from Philipines/Pakistan/India. If interested send me a message in this format (i get a lot of msgs so make it easy for me to read) Price for each/both per video Portfolio What country youre from https://...",
-   "found": "2026-10-18T14:21:17+00:00",
-   "matched": "looking for a video editor",
-   "author": "UpstairsCertain3195"
-  },
-  {
-   "link": "https://www.reddit.com/r/passive_income/comments/1x90ncx/",
-   "platform": "Reddit",
-   "title": "Looking for ways to make money with video editing",
-   "community": "r/passive_income",
-   "group": "F5Bot",
-   "posted": "2026-10-18T13:16:10+00:00",
-   "snippet": "",
-   "found": "2026-10-18T14:21:17+00:00",
-   "matched": "need a video editor",
-   "author": "TommatotjeFN"
-  },
-  {
-   "link": "https://www.reddit.com/r/CreatorServices/comments/1x8ziy8/looking_for_gaming_video_editor_engaging_type/",
-   "platform": "Reddit",
-   "title": "Looking for Gaming video editor (engaging type with good SFX, have knowledge of emotions of viewers) (not paid) as I'm new",
-   "community": "r/CreatorServices",
-   "group": "Hire communities",
-   "posted": "2026-10-18T10:05:30+00:00",
-   "snippet": "Im new youtuber/streamer and i have lot of content that needs to be edited into good videos, I have ideas and scripts and style of video ready but I want someone to help me out. And im not earning from my channel yet so I can't pay you. But, If you are new and want to work to learn and do portfolio ...",
-   "found": "2026-10-18T17:53:27+00:00",
-   "matched": "looking for a video editor",
-   "author": "maxst1ng"
-  },
-  {
-   "link": "https://www.reddit.com/r/HireAnEditor/comments/1x8z5r4/looking_for_people_who_need_video_editing/",
-   "platform": "Reddit",
-   "title": "Looking for People Who Need Video Editing!",
-   "community": "r/HireAnEditor",
-   "group": "Hire communities",
-   "posted": "2026-10-18T09:42:13+00:00",
-   "snippet": "Hey everyone! I'm looking to build my video editing portfolio and I'm searching for content creators who need help editing their videos! What I can edit: - Gaming videos for YouTube - YouTube Shorts, TikToks & Instagram Reels - Cuts and smooth transitions - Subtitles and captions - Sound effects and...",
-   "found": "2026-10-18T14:21:17+00:00",
-   "matched": "looking for a video editor",
-   "author": "Appropriate-Meat-964"
   }
  ]
 }
