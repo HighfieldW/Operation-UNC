@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-17T03:30:05+00:00",
+ "updated": "2026-11-17T12:53:03+00:00",
  "stats": {
   "searches_ok": 0,
   "searches_failed": 6,
@@ -7,20 +7,43 @@
   "out_of_time": false,
   "queue_size": 93,
   "errors": {
-   "HTTP Error 403: Forbidden": 5,
-   "HTTP Error 404: Not Found": 1
+   "HTTP Error 403: Forbidden": 6
   },
   "f5bot": {
    "configured": true,
-   "emails": 2,
-   "posts": 3,
+   "emails": 3,
+   "posts": 5,
    "error": ""
   },
-  "duplicates_merged": 1
+  "duplicates_merged": 0
  },
- "cursor": 34,
+ "cursor": 40,
  "stuck": 0,
  "leads": [
+  {
+   "link": "https://www.reddit.com/r/VideoEditors_forhire/comments/1xyh9c8/",
+   "platform": "Reddit",
+   "title": "[Hiring] Looking for a video editor to cut rave festival reels \u2013 4 stages, 6 hours...",
+   "community": "r/VideoEditors_forhire",
+   "group": "F5Bot",
+   "posted": "2026-11-17T11:41:12+00:00",
+   "snippet": "",
+   "found": "2026-11-17T12:53:03+00:00",
+   "matched": "looking for a video editor",
+   "author": "vereinuwe"
+  },
+  {
+   "link": "https://www.reddit.com/r/VideoEditingRequests/comments/1xyhanw/",
+   "platform": "Reddit",
+   "title": "Looking for a video editor to cut rave festival reels \u2013 4 stages, 6 hours of raw f...",
+   "community": "r/VideoEditingRequests",
+   "group": "F5Bot",
+   "posted": "2026-11-17T11:41:12+00:00",
+   "snippet": "",
+   "found": "2026-11-17T12:53:03+00:00",
+   "matched": "looking for a video editor",
+   "author": "vereinuwe"
+  },
   {
    "link": "https://www.reddit.com/r/HireAnEditor/comments/1xy53di/",
    "platform": "Reddit",
@@ -6810,46 +6833,6 @@
    "found": "2026-10-18T22:52:33+00:00",
    "matched": "need a video editor",
    "author": "youtubeowns"
-  },
-  {
-   "link": "https://www.reddit.com/r/HireAnEditor/comments/1x94wve/",
-   "platform": "Reddit",
-   "title": "\ud83d\udc4b **Looking for YouTubers who need a video editor!",
-   "community": "r/HireAnEditor",
-   "group": "F5Bot",
-   "posted": "2026-10-18T16:45:13+00:00",
-   "snippet": "",
-   "found": "2026-10-18T17:53:27+00:00",
-   "matched": "need a video editor",
-   "author": "Mr_Leo00",
-   "also": [
-    {
-     "community": "r/YouTubeEditorForHire",
-     "link": "https://www.reddit.com/r/YouTubeEditorForHire/comments/1x94xxe/"
-    },
-    {
-     "community": "r/FindVideoEditors",
-     "link": "https://www.reddit.com/r/FindVideoEditors/comments/1x94y1v/"
-    }
-   ]
-  },
-  {
-   "link": "https://www.reddit.com/r/YouTubeEditorsForHire/comments/1x97lwv/",
-   "platform": "Reddit",
-   "title": "Need a video editor without breaking the bank?",
-   "community": "r/YouTubeEditorsForHire",
-   "group": "F5Bot",
-   "posted": "2026-10-18T16:45:13+00:00",
-   "snippet": "",
-   "found": "2026-10-18T17:53:27+00:00",
-   "matched": "need a video editor",
-   "author": "Open_Material_5878",
-   "also": [
-    {
-     "community": "r/HireAnEditor",
-     "link": "https://www.reddit.com/r/HireAnEditor/comments/1x97tvz/need_a_video_editor_without_breaking_the_bank/"
-    }
-   ]
   }
  ]
 }
