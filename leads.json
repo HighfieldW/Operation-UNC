@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-18T03:24:33+00:00",
+ "updated": "2026-11-18T12:46:31+00:00",
  "stats": {
   "searches_ok": 0,
   "searches_failed": 7,
@@ -11,15 +11,27 @@
   },
   "f5bot": {
    "configured": true,
-   "emails": 2,
-   "posts": 4,
+   "emails": 1,
+   "posts": 3,
    "error": ""
   },
-  "duplicates_merged": 2
+  "duplicates_merged": 0
  },
- "cursor": 54,
+ "cursor": 61,
  "stuck": 0,
  "leads": [
+  {
+   "link": "https://www.reddit.com/r/HireAnEditor/comments/1xz9n66/",
+   "platform": "Reddit",
+   "title": "Do you need a video Editor",
+   "community": "r/HireAnEditor",
+   "group": "F5Bot",
+   "posted": "2026-11-18T10:02:54+00:00",
+   "snippet": "",
+   "found": "2026-11-18T12:46:31+00:00",
+   "matched": "need a video editor",
+   "author": "Quick-Afternoon-5072"
+  },
   {
    "link": "https://www.reddit.com/r/videoeditors_hiring/comments/1xyx7n2/",
    "platform": "Reddit",
@@ -6825,24 +6837,6 @@
    "found": "2026-10-18T22:52:33+00:00",
    "matched": "looking for a video editor",
    "author": "Sleezyys"
-  },
-  {
-   "link": "https://www.reddit.com/r/YouTubeEditorsForHire/comments/1x9d5d5/",
-   "platform": "Reddit",
-   "title": "[Hiring] Long Term Editor for Story Driven Gaming Content",
-   "community": "r/YouTubeEditorsForHire",
-   "group": "F5Bot",
-   "posted": "2026-10-18T20:35:10+00:00",
-   "snippet": "",
-   "found": "2026-10-18T22:52:33+00:00",
-   "matched": "looking for a video editor",
-   "author": "Sleezyys",
-   "also": [
-    {
-     "community": "r/HireAnEditor",
-     "link": "https://www.reddit.com/r/HireAnEditor/comments/1x9d7jr/"
-    }
-   ]
   }
  ]
 }
