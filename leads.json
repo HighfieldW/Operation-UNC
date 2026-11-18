@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-17T21:34:19+00:00",
+ "updated": "2026-11-18T03:24:33+00:00",
  "stats": {
   "searches_ok": 0,
   "searches_failed": 7,
@@ -11,15 +11,49 @@
   },
   "f5bot": {
    "configured": true,
-   "emails": 3,
-   "posts": 5,
+   "emails": 2,
+   "posts": 4,
    "error": ""
   },
-  "duplicates_merged": 0
+  "duplicates_merged": 2
  },
- "cursor": 47,
+ "cursor": 54,
  "stuck": 0,
  "leads": [
+  {
+   "link": "https://www.reddit.com/r/videoeditors_hiring/comments/1xyx7n2/",
+   "platform": "Reddit",
+   "title": "\ud83c\udfac Looking for a Video Editor? Hi everyone! \ud83d\udc4b I'm a beginner Video Editor & Mot...",
+   "community": "r/videoeditors_hiring",
+   "group": "F5Bot",
+   "posted": "2026-11-17T23:46:41+00:00",
+   "snippet": "",
+   "found": "2026-11-18T03:24:33+00:00",
+   "matched": "looking for a video editor",
+   "author": "alexalviedit"
+  },
+  {
+   "link": "https://www.reddit.com/r/videoeditors_hiring/comments/1xyyc8w/",
+   "platform": "Reddit",
+   "title": "Need a Video Editor for Your Shorts, Reels, or TikToks? \ud83c\udfac",
+   "community": "r/videoeditors_hiring",
+   "group": "F5Bot",
+   "posted": "2026-11-17T23:46:41+00:00",
+   "snippet": "",
+   "found": "2026-11-18T03:24:33+00:00",
+   "matched": "looking for a video editor",
+   "author": "ricksnts_",
+   "also": [
+    {
+     "community": "r/HireAnEditor",
+     "link": "https://www.reddit.com/r/HireAnEditor/comments/1xyyd35/"
+    },
+    {
+     "community": "r/VideoEditingConnect",
+     "link": "https://www.reddit.com/r/VideoEditingConnect/comments/1xyyetx/"
+    }
+   ]
+  },
   {
    "link": "https://www.reddit.com/r/videoeditingindia/comments/1xyn3jo/",
    "platform": "Reddit",
@@ -6809,30 +6843,6 @@
      "link": "https://www.reddit.com/r/HireAnEditor/comments/1x9d7jr/"
     }
    ]
-  },
-  {
-   "link": "https://www.reddit.com/r/HireAnEditor/comments/1x9c878/hiring_urgent_ai_video_editor_for_uk_performance/",
-   "platform": "Reddit",
-   "title": "[Hiring] URGENT \u2013 AI Video Editor for UK Performance Ads \u2013 Google Flow / Veo 3 / Kling \u2013 $1,000/month \u2013 Start within 24h",
-   "community": "r/HireAnEditor",
-   "group": "Hire communities",
-   "posted": "2026-10-18T19:37:19+00:00",
-   "snippet": "Hey! I'm an editor at a performance ad agency that produces Meta ad creatives for UK e-commerce brands. We're scaling our creative output and I need an AI video editor to join me on our ad production ASAP \u2013 ideally starting within the next 24 hours. **The work** - Short-form performance ads (9:16) f...",
-   "found": "2026-10-18T22:52:33+00:00",
-   "matched": "need a video editor",
-   "author": "pakapesic"
-  },
-  {
-   "link": "https://www.reddit.com/r/HireAnEditor/comments/1x9ancq/hiring_longform_movie_tv_reaction_editors_remote/",
-   "platform": "Reddit",
-   "title": "\ud83c\udfac Hiring Long-Form Movie & TV Reaction Editors | Remote + Worldwide",
-   "community": "r/HireAnEditor",
-   "group": "Hire communities",
-   "posted": "2026-10-18T18:34:53+00:00",
-   "snippet": "I\u2019m officially opening applications for a small, selective group of long-form video editors to join my growing movie & TV reaction production team! \ud83c\udfac I\u2019m currently hiring for two separate positions: Core Cut Editor - foundational reaction editing, storytelling, pacing, technical cleanup, copyright-c...",
-   "found": "2026-10-18T22:52:33+00:00",
-   "matched": "need a video editor",
-   "author": "Middle_Win_7707"
   }
  ]
 }
