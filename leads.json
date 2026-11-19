@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-19T02:58:54+00:00",
+ "updated": "2026-11-19T11:27:28+00:00",
  "stats": {
   "searches_ok": 0,
   "searches_failed": 7,
@@ -11,15 +11,63 @@
   },
   "f5bot": {
    "configured": true,
-   "emails": 1,
-   "posts": 0,
+   "emails": 2,
+   "posts": 8,
    "error": ""
   },
   "duplicates_merged": 0
  },
- "cursor": 74,
+ "cursor": 81,
  "stuck": 0,
  "leads": [
+  {
+   "link": "https://www.reddit.com/r/phclassifieds/comments/1y036x0/",
+   "platform": "Reddit",
+   "title": "Looking for a Vtuber video editor!",
+   "community": "r/phclassifieds",
+   "group": "F5Bot",
+   "posted": "2026-11-19T08:02:14+00:00",
+   "snippet": "",
+   "found": "2026-11-19T11:27:28+00:00",
+   "matched": "looking for a video editor",
+   "author": "stinkyaltfunni"
+  },
+  {
+   "link": "https://www.reddit.com/r/VideoEditors_forhire/comments/1y02fyd/",
+   "platform": "Reddit",
+   "title": "Looking for Content Creators Who Need a Video Editor! \ud83c\udfac",
+   "community": "r/VideoEditors_forhire",
+   "group": "F5Bot",
+   "posted": "2026-11-19T08:02:14+00:00",
+   "snippet": "",
+   "found": "2026-11-19T11:27:28+00:00",
+   "matched": "looking for a video editor",
+   "author": "Historical_Pick4213"
+  },
+  {
+   "link": "https://www.reddit.com/r/u_AgreeableMagazine152/comments/1xzwucn/",
+   "platform": "Reddit",
+   "title": "Need a video editor?",
+   "community": "u/AgreeableMagazine152",
+   "group": "F5Bot",
+   "posted": "2026-11-19T03:31:13+00:00",
+   "snippet": "",
+   "found": "2026-11-19T11:27:28+00:00",
+   "matched": "need a video editor",
+   "author": "AgreeableMagazine152"
+  },
+  {
+   "link": "https://www.reddit.com/r/VideoEditingRequests/comments/1xzxye4/",
+   "platform": "Reddit",
+   "title": "Looking for a video editor. Pls DM",
+   "community": "r/VideoEditingRequests",
+   "group": "F5Bot",
+   "posted": "2026-11-19T03:31:13+00:00",
+   "snippet": "",
+   "found": "2026-11-19T11:27:28+00:00",
+   "matched": "need a video editor",
+   "author": "MaintenanceNo6308"
+  },
   {
    "link": "https://www.reddit.com/r/HireAnEditor/comments/1xz9n66/",
    "platform": "Reddit",
@@ -6783,60 +6831,6 @@
    "found": "2026-10-18T22:52:33+00:00",
    "matched": "need a video editor",
    "author": "Rodge_bet"
-  },
-  {
-   "link": "https://www.reddit.com/r/HireAnEditor/comments/1x9dtu9/looking_for_a_female_video_editor_for_beauty/",
-   "platform": "Reddit",
-   "title": "Looking for a Female Video Editor for Beauty & Lifestyle Content",
-   "community": "r/HireAnEditor",
-   "group": "Hire communities",
-   "posted": "2026-10-18T20:41:58+00:00",
-   "snippet": "Hey everyone! I\u2019m looking for a female video editor to work with on a monthly basis for my beauty and lifestyle Short Form content. I\u2019m looking for someone who has a good eye for aesthetics and knows how to create engaging, stylish, fast-paced edits that keep viewers hooked! The type of content I ne...",
-   "found": "2026-10-18T22:52:33+00:00",
-   "matched": "need a video editor",
-   "author": "latipha"
-  },
-  {
-   "link": "https://www.reddit.com/r/VideoEditors_forhire/comments/1x9alor/",
-   "platform": "Reddit",
-   "title": "Looking for a Video Editor Who Can Turn Content Into Growth",
-   "community": "r/VideoEditors_forhire",
-   "group": "F5Bot",
-   "posted": "2026-10-18T20:35:10+00:00",
-   "snippet": "",
-   "found": "2026-10-18T22:52:33+00:00",
-   "matched": "looking for a video editor",
-   "author": "MohStang"
-  },
-  {
-   "link": "https://www.reddit.com/r/VideoEditors_forhire/comments/1x9anxk/",
-   "platform": "Reddit",
-   "title": "[Hiring] Video Editor with Motion Graphics Skills Needed",
-   "community": "r/VideoEditors_forhire",
-   "group": "F5Bot",
-   "posted": "2026-10-18T20:35:10+00:00",
-   "snippet": "",
-   "found": "2026-10-18T22:52:33+00:00",
-   "matched": "looking for a video editor",
-   "author": "No-Baseball5327",
-   "also": [
-    {
-     "community": "r/FindVideoEditors",
-     "link": "https://www.reddit.com/r/FindVideoEditors/comments/1x9ap4l/"
-    }
-   ]
-  },
-  {
-   "link": "https://www.reddit.com/r/u_Sleezyys/comments/1x9d2to/",
-   "platform": "Reddit",
-   "title": "Looking for a long term editor for story driven gaming content. Budget $200 to $35...",
-   "community": "u/Sleezyys",
-   "group": "F5Bot",
-   "posted": "2026-10-18T20:35:10+00:00",
-   "snippet": "",
-   "found": "2026-10-18T22:52:33+00:00",
-   "matched": "looking for a video editor",
-   "author": "Sleezyys"
   }
  ]
 }
