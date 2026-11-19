@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-19T11:27:28+00:00",
+ "updated": "2026-11-19T20:12:31+00:00",
  "stats": {
   "searches_ok": 0,
   "searches_failed": 7,
@@ -11,15 +11,75 @@
   },
   "f5bot": {
    "configured": true,
-   "emails": 2,
-   "posts": 8,
+   "emails": 4,
+   "posts": 10,
    "error": ""
   },
-  "duplicates_merged": 0
+  "duplicates_merged": 3
  },
- "cursor": 81,
+ "cursor": 88,
  "stuck": 0,
  "leads": [
+  {
+   "link": "https://www.reddit.com/r/videoeditors_hiring/comments/1y08r4b/",
+   "platform": "Reddit",
+   "title": "\ud83c\udfac NEED A VIDEO EDITOR FOR YOUR CONTENT? Are you a content creator, business owner,...",
+   "community": "r/videoeditors_hiring",
+   "group": "F5Bot",
+   "posted": "2026-11-19T14:10:20+00:00",
+   "snippet": "",
+   "found": "2026-11-19T20:12:31+00:00",
+   "matched": "need a video editor",
+   "author": "Opposite_Major_8584"
+  },
+  {
+   "link": "https://www.reddit.com/r/u_priyamvad_thakuri/comments/1y09o8w/",
+   "platform": "Reddit",
+   "title": "Need a video editor? Let's work together!",
+   "community": "u/priyamvad_thakuri",
+   "group": "F5Bot",
+   "posted": "2026-11-19T14:10:20+00:00",
+   "snippet": "",
+   "found": "2026-11-19T20:12:31+00:00",
+   "matched": "need a video editor",
+   "author": "priyamvad_thakuri"
+  },
+  {
+   "link": "https://www.reddit.com/r/VideoEditors_forhire/comments/1y07v8v/",
+   "platform": "Reddit",
+   "title": "Looking for a Video Editor for Your Content? \ud83c\udfac",
+   "community": "r/VideoEditors_forhire",
+   "group": "F5Bot",
+   "posted": "2026-11-19T14:10:20+00:00",
+   "snippet": "",
+   "found": "2026-11-19T20:12:31+00:00",
+   "matched": "need a video editor",
+   "author": "mshahnawaz_2",
+   "also": [
+    {
+     "community": "r/HireAnEditor",
+     "link": "https://www.reddit.com/r/HireAnEditor/comments/1y07vej/"
+    }
+   ]
+  },
+  {
+   "link": "https://www.reddit.com/r/VideoEditors/comments/1y05he9/",
+   "platform": "Reddit",
+   "title": "Looking for a Video Editor | Urgent Hiring",
+   "community": "r/VideoEditors",
+   "group": "F5Bot",
+   "posted": "2026-11-19T11:48:15+00:00",
+   "snippet": "",
+   "found": "2026-11-19T20:12:31+00:00",
+   "matched": "looking for a video editor",
+   "author": "Interesting_Eye_1333",
+   "also": [
+    {
+     "community": "r/videoeditingindia",
+     "link": "https://www.reddit.com/r/videoeditingindia/comments/1y05hh4/"
+    }
+   ]
+  },
   {
    "link": "https://www.reddit.com/r/phclassifieds/comments/1y036x0/",
    "platform": "Reddit",
@@ -42,7 +102,13 @@
    "snippet": "",
    "found": "2026-11-19T11:27:28+00:00",
    "matched": "looking for a video editor",
-   "author": "Historical_Pick4213"
+   "author": "Historical_Pick4213",
+   "also": [
+    {
+     "community": "r/YouTubeEditorForHire",
+     "link": "https://www.reddit.com/r/YouTubeEditorForHire/comments/1y0av1j/"
+    }
+   ]
   },
   {
    "link": "https://www.reddit.com/r/u_AgreeableMagazine152/comments/1xzwucn/",
@@ -6783,54 +6849,6 @@
    "found": "2026-10-21T09:13:07+00:00",
    "matched": "looking for a video editor",
    "author": "CharacterThen5915"
-  },
-  {
-   "link": "https://www.reddit.com/r/CreatorServices/comments/1x9p070/",
-   "platform": "Reddit",
-   "title": "Looking for video editor",
-   "community": "r/CreatorServices",
-   "group": "F5Bot",
-   "posted": "2026-10-19T08:04:12+00:00",
-   "snippet": "",
-   "found": "2026-10-19T12:43:03+00:00",
-   "matched": "looking for a video editor",
-   "author": "Longjumping_Rub_9756"
-  },
-  {
-   "link": "https://www.reddit.com/r/CreatorServices/comments/1x9i2rz/im_looking_for_a_editor/",
-   "platform": "Reddit",
-   "title": "im looking for a editor",
-   "community": "r/CreatorServices",
-   "group": "Hire communities",
-   "posted": "2026-10-18T23:53:30+00:00",
-   "snippet": "i need a editor bc my videos aren't doing so well or looking good also any thumbnail artists please help me i want to find a editor that will edit for free bc im broke af submitted by /u/Vrgaming7 [link] [comments]",
-   "found": "2026-10-19T00:56:08+00:00",
-   "matched": "need a video editor",
-   "author": "Vrgaming7"
-  },
-  {
-   "link": "https://www.reddit.com/r/HireAnEditor/comments/1x9gh35/looking_for_a_video_editor/",
-   "platform": "Reddit",
-   "title": "\ud83c\udfac LOOKING FOR A VIDEO EDITOR?",
-   "community": "r/HireAnEditor",
-   "group": "Hire communities",
-   "posted": "2026-10-18T22:35:39+00:00",
-   "snippet": "\ud83c\udfac LOOKING FOR A VIDEO EDITOR? I edit engaging short-form videos for TikTok, Instagram Reels, and YouTube Shorts. \u2705 Clean cuts & smooth pacing \u2705 Dynamic captions, effects & sound design \u2705 Fast turnaround I'm currently taking on new projects and open to a quick editing test so you can see the quality ...",
-   "found": "2026-10-18T22:52:33+00:00",
-   "matched": "need a video editor",
-   "author": "Kooky_Quarter4272"
-  },
-  {
-   "link": "https://www.reddit.com/r/FindVideoEditors/comments/1x9ewvz/hiring_fitness_sports_video_editor_needed/",
-   "platform": "Reddit",
-   "title": "[Hiring] Fitness / Sports Video Editor Needed",
-   "community": "r/FindVideoEditors",
-   "group": "Hire communities",
-   "posted": "2026-10-18T21:27:28+00:00",
-   "snippet": "I'm looking for a skilled video editor who specializes in fitness and sports content. Requirements: Experience editing fitness or sports videos Portfolio featuring 16:9 videos Fully remote. If interested, DM me your portfolio. Payment and further details will be discussed privately. Budget 50-200$ s...",
-   "found": "2026-10-18T22:52:33+00:00",
-   "matched": "need a video editor",
-   "author": "Rodge_bet"
   }
  ]
 }
