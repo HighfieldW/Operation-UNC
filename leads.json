@@ -1,25 +1,37 @@
 {
- "updated": "2026-11-19T20:12:31+00:00",
+ "updated": "2026-11-20T02:06:09+00:00",
  "stats": {
   "searches_ok": 0,
-  "searches_failed": 7,
+  "searches_failed": 6,
   "rate_limited": true,
   "out_of_time": false,
   "queue_size": 93,
   "errors": {
-   "HTTP Error 404: Not Found": 7
+   "HTTP Error 404: Not Found": 6
   },
   "f5bot": {
    "configured": true,
-   "emails": 4,
-   "posts": 10,
+   "emails": 1,
+   "posts": 1,
    "error": ""
   },
-  "duplicates_merged": 3
+  "duplicates_merged": 0
  },
- "cursor": 88,
+ "cursor": 1,
  "stuck": 0,
  "leads": [
+  {
+   "link": "https://www.reddit.com/r/VideoEditingJobs/comments/1y0lzjo/",
+   "platform": "Reddit",
+   "title": "Are you looking for a Video Editor?",
+   "community": "r/VideoEditingJobs",
+   "group": "F5Bot",
+   "posted": "2026-11-19T23:56:12+00:00",
+   "snippet": "",
+   "found": "2026-11-20T02:06:09+00:00",
+   "matched": "need a video editor",
+   "author": "Technical_Rip2366"
+  },
   {
    "link": "https://www.reddit.com/r/videoeditors_hiring/comments/1y08r4b/",
    "platform": "Reddit",
@@ -6837,18 +6849,6 @@
      "link": "https://www.reddit.com/r/Indiajobs/comments/1x9shwx/"
     }
    ]
-  },
-  {
-   "link": "https://www.reddit.com/r/VideoEditingRequests/comments/1x9sdjx/need_a_video_editor_ill_edit_for_free/",
-   "platform": "Reddit",
-   "title": "Need a Video Editor? I\u2019ll Edit for Free! \ud83c\udfac",
-   "community": "r/VideoEditingRequests",
-   "group": "Hire communities",
-   "posted": "2026-10-19T09:35:07+00:00",
-   "snippet": "submitted by /u/CharacterThen5915 [link] [comments]",
-   "found": "2026-10-21T09:13:07+00:00",
-   "matched": "looking for a video editor",
-   "author": "CharacterThen5915"
   }
  ]
 }
