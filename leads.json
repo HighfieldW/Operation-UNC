@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-20T11:03:40+00:00",
+ "updated": "2026-11-20T19:46:31+00:00",
  "stats": {
   "searches_ok": 0,
   "searches_failed": 7,
@@ -11,15 +11,39 @@
   },
   "f5bot": {
    "configured": true,
-   "emails": 2,
-   "posts": 5,
+   "emails": 3,
+   "posts": 4,
    "error": ""
   },
   "duplicates_merged": 1
  },
- "cursor": 8,
+ "cursor": 15,
  "stuck": 0,
  "leads": [
+  {
+   "link": "https://www.reddit.com/r/VideoEditors/comments/1y15wjf/",
+   "platform": "Reddit",
+   "title": "\ud83c\udfac Looking for a Video Editor? I Can Help!",
+   "community": "r/VideoEditors",
+   "group": "F5Bot",
+   "posted": "2026-11-20T15:29:15+00:00",
+   "snippet": "",
+   "found": "2026-11-20T19:46:31+00:00",
+   "matched": "need a video editor",
+   "author": "Street_Hawk_4893"
+  },
+  {
+   "link": "https://www.reddit.com/r/VideoEditingJobs/comments/1y13fre/",
+   "platform": "Reddit",
+   "title": "Need a video editor ( pay is low , sorry)",
+   "community": "r/VideoEditingJobs",
+   "group": "F5Bot",
+   "posted": "2026-11-20T15:29:15+00:00",
+   "snippet": "",
+   "found": "2026-11-20T19:46:31+00:00",
+   "matched": "need a video editor",
+   "author": "[deleted]"
+  },
   {
    "link": "https://www.reddit.com/r/SideHustlePaglu/comments/1y0yiqa/",
    "platform": "Reddit",
@@ -101,6 +125,10 @@
     {
      "community": "r/HireAnEditor",
      "link": "https://www.reddit.com/r/HireAnEditor/comments/1y07vej/"
+    },
+    {
+     "community": "u/mshahnawaz_2",
+     "link": "https://www.reddit.com/r/u_mshahnawaz_2/comments/1y174od/"
     }
    ]
   },
@@ -6825,30 +6853,6 @@
    "found": "2026-10-21T23:04:42+00:00",
    "matched": "need a video editor",
    "author": "Jakov2908"
-  },
-  {
-   "link": "https://www.reddit.com/r/forhire/comments/1x9ve1q/hiring_sports_video_editor/",
-   "platform": "Reddit",
-   "title": "[HIRING] Sports Video Editor",
-   "community": "r/forhire",
-   "group": "Hiring boards",
-   "posted": "2026-10-19T12:20:03+00:00",
-   "snippet": "\ud83c\udfac WE'RE HIRING: Sports Video Editors \ud83c\udff8\u26f3\ud83c\udfbe\ud83c\udfd3 Aylex Academies is looking for talented video editors who don't just know editing, but know the game. We run four YouTube channels dedicated to coaching and sports content: \u26f3 Golf: https://www.youtube.com/@AylexGolf \ud83c\udfbe Tennis: https://www.youtube.com/@AylexTe...",
-   "found": "2026-10-19T19:08:25+00:00",
-   "matched": "looking for a video editor",
-   "author": "No-Butterscotch-1535"
-  },
-  {
-   "link": "https://www.reddit.com/r/VideoEditingRequests/comments/1x9v35f/looking_for_a_video_editor_to_grow_with_me_roblox/",
-   "platform": "Reddit",
-   "title": "Looking for a video editor to grow with me (Roblox YouTube)",
-   "community": "r/VideoEditingRequests",
-   "group": "Hire communities",
-   "posted": "2026-10-19T12:05:51+00:00",
-   "snippet": "submitted by /u/Colaxeryte [link] [comments]",
-   "found": "2026-10-21T09:13:07+00:00",
-   "matched": "looking for a video editor",
-   "author": "Colaxeryte"
   }
  ]
 }
