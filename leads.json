@@ -1,25 +1,49 @@
 {
- "updated": "2026-11-20T02:06:09+00:00",
+ "updated": "2026-11-20T11:03:40+00:00",
  "stats": {
   "searches_ok": 0,
-  "searches_failed": 6,
+  "searches_failed": 7,
   "rate_limited": true,
   "out_of_time": false,
   "queue_size": 93,
   "errors": {
-   "HTTP Error 404: Not Found": 6
+   "HTTP Error 404: Not Found": 7
   },
   "f5bot": {
    "configured": true,
-   "emails": 1,
-   "posts": 1,
+   "emails": 2,
+   "posts": 5,
    "error": ""
   },
-  "duplicates_merged": 0
+  "duplicates_merged": 1
  },
- "cursor": 1,
+ "cursor": 8,
  "stuck": 0,
  "leads": [
+  {
+   "link": "https://www.reddit.com/r/SideHustlePaglu/comments/1y0yiqa/",
+   "platform": "Reddit",
+   "title": "Need a video editor and graphics designer",
+   "community": "r/SideHustlePaglu",
+   "group": "F5Bot",
+   "posted": "2026-11-20T10:51:10+00:00",
+   "snippet": "",
+   "found": "2026-11-20T11:03:40+00:00",
+   "matched": "need a video editor",
+   "author": "MONKEY_D_LUKARIO"
+  },
+  {
+   "link": "https://www.reddit.com/r/FindVideoEditors/comments/1y0u6ko/",
+   "platform": "Reddit",
+   "title": "Hiring a Video Editor 1,000\u20ac base pay",
+   "community": "r/FindVideoEditors",
+   "group": "F5Bot",
+   "posted": "2026-11-20T06:28:12+00:00",
+   "snippet": "",
+   "found": "2026-11-20T11:03:40+00:00",
+   "matched": "",
+   "author": "EfficiencyIcy5331"
+  },
   {
    "link": "https://www.reddit.com/r/VideoEditingJobs/comments/1y0lzjo/",
    "platform": "Reddit",
@@ -30,7 +54,13 @@
    "snippet": "",
    "found": "2026-11-20T02:06:09+00:00",
    "matched": "need a video editor",
-   "author": "Technical_Rip2366"
+   "author": "Technical_Rip2366",
+   "also": [
+    {
+     "community": "r/YouTubeEditorForHire",
+     "link": "https://www.reddit.com/r/YouTubeEditorForHire/comments/1y101b9/"
+    }
+   ]
   },
   {
    "link": "https://www.reddit.com/r/videoeditors_hiring/comments/1y08r4b/",
@@ -6819,36 +6849,6 @@
    "found": "2026-10-21T09:13:07+00:00",
    "matched": "looking for a video editor",
    "author": "Colaxeryte"
-  },
-  {
-   "link": "https://www.reddit.com/r/indiafreshers/comments/1x9sfli/",
-   "platform": "Reddit",
-   "title": "Hiring a Video Editor Skilled in AI Tools and Video Editing Platforms",
-   "community": "r/indiafreshers",
-   "group": "F5Bot",
-   "posted": "2026-10-19T11:41:12+00:00",
-   "snippet": "",
-   "found": "2026-10-19T12:43:03+00:00",
-   "matched": "hiring a video editor",
-   "author": "PatiencePlastic2264"
-  },
-  {
-   "link": "https://www.reddit.com/r/videoeditingindia/comments/1x9sglk/",
-   "platform": "Reddit",
-   "title": "Hiring a Video Editor with AI Video Generation Skills",
-   "community": "r/videoeditingindia",
-   "group": "F5Bot",
-   "posted": "2026-10-19T11:41:12+00:00",
-   "snippet": "",
-   "found": "2026-10-19T12:43:03+00:00",
-   "matched": "hiring a video editor",
-   "author": "PatiencePlastic2264",
-   "also": [
-    {
-     "community": "r/Indiajobs",
-     "link": "https://www.reddit.com/r/Indiajobs/comments/1x9shwx/"
-    }
-   ]
   }
  ]
 }
