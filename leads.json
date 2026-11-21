@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-21T01:11:43+00:00",
+ "updated": "2026-11-21T09:23:21+00:00",
  "stats": {
   "searches_ok": 0,
   "searches_failed": 7,
@@ -11,15 +11,39 @@
   },
   "f5bot": {
    "configured": true,
-   "emails": 1,
-   "posts": 1,
+   "emails": 2,
+   "posts": 4,
    "error": ""
   },
-  "duplicates_merged": 0
+  "duplicates_merged": 1
  },
- "cursor": 22,
+ "cursor": 29,
  "stuck": 0,
  "leads": [
+  {
+   "link": "https://www.reddit.com/r/DubaiJobs/comments/1y1qx9t/",
+   "platform": "Reddit",
+   "title": "Looking for a video editor based in UAE",
+   "community": "r/DubaiJobs",
+   "group": "F5Bot",
+   "posted": "2026-11-21T09:17:11+00:00",
+   "snippet": "",
+   "found": "2026-11-21T09:23:21+00:00",
+   "matched": "looking for a video editor",
+   "author": "endurance53"
+  },
+  {
+   "link": "https://www.reddit.com/r/FindVideoEditors/comments/1y1ogcj/",
+   "platform": "Reddit",
+   "title": "Looking for travel reels, editor",
+   "community": "r/FindVideoEditors",
+   "group": "F5Bot",
+   "posted": "2026-11-21T06:55:13+00:00",
+   "snippet": "",
+   "found": "2026-11-21T09:23:21+00:00",
+   "matched": "hire a video editor",
+   "author": "issautd"
+  },
   {
    "link": "https://www.reddit.com/r/VideoEditors_forhire/comments/1y1e2sl/",
    "platform": "Reddit",
@@ -95,6 +119,10 @@
     {
      "community": "r/YouTubeEditorForHire",
      "link": "https://www.reddit.com/r/YouTubeEditorForHire/comments/1y101b9/"
+    },
+    {
+     "community": "r/YouTubeEditorForHire",
+     "link": "https://www.reddit.com/r/YouTubeEditorForHire/comments/1y1rtic/"
     }
    ]
   },
@@ -6829,30 +6857,6 @@
      "link": "https://www.reddit.com/r/CreatorServices/comments/1x9xrpz/hiring_video_editor_remote_ongoing_work/"
     }
    ]
-  },
-  {
-   "link": "https://www.reddit.com/r/VideoEditors/comments/1x9uojm/",
-   "platform": "Reddit",
-   "title": "Ask these 4 questions before you hire a video editor",
-   "community": "r/VideoEditors",
-   "group": "F5Bot",
-   "posted": "2026-10-19T13:48:13+00:00",
-   "snippet": "",
-   "found": "2026-10-19T19:08:25+00:00",
-   "matched": "hire a video editor",
-   "author": "imran_the_editor"
-  },
-  {
-   "link": "https://www.reddit.com/r/VideoEditingRequests/comments/1x9wvfh/hiring_remote_video_editors/",
-   "platform": "Reddit",
-   "title": "[HIRING] Remote Video Editors",
-   "community": "r/VideoEditingRequests",
-   "group": "Hire communities",
-   "posted": "2026-10-19T13:27:12+00:00",
-   "snippet": "[HIRING] Remote Video Editors We\u2019re expanding our production team and looking for experienced, high-volume video editors who treat editing as a profession - not a casual hobby. We care about your speed, technical execution, and story pacing. We do not care about degrees, diplomas, or traditional sch...",
-   "found": "2026-10-21T09:13:07+00:00",
-   "matched": "looking for a video editor",
-   "author": "Grouchy_Natural_2177"
   }
  ]
 }
