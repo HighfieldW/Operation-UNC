@@ -1,23 +1,23 @@
 {
- "updated": "2026-11-21T17:11:31+00:00",
+ "updated": "2026-11-21T22:54:10+00:00",
  "stats": {
   "searches_ok": 0,
-  "searches_failed": 7,
+  "searches_failed": 6,
   "rate_limited": true,
   "out_of_time": false,
   "queue_size": 93,
   "errors": {
-   "HTTP Error 404: Not Found": 7
+   "HTTP Error 404: Not Found": 6
   },
   "f5bot": {
    "configured": true,
-   "emails": 3,
-   "posts": 17,
+   "emails": 0,
+   "posts": 0,
    "error": ""
   },
-  "duplicates_merged": 4
+  "duplicates_merged": 0
  },
- "cursor": 36,
+ "cursor": 42,
  "stuck": 0,
  "leads": [
   {
