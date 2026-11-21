@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-20T19:46:31+00:00",
+ "updated": "2026-11-21T01:11:43+00:00",
  "stats": {
   "searches_ok": 0,
   "searches_failed": 7,
@@ -11,15 +11,27 @@
   },
   "f5bot": {
    "configured": true,
-   "emails": 3,
-   "posts": 4,
+   "emails": 1,
+   "posts": 1,
    "error": ""
   },
-  "duplicates_merged": 1
+  "duplicates_merged": 0
  },
- "cursor": 15,
+ "cursor": 22,
  "stuck": 0,
  "leads": [
+  {
+   "link": "https://www.reddit.com/r/VideoEditors_forhire/comments/1y1e2sl/",
+   "platform": "Reddit",
+   "title": "[Hiring] Desperately Need a Video Editor",
+   "community": "r/VideoEditors_forhire",
+   "group": "F5Bot",
+   "posted": "2026-11-20T22:35:13+00:00",
+   "snippet": "",
+   "found": "2026-11-21T01:11:43+00:00",
+   "matched": "need a video editor",
+   "author": "IronToad47"
+  },
   {
    "link": "https://www.reddit.com/r/VideoEditors/comments/1y15wjf/",
    "platform": "Reddit",
@@ -6841,18 +6853,6 @@
    "found": "2026-10-21T09:13:07+00:00",
    "matched": "looking for a video editor",
    "author": "Grouchy_Natural_2177"
-  },
-  {
-   "link": "https://www.reddit.com/r/VideoEditingRequests/comments/1x9vlb2/hiring_a_football_video_editor/",
-   "platform": "Reddit",
-   "title": "(Hiring) a Football video editor!",
-   "community": "r/VideoEditingRequests",
-   "group": "Hire communities",
-   "posted": "2026-10-19T12:30:00+00:00",
-   "snippet": "submitted by /u/Jakov2908 [link] [comments]",
-   "found": "2026-10-21T23:04:42+00:00",
-   "matched": "need a video editor",
-   "author": "Jakov2908"
   }
  ]
 }
