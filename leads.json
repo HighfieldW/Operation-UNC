@@ -1,25 +1,37 @@
 {
- "updated": "2026-11-22T10:53:07+00:00",
+ "updated": "2026-11-22T18:19:25+00:00",
  "stats": {
   "searches_ok": 0,
-  "searches_failed": 6,
+  "searches_failed": 7,
   "rate_limited": true,
   "out_of_time": false,
   "queue_size": 93,
   "errors": {
-   "HTTP Error 404: Not Found": 6
+   "HTTP Error 404: Not Found": 7
   },
   "f5bot": {
    "configured": true,
-   "emails": 1,
-   "posts": 0,
+   "emails": 3,
+   "posts": 3,
    "error": ""
   },
   "duplicates_merged": 0
  },
- "cursor": 55,
+ "cursor": 62,
  "stuck": 0,
  "leads": [
+  {
+   "link": "https://www.reddit.com/r/u_Leo_Collins12222/comments/1y2ryfw/",
+   "platform": "Reddit",
+   "title": "Are you Looking for a VIdeo Editor?",
+   "community": "u/Leo_Collins12222",
+   "group": "F5Bot",
+   "posted": "2026-11-22T17:31:14+00:00",
+   "snippet": "",
+   "found": "2026-11-22T18:19:25+00:00",
+   "matched": "looking for a video editor",
+   "author": "Leo_Collins12222"
+  },
   {
    "link": "https://www.reddit.com/r/videoeditingindia/comments/1y1y8yv/",
    "platform": "Reddit",
@@ -6853,18 +6865,6 @@
      "link": "https://www.reddit.com/r/videoeditors_hiring/comments/1xa8pzl/"
     }
    ]
-  },
-  {
-   "link": "https://www.reddit.com/r/FindVideoEditors/comments/1xab93h/looking_for_an_editor_experienced_in_monetized/",
-   "platform": "Reddit",
-   "title": "Looking for an editor experienced in monetized YouTube videos",
-   "community": "r/FindVideoEditors",
-   "group": "Hire communities",
-   "posted": "2026-10-19T22:32:45+00:00",
-   "snippet": "submitted by /u/Low_Trash9312 [link] [comments]",
-   "found": "2026-10-21T03:53:30+00:00",
-   "matched": "looking for a video editor",
-   "author": "Low_Trash9312"
   }
  ]
 }
