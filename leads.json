@@ -1,25 +1,85 @@
 {
- "updated": "2026-11-23T00:03:59+00:00",
+ "updated": "2026-11-23T08:42:27+00:00",
  "stats": {
   "searches_ok": 0,
-  "searches_failed": 6,
+  "searches_failed": 7,
   "rate_limited": true,
   "out_of_time": false,
   "queue_size": 93,
   "errors": {
-   "HTTP Error 404: Not Found": 6
+   "HTTP Error 404: Not Found": 7
   },
   "f5bot": {
    "configured": true,
-   "emails": 1,
-   "posts": 10,
+   "emails": 4,
+   "posts": 5,
    "error": ""
   },
-  "duplicates_merged": 1
+  "duplicates_merged": 0
  },
- "cursor": 68,
+ "cursor": 75,
  "stuck": 0,
  "leads": [
+  {
+   "link": "https://www.reddit.com/r/VideoEditingJobs/comments/1y3c99k/",
+   "platform": "Reddit",
+   "title": "Looking for a video editor?",
+   "community": "r/VideoEditingJobs",
+   "group": "F5Bot",
+   "posted": "2026-11-23T08:34:10+00:00",
+   "snippet": "",
+   "found": "2026-11-23T08:42:27+00:00",
+   "matched": "looking for a video editor",
+   "author": "ihthiibru"
+  },
+  {
+   "link": "https://www.reddit.com/r/videoeditingindia/comments/1y3b7pm/",
+   "platform": "Reddit",
+   "title": "Looking for a Video Editor for Educational Finance Videos",
+   "community": "r/videoeditingindia",
+   "group": "F5Bot",
+   "posted": "2026-11-23T08:34:10+00:00",
+   "snippet": "",
+   "found": "2026-11-23T08:42:27+00:00",
+   "matched": "looking for a video editor",
+   "author": "CA_Pawan_Garg"
+  },
+  {
+   "link": "https://www.reddit.com/r/VideoEditors_forhire/comments/1y37fas/",
+   "platform": "Reddit",
+   "title": "[Hiring] Looking for editor for Youtube videos and shorts",
+   "community": "r/VideoEditors_forhire",
+   "group": "F5Bot",
+   "posted": "2026-11-23T05:04:12+00:00",
+   "snippet": "",
+   "found": "2026-11-23T08:42:27+00:00",
+   "matched": "looking for a video editor",
+   "author": "DuoinTransit"
+  },
+  {
+   "link": "https://www.reddit.com/r/VideoEditors_forhire/comments/1y31wel/",
+   "platform": "Reddit",
+   "title": "[Hiring] Looking for a Gaming Video Editor Long-Term Opportunity",
+   "community": "r/VideoEditors_forhire",
+   "group": "F5Bot",
+   "posted": "2026-11-23T00:35:13+00:00",
+   "snippet": "",
+   "found": "2026-11-23T08:42:27+00:00",
+   "matched": "looking for a video editor",
+   "author": "Low-Importance-8694"
+  },
+  {
+   "link": "https://www.reddit.com/r/JobsPhilippines/comments/1y320fs/",
+   "platform": "Reddit",
+   "title": "Looking for a Video Editor or Reels",
+   "community": "r/JobsPhilippines",
+   "group": "F5Bot",
+   "posted": "2026-11-23T00:35:13+00:00",
+   "snippet": "",
+   "found": "2026-11-23T08:42:27+00:00",
+   "matched": "looking for a video editor",
+   "author": "Botonganaalsim"
+  },
   {
    "link": "https://www.reddit.com/r/u_Famous_Painter6479/comments/1y2wa03/",
    "platform": "Reddit",
@@ -6795,72 +6855,6 @@
    "found": "2026-10-21T03:53:30+00:00",
    "matched": "looking for a video editor",
    "author": "shashank3690"
-  },
-  {
-   "link": "https://www.reddit.com/r/FindVideoEditors/comments/1xakyz5/we_are_hiring_video_editor/",
-   "platform": "Reddit",
-   "title": "WE ARE HIRING! | VIDEO EDITOR",
-   "community": "r/FindVideoEditors",
-   "group": "Hire communities",
-   "posted": "2026-10-20T06:44:57+00:00",
-   "snippet": "We are looking for 2 talented and dedicated Video Editors to join our creative team! \ud83d\udcbb Required Skills: Proficiency in Adobe Premiere Pro Proficiency in Adobe After Effects Strong color-grading skills Dedication, creativity, and attention to detail Willingness to work with us full-time Work from hom...",
-   "found": "2026-10-21T03:53:30+00:00",
-   "matched": "looking for a video editor",
-   "author": "Icy_Current9287"
-  },
-  {
-   "link": "https://www.reddit.com/r/FindVideoEditors/comments/1xakggu/looking_for_youtube_video_editor_short_form_and/",
-   "platform": "Reddit",
-   "title": "Looking for youtube video editor short form and long videos",
-   "community": "r/FindVideoEditors",
-   "group": "Hire communities",
-   "posted": "2026-10-20T06:13:06+00:00",
-   "snippet": "submitted by /u/DobbyPotterParker [link] [comments]",
-   "found": "2026-10-21T03:53:30+00:00",
-   "matched": "looking for a video editor",
-   "author": "DobbyPotterParker"
-  },
-  {
-   "link": "https://www.reddit.com/r/HireAnEditor/comments/1xakbnk/deadlock_content_need_editor/",
-   "platform": "Reddit",
-   "title": "Deadlock Content - Need editor.",
-   "community": "r/HireAnEditor",
-   "group": "Hire communities",
-   "posted": "2026-10-20T06:05:07+00:00",
-   "snippet": "Hey all. Current editor has gone AWOL for 4 days.. Looking for someone who understands MOBA terminology. Long form YouTube mainly. You have creative freedom within the realms of the genre, can give my channel in DM's if people are interested in the gig. Budget has been 80 AUD a week, (1 video a week...",
-   "found": "2026-10-21T03:53:30+00:00",
-   "matched": "looking for a video editor",
-   "author": "Roxould"
-  },
-  {
-   "link": "https://www.reddit.com/r/CreatorServices/comments/1xaka4p/looking_for_a_hobby_video_editor_to_grow_with_my/",
-   "platform": "Reddit",
-   "title": "\ud83c\udfae Looking for a Hobby Video Editor to Grow With My YouTube Channel!",
-   "community": "r/CreatorServices",
-   "group": "Hire communities",
-   "posted": "2026-10-20T06:02:32+00:00",
-   "snippet": "Yo everyone! \ud83d\udc4b I\u2019m a small YouTuber looking for someone who enjoys video editing and would like to join me on my YouTube journey! My channel Only has 145 Subs so Far since I Just started and about 65k Views I mainly make gaming videos , and I sometimes play retro games too! I\u2019m looking for someone w...",
-   "found": "2026-10-21T09:13:07+00:00",
-   "matched": "looking for a video editor",
-   "author": "YaBoyMarcello"
-  },
-  {
-   "link": "https://www.reddit.com/r/CreatorServices/comments/1xajydl/looking_for_a_free_editor_for_my_gaming_videos/",
-   "platform": "Reddit",
-   "title": "Looking for a free editor for my gaming videos.",
-   "community": "r/CreatorServices",
-   "group": "Hire communities",
-   "posted": "2026-10-20T05:43:14+00:00",
-   "snippet": "I am a gaming YouTuber. I only have ~150 subscribers, but I want to become bigger, because I genuinly like making vidoes. The problem is is that I do not like editing. I am looking for someone to be able to edit my videos and/or my shorts. The work would include 2 channels. One is a survival-based c...",
-   "found": "2026-10-21T09:13:07+00:00",
-   "matched": "looking for a video editor",
-   "author": "Wildwolf1800",
-   "also": [
-    {
-     "community": "r/VideoEditingRequests",
-     "link": "https://www.reddit.com/r/VideoEditingRequests/comments/1xajzai/looking_for_a_free_editor_for_my_gaming_videos/"
-    }
-   ]
   }
  ]
 }
