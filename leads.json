@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23T08:42:27+00:00",
+ "updated": "2026-11-23T20:58:42+00:00",
  "stats": {
   "searches_ok": 0,
   "searches_failed": 7,
@@ -11,15 +11,37 @@
   },
   "f5bot": {
    "configured": true,
-   "emails": 4,
+   "emails": 2,
    "posts": 5,
    "error": ""
   },
-  "duplicates_merged": 0
+  "duplicates_merged": 2
  },
- "cursor": 75,
+ "cursor": 82,
  "stuck": 0,
  "leads": [
+  {
+   "link": "https://www.reddit.com/r/VideoEditors/comments/1y3lvsq/",
+   "platform": "Reddit",
+   "title": "Need a video editor for reaction channel",
+   "community": "r/VideoEditors",
+   "group": "F5Bot",
+   "posted": "2026-11-23T16:39:13+00:00",
+   "snippet": "",
+   "found": "2026-11-23T20:58:42+00:00",
+   "matched": "need a video editor",
+   "author": "Even-Importance-7896",
+   "also": [
+    {
+     "community": "r/videoeditingindia",
+     "link": "https://www.reddit.com/r/videoeditingindia/comments/1y3lw1w/"
+    },
+    {
+     "community": "r/VideoEditingJobs",
+     "link": "https://www.reddit.com/r/VideoEditingJobs/comments/1y3lwa4/"
+    }
+   ]
+  },
   {
    "link": "https://www.reddit.com/r/VideoEditingJobs/comments/1y3c99k/",
    "platform": "Reddit",
@@ -1779,18 +1801,6 @@
    ]
   },
   {
-   "link": "https://www.reddit.com/r/HireAnEditor/comments/1xpyjk4/",
-   "platform": "Reddit",
-   "title": "Need a video editor",
-   "community": "r/HireAnEditor",
-   "group": "F5Bot",
-   "posted": "2026-11-07T06:26:43+00:00",
-   "snippet": "",
-   "found": "2026-11-07T09:45:19+00:00",
-   "matched": "looking for a video editor",
-   "author": "whatif0is0"
-  },
-  {
    "link": "https://www.reddit.com/r/VideoEditor_forhire/comments/1xpxdtq/",
    "platform": "Reddit",
    "title": "Looking for a Video Editor",
@@ -1801,6 +1811,18 @@
    "found": "2026-11-07T09:45:19+00:00",
    "matched": "looking for a video editor",
    "author": "9c4o51"
+  },
+  {
+   "link": "https://www.reddit.com/r/HireAnEditor/comments/1xpyjk4/",
+   "platform": "Reddit",
+   "title": "Need a video editor",
+   "community": "r/HireAnEditor",
+   "group": "F5Bot",
+   "posted": "2026-11-07T06:26:43+00:00",
+   "snippet": "",
+   "found": "2026-11-07T09:45:19+00:00",
+   "matched": "looking for a video editor",
+   "author": "whatif0is0"
   },
   {
    "link": "https://www.reddit.com/r/FreelanceIndia/comments/1xpxhi2/",
@@ -6843,18 +6865,6 @@
    "found": "2026-10-20T09:51:54+00:00",
    "matched": "need a video editor",
    "author": "Risheditor"
-  },
-  {
-   "link": "https://www.reddit.com/r/HireAnEditor/comments/1xalcxi/need_fresher_video_editor_for_work/",
-   "platform": "Reddit",
-   "title": "Need! Fresher video editor for work",
-   "community": "r/HireAnEditor",
-   "group": "Hire communities",
-   "posted": "2026-10-20T07:07:47+00:00",
-   "snippet": "I am looking for video editor freshers all they need to good in the editing and thumbnail design and hooks submitted by /u/shashank3690 [link] [comments]",
-   "found": "2026-10-21T03:53:30+00:00",
-   "matched": "looking for a video editor",
-   "author": "shashank3690"
   }
  ]
 }
