@@ -1,25 +1,49 @@
 {
- "updated": "2026-11-22T18:19:25+00:00",
+ "updated": "2026-11-23T00:03:59+00:00",
  "stats": {
   "searches_ok": 0,
-  "searches_failed": 7,
+  "searches_failed": 6,
   "rate_limited": true,
   "out_of_time": false,
   "queue_size": 93,
   "errors": {
-   "HTTP Error 404: Not Found": 7
+   "HTTP Error 404: Not Found": 6
   },
   "f5bot": {
    "configured": true,
-   "emails": 3,
-   "posts": 3,
+   "emails": 1,
+   "posts": 10,
    "error": ""
   },
-  "duplicates_merged": 0
+  "duplicates_merged": 1
  },
- "cursor": 62,
+ "cursor": 68,
  "stuck": 0,
  "leads": [
+  {
+   "link": "https://www.reddit.com/r/u_Famous_Painter6479/comments/1y2wa03/",
+   "platform": "Reddit",
+   "title": "Are looking for a video editor",
+   "community": "u/Famous_Painter6479",
+   "group": "F5Bot",
+   "posted": "2026-11-22T20:27:11+00:00",
+   "snippet": "",
+   "found": "2026-11-23T00:03:59+00:00",
+   "matched": "looking for a video editor",
+   "author": "Famous_Painter6479"
+  },
+  {
+   "link": "https://www.reddit.com/r/HireAnEditor/comments/1y2yt49/",
+   "platform": "Reddit",
+   "title": "Pok\u00e9mon TCG Vendors, Looking for a Video Editor? I'd Love to Work With You!",
+   "community": "r/HireAnEditor",
+   "group": "F5Bot",
+   "posted": "2026-11-22T20:27:11+00:00",
+   "snippet": "",
+   "found": "2026-11-23T00:03:59+00:00",
+   "matched": "looking for a video editor",
+   "author": "Soft-Song9634"
+  },
   {
    "link": "https://www.reddit.com/r/u_Leo_Collins12222/comments/1y2ryfw/",
    "platform": "Reddit",
@@ -30,7 +54,13 @@
    "snippet": "",
    "found": "2026-11-22T18:19:25+00:00",
    "matched": "looking for a video editor",
-   "author": "Leo_Collins12222"
+   "author": "Leo_Collins12222",
+   "also": [
+    {
+     "community": "r/HireAnEditor",
+     "link": "https://www.reddit.com/r/HireAnEditor/comments/1y2w4tv/"
+    }
+   ]
   },
   {
    "link": "https://www.reddit.com/r/videoeditingindia/comments/1y1y8yv/",
@@ -6829,40 +6859,6 @@
     {
      "community": "r/VideoEditingRequests",
      "link": "https://www.reddit.com/r/VideoEditingRequests/comments/1xajzai/looking_for_a_free_editor_for_my_gaming_videos/"
-    }
-   ]
-  },
-  {
-   "link": "https://www.reddit.com/r/CreatorServices/comments/1xacg9m/beginner_gaming_youtubers_wanted_free_video/",
-   "platform": "Reddit",
-   "title": "Beginner Gaming YouTubers Wanted \u2014 Free Video Editing",
-   "community": "r/CreatorServices",
-   "group": "Hire communities",
-   "posted": "2026-10-19T23:25:34+00:00",
-   "snippet": "Hey everyone! \ud83d\ude0a My name is Emilly, and I\u2019m a designer with a background in audiovisual production. I\u2019m currently looking to improve my video editing skills, and I\u2019d love to start focusing on gaming content. I\u2019m hoping to connect with a small or beginner YouTuber who\u2019d be interested in letting me edi...",
-   "found": "2026-10-21T09:13:07+00:00",
-   "matched": "looking for a video editor",
-   "author": "Vegetable-Wrap4325"
-  },
-  {
-   "link": "https://www.reddit.com/r/HireAnEditor/comments/1xa8obz/",
-   "platform": "Reddit",
-   "title": "Hire a Video Editor",
-   "community": "r/HireAnEditor",
-   "group": "F5Bot",
-   "posted": "2026-10-19T22:53:12+00:00",
-   "snippet": "",
-   "found": "2026-10-19T23:26:54+00:00",
-   "matched": "hire a video editor",
-   "author": "Savings-Papaya-4321",
-   "also": [
-    {
-     "community": "r/YouTubeEditorsForHire",
-     "link": "https://www.reddit.com/r/YouTubeEditorsForHire/comments/1xa8otd/"
-    },
-    {
-     "community": "r/videoeditors_hiring",
-     "link": "https://www.reddit.com/r/videoeditors_hiring/comments/1xa8pzl/"
     }
    ]
   }
