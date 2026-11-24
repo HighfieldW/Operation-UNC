@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23T20:58:42+00:00",
+ "updated": "2026-11-24T05:15:34+00:00",
  "stats": {
   "searches_ok": 0,
   "searches_failed": 7,
@@ -12,14 +12,70 @@
   "f5bot": {
    "configured": true,
    "emails": 2,
-   "posts": 5,
+   "posts": 7,
    "error": ""
   },
-  "duplicates_merged": 2
+  "duplicates_merged": 4
  },
- "cursor": 82,
+ "cursor": 89,
  "stuck": 0,
  "leads": [
+  {
+   "link": "https://www.reddit.com/r/slavelabour/comments/1y3ujy6/",
+   "platform": "Reddit",
+   "title": "[Task] I need a video editor- may be longterm if works good!",
+   "community": "r/slavelabour",
+   "group": "F5Bot",
+   "posted": "2026-11-23T23:22:42+00:00",
+   "snippet": "",
+   "found": "2026-11-24T05:15:34+00:00",
+   "matched": "need a video editor",
+   "author": "Brilliant-Author-485",
+   "also": [
+    {
+     "community": "r/HireAnEditor",
+     "link": "https://www.reddit.com/r/HireAnEditor/comments/1y3v447/"
+    }
+   ]
+  },
+  {
+   "link": "https://www.reddit.com/r/VideoEditor_forhire/comments/1y3umji/",
+   "platform": "Reddit",
+   "title": "[Hiring] I need a video editor- may be longterm if works good!",
+   "community": "r/VideoEditor_forhire",
+   "group": "F5Bot",
+   "posted": "2026-11-23T23:22:42+00:00",
+   "snippet": "",
+   "found": "2026-11-24T05:15:34+00:00",
+   "matched": "need a video editor",
+   "author": "Brilliant-Author-485",
+   "also": [
+    {
+     "community": "r/HireAnEditor",
+     "link": "https://www.reddit.com/r/HireAnEditor/comments/1y3un4l/"
+    },
+    {
+     "community": "r/VideoEditors_forhire",
+     "link": "https://www.reddit.com/r/VideoEditors_forhire/comments/1y3v56v/"
+    },
+    {
+     "community": "r/YouTubeEditorsForHire",
+     "link": "https://www.reddit.com/r/YouTubeEditorsForHire/comments/1y3vaae/"
+    }
+   ]
+  },
+  {
+   "link": "https://www.reddit.com/r/passive_income/comments/1y3v9fe/",
+   "platform": "Reddit",
+   "title": "[FAQ] Need advice to hire a video editor",
+   "community": "r/passive_income",
+   "group": "F5Bot",
+   "posted": "2026-11-23T23:22:42+00:00",
+   "snippet": "",
+   "found": "2026-11-24T05:15:34+00:00",
+   "matched": "need a video editor",
+   "author": "Brilliant-Author-485"
+  },
   {
    "link": "https://www.reddit.com/r/VideoEditors/comments/1y3lvsq/",
    "platform": "Reddit",
@@ -6829,42 +6885,6 @@
    "found": "2026-10-21T03:53:30+00:00",
    "matched": "looking for a video editor",
    "author": "Yash_PlayzZZ"
-  },
-  {
-   "link": "https://www.reddit.com/r/FindVideoEditors/comments/1xank16/hiring_short_form_video_editor_remote_full_time/",
-   "platform": "Reddit",
-   "title": "\ud83c\udfac Hiring: Short Form Video Editor (remote, full time)",
-   "community": "r/FindVideoEditors",
-   "group": "Hire communities",
-   "posted": "2026-10-20T09:29:49+00:00",
-   "snippet": "We're a content agency that grows founders, CEOs and podcasters on Instagram, TikTok and YouTube. We work with some of the biggest podcasts in the world, and we're looking for a short form editor to join the team long term. What you'll do Turn long podcast episodes into vertical clips that stop the ...",
-   "found": "2026-10-21T03:53:30+00:00",
-   "matched": "looking for a video editor",
-   "author": "azriel666-"
-  },
-  {
-   "link": "https://www.reddit.com/r/VideoEditingRequests/comments/1xammrd/looking_for_online_editors_23_editors/",
-   "platform": "Reddit",
-   "title": "Looking for online editors (2-3 editors)",
-   "community": "r/VideoEditingRequests",
-   "group": "Hire communities",
-   "posted": "2026-10-20T08:31:11+00:00",
-   "snippet": "We are seeking online video editors - ideally across two or three time zone to assist with fun and enjoyable edits. Please share your work if it aligns with the following references REFERENCE LINK 1: https://www.instagram.com/reel/DbdNld4oPBV/?dlrf=cjFmNzZ1bXdkbWYx REFERENCE LINK 2: https://www.inst...",
-   "found": "2026-10-21T09:13:07+00:00",
-   "matched": "looking for a video editor",
-   "author": "ZealouslyZo"
-  },
-  {
-   "link": "https://www.reddit.com/r/HireAnEditor/comments/1xalvhf/",
-   "platform": "Reddit",
-   "title": "Are you looking for a video editor in your budget?",
-   "community": "r/HireAnEditor",
-   "group": "F5Bot",
-   "posted": "2026-10-20T08:01:11+00:00",
-   "snippet": "",
-   "found": "2026-10-20T09:51:54+00:00",
-   "matched": "need a video editor",
-   "author": "Risheditor"
   }
  ]
 }
