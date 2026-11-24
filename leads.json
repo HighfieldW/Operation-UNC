@@ -1,25 +1,71 @@
 {
- "updated": "2026-11-24T05:15:34+00:00",
+ "updated": "2026-11-24T17:12:06+00:00",
  "stats": {
   "searches_ok": 0,
-  "searches_failed": 7,
+  "searches_failed": 6,
   "rate_limited": true,
   "out_of_time": false,
   "queue_size": 93,
   "errors": {
-   "HTTP Error 404: Not Found": 7
+   "HTTP Error 404: Not Found": 6
   },
   "f5bot": {
    "configured": true,
-   "emails": 2,
-   "posts": 7,
+   "emails": 3,
+   "posts": 8,
    "error": ""
   },
-  "duplicates_merged": 4
+  "duplicates_merged": 2
  },
- "cursor": 89,
+ "cursor": 2,
  "stuck": 0,
  "leads": [
+  {
+   "link": "https://www.reddit.com/r/VirtualAssistantPH/comments/1y4abyl/",
+   "platform": "Reddit",
+   "title": "[Hiring] E-Commerce Video Editor + AI Content Creator | $1,000\u2013$2,500/mo | Full-Ti...",
+   "community": "r/VirtualAssistantPH",
+   "group": "F5Bot",
+   "posted": "2026-11-24T12:29:14+00:00",
+   "snippet": "",
+   "found": "2026-11-24T17:12:06+00:00",
+   "matched": "looking for a video editor",
+   "author": "ariecleo11",
+   "also": [
+    {
+     "community": "r/PHJobs",
+     "link": "https://www.reddit.com/r/PHJobs/comments/1y4aenw/"
+    },
+    {
+     "community": "r/workingfilipino",
+     "link": "https://www.reddit.com/r/workingfilipino/comments/1y4aggo/"
+    }
+   ]
+  },
+  {
+   "link": "https://www.reddit.com/r/classifiedsph/comments/1y4adxs/",
+   "platform": "Reddit",
+   "title": "[Hiring] E-Commerce Video Editor + AI Content Creator | PHP63000-PHP160000/mo | Fu...",
+   "community": "r/classifiedsph",
+   "group": "F5Bot",
+   "posted": "2026-11-24T12:29:14+00:00",
+   "snippet": "",
+   "found": "2026-11-24T17:12:06+00:00",
+   "matched": "looking for a video editor",
+   "author": "ariecleo11"
+  },
+  {
+   "link": "https://www.reddit.com/r/SocialMedia_Jobs/comments/1y4a9b3/",
+   "platform": "Reddit",
+   "title": "[Hiring] Video Editor (Contract, Remote, Philippines)",
+   "community": "r/SocialMedia_Jobs",
+   "group": "F5Bot",
+   "posted": "2026-11-24T12:29:14+00:00",
+   "snippet": "",
+   "found": "2026-11-24T17:12:06+00:00",
+   "matched": "looking for a video editor",
+   "author": "Bisade"
+  },
   {
    "link": "https://www.reddit.com/r/slavelabour/comments/1y3ujy6/",
    "platform": "Reddit",
@@ -6839,52 +6885,6 @@
    "found": "2026-10-20T14:49:02+00:00",
    "matched": "looking for a video editor",
    "author": "loopvid0"
-  },
-  {
-   "link": "https://www.reddit.com/r/videoeditors_hiring/comments/1xanesx/",
-   "platform": "Reddit",
-   "title": "Hiring a Reel Video Editor!",
-   "community": "r/videoeditors_hiring",
-   "group": "F5Bot",
-   "posted": "2026-10-20T11:02:12+00:00",
-   "snippet": "",
-   "found": "2026-10-20T14:49:02+00:00",
-   "matched": "looking for a video editor",
-   "author": "Deepesh_Rawal3539",
-   "also": [
-    {
-     "community": "r/videoeditingindia",
-     "link": "https://www.reddit.com/r/videoeditingindia/comments/1xanfno/"
-    },
-    {
-     "community": "r/HireAnEditor",
-     "link": "https://www.reddit.com/r/HireAnEditor/comments/1xangxk/"
-    }
-   ]
-  },
-  {
-   "link": "https://www.reddit.com/r/VideoEditingRequests/comments/1xaoeob/",
-   "platform": "Reddit",
-   "title": "[HIRING] Free Film Editor Needed for Short Film \u2014 Credit Given (Mirror VFX / Refle...",
-   "community": "r/VideoEditingRequests",
-   "group": "F5Bot",
-   "posted": "2026-10-20T11:02:12+00:00",
-   "snippet": "",
-   "found": "2026-10-20T14:49:02+00:00",
-   "matched": "looking for a video editor",
-   "author": "HroFCBayern"
-  },
-  {
-   "link": "https://www.reddit.com/r/FindVideoEditors/comments/1xanlg7/hiring_short_editor_for_2030s_gaming_shorts/",
-   "platform": "Reddit",
-   "title": "[Hiring] Short Editor for 20-30s Gaming Shorts (\u20b9500-1000rs/video)",
-   "community": "r/FindVideoEditors",
-   "group": "Hire communities",
-   "posted": "2026-10-20T09:32:14+00:00",
-   "snippet": "Role: Gaming Short-Form Editor Budget: \u20b9500 - \u20b91000 per video (Payment via UPI) Length: 20 to 30 seconds per edited video Overview: I need someone who can handle the entire short-form pipeline for gaming content. You will be responsible for watching the raw gameplay, extracting the best 20 to 30 sec...",
-   "found": "2026-10-21T03:53:30+00:00",
-   "matched": "looking for a video editor",
-   "author": "Yash_PlayzZZ"
   }
  ]
 }
