@@ -1,25 +1,61 @@
 {
- "updated": "2026-11-24T17:12:06+00:00",
+ "updated": "2026-11-25T02:00:36+00:00",
  "stats": {
   "searches_ok": 0,
-  "searches_failed": 6,
+  "searches_failed": 7,
   "rate_limited": true,
   "out_of_time": false,
   "queue_size": 93,
   "errors": {
-   "HTTP Error 404: Not Found": 6
+   "HTTP Error 404: Not Found": 7
   },
   "f5bot": {
    "configured": true,
    "emails": 3,
-   "posts": 8,
+   "posts": 4,
    "error": ""
   },
-  "duplicates_merged": 2
+  "duplicates_merged": 0
  },
- "cursor": 2,
+ "cursor": 9,
  "stuck": 0,
  "leads": [
+  {
+   "link": "https://www.reddit.com/r/u_Alves__editor/comments/1y4nw0q/",
+   "platform": "Reddit",
+   "title": "Another timeline completed! \ud83c\udfac\ud83d\udd25Looking for a video editor? Hit me up in the DMs!",
+   "community": "u/Alves__editor",
+   "group": "F5Bot",
+   "posted": "2026-11-24T22:31:15+00:00",
+   "snippet": "",
+   "found": "2026-11-25T02:00:36+00:00",
+   "matched": "looking for a video editor",
+   "author": "Alves__editor"
+  },
+  {
+   "link": "https://www.reddit.com/r/Freelancers/comments/1y4kb8w/",
+   "platform": "Reddit",
+   "title": "Looking for a video editor in Delhi",
+   "community": "r/Freelancers",
+   "group": "F5Bot",
+   "posted": "2026-11-24T19:26:13+00:00",
+   "snippet": "",
+   "found": "2026-11-25T02:00:36+00:00",
+   "matched": "looking for a video editor",
+   "author": "Gourav_Casual"
+  },
+  {
+   "link": "https://www.reddit.com/r/Kenya/comments/1y4lzem/",
+   "platform": "Reddit",
+   "title": "#IkoKaziKE Looking For A Video Editor Available ASAP",
+   "community": "r/Kenya",
+   "group": "F5Bot",
+   "posted": "2026-11-24T19:26:13+00:00",
+   "snippet": "",
+   "found": "2026-11-25T02:00:36+00:00",
+   "matched": "looking for a video editor",
+   "author": "Emotionless_AI"
+  },
   {
    "link": "https://www.reddit.com/r/VirtualAssistantPH/comments/1y4abyl/",
    "platform": "Reddit",
@@ -6849,42 +6885,6 @@
    "found": "2026-10-21T03:53:30+00:00",
    "matched": "looking for a video editor",
    "author": "CTR_ANSH"
-  },
-  {
-   "link": "https://www.reddit.com/r/HireAnEditor/comments/1xasscz/looking_to_hire_an_editor_for_my_youtube_channel/",
-   "platform": "Reddit",
-   "title": "Looking to hire an editor for my YouTube channel.",
-   "community": "r/HireAnEditor",
-   "group": "Hire communities",
-   "posted": "2026-10-20T13:54:37+00:00",
-   "snippet": "I\u2019m looking to hire an editor who can help edit videos for my YouTube channel. We\u2019re a business and create content for our lawn and landscaping channel. Sometimes it\u2019s showcasing our work but most of the time it\u2019s doing some sort of entertainment such as reaction videos or teaching something. We\u2019re ...",
-   "found": "2026-10-21T03:53:30+00:00",
-   "matched": "looking for a video editor",
-   "author": "Fr3shAs"
-  },
-  {
-   "link": "https://www.reddit.com/r/HireAnEditor/comments/1xarkpq/hiring_experienced_remote_video_editor_4050reel/",
-   "platform": "Reddit",
-   "title": "[HIRING] Experienced Remote Video Editor | $40\u2013$50/Reel | 10\u201325 Reels/Month | Ongoing Work",
-   "community": "r/HireAnEditor",
-   "group": "Hire communities",
-   "posted": "2026-10-20T13:03:19+00:00",
-   "snippet": "Hello! I\u2019m looking for a reliable, experienced freelance video editor to help with ongoing short-form content for multiple clients. This is a fully remote, contract-based opportunity with the potential for consistent monthly work. PLEASE READ THE REQUIREMENTS BEFORE APPLYING. This is NOT a position ...",
-   "found": "2026-10-21T03:53:30+00:00",
-   "matched": "looking for a video editor",
-   "author": "EnvironmentOk3766"
-  },
-  {
-   "link": "https://www.reddit.com/r/CreatorEconomy/comments/1xan1td/",
-   "platform": "Reddit",
-   "title": "Looking for a video editor",
-   "community": "r/CreatorEconomy",
-   "group": "F5Bot",
-   "posted": "2026-10-20T11:02:12+00:00",
-   "snippet": "",
-   "found": "2026-10-20T14:49:02+00:00",
-   "matched": "looking for a video editor",
-   "author": "loopvid0"
   }
  ]
 }
