@@ -1,23 +1,23 @@
 {
- "updated": "2026-11-26T14:49:04+00:00",
+ "updated": "2026-11-26T23:33:29+00:00",
  "stats": {
   "searches_ok": 0,
-  "searches_failed": 6,
+  "searches_failed": 7,
   "rate_limited": true,
   "out_of_time": false,
   "queue_size": 93,
   "errors": {
-   "HTTP Error 404: Not Found": 6
+   "HTTP Error 404: Not Found": 7
   },
   "f5bot": {
    "configured": true,
    "emails": 2,
-   "posts": 6,
+   "posts": 2,
    "error": ""
   },
-  "duplicates_merged": 4
+  "duplicates_merged": 1
  },
- "cursor": 34,
+ "cursor": 41,
  "stuck": 0,
  "leads": [
   {
@@ -4528,7 +4528,13 @@
    "snippet": "",
    "found": "2026-10-28T11:07:05+00:00",
    "matched": "need a video editor",
-   "author": "StressDifficult1122"
+   "author": "StressDifficult1122",
+   "also": [
+    {
+     "community": "r/VideoEditor_forhire",
+     "link": "https://www.reddit.com/r/VideoEditor_forhire/comments/1y61tyh/"
+    }
+   ]
   },
   {
    "link": "https://www.reddit.com/r/FindVideoEditors/comments/1xhhwdc/hiring_looking_for_a_gaming_video_editor_from/",
