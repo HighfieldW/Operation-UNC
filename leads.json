@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26T04:45:07+00:00",
+ "updated": "2026-11-26T14:49:04+00:00",
  "stats": {
   "searches_ok": 0,
   "searches_failed": 6,
@@ -11,15 +11,45 @@
   },
   "f5bot": {
    "configured": true,
-   "emails": 4,
-   "posts": 7,
+   "emails": 2,
+   "posts": 6,
    "error": ""
   },
-  "duplicates_merged": 2
+  "duplicates_merged": 4
  },
- "cursor": 28,
+ "cursor": 34,
  "stuck": 0,
  "leads": [
+  {
+   "link": "https://www.reddit.com/r/sidehustleIndia/comments/1y5tss0/",
+   "platform": "Reddit",
+   "title": "Looking for a Video Editor for Documentary/Storytelling Content (Beginner-Friendly...",
+   "community": "r/sidehustleIndia",
+   "group": "F5Bot",
+   "posted": "2026-11-26T08:15:12+00:00",
+   "snippet": "",
+   "found": "2026-11-26T14:49:04+00:00",
+   "matched": "looking for a video editor",
+   "author": "lyfofamuu",
+   "also": [
+    {
+     "community": "r/FreelanceIndia",
+     "link": "https://www.reddit.com/r/FreelanceIndia/comments/1y5tttp/"
+    },
+    {
+     "community": "r/SideHustlePaglu",
+     "link": "https://www.reddit.com/r/SideHustlePaglu/comments/1y5tudf/"
+    },
+    {
+     "community": "r/MakeMoneyIndia",
+     "link": "https://www.reddit.com/r/MakeMoneyIndia/comments/1y5tx48/"
+    },
+    {
+     "community": "r/SideHustlesIndia",
+     "link": "https://www.reddit.com/r/SideHustlesIndia/comments/1y5tz1z/"
+    }
+   ]
+  },
   {
    "link": "https://www.reddit.com/r/YouTubeEditorForHire/comments/1y5mod1/",
    "platform": "Reddit",
@@ -6879,18 +6909,6 @@
      "link": "https://www.reddit.com/r/FindVideoEditors/comments/1xascg4/"
     }
    ]
-  },
-  {
-   "link": "https://www.reddit.com/r/VideoEditors_forhire/comments/1xat83a/",
-   "platform": "Reddit",
-   "title": "Looking for a Reels Editor",
-   "community": "r/VideoEditors_forhire",
-   "group": "F5Bot",
-   "posted": "2026-10-20T15:01:14+00:00",
-   "snippet": "",
-   "found": "2026-10-20T19:02:20+00:00",
-   "matched": "need a video editor",
-   "author": "Efficient_Deer7168"
   }
  ]
 }
