@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25T22:12:13+00:00",
+ "updated": "2026-11-26T04:45:07+00:00",
  "stats": {
   "searches_ok": 0,
   "searches_failed": 6,
@@ -11,15 +11,63 @@
   },
   "f5bot": {
    "configured": true,
-   "emails": 0,
-   "posts": 0,
+   "emails": 4,
+   "posts": 7,
    "error": ""
   },
-  "duplicates_merged": 0
+  "duplicates_merged": 2
  },
- "cursor": 22,
+ "cursor": 28,
  "stuck": 0,
  "leads": [
+  {
+   "link": "https://www.reddit.com/r/YouTubeEditorForHire/comments/1y5mod1/",
+   "platform": "Reddit",
+   "title": "Need a Video editor and Thumbnail designer(Must understand HINDI)",
+   "community": "r/YouTubeEditorForHire",
+   "group": "F5Bot",
+   "posted": "2026-11-26T02:03:12+00:00",
+   "snippet": "",
+   "found": "2026-11-26T04:45:07+00:00",
+   "matched": "hiring a video editor",
+   "author": "Helpful-Spinach-3735",
+   "also": [
+    {
+     "community": "r/YouTubeEditorsForHire",
+     "link": "https://www.reddit.com/r/YouTubeEditorsForHire/comments/1y5mp3u/"
+    }
+   ]
+  },
+  {
+   "link": "https://www.reddit.com/r/FindVideoEditors/comments/1y5j0eo/",
+   "platform": "Reddit",
+   "title": "Need a Video Editor? Reels, YouTube & Ads Delivered in 24-48h",
+   "community": "r/FindVideoEditors",
+   "group": "F5Bot",
+   "posted": "2026-11-25T22:49:12+00:00",
+   "snippet": "",
+   "found": "2026-11-26T04:45:07+00:00",
+   "matched": "need a video editor",
+   "author": "FarhanEdits",
+   "also": [
+    {
+     "community": "r/HireAnEditor",
+     "link": "https://www.reddit.com/r/HireAnEditor/comments/1y5j0nn/"
+    }
+   ]
+  },
+  {
+   "link": "https://www.reddit.com/r/FindVideoEditors/comments/1y5jeq4/",
+   "platform": "Reddit",
+   "title": "Need a video editor or thumbnail designer?",
+   "community": "r/FindVideoEditors",
+   "group": "F5Bot",
+   "posted": "2026-11-25T22:49:12+00:00",
+   "snippet": "",
+   "found": "2026-11-26T04:45:07+00:00",
+   "matched": "need a video editor",
+   "author": "Tiny_Vast_5095"
+  },
   {
    "link": "https://www.reddit.com/r/u_Alves__editor/comments/1y4nw0q/",
    "platform": "Reddit",
@@ -6843,48 +6891,6 @@
    "found": "2026-10-20T19:02:20+00:00",
    "matched": "need a video editor",
    "author": "Efficient_Deer7168"
-  },
-  {
-   "link": "https://www.reddit.com/r/videoeditors_hiring/comments/1xau4ry/",
-   "platform": "Reddit",
-   "title": "Looking for Video Editing Opportunities \u2013 Open to Test Edits!",
-   "community": "r/videoeditors_hiring",
-   "group": "F5Bot",
-   "posted": "2026-10-20T15:01:14+00:00",
-   "snippet": "",
-   "found": "2026-10-20T19:02:20+00:00",
-   "matched": "need a video editor",
-   "author": "GuavaElegant1397"
-  },
-  {
-   "link": "https://www.reddit.com/r/FindVideoEditors/comments/1xatvwq/hiring_short_form_video_editor_for_basketball/",
-   "platform": "Reddit",
-   "title": "[Hiring] Short Form Video Editor for Basketball Content | $10\u2013$15 CAD Per Video | Long Term Opportunity",
-   "community": "r/FindVideoEditors",
-   "group": "Hire communities",
-   "posted": "2026-10-20T14:38:50+00:00",
-   "snippet": "I\u2019m looking for a reliable short-form video editor to work with me consistently on basketball content for TikTok, Instagram Reels, and YouTube Shorts. I\u2019m a college basketball player and content creator building my basketball training brand, Devoted To The Game. I regularly record workouts, shooting...",
-   "found": "2026-10-21T03:53:30+00:00",
-   "matched": "looking for a video editor",
-   "author": "THATGUYTYE4",
-   "also": [
-    {
-     "community": "r/FindVideoEditors",
-     "link": "https://www.reddit.com/r/FindVideoEditors/comments/1xo49za/hiring_short_form_video_editor_for_basketball/"
-    }
-   ]
-  },
-  {
-   "link": "https://www.reddit.com/r/HireAnEditor/comments/1xatokr/hiring_vensenia_is_building_a_network_of/",
-   "platform": "Reddit",
-   "title": "[HIRING] Vensenia Is Building a Network of Freelancers \u2014 Video Editors, Thumbnail Designers & More",
-   "community": "r/HireAnEditor",
-   "group": "Hire communities",
-   "posted": "2026-10-20T14:30:32+00:00",
-   "snippet": "Are you a freelancer looking for potential paid projects and long-term collaborations? Vensenia is a growing creator-services agency that helps YouTubers and content creators with video editing, thumbnail design, and channel management. We're building a network of reliable freelancers to work with a...",
-   "found": "2026-10-21T03:53:30+00:00",
-   "matched": "looking for a video editor",
-   "author": "CTR_ANSH"
   }
  ]
 }
