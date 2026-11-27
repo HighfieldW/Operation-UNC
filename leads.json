@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26T23:33:29+00:00",
+ "updated": "2026-11-27T07:27:34+00:00",
  "stats": {
   "searches_ok": 0,
   "searches_failed": 7,
@@ -11,15 +11,51 @@
   },
   "f5bot": {
    "configured": true,
-   "emails": 2,
-   "posts": 2,
+   "emails": 4,
+   "posts": 5,
    "error": ""
   },
-  "duplicates_merged": 1
+  "duplicates_merged": 0
  },
- "cursor": 41,
+ "cursor": 48,
  "stuck": 0,
  "leads": [
+  {
+   "link": "https://www.reddit.com/r/FreelanceIndia/comments/1y6k0jj/",
+   "platform": "Reddit",
+   "title": "Looking for a Video Editor for a Youtube Channel",
+   "community": "r/FreelanceIndia",
+   "group": "F5Bot",
+   "posted": "2026-11-27T04:36:11+00:00",
+   "snippet": "",
+   "found": "2026-11-27T07:27:34+00:00",
+   "matched": "need a video editor",
+   "author": "JobProof2892"
+  },
+  {
+   "link": "https://www.reddit.com/r/FreelanceIndia/comments/1y6k28d/",
+   "platform": "Reddit",
+   "title": "Looking for a video editor for Youtube Videos",
+   "community": "r/FreelanceIndia",
+   "group": "F5Bot",
+   "posted": "2026-11-27T04:36:11+00:00",
+   "snippet": "",
+   "found": "2026-11-27T07:27:34+00:00",
+   "matched": "need a video editor",
+   "author": "JobProof2892"
+  },
+  {
+   "link": "https://www.reddit.com/r/VirtualAssistantPH/comments/1y6gt7r/",
+   "platform": "Reddit",
+   "title": "Looking for a video editor with history of making 'viral' reels",
+   "community": "r/VirtualAssistantPH",
+   "group": "F5Bot",
+   "posted": "2026-11-27T02:16:10+00:00",
+   "snippet": "",
+   "found": "2026-11-27T07:27:34+00:00",
+   "matched": "looking for a video editor",
+   "author": "Medical-Pizza-1021"
+  },
   {
    "link": "https://www.reddit.com/r/sidehustleIndia/comments/1y5tss0/",
    "platform": "Reddit",
@@ -6863,58 +6899,6 @@
    "found": "2026-10-22T03:53:32+00:00",
    "matched": "hire a video editor for my podcast",
    "author": "PracticalAssist2600"
-  },
-  {
-   "link": "https://www.reddit.com/r/VideoEditingJobs/comments/1xarvbv/",
-   "platform": "Reddit",
-   "title": "Need A Video Editor",
-   "community": "r/VideoEditingJobs",
-   "group": "F5Bot",
-   "posted": "2026-10-20T15:01:14+00:00",
-   "snippet": "",
-   "found": "2026-10-20T19:02:20+00:00",
-   "matched": "need a video editor",
-   "author": "ExpertVideoEditor"
-  },
-  {
-   "link": "https://www.reddit.com/r/HireAnEditor/comments/1xargvo/",
-   "platform": "Reddit",
-   "title": "Need video editor for my social media barbering page!!",
-   "community": "r/HireAnEditor",
-   "group": "F5Bot",
-   "posted": "2026-10-20T15:01:14+00:00",
-   "snippet": "",
-   "found": "2026-10-20T19:02:20+00:00",
-   "matched": "need a video editor",
-   "author": "savagebwast1220",
-   "also": [
-    {
-     "community": "r/FindVideoEditors",
-     "link": "https://www.reddit.com/r/FindVideoEditors/comments/1xarh4t/need_video_editor_for_my_social_media_barbering/"
-    }
-   ]
-  },
-  {
-   "link": "https://www.reddit.com/r/VideoEditors_forhire/comments/1xasafx/",
-   "platform": "Reddit",
-   "title": "Need a Video Editor for a single video",
-   "community": "r/VideoEditors_forhire",
-   "group": "F5Bot",
-   "posted": "2026-10-20T15:01:14+00:00",
-   "snippet": "",
-   "found": "2026-10-20T19:02:20+00:00",
-   "matched": "need a video editor",
-   "author": "DigitalKoolie",
-   "also": [
-    {
-     "community": "r/VideoEditingJobs",
-     "link": "https://www.reddit.com/r/VideoEditingJobs/comments/1xasarl/"
-    },
-    {
-     "community": "r/FindVideoEditors",
-     "link": "https://www.reddit.com/r/FindVideoEditors/comments/1xascg4/"
-    }
-   ]
   }
  ]
 }
