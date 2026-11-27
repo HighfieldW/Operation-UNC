@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T07:27:34+00:00",
+ "updated": "2026-11-27T17:55:54+00:00",
  "stats": {
   "searches_ok": 0,
   "searches_failed": 7,
@@ -11,15 +11,37 @@
   },
   "f5bot": {
    "configured": true,
-   "emails": 4,
-   "posts": 5,
+   "emails": 1,
+   "posts": 3,
    "error": ""
   },
-  "duplicates_merged": 0
+  "duplicates_merged": 2
  },
- "cursor": 48,
+ "cursor": 55,
  "stuck": 0,
  "leads": [
+  {
+   "link": "https://www.reddit.com/r/VideoEditors/comments/1y6ttmn/",
+   "platform": "Reddit",
+   "title": "Hiring a Video Editor (Long & Short-Form Content)",
+   "community": "r/VideoEditors",
+   "group": "F5Bot",
+   "posted": "2026-11-27T15:56:11+00:00",
+   "snippet": "",
+   "found": "2026-11-27T17:55:54+00:00",
+   "matched": "hiring a video editor",
+   "author": "aayank13",
+   "also": [
+    {
+     "community": "r/videoeditingindia",
+     "link": "https://www.reddit.com/r/videoeditingindia/comments/1y6ttt7/"
+    },
+    {
+     "community": "r/TeenIndia",
+     "link": "https://www.reddit.com/r/TeenIndia/comments/1y6tvm3/"
+    }
+   ]
+  },
   {
    "link": "https://www.reddit.com/r/FreelanceIndia/comments/1y6k0jj/",
    "platform": "Reddit",
@@ -6887,18 +6909,6 @@
    "found": "2026-10-21T03:53:30+00:00",
    "matched": "looking for a video editor",
    "author": "B3JA"
-  },
-  {
-   "link": "https://www.reddit.com/r/VideoEditing/comments/1xauijf/hiring_editors_for_podcast_talking_head_videos/",
-   "platform": "Reddit",
-   "title": "Hiring Editors for Podcast / Talking Head Videos $25/hr +",
-   "community": "r/VideoEditing",
-   "group": "Creators",
-   "posted": "2026-10-20T15:03:15+00:00",
-   "snippet": "US Based strongly preferred. Reference to the work we do - https://youtu.be/59ISaaZNgeU - please review this before sending a message to confirm you're able to edit similar work. Some of our other work - www.instagram.com/bigfable.co Excellent English is a must. Rate per hour is between $25-$45 /hr ...",
-   "found": "2026-10-22T03:53:32+00:00",
-   "matched": "hire a video editor for my podcast",
-   "author": "PracticalAssist2600"
   }
  ]
 }
