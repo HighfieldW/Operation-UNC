@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T17:55:54+00:00",
+ "updated": "2026-11-28T01:16:22+00:00",
  "stats": {
   "searches_ok": 0,
   "searches_failed": 7,
@@ -11,15 +11,27 @@
   },
   "f5bot": {
    "configured": true,
-   "emails": 1,
+   "emails": 2,
    "posts": 3,
    "error": ""
   },
-  "duplicates_merged": 2
+  "duplicates_merged": 0
  },
- "cursor": 55,
+ "cursor": 62,
  "stuck": 0,
  "leads": [
+  {
+   "link": "https://www.reddit.com/r/CreatorServices/comments/1y73ni1/",
+   "platform": "Reddit",
+   "title": "Looking for YouTubers who need a video editor!",
+   "community": "r/CreatorServices",
+   "group": "F5Bot",
+   "posted": "2026-11-27T20:54:16+00:00",
+   "snippet": "",
+   "found": "2026-11-28T01:16:22+00:00",
+   "matched": "need a video editor",
+   "author": "VanillaEvery3029"
+  },
   {
    "link": "https://www.reddit.com/r/VideoEditors/comments/1y6ttmn/",
    "platform": "Reddit",
@@ -6897,18 +6909,6 @@
    "found": "2026-10-21T03:53:30+00:00",
    "matched": "looking for a video editor",
    "author": "TheDramanticist"
-  },
-  {
-   "link": "https://www.reddit.com/r/HireAnEditor/comments/1xaxl93/looking_for_video_editor/",
-   "platform": "Reddit",
-   "title": "LOOKING FOR VIDEO EDITOR",
-   "community": "r/HireAnEditor",
-   "group": "Hire communities",
-   "posted": "2026-10-20T16:58:03+00:00",
-   "snippet": "submitted by /u/B3JA [link] [comments]",
-   "found": "2026-10-21T03:53:30+00:00",
-   "matched": "looking for a video editor",
-   "author": "B3JA"
   }
  ]
 }
