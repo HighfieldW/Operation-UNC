@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-28T01:16:22+00:00",
+ "updated": "2026-11-28T09:56:36+00:00",
  "stats": {
   "searches_ok": 0,
   "searches_failed": 7,
@@ -12,14 +12,26 @@
   "f5bot": {
    "configured": true,
    "emails": 2,
-   "posts": 3,
+   "posts": 1,
    "error": ""
   },
   "duplicates_merged": 0
  },
- "cursor": 62,
+ "cursor": 69,
  "stuck": 0,
  "leads": [
+  {
+   "link": "https://www.reddit.com/r/videoeditors_hiring/comments/1y7eyzw/",
+   "platform": "Reddit",
+   "title": "Looking for video editor",
+   "community": "r/videoeditors_hiring",
+   "group": "F5Bot",
+   "posted": "2026-11-28T08:18:11+00:00",
+   "snippet": "",
+   "found": "2026-11-28T09:56:36+00:00",
+   "matched": "looking for a video editor",
+   "author": "Free_Geologist_7095"
+  },
   {
    "link": "https://www.reddit.com/r/CreatorServices/comments/1y73ni1/",
    "platform": "Reddit",
@@ -6897,18 +6909,6 @@
      "link": "https://www.reddit.com/r/videoeditingindia/comments/1xawelk/"
     }
    ]
-  },
-  {
-   "link": "https://www.reddit.com/r/HireAnEditor/comments/1xaxnwj/hiring_looking_for_an_editor_for_a_youtube/",
-   "platform": "Reddit",
-   "title": "[HIRING] Looking for an Editor for a YouTube Reaction Channel",
-   "community": "r/HireAnEditor",
-   "group": "Hire communities",
-   "posted": "2026-10-20T17:00:34+00:00",
-   "snippet": "I am a small U.S. based YouTube TV & Movie reactor who primarily covers television shows and the occasional movie. I am looking for a video editor that can help me with editing on an AS NEEDED or PER VIDEO basis but would likely be about 2 videos per week during regular months. I'm on a budget right...",
-   "found": "2026-10-21T03:53:30+00:00",
-   "matched": "looking for a video editor",
-   "author": "TheDramanticist"
   }
  ]
 }
